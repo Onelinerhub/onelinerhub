@@ -1,5 +1,5 @@
 # onelinerhub
-It-just-works code pieces with no extra shit @ onelinerhub.com 
+It-just-works code pieces with no extra shit @ [onelinerhub.com](https://onelinerhub.com/)
 
 ## Contribute by adding or editing code
 Just create a pull request with new code files or edited versions of current files.
