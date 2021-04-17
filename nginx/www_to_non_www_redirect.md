@@ -1,4 +1,4 @@
-# Redirect www to non-www in Nginx
+# Redirect www to non-www
 
 Replace ```domain.com``` with your domain.
 
