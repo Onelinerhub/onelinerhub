@@ -2,7 +2,7 @@
 It-just-works code pieces with no extra shit @ [onelinerhub.com](https://onelinerhub.com/)
 
 ## Contribute by adding or editing code
-Just create a pull request with new code files or edited versions of current files.
+Create a pull request with new code files or edited versions of current files.
 
 ## Code file format
 - Each code file should be placed in it's main technology folder (e.g. "php", "bash", etc).
