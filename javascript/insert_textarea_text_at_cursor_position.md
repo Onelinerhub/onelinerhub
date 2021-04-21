@@ -5,6 +5,6 @@ Will insert ```'Some text'``` text at current cursor position into first ```text
 ```javascript
 var ta = document.querySelector('textarea');
 ta.value = ta.value.substring(0, ta.selectionStart)
-        + 'Some text'
-        + ta.value.substring(ta.selectionEnd, ta.value.length);
+         + 'Some text'
+         + ta.value.substring(ta.selectionEnd, ta.value.length);
 ```
