@@ -1,7 +1,8 @@
 # Say automatic "yes" when installing with apt
 
-Replace ```nginx``` with what you need to install.
-
 ```bash
 apt install -y nginx
 ```
+
+- -y - automatically confirms all questions from apt
+- nginx - replace this with the packet name you want to install
