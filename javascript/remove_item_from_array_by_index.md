@@ -1,7 +1,9 @@
 # Remove item from an array by an index
 
-Will remove one ```array``` element at ```index``` position (starting from 0). Result will be saved right into ```array``` variable.
-
 ```javascript
 array.splice(index, 1);
 ```
+
+- array - where should an element be removed from, resulted array will be overwritten
+- index - position of the element in array to be removed (starting from 0)
+- 1 - only one element will be removed
