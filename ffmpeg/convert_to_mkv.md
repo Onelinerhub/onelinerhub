@@ -1,7 +1,5 @@
 # Convert video to mkv
 
-Will convert `````` file and save result to ```output.mkv``` file.
-
 ```bash
 ffmpeg -i input.mp4 output.mkv
 ```
