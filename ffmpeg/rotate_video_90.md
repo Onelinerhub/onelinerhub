@@ -8,7 +8,6 @@ ffmpeg -i in.mp4 -vf "transpose=1" out.mp4
 - -vf - apply specific video filters
 - transpose=1 - transpose video filter that will rotate video 90 clockwise, use other values:
   : transpose=0 : 90 counter cLockwise + vertical flip
-  : transpose=1 : 90 clockwise
   : transpose=2 : 90 counter clockwise
   : transpose=3 : 90 clockwise + vertical flip
 - out.mp4 - resulting file
