@@ -1,7 +1,12 @@
-# Extract a specific frame from a video into jpg
-
-This will extract frame at 4 min 50 sec from ```in.mp4``` and save it to ```out.jpg```.
+# Create thumbnail from a specific video frame
 
 ```bash
 ffmpeg -accurate_seek -ss 00:04:50 -i in.mp4 -frames:v 1 out.jpg
 ```
+
+- -i in.mp4 - input video file
+- -accurate_seek -ss 00:04:50 - select time of a frame to extract
+- -frames:v 1 - amount of frames to extract
+- out.jpg - resulting image
+
+group: video_thumbnail
