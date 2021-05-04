@@ -13,4 +13,4 @@ Create a pull request with new code files or edited versions of current files.
 - Code should include actual code snippet in the [highlighted code](https://guides.github.com/features/mastering-markdown/) block
 
 ## Template
-Use [this template](/nonunicorn/onelinerhub/blob/main/template.md) for creating new code pieaces.
+Use [this template](/main/template.md) for creating new code pieaces.
