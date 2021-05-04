@@ -1,4 +1,4 @@
-# How to assign an output of a command to variable
+# How to assign an output of a command to a variable
 
 ```bash
 variable=$(date)
