@@ -4,7 +4,7 @@
 if [ -z "$variable" ]; then echo "\$variable is empty"; else echo "\$variable is not empty"; fi
 ```
 
-- "$variable" - name of varible we're checking
+- if [ -z "$variable" ] - check if ```$varible``` is empty
 - echo "\$variable is empty" - will execute if variable is empty or unset
 - echo "\$variable is not empty" - will execute if variable is not empty (has some value)
 
