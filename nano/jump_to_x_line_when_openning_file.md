@@ -4,4 +4,4 @@
 nano +4 file.txt
 ```
 
-- +4 - will just to 4th line
+- +4 - will jump to 4th line
