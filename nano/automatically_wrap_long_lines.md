@@ -5,4 +5,4 @@
 ```
 
 -  -b  - enables hard wrapping when line is longer than max
--  -r  - sets the max line length to hard wrap
+-  -r 10 - will set the max line length to 10 symbols
