@@ -1,4 +1,4 @@
-# Increase upstream buffers ("Upstream sent too big header" error)
+# Allow access to on IP address only
 
 ```nginx
 location / {
