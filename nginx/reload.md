@@ -5,3 +5,5 @@ nginx -s reload
 ```
 
 - -s reload - sends signal to Nginx to reload configuration files on the run
+
+group: configuration
