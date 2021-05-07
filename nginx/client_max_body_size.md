@@ -1,4 +1,4 @@
-# Increase request size limit ("413 Request Entity Too Large" error)
+# Increase request/upload size ("413 Request Entity Too Large" error)
 
 ```nginx
 server {
