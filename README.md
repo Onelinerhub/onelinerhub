@@ -1,7 +1,7 @@
 # oneliner:hub
 A lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/)
 
-## Help me by contributing
+## Help by contributing
 Create a pull request with new code files or edited versions of current files.
 
 ## Code file micro-format
