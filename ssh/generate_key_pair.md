@@ -1,4 +1,4 @@
-# Generate key pair
+# Generate key pair (most secure ed25519 algorithm)
 
 ```bash
 ssh-keygen -t ed25519
