@@ -1,4 +1,4 @@
-# Upload file on a remote server
+# Upload file to remote server
 
 ```bash
 scp /path/to/file.txt user@server.com:/path/to/upload
