@@ -1,4 +1,4 @@
-# Create video file from a single image (loop image in video)
+# Create video from a single image (loop image in video)
 
 ```bash
 ffmpeg -loop 1 -i im.png -c:v libx264 -t 30 -pix_fmt yuv420p -vf scale=1920:1080 out.mp4
