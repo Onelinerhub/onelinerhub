@@ -1,4 +1,4 @@
-# How to find text in files
+# Show only first result when searching text in files
 
 ```bash
 grep -m 1 'text' *.txt | head -1
