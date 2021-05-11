@@ -1,4 +1,4 @@
-# Remove EXIF data from image
+# Define image width and height
 
 ```bash
 identify -format "%wx%h" in.png
