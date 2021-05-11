@@ -9,4 +9,15 @@ convert -density 2000x2000 -resize 1000x1000 image.svg image.png
 - image.svg - input SVG file
 - image.png - resulting PNG image
 
-group: svg_to_png
+
+alternative_tech: inkscape
+
+```bash
+inkscape -z -w 1000 -h 1000 image.svg -e image.png
+```
+
+- -z - enables command line mode
+- -w 1000 - what width you need for your PNG
+- -h 1000 - what height you need for your PNG
+- image.svg - input SVG file
+- image.png - resulting PNG image
