@@ -1,4 +1,4 @@
-# Resize images in folder and save result to other folder
+# Batch resize images and save result to folder
 
 ```bash
 mogrify -path /where/to/save/ -resize 200x150 -quality 80 /path/to/images/*.jpg
