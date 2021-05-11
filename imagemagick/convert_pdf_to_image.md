@@ -1,7 +1,7 @@
 # Convert PDF to image
 
 ```bash
-convert -density 150 -trim in.pdf -quality 100 -flatten out.jpg
+convert -density 300 -trim in.pdf -quality 100 -flatten out.jpg
 ```
 
 - -density 300 - sets good image resolution
