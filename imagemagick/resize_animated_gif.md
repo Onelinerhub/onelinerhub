@@ -1,7 +1,7 @@
 # Resize animated GIF
 
 ```bash
-convert in.gif -coalesce tmp.gif && convert -size 500x500 tmp.gif -resize 24x24 out.gif
+convert in.gif -coalesce tmp.gif && convert -size 500x500 tmp.gif -resize 50x50 out.gif
 ```
 
 - in.gif - input animated GIF
