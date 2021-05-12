@@ -1,10 +1,8 @@
 # Iterate an object (foreach)
 
 ```javascript
-var obj = {a: 1, b: 2}
-for ( var i in obj ) {
-  console.log(i + ': ' + obj[i]);
-}
+var obj = {a: 1, b: 2};
+for ( var i in obj ) console.log(i + ': ' + obj[i]);
 ```
 
 - var obj - declare test object ot iterate
