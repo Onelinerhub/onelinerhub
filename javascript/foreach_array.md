@@ -1,4 +1,4 @@
-# Insert text into textarea at cursor position
+# Iterate an array (foreach)
 
 ```javascript
 [1, 2, 3].forEach(function(el) { console.log(el); });
