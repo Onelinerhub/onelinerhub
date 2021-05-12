@@ -1,4 +1,4 @@
-# Copy to clipboard
+# Copy text to clipboard
 
 ```javascript
 navigator.clipboard.writeText('what to copy');
