@@ -4,5 +4,5 @@
 navigator.clipboard.writeText('what to copy');
 ```
 
-- document.querySelector('textarea') - query selector for required textarea element
-- 'Some text' - this text will be inserted at current cursor position into textarea
+- navigator.clipboard.writeText - copies text to clipboard (document should be focused when this happens, [support](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard#browser_compatibility))
+- 'what to copy' - this text will be copied to clipboard
