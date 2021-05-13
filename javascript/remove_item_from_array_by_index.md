@@ -1,9 +1,10 @@
 # Remove item from an array by an index
 
 ```javascript
-array.splice(index, 1);
+var arr = [1, 2, 3]
+arr.splice(1, 1);
 ```
 
-- array - where should an element be removed from, resulted array will be overwritten
-- index - position of the element in array to be removed (starting from 0)
+- var arr - declare test array to remove item from
+- (1 - remove second element (indeces start at ```0```)
 -  1) - only one element will be removed
