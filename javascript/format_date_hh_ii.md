@@ -8,5 +8,6 @@ var formatted = ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).sl
 - var d = new Date() - create date object
 - d.getHours() - returns current hour
 - d.getMinutes() - returns current minute
+- formatted - this variable will contain formatted date string
 
 group: date_format
