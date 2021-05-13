@@ -8,3 +8,5 @@ arr.push(4);
 - var arr - declare test array to append value to
 - arr.push - will append element at the end of array
 - (4) - what to append to an array (```4``` in our case)
+
+group: array_new_value
