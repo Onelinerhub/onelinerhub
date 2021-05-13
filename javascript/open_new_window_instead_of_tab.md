@@ -1,4 +1,4 @@
-# Open an URL in a new window instead of tab
+# Open new window instead of tab
 
 ```javascript
 window.open(url, '', 'resizable');
