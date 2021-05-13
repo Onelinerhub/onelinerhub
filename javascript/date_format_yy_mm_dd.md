@@ -9,5 +9,6 @@ var formatted = d.getFullYear().toString().substr(-2) + '/' + ('0' + (d.getMonth
 - d.getDate() - returns day of the month
 - d.getMonth() - returns month of the year
 - d.getFullYear() - returns current year (4 digits)
+- formatted - this variable will contain formatted date string
 
 group: date_format
