@@ -1,4 +1,4 @@
-# Add class to an element
+# Clear array
 
 ```javascript
 var arr = [1, 2, 3];
