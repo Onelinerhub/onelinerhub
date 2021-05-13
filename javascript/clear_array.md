@@ -1,4 +1,4 @@
-# Clear array
+# Clear (empty) array
 
 ```javascript
 var arr = [1, 2, 3];
