@@ -10,3 +10,5 @@ arr.splice(1, 0, 'new value');
 - (1, - index to insert new value at (starts at ```0```, so we will insert our value at second position)
 - 0, - do not delete any values from old array
 - 'new value' - what value to insert
+
+group: array_new_value
