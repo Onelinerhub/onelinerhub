@@ -9,3 +9,5 @@ var is_string = (typeof str === 'string' || str instanceof String);
 - typeof str === 'string' - checks if ```str``` is a plain string
 - str instanceof String - checks if ```str``` is an object of ```String``` type
 - is_string - will contain ```true``` if ```str``` is either a plain string or an object string
+
+group: check_variable_type
