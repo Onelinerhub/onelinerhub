@@ -1,4 +1,4 @@
-# Add class to an element
+# Detect mobile device
 
 ```javascript
 var mobile = window.matchMedia("only screen and (max-width: 760px)").matches;
