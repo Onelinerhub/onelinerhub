@@ -2,8 +2,8 @@
 
 ```javascript
 var el = document.querySelector('#element');
-el.parentElement.removeChild(el);
+el.remove();
 ```
 
 - document.querySelector('#element') - select element to remove
-- el.parentElement.removeChild(el) - removes selected elements from DOM
+- el.remove() - removes selected elements from DOM
