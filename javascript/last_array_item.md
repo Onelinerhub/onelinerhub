@@ -7,4 +7,3 @@ var last = arr[arr.length - 1];
 
 - var arr - declare test array
 - last - will contain last element of an array
-- arr\[arr.length - 1\] - access last element of an array
