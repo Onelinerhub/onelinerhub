@@ -1,6 +1,6 @@
 # Access object key by variable
 
-```javascript
+```JavaScript
 var key = 'a';
 var obj = {a: 1, b: 2, c: 3};
 obj[key] = 11;
