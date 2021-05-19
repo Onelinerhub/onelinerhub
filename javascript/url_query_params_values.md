@@ -1,4 +1,4 @@
-# Get URL query string values by name
+# Get URL query string values by parameter name
 
 ```javascript
 var value = (new URLSearchParams(window.location.search)).get('param');
