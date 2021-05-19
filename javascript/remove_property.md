@@ -1,4 +1,4 @@
-# How to remove property from object
+# How to remove property (key) from object
 
 ```javascript
 var test = {name: 'Donald', title: 'President'};
