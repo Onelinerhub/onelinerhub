@@ -12,6 +12,6 @@
 ```
 
 - document.createElement('script') - creates script element
-- \/\/code.jquery.com\/jquery-latest.min.js - path to the latest jQuery CDN
+- //code.jquery.com/jquery-latest.min.js - path to the latest jQuery CDN
 - jQuery.noConflict() - uses safe mode without ```$``` function (use ```jQuery``` function instead, which is an alias of ```$```)
 - document.head.appendChild - inserts jQuery into current web page
