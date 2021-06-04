@@ -1,4 +1,4 @@
-# Check if input if focused
+# Check if input has focus
 
 ```javascript
 var is_focused = $('input').is(':focus');
