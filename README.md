@@ -22,4 +22,4 @@ Create a pull request with new code files or edited versions of current files.
 - File can also include group definition to link similar solution (e.g. different date formats or string comparison methods)
 - You can upload PNG file with the same file name as the code file and it will automatically be rendered in UI
 
-Use [this template](/template.md) for creating new code pieaces.
+Use [this template](/template.md) for creating new code pieces.
