@@ -1,6 +1,6 @@
 # Convert lossless to WEBP
 
-```nginx
+```bash
 cwebp -lossless img.jpg -o img.webp
 ```
 
