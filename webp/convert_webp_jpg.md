@@ -1,6 +1,6 @@
 # Convert WEBP to JPG
 
-```nginx
+```bash
 dwebp img.webp -o img.jpg
 ```
 
