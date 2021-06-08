@@ -1,6 +1,6 @@
 # Convert PNG to WEBP
 
-```nginx
+```bash
 cwebp -q 90 img.png -o img.webp
 ```
 
