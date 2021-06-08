@@ -1,6 +1,6 @@
 # Get largest tables list
 
-```sql
+```mysql
 SELECT table_name, round(((data_length + index_length) / 1024 / 1024), 2) 'Size, MB'
 FROM information_schema.TABLES
 ORDER BY data_length + index_length DESC LIMIT 25;
