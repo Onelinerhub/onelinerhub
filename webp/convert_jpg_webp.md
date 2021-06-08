@@ -1,6 +1,6 @@
 # Convert JPG to WEBP
 
-```nginx
+```bash
 cwebp -q 90 img.jpg -o img.webp
 ```
 
