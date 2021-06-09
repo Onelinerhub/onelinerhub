@@ -4,5 +4,5 @@
 git checkout -b name
 ```
 
-- -b  - create a new branch and switch to it
-- name - a name for your new branch
+- -b  - switch create a new branch and switch to it
+- name - is a name for your new branch

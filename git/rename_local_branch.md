@@ -6,4 +6,4 @@ git branch -m old_name new_name
 
 - -m - stands for move, rename a branch
 - old_name - branch name
-- new_name - new name you want to assign to the branch
+- new_name - you want to assign to the branch
