@@ -1,4 +1,4 @@
-# How to append stderr to stdout and log it to a file
+# Create new htpasswd file with username and password
 
 ```bash
 htpasswd -c /dir/.htpasswd user1
