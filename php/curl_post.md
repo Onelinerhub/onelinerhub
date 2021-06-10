@@ -1,4 +1,4 @@
-# Request a URL with curl
+# Make a POST request with curl
 
 ```php
 $c = curl_init( 'https://example.com/' );
