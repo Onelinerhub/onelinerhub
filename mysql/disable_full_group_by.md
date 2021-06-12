@@ -1,4 +1,4 @@
-# Concatenate column values from multiple rows
+# Disable ONLY_FULL_GROUP_BY mode
 
 ```sql
 SET GLOBAL sql_mode = (SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''));
