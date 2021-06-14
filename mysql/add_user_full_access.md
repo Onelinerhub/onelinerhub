@@ -3,6 +3,7 @@
 ```sql
 CREATE USER 'user'@'127.0.0.1';
 GRANT ALL PRIVILEGES ON db.* TO 'user'@'127.0.0.1' IDENTIFIED BY 'pwd';
+FLUSH PRIVILEGES;
 ```
 
 - CREATE USER - creates specified user
@@ -11,3 +12,4 @@ GRANT ALL PRIVILEGES ON db.* TO 'user'@'127.0.0.1' IDENTIFIED BY 'pwd';
 - ON db.* - database tables (all tables of ```db``` database in our case) we want our user to have access to
 - TO 'user'@'127.0.0.1' - user we want to grant access to (our newely created user)
 - IDENTIFIED BY 'pwd' - set ```pwd``` password for our user
+- FLUSH PRIVILEGES - will make sure new user access is granted instantly
