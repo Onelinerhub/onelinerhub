@@ -1,4 +1,4 @@
-# Skip certaing tables while doing dump
+# Skip certain tables while doing dump
 
 ```bash
 mysqldump db --ignore-table=db.table1 --ignore-table=db.table2 > backup.sql
