@@ -11,3 +11,5 @@ ORDER BY data_length + index_length DESC LIMIT 25;
 - information_schema.TABLES - system table with all tables meta data
 - ORDER BY data_length + index_length - show largest tables at the top
 - LIMIT 25 - show 25 largest tables (change to your needs)
+
+group: table_sizes
