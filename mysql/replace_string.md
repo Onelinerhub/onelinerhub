@@ -9,3 +9,5 @@ UPDATE table SET column = REPLACE(column, 'search', 'replace');
 - REPLACE(column - execute string search and replace for ```column``` column
 - 'search' - text to search for
 - 'replace' - test to replace for
+
+group: str_replace
