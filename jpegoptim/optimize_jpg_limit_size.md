@@ -1,6 +1,6 @@
 # Optimize JPG image to fit to certain file size
 
-```sql
+```bash
 jpegoptim --strip-all -S 100k img.jpg
 ```
 
