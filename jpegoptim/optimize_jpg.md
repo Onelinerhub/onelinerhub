@@ -1,6 +1,6 @@
 # Optimize JPG image
 
-```sql
+```bash
 jpegoptim --strip-all img.jpg
 ```
 
