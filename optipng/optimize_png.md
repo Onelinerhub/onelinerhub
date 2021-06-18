@@ -1,6 +1,6 @@
 # Optimize PNG image
 
-```sql
+```bash
 optipng -o3 img.png
 ```
 
