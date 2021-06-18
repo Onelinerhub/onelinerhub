@@ -1,6 +1,6 @@
 # Batch optimize multiple JPG images
 
-```sql
+```bash
 jpegoptim --strip-all /dir/*.jpg
 ```
 
