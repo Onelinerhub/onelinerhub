@@ -1,6 +1,6 @@
 # Batch optimize multiple PNG image
 
-```sql
+```bash
 optipng -o3 /dir/*.png
 ```
 
