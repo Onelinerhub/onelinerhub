@@ -7,6 +7,14 @@ code part1 part2
 - part1 - explain part 1
 - part2 - explain part 2
 
+## Example (optional, use this to demonstrate input/output examples of code solution)
+```php
+echo 'ok'; # first code block is usage example
+```
+```bash
+ok # second code block is output example, no separators between them
+```
+
 group: name_of_the_group_of_similar_code_solutions (optional, used to group related solutions)
 
 alternative_tech: short_tech_name (optional block, should be used for cases when something can be done using different lib/tool/framework)
