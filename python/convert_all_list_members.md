@@ -9,7 +9,7 @@ converted = list(map(str, iterable_name))
 - str - data type you want the list member to convert to(target data type) e.g.(str, int, bool)
 - iterable_name - list you want to source list
 
-## example
+## Example
 ```python
 list_of_numbers = ["1", "2", "3"] # list must contain base10 numbers
 converted = list(map(int, list_of_numbers))
