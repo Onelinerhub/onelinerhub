@@ -1,6 +1,6 @@
 # Change input placeholder text color
 
-```bash
+```css
 ::placeholder { color: red; }
 ```
 
