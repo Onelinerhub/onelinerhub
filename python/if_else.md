@@ -8,7 +8,7 @@ statement1 if condition else statement2
 - statement2 - run if the condition is False
 
 
-alternative_way: you can use simple multi-line if statement
+other_way: you can use simple multi-line if statement
 ```python
 if condition:
 	statement1
