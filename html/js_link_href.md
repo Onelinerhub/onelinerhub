@@ -1,4 +1,4 @@
-# What href value to use for javascript links
+# What href value to use for javascript links in html
 ```html
 <a href="javascript:void(0)">
 ```
