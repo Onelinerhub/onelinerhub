@@ -1,4 +1,4 @@
-# What is the TINYTEXT column max size (length)
+# What is the TINYTEXT column max size (length) in Mysql
 
 ```bash
 255 bytes
