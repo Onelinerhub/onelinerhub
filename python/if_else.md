@@ -1,14 +1,14 @@
-# How to write one liner if else
+# One-liner if else
 
 ```python
 statement1 if condition else statement2
 ```
 
-- statement1 - run if the condition is True
-- statement2 - run if the condition is False
+- statement1 - run if the condition is ```true```
+- statement2 - run if the condition is ```false```
 
 
-other_way: you can use simple multi-line if statement
+other_way: Multi-line statement
 ```python
 if condition:
 	statement1
