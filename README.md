@@ -6,6 +6,12 @@ A lib of micro code pieces, well explained and mostly single-line solutions @ [o
 ## Help by contributing
 Create a pull request with new code files or edited versions of current files.
 
+### Help needed now:
+- Python code pieces
+- Lua code pieces
+- Git code pieces
+- Any new technologies not listed [here](https://onelinerhub.com/) are also welcome
+
 ## Principles
 - Micro solutions are ment to solve specific issue in **modern** versions of technologies (browsers, compilers, databases, etc.)
 - Solution should be as short and simple as possible
