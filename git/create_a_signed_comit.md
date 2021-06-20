@@ -1,4 +1,4 @@
-# How to create a signed commmit
+# How to create a signed commit
 
 ```bash
 git commit -S -m yourMessage

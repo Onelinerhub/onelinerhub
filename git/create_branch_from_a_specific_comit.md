@@ -1,4 +1,4 @@
-# How to create a branch from a specific commmit
+# How to create a branch from a specific commit
 
 ```bash
 git checkout -b branchname SHA1Hash
