@@ -1,4 +1,4 @@
-# What is the TINYINT column max value and size
+# What is the TINYINT column max value and size in Mysql
 
 ```
 SIGNED MAX  : 127 (1 byte)
