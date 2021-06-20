@@ -14,7 +14,6 @@ example:
 list_of_numbers = ["1", "2", "3"] # list must contain base10 numbers
 converted = list(map(int, list_of_numbers))
 ```
-example_output:
 ```bash
 [1, 2, 3]
 ```
