@@ -6,7 +6,8 @@ A lib of micro code pieces, well explained and mostly single-line solutions @ [o
 ![oneliner:hub example](/example.png)
 
 ## Help by contributing
-Create a pull request with new code files or edited versions of current files.
+Just create a pull request with new/updated codes.
+Feel free to add/update any tech code piece you find useful.
 
 ### Help needed now:
 - Python code pieces
