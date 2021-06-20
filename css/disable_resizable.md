@@ -1,6 +1,6 @@
 # Disable resizable property of textarea
 
-```bash
+```css
 textarea { resize: none; }
 ```
 
