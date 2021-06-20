@@ -1,4 +1,4 @@
-# What is the MEDIUMINT column max value and size
+# What is the MEDIUMINT column max value and size in Mysql
 
 ```
 SIGNED MAX  :  8,388,607 (3 bytes)
