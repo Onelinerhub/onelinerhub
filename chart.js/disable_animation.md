@@ -7,5 +7,5 @@ new Chart('chart', {
 });
 ```
 
-- 'chart' - id of ```canvas``` element with height attribute (```<canvas id="chart" height="100"></canvas>```)
+- 'chart' - id of ```canvas``` element
 - { duration: 0 } - setting animation duration to zero will disable it
