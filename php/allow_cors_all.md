@@ -1,4 +1,4 @@
-# Request a URL with curl
+# CORS rule to allow all origins to access page
 
 ```php
 if ( isset($_SERVER['HTTP_ORIGIN']) ) {
