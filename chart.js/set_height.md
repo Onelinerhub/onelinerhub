@@ -1,4 +1,4 @@
-# Add class to an element
+# Set height of a chart
 
 ```javascript
 new Chart('chart', {
