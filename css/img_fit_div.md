@@ -1,4 +1,4 @@
-# Make image width automatically fir div container
+# Make image width automatically fit div container
 
 ```css
 img { max-width: 100%; }
