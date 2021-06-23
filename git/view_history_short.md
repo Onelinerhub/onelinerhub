@@ -1,4 +1,4 @@
-How to view project's short history
+# How to view project's short history
 
 ```bash
 git log --oneline
