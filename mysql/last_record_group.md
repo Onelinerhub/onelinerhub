@@ -1,18 +1,12 @@
 # Select last record from group
 
 ```sql
-WITH ranked AS (
-  SELECT m.*, ROW_NUMBER() OVER (PARTITION BY name ORDER BY id DESC) AS rn
-  FROM table m
-)
-SELECT * FROM ranked WHERE rn = 1
+SELECT id, name FROM table WHERE id IN ( SELECT max(id) FROM table GROUP BY name )
 ```
 
-- WITH ranked AS - define ```ranked``` window ([mysql 8+](https://dev.mysql.com/doc/refman/8.0/en/window-functions.html))
-- ROW_NUMBER() - returns row number inside defined partition
-- PARTITION BY name - partition window from ```table``` by ```name``` column (e.g. group by name)
-- ORDER BY id DESC - order window by id (newest rows will come first)
-- SELECT * FROM ranked - now select data from ```ranked``` table
-- WHERE rn = 1 - make sure we select only last (newest) row for each group
+- SELECT id, name - columns to select
+- table - table name to select from ([definition](/mysql/create_table))
+- WHERE id IN - select only certain ids, defined by subquery
+- SELECT max(id) FROM table GROUP BY name - subqyery will return last (maximum) ids for each unique ```name``` value
 
 group: record_order
