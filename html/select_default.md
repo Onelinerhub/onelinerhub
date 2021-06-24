@@ -1,4 +1,4 @@
-# Default value of select box
+# Set default value of a select box
 
 ```html
 <option selected="selected">Detault</option>
