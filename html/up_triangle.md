@@ -4,6 +4,6 @@
 &#x25B2;
 ```
 
-&#x25B2;
+Resulting symbol:  &#x25B2;
 
 group: triangles
