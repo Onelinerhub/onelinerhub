@@ -1,4 +1,4 @@
-# CORS rule to allow all origins to access page
+# Transliterate any non-latin string (cyrilic, etc...) to latin characters
 
 ```php
 $trans = transliterator_transliterate('Any-Latin;Latin-ASCII;', $string);
