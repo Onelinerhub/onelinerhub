@@ -1,4 +1,4 @@
-# Insert big whitespace instead of &nbsp;
+# Insert big whitespace instead of nbsp;
 
 ```html
 &emsp;
