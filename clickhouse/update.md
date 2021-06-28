@@ -1,4 +1,4 @@
-# How to delete data
+# How to update data
 
 ```sql
 ALTER TABLE tbl UPDATE col2 = 5 where col1 < 10
