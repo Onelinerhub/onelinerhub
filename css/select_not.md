@@ -1,9 +1,7 @@
 # Selector not having certain class
 
 ```css
-:not(.important) {
-  opacity: 0.75;
-}
+:not(.important) { opacity: 0.75; }
 ```
 
 - :not( - will invert following selector
