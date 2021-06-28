@@ -1,4 +1,4 @@
-# How to delete data
+# How to skip unknown fields on data insert
 
 ```sql
 clickhouse-client -n --query="SET input_format_skip_unknown_fields=1; INSERT INTO tbl FORMAT JSONEachRow;"
