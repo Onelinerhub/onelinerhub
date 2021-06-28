@@ -1,4 +1,4 @@
-# Insert string array in CSV format
+# Insert array of strings in CSV format
 
 ```sql
 INSERT INTO tbl FORMAT CSV 10, "['str1', 'str2']"
