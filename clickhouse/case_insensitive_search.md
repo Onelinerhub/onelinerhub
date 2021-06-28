@@ -1,4 +1,4 @@
-# Do a case insensitive search on text column
+# Case insensitive search on text column
 
 ```sql
 SELECT * FROM tbl WHERE lowerUTF8(text) LIKE '%search%';
