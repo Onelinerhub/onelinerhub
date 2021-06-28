@@ -1,4 +1,4 @@
-# How to embed PDF
+# How to embed base64-encoded image
 
 ```html
 <img src="data:image/gif;base64,R0lGODlhyAAiALM...DfD0QAADs=" />
