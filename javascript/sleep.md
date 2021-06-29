@@ -10,5 +10,8 @@
 
 ## Example
 ```javascript
-sleep(2 * 1000); // will pause execution for 2 seconds
+sleep(2 * 1000);
+```
+```bash
+# will pause execution for 2 seconds
 ```
