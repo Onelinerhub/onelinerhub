@@ -6,7 +6,8 @@
 
 - new Promise - declares promise that executes standard timeout
 - ms - number of milliseconds to stop execution for
-- 
+
+
 ## Example
 ```javascript
 // some code ...
