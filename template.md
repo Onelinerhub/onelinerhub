@@ -12,7 +12,7 @@ code part1 part2
 echo 'ok'; // first code block is usage example
 ```
 ```bash
-ok // second code block is output example, no separators between them
+ok # second code block is output example, no separators between them
 ```
 
 group: name_of_the_group_of_similar_code_solutions (optional, used to group related solutions)
