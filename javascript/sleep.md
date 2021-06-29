@@ -6,5 +6,9 @@
 
 - new Promise - declares promise that executes standard timeout
 - ms - number of milliseconds to stop execution for
-- usage - ``` await sleep(2000); ```
 - await - will pause code until promise is fullfilled (resolved)
+
+## Example
+```javascript
+sleep(2 * 1000); // will pause execution for 2 seconds
+```
