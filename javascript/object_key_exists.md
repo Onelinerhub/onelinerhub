@@ -11,12 +11,19 @@
 - obj - `Object`: the object to check its keys.
 - key - `String`: the key to check its existense in the object.
 
-## examples:
+
+## Example
 
 ```js
 const obj = { a: 1, b:2};
-object_key_exists(obj, 'a'); //true
-object_key_exists(obj, 'c'); //false
-object_key_exists([], 'a'); //false
-object_key_exists([], null); //false
+object_key_exists(obj, 'a');
+object_key_exists(obj, 'c');
+object_key_exists([], 'a');
+object_key_exists([], null);
+```
+```bash
+true
+false
+false
+false
 ```
