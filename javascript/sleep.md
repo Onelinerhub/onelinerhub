@@ -14,3 +14,5 @@
 await sleep(2 * 1000);
 // some code after 2 seconds sleep
 ```
+```bash
+```
