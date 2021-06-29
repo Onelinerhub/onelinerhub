@@ -2,7 +2,6 @@
 
 ```JSX
 // save file as /hook/useMultiState.js (or .ts)
-
 import { useReducer } from "react"
 
 const useMultiState = (initialStates) => {
@@ -15,11 +14,11 @@ export default useMultiState
 const [state, setState] = useMultiState(initialStates)
 ```
 
-- state - reactive variable to access current state
-- setState - method to update state
+- \[state - reactive variable to access current state
+- setState\] - method to update state
 - initialStates - object that will be our initial state
 
-## Example Usage
+## Example
 ```JSX
 import React, {useEffect} from 'react'
 import useMultiState from './hook/useMultiState';
@@ -53,4 +52,4 @@ return (
 export default App
 ```
 
-PS: Use this custom hook only for manage multiple state. If you just handle one or two states, use default `useState` hook instead
+Use this custom hook only to manage multiple state. If you just handle one or two states, use default `useState` hook instead.
