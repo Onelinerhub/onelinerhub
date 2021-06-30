@@ -1,7 +1,7 @@
 # oneliner:hub
 A lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/).
 
-**475** code pieaces collected already and counting!
+**500** code pieaces collected already and counting!
 
 ![oneliner:hub example](/example.png)
 
