@@ -10,9 +10,7 @@ Just create a pull request with new/updated codes.
 Feel free to add/update any tech code piece you find useful.
 
 ### Help needed now:
-- Python code pieces
-- Lua code pieces
-- Git code pieces
+- See [list of issues](https://github.com/nonunicorn/onelinerhub/issues)
 - Any new technologies not listed [here](https://onelinerhub.com/) are also welcome
 
 ## Principles
