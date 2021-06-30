@@ -1,4 +1,4 @@
-# Load (import) data into table from a file
+# Import CSV data into table from a file
 
 ```bash
 cat file.csv | clickhouse-client -q 'INSERT INTO tbl FORMAT CSV'
