@@ -5,7 +5,7 @@ unset($arr[1]);
 ```
 
 - $arr - array to delete element from
-- 1 - element index to delete (2nd element in our case)
+- \[1\] - element index to delete (2nd element in our case)
 
 ## Example
 ```php
