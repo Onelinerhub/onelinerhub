@@ -16,6 +16,7 @@ Feel free to add/update any tech code piece you find useful.
 - Any new technologies not listed [here](https://onelinerhub.com/) are also welcome
 
 ## Principles
+- 3 main principles for code pieces here are: simple, modern, minimal
 - Micro solutions are ment to solve specific issue in **modern** versions of technologies (browsers, compilers, databases, etc.)
 - Solution should be as short and simple as possible
 - Solution should be explained by components (variables, functions, operations, etc.)
@@ -33,3 +34,13 @@ Feel free to add/update any tech code piece you find useful.
 - Example can be specified using ```## Example``` header followed by 2 code blocks (input and output examples)
 
 Use [this template](/template.md) for creating new code pieces.
+
+## FAQ
+- "What if I want to create new folder/technology in onelinerhub repo?"
+- You are welcome to do it with pull request as long as it is useful technology/solution for engineers
+
+- "What if I want to edit some published code?"
+- You are welcome to do it with pull request as long as it will make the code better (simple, modern, minimal)
+
+- "Can I post multi-line code (not a one-liner)?"
+- Yes, as long as the solution is targeted towards specific problem and is well explained
