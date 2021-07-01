@@ -4,6 +4,6 @@
 print(eval(input()))
 ```
 
-* ```print``` - Show result.
-* ```eval``` - Calculate the expression.
-* ```input``` - get the expression from user.
+- print - Show result.
+- eval - Calculate the expression.
+- input - get the expression from user.
