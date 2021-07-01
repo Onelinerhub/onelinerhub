@@ -15,6 +15,6 @@ http {
 - $remote_addr - client IP address
 - $request - full HTTP request string
 - $upstream_response_time - time it took upstream to process request and return response (3 decimals)
-- access_log sets log file path and format (```timings``` in our case)
+- access_log - sets log file path and format (```timings``` in our case)
 
 group: log_times
