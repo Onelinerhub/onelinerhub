@@ -1,4 +1,4 @@
-# Allow auto play (videos and audioes) in Google Chrome.
+# Allow auto play (videos and audios) in Google Chrome.
 
 ```bash
 google-chrome --autoplay-policy=no-user-gesture-required
