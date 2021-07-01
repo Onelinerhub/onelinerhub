@@ -4,10 +4,10 @@
 find /home/usr/ -type d -exec chmod 777 {} \;
 ```
 
-* ```/home/usr/``` - Base path to change permissions.
-* ```-type d``` - Search for directories (affects files too).
-* ```-exec``` - Execute next command.
-* ```chmod 777``` - Grants all permissions to all users. The tables explain their meanings:
+- /home/usr/ - Base path to change permissions.
+- -type d - Search for directories (affects files too).
+- -exec - Execute next command.
+- chmod 777 - Grants all permissions to all users. The tables explain their meanings:
 
 Number Position | Affects
 :---: | :---:
@@ -26,5 +26,5 @@ Number | Permission Type | Symbol
 6 | Read + Write | rw-
 7 | Read + Write + Execute | rwx
 
-* ```{}``` - Will be replaced by the path.
-* ```\;``` - Denotes the end of command.
+- {} - Will be replaced by the path.
+- \; - Denotes the end of command.
