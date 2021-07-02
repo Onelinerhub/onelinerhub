@@ -9,7 +9,7 @@ chmod 777 /path
 - /path - path to dir (or file) to change permissions of
 
 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+--- | --- | --- | --- | --- | --- | --- | ---
 No permissions | Execute | Write | Write + Execute | Read | Read + Execute | Read + Write | Read + Write + Execute
 
 group: chmod
