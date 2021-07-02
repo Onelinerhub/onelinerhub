@@ -10,6 +10,6 @@ chmod 777 /path
 
 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-No permissions | Execute | Write | Read | Read + Execute | Read + Write | Read + Write + Execute
+No permissions | Execute | Write | Write + Execute | Read | Read + Execute | Read + Write | Read + Write + Execute
 
 group: chmod
