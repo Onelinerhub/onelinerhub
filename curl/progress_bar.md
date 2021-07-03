@@ -1,4 +1,4 @@
-# Show progress bar for file upload
+# Show progress bar for file uploads
 
 ```bash
 curl -o /tmp/u.tmp -# https://example.org/ -F 'file=@file.txt' && cat /tmp/u.tmp && rm /tmp/u.tmp
