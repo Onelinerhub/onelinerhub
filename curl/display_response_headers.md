@@ -1,4 +1,4 @@
-# Display response headers
+# Display only response headers (without body)
 
 ```bash
 curl -I https://example.org/
