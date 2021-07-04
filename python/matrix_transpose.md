@@ -3,7 +3,7 @@
 mT = [[ row[col] for row in mO] for col in range( len(mO[0]) )]
 ```
 
-- mT = - will contain the new matrix
+- mT - will contain the new matrix
 - mO - the old matrix
 
 
