@@ -1,9 +1,10 @@
 # How to find the transpose of a matrix
 ```python
-mT = [[ row[col] for row in m] for col in range( len(m[0]) )]
+mT = [[ row[col] for row in mO] for col in range( len(mO[0]) )]
 ```
-- mT - The new matrix
-- m - The old Matrix
+
+- mT = - will contain the new matrix
+- mO - the old matrix
 
 
 ## Example
