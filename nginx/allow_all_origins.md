@@ -1,4 +1,4 @@
-# Set CORS to allow all origins
+# CORS header to allow all origins
 
 ```nginx
 server {
