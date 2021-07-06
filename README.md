@@ -28,6 +28,7 @@ Feel free to add/update any tech code piece you find useful.
 - File can also include group definition to link similar solution (e.g. different date formats or string comparison methods)
 - You can upload PNG file with the same file name as the code file and it will automatically be rendered in UI
 - Example can be specified using ```## Example``` header followed by 2 code blocks (input and output examples)
+- You can also markup default code piece to select (when reader ctrl+c, this pieace will automatically be selected instead of full code), wrapping it in ```|{|```...```|}|``` (like [here](https://github.com/nonunicorn/onelinerhub/blob/main/chart.js/disable_animation.md))
 
 Use [this template](/template.md) for creating new code pieces.
 
