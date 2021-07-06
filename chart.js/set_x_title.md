@@ -3,7 +3,7 @@
 ```javascript
 new Chart('chart', {
   // ...
-  options: { scales: { x: { title: { text: 'X Title', display: true } } } }
+  options: { |{|scales: { x: { title: { text: 'X Title', display: true } } }|}| }
 });
 ```
 
