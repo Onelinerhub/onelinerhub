@@ -4,7 +4,7 @@
 new Chart('chart', {
   // ...
   data: {
-    datasets: [{ data: [1, 2, 3], borderColor: '#0ac282' }]
+    |{|datasets: [{ data: [1, 2, 3], borderColor: '#0ac282' }]|}|
   }
 });
 ```
