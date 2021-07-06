@@ -4,7 +4,7 @@
 new Chart('chart', {
   // ...
   data: {
-    datasets: [{ data: [1, 2, 3], borderWidth: 3 }]
+    |{|datasets: [{ data: [1, 2, 3], borderWidth: 3 }]|}|
   }
 });
 ```
