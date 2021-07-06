@@ -3,7 +3,7 @@
 ```javascript
 new Chart('chart', {
   // ...
-  options: { maintainAspectRatio: false }
+  options: { |{|maintainAspectRatio: false|}| }
 });
 ```
 
