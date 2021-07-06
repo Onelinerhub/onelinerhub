@@ -20,3 +20,5 @@ Array
     [2] => 3
 )
 ```
+
+group: delete_from_array
