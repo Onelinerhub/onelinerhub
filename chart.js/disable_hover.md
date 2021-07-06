@@ -3,7 +3,7 @@
 ```javascript
 new Chart('chart', {
   // ...
-  |{|options: { events: [] }|}|
+  options: { |{|events: []|}| }
 });
 ```
 
