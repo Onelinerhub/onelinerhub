@@ -11,5 +11,5 @@
 
 - <input - standard text input
 - list="planets" - specify id of datalist tag to use for autocompletion
-- id="choises" - datalist tag for ```planets``` input
+- id="planets" - datalist tag for ```planets``` input
 - option value="Earth" - first item to use for autocomplete (can have any number of `<option` tags)
