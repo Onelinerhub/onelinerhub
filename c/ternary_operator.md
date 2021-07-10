@@ -16,7 +16,7 @@ x % 2 == 0 ? printf("Even") : printf("Odd");
 Even
 ```
 
-other_way: if/else
+other_way: standard if/else way
 ```C
 int x = 10;
 if(x % 2 == 0)
