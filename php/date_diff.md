@@ -10,7 +10,7 @@ $days = (new DateTime($first))->diff( new DateTime($second) )->format('%a');
 - $second - earlier date
 - '%a' - return number of days
 
-# Example: 
+## Example
 ```php
 echo (new DateTime('2022-01-02'))->diff( new DateTime('2021-12-11') )->format('%a');
 ```
