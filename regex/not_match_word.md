@@ -1,4 +1,4 @@
-# Check if string not contains specific word
+# Check if string doesn't contains specific word
 
 ```regex
 /^((?!some_word).)*$/
