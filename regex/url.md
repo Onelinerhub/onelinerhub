@@ -1,4 +1,4 @@
-# Validate email address
+# Validate URL
 
 ```regex
 ^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$
