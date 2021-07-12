@@ -4,6 +4,5 @@
 /^[a-zA-Z0-9]+$/
 ```
 
-- a-z - small letters
-- A-Z - big letters
+- a-zA-Z - small and big letters
 - 0-9 - numbers
