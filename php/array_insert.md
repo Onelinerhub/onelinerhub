@@ -6,8 +6,8 @@ array_splice($arr, 2, 0, $insert);
 
 - array_splice - replaces or inserts parts of array
 - $arr - array to insert new value to
-- 2 - position to insert new value at (starts from `0`, so we're inserting 3rd element)
-- 0 - don't delete any elements from original array
+- 2, - position to insert new value at (starts from `0`, so we're inserting 3rd element)
+- 0, - don't delete any elements from original array
 - $insert - value to insert
 
 ## Example
