@@ -1,7 +1,7 @@
 # Disable password authentication on the server
 
 ```ini
-# ...
+# ... /etc/ssh/sshd_config
 PasswordAuthentication no
 ```
 
