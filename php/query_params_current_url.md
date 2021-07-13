@@ -1,11 +1,11 @@
 # Replace or add query parameter to the current url
 
 ```php
-  $url = parse_url($_SERVER['REQUEST_URI']);
-  parse_str($url['query'], $q);
-  $params = ['a' => 1, 'b' => 2];
-  foreach ( $params as $k => $v ) $q[$k] = $v;
-  $new_url = $url['path'] . '?' . http_build_query($q);
+$url = parse_url($_SERVER['REQUEST_URI']);
+parse_str($url['query'], $q);
+$params = ['a' => 1, 'b' => 2];
+foreach ( $params as $k => $v ) $q[$k] = $v;
+$new_url = $url['path'] . '?' . http_build_query($q);
 ```
 
 - parse_url - parse specified url to components
