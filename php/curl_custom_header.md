@@ -11,3 +11,5 @@ curl_setopt($c, CURLOPT_HTTPHEADER, ['X-My-Header: 1', 'Other-header: 2']);
 - CURLOPT_HTTPHEADER - sets custom header
 - 'X-My-Header: 1' - first custom header to send
 - 'Other-header: 2' - second custom header to send
+
+group: curl_custom
