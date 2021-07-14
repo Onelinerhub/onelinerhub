@@ -1,4 +1,4 @@
-# Check is string contains valid JSON
+# Check if string contains valid JSON
 
 ```php
 $is_valid = json_decode($json) ? true : json_last_error() === JSON_ERROR_NONE;
