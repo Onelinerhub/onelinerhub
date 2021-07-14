@@ -13,5 +13,5 @@ nameserver, _ := net.LookupNS("github.com")
 ```
   
   
-- import the net package which provides a portable interface for network I/O and the fmt to print out the nserver
-- net.LookupNS() returns the domain name server for the given web address
+- import - loads net package which provides a portable interface for network I/O and the fmt to print out the nserver
+- net.LookupNS() - returns the domain name server for the given web address
