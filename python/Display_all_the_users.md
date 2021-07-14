@@ -4,3 +4,4 @@
 ```
 
 - Have to be root
+- -c: This terminates the option list (following options are passed as arguments to the command).
