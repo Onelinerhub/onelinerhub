@@ -1,4 +1,4 @@
-# Get value
+# Get editor value
 
 ```javascript
 var code = editor.getValue();
