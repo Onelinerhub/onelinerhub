@@ -3,9 +3,9 @@
 ```html
 <textarea id="editor"></textarea>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.5/ace.js"
-        integrity="sha256-5Xkhn3k/1rbXB+Q/DX/2RuAtaB4dRRyQvMs83prFjpM="
-        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.9/ace.js" integrity="sha512-GjKT3toL1ypjd1n/++7fBjahEZSGuqkJvve6c9ooegd1ipmZmM/nyBRD8Junhwno81fUow16LkyJ3m9oIegFYg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
 
 <script>
   var editor = ace.edit('editor', {});
