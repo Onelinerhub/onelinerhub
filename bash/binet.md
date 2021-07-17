@@ -9,6 +9,6 @@ else time echo "( ($PHI^$n - $PSI^$n) / ($PHI - $PSI) + 1 )" | bc; fi;
 
 - export n - where n is the Fibonacci value to calculate
 - PHI= - export PHI and PSI values (for higher n values increase the decimal places of `PHI`)
-- Fn is calculated via [Binet's Formula](https://en.wikipedia.org/wiki/Fibonacci_number#Binet's_formula)
+- Fn($n) - is calculated via [Binet's Formula](https://en.wikipedia.org/wiki/Fibonacci_number#Binet's_formula)
 - | bc - Binet's Formula is piped to bc, the bash calculator
-- + 1 - Have to do some trickery with rounding by adding 1
+- ($PHI - $PSI) + 1 - Have to do some trickery with rounding by adding 1
