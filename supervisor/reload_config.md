@@ -6,3 +6,5 @@ supervisorctl update
 
 - supervisorctl - supervisor management tool
 - update - updates all configuration files on the fly
+
+group: quick_start
