@@ -11,7 +11,7 @@ ALTER TABLE tbl CHANGE col col_new type;
 
 group: rename
 
-other_way: mysql 8.0+
+other_way: mysql 8.0
 
 ```sql
 ALTER TABLE tbl RENAME COLUMN col TO col_new;
