@@ -1,5 +1,7 @@
 # How to do something
 
+Optional notes or general comments on the following code.
+
 ```bash
 code part1 part2 part3 ...
 ```
