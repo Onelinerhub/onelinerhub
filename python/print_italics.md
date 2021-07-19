@@ -6,7 +6,6 @@ import os
 
 #Install quo from PypI
 os.system("pip install quo")
-os.system("pip3 install quo")
 
 ## Import quo module
 
