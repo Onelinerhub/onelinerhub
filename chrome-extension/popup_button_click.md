@@ -18,5 +18,5 @@ Should be executed in [popup page](https://developer.chrome.com/docs/extensions/
 - button>Click</button - sample button to assign click event to
 - document.querySelector('button') - button selector
 - addEventListener - listen for specified event
-- click - we want to listen for clicks
+- 'click' - we want to listen for clicks
 - console.log('Hi!') - do something here when button is clicked
