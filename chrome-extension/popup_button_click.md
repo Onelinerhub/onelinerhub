@@ -15,7 +15,7 @@ Should be executed in [popup page](https://developer.chrome.com/docs/extensions/
 </html>
 ```
 
-- <button>Click</button> - sample button to assign click event to
+- \<button>Click</button> - sample button to assign click event to
 - document.querySelector('button') - button selector
 - addEventListener - listen for specified event
 - click - we want to listen for clicks
