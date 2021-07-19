@@ -3,14 +3,14 @@
 ```json
 {
  "name": "My",
- ...
+ // ...
  "content_scripts": [
    {
-     "matches": ["*://*/*"],
+     "matches": ["\*://\*/\*"],
      "js": ["script.js"]
    }
  ],
- ...
+ // ...
 }
 ```
 
