@@ -1,7 +1,7 @@
 # How to do something
 
-```language
-code part1 part2
+```bash
+code part1 part2 part3 ...
 ```
 
 - part1 - explain code part 1 (mandatory blocks)
