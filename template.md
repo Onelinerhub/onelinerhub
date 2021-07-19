@@ -4,8 +4,9 @@
 code part1 part2
 ```
 
-- part1 - explain part 1
-- part2 - explain part 2
+- part1 - explain code part 1 (mandatory blocks)
+- part2 - explain code part 2 (mandatory blocks)
+- ...
 
 ## Example (optional, use this to demonstrate input/output examples of code solution)
 ```php
