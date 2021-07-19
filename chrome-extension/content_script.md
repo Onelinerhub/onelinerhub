@@ -4,12 +4,12 @@
 {
  "name": "My",
  // ...
- "content_scripts": [
+ |{|"content_scripts": [
    {
      "matches": ["*://*/*"],
      "js": ["script.js"]
    }
- ],
+ ]|}|,
  // ...
 }
 ```
