@@ -1,6 +1,10 @@
 ## Print in italics!
 
+This works with Python **3.6+**
+
 ``` python
+
+#!/usr/bin/env python3
 
 import os
 
