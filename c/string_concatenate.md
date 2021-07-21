@@ -5,7 +5,7 @@
 strcat(x,y);
 ```
 
-- #include <string.h> - Name of library to be included
+- include <string.h - Name of library to be included
 - strcat(x,y) - Function to concatenate the string y to string x (note: x string need to have a length equal or greater than length of x+y)
 
 ## Example
