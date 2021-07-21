@@ -46,6 +46,6 @@ You are welcome to do it with pull request as long as it will make the code bett
 Yes, as long as the solution is targeted towards specific problem and is well explained
 
 
-### Latest updates
+## Latest updates
 - [Chrome extensions code pieces](https://onelinerhub.com/?q=chrome-extension/)
 - [C language code pieces](https://onelinerhub.com/?q=c/)
