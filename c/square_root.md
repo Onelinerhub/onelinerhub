@@ -5,7 +5,7 @@
 sqrt(x);
 ```
 
-- #include <math.h> - Name of library to be included
+- include <math.h - Name of library to be included
 - sqrt(x) - Function to get the square root of x
 
 ## Example
