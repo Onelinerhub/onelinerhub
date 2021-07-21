@@ -5,7 +5,7 @@
 log10(x);
 ```
 
-- #include <math.h> - Name of library to be included
+- include <math.h - Name of library to be included
 - log10(x) - Function to get the logarithm of x
 
 ## Example
