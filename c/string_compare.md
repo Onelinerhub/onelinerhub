@@ -5,7 +5,7 @@
 strcmp(x,y);
 ```
 
-- #include <string.h> - Name of library to be included
+- include <string.h - Name of library to be included
 - strcmp(x,y) - Function to compare if both strings are equal. Returning 0 if so, a number greater than 0 if x is greater than y and a number lower than 0 if y is greater than x
 
 ## Example
