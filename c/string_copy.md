@@ -5,7 +5,7 @@
 strcpy(x,y);
 ```
 
-- #include <string.h> - Name of library to be included
+- include <string.h - Name of library to be included
 - strcpy(x,y) - Function to copy the string y to string x (note: x string need to have the same or greater length than y)
 
 ## Example
