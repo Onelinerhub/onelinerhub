@@ -1,4 +1,4 @@
-# How to access page variables
+# Get cookie value
 
 Should be executed in [background script](https://developer.chrome.com/docs/extensions/mv3/background_pages/),
 which is [specified in manifest.json](/chrome-extension/background_script).
