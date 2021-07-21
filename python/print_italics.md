@@ -9,7 +9,7 @@ This works with Python **3.6+**
 import os
 
 #Install quo from PypI
-os.system("pip install quo")
+os.system("pip install quo==2021.3.5")
 
 ## Import quo module
 
