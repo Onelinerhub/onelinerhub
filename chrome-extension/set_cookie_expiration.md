@@ -14,6 +14,6 @@ chrome.cookies.set({url: 'https://example.org', name: 'test', value: 'x', expira
 - 'x' - value of the cookie to set
 - expirationDate - sets expiration time for cookie (number of seconds since the UNIX epoch)
 - new Date().getTime()/1000) - current UNIX time
-- 60 * 60 * 24 * 30 - cookie will expire in 30 days
+- 60 \* 60 \* 24 \* 30 - cookie will expire in 30 days
 
 group: cookies
