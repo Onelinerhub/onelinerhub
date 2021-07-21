@@ -6,7 +6,7 @@ sin(x);
 cos(x);
 ```
 
-- #include <math.h> - Name of library to be included
+- include <math.h - Name of library to be included
 - sin(x) - Function to get the sine of x in radians
 - cos(x) - Function to get the cossine of x in radians
 
