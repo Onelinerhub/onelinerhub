@@ -14,4 +14,4 @@
 
 - permissions - specify extension permissions list
 - cookies - allow access to cookies
-- "*://*" - access cookies on any website
+- "\*://\*" - access cookies on any website
