@@ -5,7 +5,7 @@
 pow(x,y);
 ```
 
-- #include <math.h> - Name of library to be included
+- include <math.h - Name of library to be included
 - pow(x,y) - Function to get x raised to the yth power (x**y)
 
 ## Example
