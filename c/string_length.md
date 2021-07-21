@@ -5,7 +5,7 @@
 strlen(x);
 ```
 
-- #include <string.h> - Name of library to be included
+- include <string.h - Name of library to be included
 - strlen(x) - Function to get the length of x (note: the function does not count the terminating character '\0')
 
 ## Example
