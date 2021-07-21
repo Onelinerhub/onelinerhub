@@ -7,7 +7,7 @@ floor(x);
 ceil(x);
 ```
 
-- #include <math.h> - Name of library to be included
+- include <math.h - Name of library to be included
 - round(x); - Function to get the x rounded
 - floor(x); - Function to get the x rounded to a lower value
 - ceil(x); - Function to get the x rounded to a greater value
