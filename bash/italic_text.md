@@ -1,4 +1,4 @@
-# Output italic text
+# Output italic text in console
 
 ```bash
 echo -e "\e[3mitalic\e[0m"
