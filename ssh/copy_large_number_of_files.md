@@ -1,4 +1,4 @@
-# Quickly copy large number of files
+# Quickly copy large number of files using scp.
 
 ```bash
 tar czf - file1 dir2 | ssh user@server.com "cd /path && tar xvzf -"
