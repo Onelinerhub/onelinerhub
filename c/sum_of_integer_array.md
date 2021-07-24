@@ -20,14 +20,14 @@ int sum(int arr[], int n) {
 int sum(int arr[], int n) {
     int sum = 0;
     for (int i=0; i<n; i++)
-      sum += arr[i];
+        sum += arr[i];
     return sum;
 }
-int main(){
-	int my_array = [1, 2, 3, 4, 6, 7, 8, 9, 10];
-  int number_of_elements = 9;
-  printf("%d: is the sum of the given array", sum(my_array, number_of_elements));
-  return 0;
+int main() {
+    int my_array[9] = {1, 2, 3, 4, 6, 7, 8, 9, 10};
+    int number_of_elements = 9;
+    printf("%d: is the sum of the given array", sum(my_array, number_of_elements));
+    return 0;
 }
 ```
 ```bash
