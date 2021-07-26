@@ -4,13 +4,13 @@ Making two fields unique together means one field isn't totally unique in whole 
 
 ```python
 class Product(models.Model):
-    name = models.CharField(max_length=100)
+    product_name = models.CharField(max_length=100)
     shop = models.CharField(max_length=100)
 
     class Meta:
         constraints = [
             models.UniqueConstraint(
-                fields=["name", "shop"],
+                fields=["product_name", "shop"],
                 name="unique_product_name_for_shop",
             ),
         ]
