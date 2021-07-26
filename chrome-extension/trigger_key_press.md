@@ -5,13 +5,13 @@ which is [specified in manifest.json](/chrome-extension/content_script).
 
 ```javascript
 document.querySelector('input')
-.dispatchEvent(new KeyboardEvent('keyup', {'key': 'a'}));
+.dispatchEvent(new KeyboardEvent('keypress', {'key': 'a'}));
 ```
 
-- 'div' - query selector for an element to simulate mouse over on
+- 'input' - query selector for an element to simulate keypress on
 - dispatchEvent - triggers specified event
 - KeyboardEvent - creates specified key event
-- keyup - we want to simulate keyup event
+- keypress - we want to simulate keyup event
 - 'key': 'a' - simulate `a` key press (all [keys list](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values))
 
 group: trigger_event
