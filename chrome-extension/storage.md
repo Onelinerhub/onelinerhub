@@ -1,4 +1,4 @@
-# Load background script
+# Allow storage permissions
 
 ```json
 {
