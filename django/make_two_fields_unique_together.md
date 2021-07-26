@@ -1,6 +1,6 @@
 # How to make two fields unique together
 
-making two fields unique together means one field isn't totally unique in whole table, but its unique based on another field. you should add the following code in your model.
+Making two fields unique together means one field isn't totally unique in whole table, but its unique based on another field. You should add the following code in your model:
 
 ```python
 class Product(models.Model):
