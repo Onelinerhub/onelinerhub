@@ -1,4 +1,4 @@
-# Basic auth authentication
+# Basic HTTP authentication
 
 ```nginx
 location / {
