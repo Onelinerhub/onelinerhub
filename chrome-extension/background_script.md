@@ -6,8 +6,8 @@
   "manifest_version": 3,
   // ...
   |{|"background": {
-  	"service_worker": "bg.js"
-	},|}|,
+    "service_worker": "bg.js"
+  },|}|,
   // ...
 }
 ```
