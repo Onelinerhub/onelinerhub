@@ -3,6 +3,7 @@
 ```json
 {
   "name": "My",
+  "manifest_version": 3,
   // ...
   |{|"background": {
   	"service_worker": "bg.js"
