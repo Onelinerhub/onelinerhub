@@ -23,5 +23,5 @@
 - "manifest_version": 3 - v3 format
 - bg.js - background script (worker) to load
 - content.js - content script to load
-- "\*://*/*" - load content script on all pages
+- "\*://\*/\*" - load content script on all pages
 - all_frames": true - load content script in all frames
