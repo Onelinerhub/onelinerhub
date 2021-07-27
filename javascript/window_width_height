@@ -1,0 +1,7 @@
+# Get width and height of window
+```javascript
+const width = window.innerHeight;
+const height = window.innerWidth;
+```
+- The read-only Window property innerWidth returns the interior width of the window in pixels.
+- The read-only Window property innerHeight returns the interior width of the window in pixels.
