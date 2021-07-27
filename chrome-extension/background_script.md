@@ -5,14 +5,13 @@
   "name": "My",
   // ...
   |{|"background": {
-    "scripts": ["bg.js"],
-    "persistent": false
-  }|}|,
+  	"service_worker": "bg.js"
+	},|}|,
   // ...
 }
 ```
 
-- "background" - specify scripts to load in background
+- "background" - specify script to load in background
 - "bg.js" - name of the background script to load (should be placed in the same folder as `manifest.json`)
 
 group: background_scripts
