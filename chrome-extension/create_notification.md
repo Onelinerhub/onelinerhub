@@ -11,3 +11,5 @@ chrome.notifications.create( 'my', { title: 'Title', message: 'Content' } );
 - create - creates notification
 - title: - notification popup title
 - message: - message body to show in nofitication popup
+
+group: notification
