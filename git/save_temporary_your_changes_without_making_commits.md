@@ -7,5 +7,5 @@ The command saves your local modifications away and reverts the working director
 git stash
 ````
 
-- git : base command
-- stash : Stash the changes in a dirty working directory away just for you
+- git - base command
+- stash - Stash the changes in a dirty working directory away just for you
