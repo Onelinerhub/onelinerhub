@@ -7,5 +7,5 @@ git push origin --delete <specify-the-branch-name>
 ````
 
 - --delete - specify the action
-- <specify-the-branch-name> - the name of the branch.
+- specify-the-branch-name - the name of the branch.
 
