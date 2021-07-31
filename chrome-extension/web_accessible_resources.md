@@ -9,7 +9,7 @@ This should be edited in [manifest.json](https://developer.chrome.com/docs/exten
   |{|"web_accessible_resources": [
     {
       "resources": [ 'img.png' ],
-      "matches": [ '*://*/*' ]
+      "matches": [ '\*://\*/\*' ]
     }
    ]|}|,
   // ...
