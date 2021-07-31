@@ -1,4 +1,4 @@
-# Add contenxt menu permissions
+# Add context menu permissions
 
 This should be edited in [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/) file.
 
