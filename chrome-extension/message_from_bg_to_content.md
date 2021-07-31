@@ -16,7 +16,7 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 - currentWindow: true - get currently open window
 - sendMessage - sends message to content script on the selected tab (currently active in our case)
 - {some: 'value'} - message to send (any object can go here)
-- console.log(r) - callback code to process response `r` from [background message listener](/chrome-extension/listen_message_bg)
+- console.log(r) - callback code to process response `r` from [background message listener](/chrome-extension/listen_message_content)
 
 group: messages
 
