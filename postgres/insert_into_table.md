@@ -1,4 +1,4 @@
-# Insert into table
+# Insert into a table
 
 ```sql
 INSERT INTO person (first_name, last_name, email, gender, date_of_birth, country_of_birth) 
