@@ -1,9 +1,8 @@
 # Where
 
 ```sql
-SELECT * FROM person WHERE gender = 'FEMALE';
+SELECT * FROM person WHERE gender = 'Female';
 ```
 
-- SELECT * FROM person - select all columns from table person
-- WHERE - filter the results by a condition
-- gender = 'FEMALE' - condition where a record has 'FEMALE' in the gender column
+- SELECT * FROM person - select all the columns from table person
+- WHERE gender = 'FEMALE' - filter the results where each row with 'Female' as the value of gender

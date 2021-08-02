@@ -1,7 +1,7 @@
 # And & Or
 
 ```sql
-SELECT * FROM person WHERE gender = 'FEMALE' AND (country_of_birth = 'CA' OR country_of_birth = 'US');
+SELECT * FROM person WHERE gender = 'Female' AND (country_of_birth = 'CA' OR country_of_birth = 'US');
 ```
 
 - SELECT * FROM person - select all columns from table person

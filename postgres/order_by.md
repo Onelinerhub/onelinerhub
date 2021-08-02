@@ -4,7 +4,5 @@
 SELECT first_name FROM person ORDER BY first_name DESC;
 ```
 
-- SELECT first_name FROM person - select column first_name in table person
-- ORDER BY - sort records by given column
-- first_name - the column to sort in table person
-- DESC - descending order (ASC by default)
+- SELECT first_name FROM person - select the column first_name in table person
+- ORDER BY first_name DESC - sort records by first_name in descending order (ASC is default)
