@@ -4,4 +4,5 @@
 CREATE DATABASE people;
 ```
 
-- CREATE DATABASE people; - Creates database named people
+- CREATE DATABASE - creates database
+- people - name of the db to create
