@@ -12,4 +12,8 @@ CREATE TABLE person (
 );
 ```
 
-- CREATE TABLE - creates table person
+- CREATE TABLE - creates specified table
+- person - name of the table to create
+- id - name of the column
+- BIGSERIAL NOT NULL - type definition
+- PRIMARY KEY - make this column [primary key](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS)
