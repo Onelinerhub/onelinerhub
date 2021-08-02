@@ -4,4 +4,5 @@
 DROP TABLE person;
 ```
 
-- DROP TABLE person; - Drops table named person
+- DROP TABLE - drops table
+- person - name of the table to drop
