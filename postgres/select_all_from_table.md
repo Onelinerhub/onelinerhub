@@ -4,4 +4,5 @@
 SELECT * FROM person;
 ```
 
-- SELECT * FROM person - returns all columns in table person in tabular format
+- SELECT * FROM - returns all columns in specified table (tabular format)
+- person - name of the table to select data from

@@ -1,10 +1,22 @@
 # Swapping two variables values using the logical operator XOR
 
+Note: equal numbers in XOR (`^`) have 0 as result
+
 ```C
-int x = 2, y = 3; x = x ^ y; y = x ^ y; x = x ^ y ;
+x ^= y ^= x ^= y;
 ```
 
-- int x = 2, y = 3 - Declaration of variables
-- x = x ^ y - Perform the XOR operation (note: equal numbers in XOR have 0 as result) to manipulate the value of y
-- y = x ^ y - Attribute the initial value of x to y
-- x = x ^ y ; - Attribute the initial value of y to x
+- x ^= y; - Perform the XOR operation between `x`and `y`. Store the value in `x`.
+- y ^= - Perform the XOR operation between the XOR-ed value of `x` and `y`. Store the value in `y` (it's now the original `x`).
+- x ^= - Perform the XOR operation between the XOR-ed value of `y` and `x`. Store the value in `x` (it's now the original `y`).
+
+## Example
+```c
+int x = 2;
+int y = 3;
+
+// Swap the values
+x ^= y ^= x ^= y;
+```
+```
+```

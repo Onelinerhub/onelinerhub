@@ -4,4 +4,5 @@
 DROP DATABASE people;
 ```
 
-- DROP DATABASE people; - Drops database named people
+- DROP DATABASE - drops database
+- people - name of the db to drop
