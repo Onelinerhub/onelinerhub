@@ -1,4 +1,4 @@
-# And & Or
+# How to use AND / OR operators
 
 ```sql
 SELECT * FROM person WHERE gender = 'Female' AND (country_of_birth = 'CA' OR country_of_birth = 'US');
