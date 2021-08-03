@@ -1,1 +1,1 @@
-[php swoole composer](/php-swoole/install)
+[Composer install PHP Swoole](/php-swoole/install)
