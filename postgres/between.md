@@ -1,4 +1,4 @@
-# Between
+# How to select column which value is between two values
 ```sql
 SELECT * FROM person WHERE age BETWEEN 20 AND 30;
 ```
