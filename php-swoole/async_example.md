@@ -1,4 +1,4 @@
-# Async app example
+# Async code example
 
 ```php
 go(function () { Co::sleep(1); echo 'A'; });
