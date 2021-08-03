@@ -1,4 +1,4 @@
-# Aliases
+# How to use aliases
 
 ```sql
 SELECT make, model, price AS original_price, ROUND(price*1.13) AS taxed_price FROM car;
