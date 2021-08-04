@@ -1,4 +1,6 @@
-# Create static file server with Node.js and Express
+# Static file server example with Node.js and Express.
+
+requires [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) installed
 
 ```javascript
 const express = require('express');
@@ -18,7 +20,6 @@ app.listen(port, () => {
 });
 ```
 
-- requires [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) installed
-- `/files` - location on server that holds the static files
-- `__dirname` - home directory
-- `app.get('/'...` - defines what static file to serve at home url routing
+- /files - location on server that holds the static files
+- __dirname - home directory
+- app.get('/' - defines what static file to serve at home url routing
