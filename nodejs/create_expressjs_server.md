@@ -1,6 +1,6 @@
 # Static file server example with Node.js and Express.
 
-requires [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) installed
+Requires [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) installed.
 
 ```javascript
 const express = require('express');
