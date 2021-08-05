@@ -21,5 +21,5 @@ app.listen(port, () => {
 ```
 
 - /files - location on server that holds the static files
-- __dirname - home directory
+- __dirname - absolute path of the directory containing executing file
 - app.get('/' - defines what static file to serve at home url routing
