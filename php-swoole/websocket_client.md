@@ -1,4 +1,4 @@
-# Websocket example
+# Websocket client example
 
 ```php
 include 'client.php';
