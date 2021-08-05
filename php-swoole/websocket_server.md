@@ -1,4 +1,4 @@
-# Websocket example
+# Websocket server example
 
 ```php
 $ws = new Swoole\WebSocket\Server('0.0.0.0', 9504);
