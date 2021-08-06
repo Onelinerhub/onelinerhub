@@ -12,3 +12,5 @@ $srv->start();
 ```
 
 - $srv - variable will contain server object
+- Swoole\HTTP\Server - HTTP server class
+- 127.0.0.1 - listen on localhost interface
