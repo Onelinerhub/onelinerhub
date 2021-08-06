@@ -18,9 +18,12 @@ echo "\n";
 - $worker->name - rename child process
 - ->start() - start process (this will start child process in background)
 - usleep(100) - wait for some time to make sure child process have started
+
+
 ## Example
 ```php
 php process.php
+
 ```
 ```ps a | grep php_child
 1078572 pts/2    S      0:00 php_child```
