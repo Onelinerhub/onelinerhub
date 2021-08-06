@@ -1,6 +1,6 @@
 # Copy a string to another
 
-Instead of using the <string.h> which will make the output way bigger you could just use this piece of code:
+Instead of using the `<string.h>` which will make the output way bigger you could just use this piece of code:
 
 ```c
 char *temp=a;while(*temp++=*b++);
