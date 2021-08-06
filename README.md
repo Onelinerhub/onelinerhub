@@ -1,5 +1,5 @@
 # oneliner:hub
-A lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/).
+Lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/).
 
 ![oneliner:hub example](/example.png)
 
