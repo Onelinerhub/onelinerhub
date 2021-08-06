@@ -23,7 +23,6 @@ echo "\n";
 ## Example
 ```php
 php process.php
-
 ```
 ```ps a | grep php_child
 1078572 pts/2    S      0:00 php_child```
