@@ -8,7 +8,7 @@ char *temp=a;while(*temp++=*b++);
 
 - char \*temp=a; - create a temporary pointer to the initial string
 - (\*temp++=\*b++); - make the first element of `temp` the first element of `b` and shift them both by one 
-- while( - take the returned value (which is the current element of `b`) and if it's not `'\0'` continue
+- while - take the returned value (which is the current element of `b`) and if it's not `'\0'` continue
 
 ## Example
 
