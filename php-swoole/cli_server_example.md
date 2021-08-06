@@ -2,8 +2,6 @@
 
 ```php
 use Swoole\Http\Server;
-use Swoole\Http\Request;
-use Swoole\Http\Response;
 
 $srv = new Swoole\HTTP\Server('127.0.0.1', 81);
 
