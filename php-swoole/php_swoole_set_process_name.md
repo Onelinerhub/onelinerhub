@@ -15,7 +15,6 @@ echo "\n";
 ```
 
 - $worker->pid - output child process PID
-- $worker->write - send sample message to master process
 - $worker->name - rename child process
 - ->start() - start process (this will start child process in background)
 - usleep(100) - wait for some time to make sure child process have started
