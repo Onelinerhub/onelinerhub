@@ -21,4 +21,4 @@
 ```
 
 - data-target="burger" - specify id of an element to attach burger button to
-- <div id="burger" - menu to open/close on burger click
+- div id="burger" - menu container to open/close on burger click
