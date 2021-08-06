@@ -6,9 +6,9 @@ Instead of using the <string.h> which will make the output way bigger you could 
 char *temp=a;while(*temp++=*b++);
 ```
 
-- `char *temp=a;` - create a temporary pointer to the initial string
-- `(*temp++=*b++);` - make the first element of `temp` the first element of `b` and shift them both by one 
-- `while(` - take the returned value (which is the current element of `b`) and if it's not `'\0'` continue
+- char \*temp=a; - create a temporary pointer to the initial string
+- (\*temp++=\*b++); - make the first element of `temp` the first element of `b` and shift them both by one 
+- while( - take the returned value (which is the current element of `b`) and if it's not `'\0'` continue
 
 ## Example
 
@@ -21,6 +21,6 @@ int main() {
     return 0;
 }
 ```
-```
+```bash
 test
 ```
