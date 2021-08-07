@@ -8,8 +8,8 @@ function listUnique(lista) {
         listUnique([1, 2, 3, 4, 5, 5]);
 ```
 
--  O objeto Set permite que você armazene valores únicos de qualquer tipo, desde valores primitivos a referências a objetos.
-- Sintaxe  
+- The Set object lets you store unique values ​​of any type, from primitive values ​​to object references.
+- Syntax  
 - new Set([iterable]);
--  Se um objeto iterável é passado, todos os seus elementos serão adicionados ao novo Set.
--  Se tal parâmetro não for específicado, ou se seu valor for null, o novo Set estará vazio.
+- If an iterable object is passed, all its elements will be added to the new Set.
+- If such parameter is not specified, or if its value is null, the new Set will be empty.
