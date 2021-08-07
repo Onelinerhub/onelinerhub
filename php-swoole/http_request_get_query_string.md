@@ -17,5 +17,5 @@ $http->start();
 curl 127.0.0.1:81?id=20
 ```
 ```
-20 # printed on server (not returned to client)
+20 // printed on server (not returned to client)
 ```
