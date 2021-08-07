@@ -1,10 +1,12 @@
-# Execute JavaScript on the main window
+# Inject javascript into webpage from the background script
 
-Instead of injecting code which is not the ideal solution you can execute code directly
+Should be executed in [background script](https://developer.chrome.com/docs/extensions/mv3/background_pages/).
 
 ```js
 chrome.tabs.executeScript({code: "alert(1)"})
 ```
 
-- `chrome.tabs.executeScript` - tell chrome to execute the script on the current tab
-- `{code: "alert(1)"}` - specify the code to be executed
+- chrome.tabs.executeScript - tell chrome to execute the script on the current tab
+- alert(1) - code to be executed
+
+group: inject
