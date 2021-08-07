@@ -3,7 +3,8 @@
 ```html
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active');">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="burger"
+       onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active');">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -23,4 +24,4 @@
 - class="navbar-burger" - burger icon button
 - data-target="burger" - specify id of an element to attach burger button to
 - div id="burger" - menu container to open/close on burger click
-- onclick - js that activates the burger and will run on burger click
+- onclick - example js handler that activates the burger and will run on burger click
