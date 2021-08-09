@@ -1,14 +1,12 @@
-## Generating random numbers with numpy
+# Generating random numbers using numpy
 
-Start the numpy library
 ```python
 import numpy
-```
-Call the random functions
-```python
+
 a = numpy.random.randint(0,10)
 b = numpy.random.random(1)
 ```
 
-- a - randint returns a random interger in the (foo, bar) interval
-- b - random returns a random float in the (0.0, foo) interval
+- randint(0,10) - returns a random interger in the (`foo`, `bar`) interval
+- random(1) - returns a random float in the `0.0` ... (`foo`) interval
+- import numpy - start the numpy library
