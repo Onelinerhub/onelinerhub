@@ -1,13 +1,10 @@
 # How to replace functions with Lambda functions
 
-This function
-```python
-def sum(foo):
-    return foo+foo
-```
-gives the same output as doing a lambda function like this:
+Very useful if you want to create one-use, one-liner functions on a program.
+
 ```python
 lambda foo: foo+foo
 ```
-This is very useful if you want to create one-use, one-liner functions on a program.
 
+- lambda foo - lamba function declaration (alterntive to standard function declaration `def sum(foo)`)
+- : foo+foo - lamba function return value (the same as `return foo+foo` in standard function)
