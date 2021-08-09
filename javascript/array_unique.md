@@ -2,7 +2,7 @@
 
 ```javascript
 var list = [1, 2, 3, 4, 5, 5];
-var unique = [...new Set(list)];
+var unique = |{|[...new Set(list)]|}|;
 ```
 
 - var list - declare test array to get unique values from
