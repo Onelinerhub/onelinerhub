@@ -7,3 +7,4 @@ var unique = [...new Set(list)];
 
 - var list - declare test array to get unique values from
 - new Set(list) - store unique values from passed `list` array (can contain objects of any type, from primitive values to object references).
+- var unique - will contain final list with unique values only
