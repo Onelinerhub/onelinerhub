@@ -1,6 +1,6 @@
 # Convert any ArrayList to Array
 
-You can convert any reference typed ArrayList to array using toArray method of ArrayList class.
+You can convert any reference typed `ArrayList` to array using `toArray` method of `ArrayList` class.
 
 ```java
 T[] typedArray = typedList.toArray(T[]::new);
