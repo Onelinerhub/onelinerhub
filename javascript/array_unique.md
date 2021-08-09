@@ -1,11 +1,15 @@
 # Get unique values from array
 
 ```javascript
-var arr = [1, 2, 3, 2, 4];
-var unique = arr.filter(function(val, i, self) { return self.indexOf(val) === i; });
+function listUnique(lista) {
+            unique = [...new Set(lista)];
+            console.log(unique);
+        }
+        listUnique([1, 2, 3, 4, 5, 5]);
 ```
 
-- var arr - declare array with duplicate elements
-- var unique - will contain final array with unique values only
-- arr.filter - allows iterating through an array with a custom function
-- return self.indexOf(val) === i - custom function will return ```false``` (value will be removed from final array) if current element is duplicate
+- The Set object lets you store unique values ​​of any type, from primitive values ​​to object references.
+- Syntax  
+- new Set([iterable]);
+- If an iterable object is passed, all its elements will be added to the new Set.
+- If such parameter is not specified, or if its value is null, the new Set will be empty.
