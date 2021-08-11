@@ -19,3 +19,5 @@ print(list_reversed)
 ```bash
 ['baz', 'bar', 'foo']
 ```
+
+group: reverse_list
