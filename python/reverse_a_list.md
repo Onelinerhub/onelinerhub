@@ -5,6 +5,15 @@ list_a = ["foo", "bar", "baz"]
 list_a.reverse()
 ```
 
-- output: ['baz', 'bar', 'foo']
-- the function reverse takes no input and does not require any imports
+- .reverse() - function takes no input and does not require any imports
+
+# Example
+
+```python
+list_a = ["foo", "bar", "baz"]
+list_a.reverse()
+```
+```bash
+['baz', 'bar', 'foo']
+```
 
