@@ -1,4 +1,4 @@
-# Reverse a list with a function 
+# Reverse a list using a function 
 
 ```python
 list_a = ["foo", "bar", "baz"]
