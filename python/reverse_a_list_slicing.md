@@ -1,4 +1,4 @@
-# Reverse a list with slicing
+# Reverse a list using slicing
 
 ```python
 list_a = ["foo", "bar", "baz"]
