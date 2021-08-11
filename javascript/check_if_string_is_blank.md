@@ -1,9 +1,9 @@
 # Check if a string is blank
 
 ```javascript
-const isBlank = (string) => {
-  return string.trim().length === 0;
-};
+var is_blank = str.trim().length === 0;
 ```
 
-- string.trim().length === 0 - trim the whitespace around, returns true if remaining string is empty.
+- is_blank - will contain `true` if the `str` string is blank
+- str.trim() - trims whitespaces around the string
+- .length === 0 - returns `true` if remaining string is empty
