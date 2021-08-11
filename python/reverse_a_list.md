@@ -17,3 +17,4 @@ list_a.reverse()
 ['baz', 'bar', 'foo']
 ```
 
+group: reverse_list
