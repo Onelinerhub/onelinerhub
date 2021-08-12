@@ -1,5 +1,7 @@
 # PostgreSQL connect and query example
 
+Make sure to [install postgres extension](https://www.swoole.co.uk/docs/modules/swoole-coroutine-postgres) for Swoole.
+
 ```php
 Co\run(function() {
 
