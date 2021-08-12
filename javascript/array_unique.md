@@ -1,11 +1,10 @@
 # Get unique values from array
 
 ```javascript
-var arr = [1, 2, 3, 2, 4];
-var unique = arr.filter(function(val, i, self) { return self.indexOf(val) === i; });
+var list = [1, 2, 3, 4, 5, 5];
+var unique = |{|[...new Set(list)]|}|;
 ```
 
-- var arr - declare array with duplicate elements
-- var unique - will contain final array with unique values only
-- arr.filter - allows iterating through an array with a custom function
-- return self.indexOf(val) === i - custom function will return ```false``` (value will be removed from final array) if current element is duplicate
+- var list - declare test array to get unique values from
+- new Set(list) - store unique values from passed `list` array ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set))
+- var unique - will contain final list with unique values only
