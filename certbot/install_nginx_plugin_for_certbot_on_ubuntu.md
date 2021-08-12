@@ -3,7 +3,6 @@
 Make sure to [install Certbot](https://onelinerhub.com/certbot/install_certbot_on_ubuntu) first.
 
 ```bash
-```
 apt update && apt install python3-certbot-nginx
 ```
 
