@@ -1,4 +1,4 @@
-# How to shutdown Swoole server from program
+# How to shutdown Swoole server from program.
 
 ```php
 $srv = new Swoole\Server('127.0.0.1', 81);
