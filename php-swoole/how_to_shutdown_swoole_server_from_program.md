@@ -17,3 +17,5 @@ $srv->start();
 - on('receive' - handle event when client send us request
 - 'off' - let's shut down the server if we receive `off` from client
 - $srv->shutdown() - shuts down server
+
+group: shutdown
