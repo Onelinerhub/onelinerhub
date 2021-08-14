@@ -47,7 +47,7 @@ Yes, as long as the solution is targeted towards specific problem and is well ex
 
 
 ## Latest updates
-- [Generating random numberws in Python](https://onelinerhub.com/python/random_numbers)
+- [Generating random numbers in Python](https://onelinerhub.com/python/random_numbers)
 - [PHP async code example based on Swoole](https://onelinerhub.com/php-swoole/async_example)
 - [Disable browser caching with HTTP headers](https://onelinerhub.com/http-headers/disable_cache)
 - [Basic HTTP auth with Nginx](https://onelinerhub.com/nginx/http_auth)
