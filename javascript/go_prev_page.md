@@ -1,10 +1,18 @@
 # Go Back To Previous Page
 
-### Option A - using the `back` method.
+## Method A- using the `back` method.
 
 ---
 
-Example:
+### Description:
+
+---
+
+Here `history.back()` is triggered when the button is clicked, which inturn, allows the user to go back to the previous page
+
+### Code:
+
+---
 
 ```javascript
 
@@ -15,15 +23,21 @@ history.back()
 <button onClick="history.back()" type="submit">Go Back</button>
 ```
 
-Here `history.back()` is triggered when the button is clicked, which inturn, allows the user to go back to the previous page
+---
+
+## Method B - using the `go` method
 
 ---
 
-### Option B - using the `go` method
+### Description:
 
 ---
 
-Example:
+Here `history.go(-1)` is triggered when the button is clicked, which inturn, allows the user to go back to the previous page. (-1 defines the prev page).
+
+### Code:
+
+---
 
 ```javascript
 
@@ -33,7 +47,5 @@ history.go(-1)
 
 <button onClick="history.go(-1)" type="submit">Go Back</button>
 ```
-
-Here `history.go(-1)` is triggered when the button is clicked, which inturn, allows the user to go back to the previous page. (-1 defines the prev page).
 
 ---
