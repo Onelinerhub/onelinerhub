@@ -2,7 +2,6 @@
 
 When you start a class in java, you usually don't make properties of class publicly available to set a couple of rules for them to be edited.
 This is called encapsulation in java.
-Let's
 
 ```java
 public class Example
