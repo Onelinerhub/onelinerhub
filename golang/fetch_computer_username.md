@@ -1,3 +1,4 @@
+# Fetch the username of the running computer
 
 ```Go
 package main
