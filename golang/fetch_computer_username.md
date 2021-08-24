@@ -22,7 +22,7 @@ func main() {
 }
 ```
 
-- import os/user - Package user allows user account lookups by name or id.
-- import log - Packet logging implements a simple log pack. It defines a type of Logger with methods for formatting the output.
-- 'Current()' Current returns the current user.
-- 'user.Username' Returns the name of the computer user.
+- "os/user" - Package user allows user account lookups by name or id.
+- "log" - packet logging implements a simple log pack. It defines a type of Logger with methods for formatting the output.
+- user.Current() - returns the current user.
+- user.Username - returns the name of the computer user.
