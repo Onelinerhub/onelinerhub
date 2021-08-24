@@ -1,4 +1,4 @@
-# Get current date with Date class
+# Get current date using Date class
 
 ```java
 Date currentDate = new Date();
