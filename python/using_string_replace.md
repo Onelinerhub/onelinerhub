@@ -4,7 +4,7 @@
 yourString.replace(oldvalue, newvalue, count)
 ```
 
-- replace() - replaces specific phrase with other specified phrase (does not require any imports)
+- .replace( - replaces specific phrase with other specified phrase (does not require any imports)
 
 ## Example
 
