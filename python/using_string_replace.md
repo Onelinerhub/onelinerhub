@@ -4,19 +4,15 @@
 yourString.replace(oldvalue, newvalue, count)
 ```
 
-- .replace() - does not require any imports
-- replace() - method replaces a specific phrase with other specified phrase.
+- replace() - replaces specific phrase with other specified phrase (does not require any imports)
 
-
-# Example
+## Example
 
 ```python
 sentence = "I like Apple"
 y = sentence.replace("Apple","Pear")
 print(y)
 ```
-
-## Output
 ```python
 I like Pear
 ```
