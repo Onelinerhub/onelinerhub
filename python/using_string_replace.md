@@ -5,7 +5,7 @@ yourString.replace(oldvalue, newvalue, count)
 ```
 
 - .replace() - does not require any imports
-- The 'replace()' method replaces a specified phrase with another specified phrase.
+- replace() - method replaces a specific phrase with other specified phrase.
 
 
 # Example
@@ -15,7 +15,8 @@ sentence = "I like Apple"
 y = sentence.replace("Apple","Pear")
 print(y)
 ```
-##output
+
+## Output
 ```python
 I like Pear
 ```
