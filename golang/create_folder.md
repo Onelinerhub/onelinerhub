@@ -17,7 +17,7 @@ func main() {
 }
 ```
 
-- import os - include operating-system level library.
-- import log - packet logging implements a simple log pack. It defines a type of Logger with methods for formatting the output.
-- os.Create("File name") - function is used to create file
+- "os" - include operating-system level library
+- "log" - packet logging implements a simple log pack. It defines a type of Logger with methods for formatting the output.
+- os.Create("file.txt") - function is used to create file named `file.txt`
 - file.Close() - Closes the file after file operations are complete.
