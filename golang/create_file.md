@@ -1,4 +1,4 @@
-# Creating a folder
+# How to create a file
 
 ```Go
 package main
