@@ -1,4 +1,4 @@
-# Install certbot apache plugin on Ubuntu.
+# Install Certbot Apache plugin on Ubuntu.
 
 Make sure to [install Certbot](https://onelinerhub.com/certbot/install_certbot_on_ubuntu) first.
 
