@@ -5,6 +5,8 @@ arr.findIndex(el => el == 'val')
 ```
 
 - arr - array to search in
+- findIndex - find index of the element defined by a callback function
+- el == 'val' - we want to get index of an element with `val` value
 
 
 ## Example
