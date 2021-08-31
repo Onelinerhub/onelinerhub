@@ -1,5 +1,4 @@
-# How to play sound in a chrome-extension
-
+# How to play sound
 Should be executed in [content script](https://developer.chrome.com/docs/extensions/mv3/content_scripts/),
 which is [specified in manifest.json](/chrome-extension/content_script).
 
