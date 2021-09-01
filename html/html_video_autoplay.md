@@ -1,4 +1,4 @@
-# html video autoplay
+# Autoplay videos in HTML
 
 ```html
 <video autoplay>
