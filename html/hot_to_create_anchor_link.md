@@ -1,7 +1,5 @@
 # Hot to create anchor link
 
-<h2 id="anc">Title</h2>
-
 ```html
 <a href="#anc">link to anchor</a>
 <h2 id="anc">Title</h2>
