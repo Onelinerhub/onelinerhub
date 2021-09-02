@@ -3,7 +3,7 @@
 ```javascript
 fetch('/backend.php', {
   method: 'post',
-  body: FormData(document.querySelector('form'))
+  body: new FormData(document.querySelector('form'))
 }).then(function(r) {
   return r.json();
 }).then(function(data) {
