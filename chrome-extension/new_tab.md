@@ -4,9 +4,7 @@ Should be executed in [background script](https://developer.chrome.com/docs/exte
 [Tabs permissions](https://developer.chrome.com/docs/extensions/reference/tabs/#manifest) should be set in `manifest.json`.
 
 ```javascript
-chrome.browserAction.onClicked.addListener(function() {
-  chrome.tabs.create({ url: "https://example.org/" });
-});
+chrome.tabs.create({ url: "https://example.org/" });
 ```
 
 - browserAction.onClicked - example listener, listen to extension icon click in our case
