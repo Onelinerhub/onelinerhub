@@ -6,8 +6,8 @@
 
 - new URL - create native JS URL object to parse specified URL
 - some_url - URL to parse
-- pathname - returns pathname of specified URL
-- param - name of query string parameter to get value of
+- searchParams - list of all get parameters
+- (param) - name of query string parameter to get value of
 
 ## Example
 ```javascript
