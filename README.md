@@ -1,8 +1,6 @@
 # oneliner:hub
 Lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/).
 
-![oneliner:hub example](/example.png)
-
 ## Help by contributing
 Just create a pull request with new/updated codes.
 Feel free to add/update any tech code piece you find useful.
