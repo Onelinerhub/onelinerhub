@@ -1,15 +1,20 @@
-# onelinerhub
+# Onelinerhub
 Lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/).
-We have launched new UI on 1st of October.
-Please send all bug reports to [issues](https://github.com/nonunicorn/onelinerhub/issues).
+
+## Why we do it and where we go
+We're building non-profit opensource code hub to address following issues:
+- clear simple modern solutions for repeatable coding challeges
+- moderated single-standard solutions instead of "here's a list of 25 answers with 125 comments"
+- code parts explanations to fight dumb copy-paste, but educate instead
+- no ads, no paid access, just community contributions and usefulness instead of profits 
 
 ## Help by contributing
-Just create a pull request with new/updated codes.
+- Join our organization here: https://github.com/Onelinerhub
+- Clone [repo](https://github.com/Onelinerhub/onelinerhub) and create pull requests
+- Create [issues](https://github.com/Onelinerhub/onelinerhub/issues) to request UI/code updates
+
 Feel free to add/update any tech code piece you find useful.
 
-### Help needed now:
-- See [list of issues](https://github.com/nonunicorn/onelinerhub/issues)
-- Any new technologies not listed [here](https://onelinerhub.com/) are also welcome
 
 ## Principles
 - 3 main principles for code pieces here are: simple, modern, minimal
