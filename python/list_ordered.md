@@ -1,7 +1,7 @@
 # How to order list
 
 ```python
-list = [11, 3, 7, 5, 2, 99, 10]
+list = [10, 2, 7]
 ordered = sorted(list)
 ```
 
