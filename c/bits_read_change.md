@@ -49,7 +49,7 @@ int main(){
     return 0;
 }
 ```
-```bash
+```
 n 0th Bit: 1
 n 1th Bit: 0
 n when 1th bit is on: 47
