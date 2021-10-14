@@ -1,4 +1,4 @@
-# Allow access to on IP address only
+# Allow access to single IP address only
 
 ```nginx
 location / {
