@@ -13,7 +13,8 @@ dict['new'] = 'val'
 ```python
 dict = {'a': 'b'}
 dict['new'] = 'val'
-print(dict)```
+print(dict)
+```
 ```
 {'a': 'b', 'new': 'val'}
 ```
