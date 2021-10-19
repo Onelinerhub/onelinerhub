@@ -1,4 +1,5 @@
-# Make API Request
+# REST API request example
+
 ```python
 import requests
 
