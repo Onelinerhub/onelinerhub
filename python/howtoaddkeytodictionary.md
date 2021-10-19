@@ -15,4 +15,5 @@ dict = {'a': 'b'}
 dict['new'] = 'val'
 print(dict)```
 ```
-{'a': 'b', 'new': 'val'}```
+{'a': 'b', 'new': 'val'}
+```
