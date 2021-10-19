@@ -1,10 +1,17 @@
 # How to lowercase a string
 
 ```python
-message = "HELLO WORLD"
-print(message.lower())
+var.lower()
 ```      
 
 - message - Is a string type varibale
 - message.lower() - Is converts any string into lowercase
-- ...
+
+## Example:
+```python
+message = "HI"
+print(message.lower())
+```
+```bash
+hi
+```
