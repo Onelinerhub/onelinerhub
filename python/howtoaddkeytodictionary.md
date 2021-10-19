@@ -2,7 +2,8 @@
 
 ```python
 dict = {'a': 'b'}
-dict['new'] = 'val'```
+dict['new'] = 'val'
+```
 
 - `dict` - sample dictionary to add key to
 - `new` - key name to add to dict
