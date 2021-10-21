@@ -1,13 +1,20 @@
-# oneliner:hub
+# Onelinerhub
 Lib of micro code pieces, well explained and mostly single-line solutions @ [onelinerhub.com](https://onelinerhub.com/).
 
+## Why we do it and where we go
+We're building non-profit opensource code hub to address following issues:
+- clear simple modern solutions for repeatable coding challeges
+- moderated single-standard solutions instead of "here's a list of 25 answers with 125 comments"
+- code parts explanations to fight dumb copy-paste, but educate instead
+- no ads, no paid access, just community contributions and usefulness instead of profits 
+
 ## Help by contributing
-Just create a pull request with new/updated codes.
+- Join our organization here: https://github.com/Onelinerhub
+- Clone [repo](https://github.com/Onelinerhub/onelinerhub) and create pull requests
+- Create [issues](https://github.com/Onelinerhub/onelinerhub/issues) to request UI/code updates
+
 Feel free to add/update any tech code piece you find useful.
 
-### Help needed now:
-- See [list of issues](https://github.com/nonunicorn/onelinerhub/issues)
-- Any new technologies not listed [here](https://onelinerhub.com/) are also welcome
 
 ## Principles
 - 3 main principles for code pieces here are: simple, modern, minimal
@@ -20,13 +27,12 @@ Feel free to add/update any tech code piece you find useful.
 - Each code file should be placed in it's main technology folder (e.g. "php", "bash", etc).
 - File should have short but understandable naming in underscore format (e.g. "redirect_header.md")
 - Extension is always ".md", so all the markdown works
-- File must include title (```"# title"```) as the first line (technology title is automatically added in UI ```{title} with {technology}``` unless you specify it manually, like ```{title} in {technology}```)
+- File must include title (```"# title"```) as the first line (technology title is automatically added in UI ```{title} #{technology}```)
 - File must include actual code snippet in the [highlighted code](https://guides.github.com/features/mastering-markdown/) block
 - File should also include code parts description, so it's well explained (example in [template](/template.md))
 - File can also include group definition to link similar solution (e.g. different date formats or string comparison methods)
 - You can upload PNG file with the same file name as the code file and it will automatically be rendered in UI
 - Example can be specified using ```## Example``` header followed by 2 code blocks (input and output examples)
-- You can also markup default code piece to select (when reader ctrl+c, this pieace will automatically be selected instead of full code), wrapping it in ```|{|```...```|}|``` (like [here](https://github.com/nonunicorn/onelinerhub/blob/main/chart.js/disable_animation.md), see [how autoselect works](https://onelinerhub.com/chart.js/set_start_zero))
 
 Use [this template](/template.md) for creating new code pieces.
 
@@ -42,14 +48,3 @@ You are welcome to do it with pull request as long as it will make the code bett
 > "Can I post multi-line code (not a one-liner)?"
 
 Yes, as long as the solution is targeted towards specific problem and is well explained
-
-
-## Latest updates
-- [Generating random numbers in Python](https://onelinerhub.com/python/random_numbers)
-- [PHP async code example based on Swoole](https://onelinerhub.com/php-swoole/async_example)
-- [Disable browser caching with HTTP headers](https://onelinerhub.com/http-headers/disable_cache)
-- [Basic HTTP auth with Nginx](https://onelinerhub.com/nginx/http_auth)
-- [How to inject Javascript code into web page using Chrome extension](https://onelinerhub.com/chrome-extension/inject_js)
-- [How to find the sum of all the elements of an integer array with c](https://onelinerhub.com/c/sum_of_integer_array)
-- [Quickly copy large number of files using scp](https://onelinerhub.com/ssh/copy_large_number_of_files)
-- ... and other [fresh code pieces](https://onelinerhub.com/?latest=1)
