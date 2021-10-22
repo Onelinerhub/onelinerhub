@@ -1,16 +1,23 @@
-# How to parse json
+# How to parse JSON
 
 ```python
 import json
-
-#example json string
-foo = '{"id":"001","name":"abc","location":"xyz"},{"id":"002","name":"def","location":"uvw"}'
-json.loads(foo) #for json string
-
-file1=open('data.json',)
-foo1 = json.load(file1)
-file1.close()
+obj = json.loads(foo)
 ```      
 
-- json.loads(string) - parse a json string and saves in python dictionary
-- json.load(file_name) - parse json object in file and gives result in dictionary
+- foo - example JSON string
+- obj - dictionary that will have JSON parsed and stored in it
+- json.loads - parse a json string and saves in python dictionary
+
+## Example:
+```python
+import json
+foo = '{"id":"001","name":"abc","location":"xyz"}'
+obj = json.loads(foo)
+print(obj)
+```
+```bash
+{'id': '001', 'name': 'abc', 'location': 'xyz'}
+```
+
+group: json
