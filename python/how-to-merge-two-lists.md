@@ -13,3 +13,7 @@ merged_list = [1, 2, 3] + [4, 5, 6]
 merged_list = [1, 2, 3] + [4, 5, 6]
 print(merged_list)
 ```
+```
+[1, 2, 3, 4, 5, 6]
+
+```
