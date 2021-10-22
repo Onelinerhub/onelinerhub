@@ -7,6 +7,8 @@ else:
   print("list is empty")
 ```
 
+- `list` - name of the list variable to check for emptiness
+- `print("list is not empty")` - this code will execute if `list` is not empty
 
 ## Example: 
 ```python
