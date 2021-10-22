@@ -9,4 +9,3 @@ print(data)
 - open() - open(path to file, mode)
 - 'r' - read mode
 - read() - read all text from a file into a string
-- print - displaying the output
