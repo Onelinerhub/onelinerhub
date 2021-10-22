@@ -1,12 +1,18 @@
-# Reverse a string with slice syntax
+# Reverse a string
 
 ```python
-print( "your_string"[::-1] );
+reversed = "string"[::-1]
 ```
 
+- reversed - will contain reversed string
+- "string" - example string to reverse
 - \[::-1\] - slice assignment operation
 
 
-<!-- 
-  group: reverse_list ???
--->
+## Example
+```python
+print("string"[::-1])
+```
+```
+gnirts
+```
