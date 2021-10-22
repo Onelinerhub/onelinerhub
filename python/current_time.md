@@ -1,4 +1,4 @@
-# Get Current Time
+# How to get current time
 
 ```python
 from datetime import datetime
