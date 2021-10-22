@@ -4,6 +4,8 @@
 type(var)
 ```
 
+- `type` - function will return type of specified variable
+- `var` - example variable to get type of
 
 ## Example: 
 ```python
