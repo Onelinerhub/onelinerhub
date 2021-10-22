@@ -9,6 +9,8 @@ date_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 - `now()` - return current time
 - `strftime` - method formats given time in a [specified format](https://manpages.debian.org/bullseye/manpages-dev/strftime.3.en.html)
 
+group: date_time
+
 ## Example: 
 ```python
 from datetime import datetime
