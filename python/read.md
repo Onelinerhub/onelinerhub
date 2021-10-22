@@ -1,11 +1,20 @@
-# Read Text File
+# How to read text file
 
 ```python
-file = open('hello.txt','r')
-data = file.read()
-print(data)
+with open('hello.txt', 'r') as f:
+  data = file.read()
 ```
 
-- open() - open(path to file, mode)
+- open() - opens file with the specified mode
 - 'r' - read mode
 - read() - read all text from a file into a string
+
+## Example
+```python
+with open('hello.txt', 'r') as f:
+  data = file.read()
+  print(data)
+```
+```
+some text
+```
