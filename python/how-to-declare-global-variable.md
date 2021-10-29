@@ -28,3 +28,6 @@ print(var)
 2
 
 ```
+
+## Additional keywords
+- define global variable
