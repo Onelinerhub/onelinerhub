@@ -1,4 +1,4 @@
-# How to terminate script
+# How to terminate a script
 
 ```python
 quit()
