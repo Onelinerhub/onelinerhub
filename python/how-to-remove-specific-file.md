@@ -11,4 +11,4 @@ os.remove("/tmp/file.txt")
 
 
 ## Additional keywords
--delete file
+- delete file
