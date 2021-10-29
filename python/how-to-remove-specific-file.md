@@ -6,5 +6,5 @@ os.remove("hello.txt")
 ```
 
 - `import os` - import os library
-- `os.remove()` - deletes the file
+- `os.remove(` - deletes the file
 
