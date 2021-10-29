@@ -1,4 +1,4 @@
-# How to get class name
+# How to get class name of an object
 
 ```python
 type(var).__name__
@@ -17,3 +17,7 @@ print(type(x).__name__)
 int
 
 ```
+
+## Additional keywords
+- variable
+- instance
