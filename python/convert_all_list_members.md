@@ -1,19 +1,22 @@
 # How to convert all list members to another data type
 
 ```python
-converted = list(map(str, iterable_name))
+converted = list(map(new_type, list_of_items))
 ```
 
-- converted - new list that contain converted values
-- list - convert the final result to list
-- str - data type you want the list member to convert to(target data type) e.g.(str, int, bool)
-- iterable_name - list you want to source list
+- `converted` - new list that contain converted values
+- `list(` - convert the final result to list
+- `new_type` - data type you want the list member to convert to(target data type) e.g.(str, int, bool)
+- `list_of_items` - list you want to source list
+- `map(` - applies specified function to each element of specified list
 
-## Example
+## Example: 
 ```python
-list_of_numbers = ["1", "2", "3"] # list must contain base10 numbers
+list_of_numbers = ["1", "2", "3"]
 converted = list(map(int, list_of_numbers))
+print(converted)
 ```
-```bash
+```
 [1, 2, 3]
+
 ```
