@@ -4,7 +4,16 @@
 python -c "import os;print(len(os.listdir(os.getcwd())))"
 ```
 
-- -c - flag allows the execution of statements following the flag
-- import os - use os module
-- os.getcwd() - get path to current (working) directory
-- os.listdir( - list all contents of directory
+- `-c` - <p>flag allows the execution of statements following the flag</p>
+- `import os` - <p>use os module</p>
+- `os.getcwd()` - <p>get path to current (working) directory</p>
+- `os.listdir(` - <p>list all contents of directory</p>
+
+## Example: 
+```bash
+import os; print(len(os.listdir(os.getcwd())))
+```
+```
+1
+
+```
