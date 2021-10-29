@@ -9,3 +9,6 @@ os.remove("/tmp/file.txt")
 - `os.remove(` - deletes the file
 - `/tmp/file.txt` - path to file to remove
 
+
+## Additional keywords
+-delete file
