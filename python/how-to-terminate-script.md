@@ -6,6 +6,16 @@ quit()
 
 - `quit(` - will stop execution of a script
 
+## Example: 
+```python
+print('a')
+quit();
+print('b')
+```
+```
+a
+
+```
 
 ## Additional keywords
 - quit script
