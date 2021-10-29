@@ -4,7 +4,7 @@
 quit()
 ```
 
-- `quit(` - will stop execution of a script
+- `quit()` - will stop execution of a script
 
 ## Example: 
 ```python
