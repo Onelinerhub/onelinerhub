@@ -34,7 +34,7 @@ for element in root:
     </friend>
 </data>
 ```
-*read_xml_py:*
+*read_xml_file.py:*
 ```python
 import xml.etree.ElementTree as ET
 tree = ET.parse('friends.xml')
