@@ -89,3 +89,8 @@ Example:
     }
 ]
 ```
+
+
+## Integrations
+
+- [Visual Studio plugin](https://marketplace.visualstudio.com/items?itemName=pashkatrick.oneliner)
