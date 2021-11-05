@@ -6,7 +6,7 @@ del my_dict[key]
 
 - `del` - removes element from dict by key
 - `my_dict` - dict to remove element from
-- `key` - key of the element to remove
+- `[key]` - key of the element to remove
 
 group: delete_element
 
