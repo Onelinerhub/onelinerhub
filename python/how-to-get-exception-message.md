@@ -10,6 +10,7 @@ except Exception as mye:
 - `message` - will store exception message
 - `str(` - convert exception to string (to get it's error message)
 - `mye` - variable that stores exeption
+- `raise Exception('hi')` - throws example exception
 
 ## Example: 
 ```python
