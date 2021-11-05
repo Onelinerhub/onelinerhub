@@ -8,6 +8,8 @@ merged_list = [1, 2, 3] + [4, 5, 6]
 - `[1, 2, 3]` - first example list
 - `[4, 5, 6]` - second example list
 
+group: merge_objects
+
 ## Example: 
 ```python
 merged_list = [1, 2, 3] + [4, 5, 6]
