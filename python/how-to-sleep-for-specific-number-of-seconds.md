@@ -4,7 +4,7 @@
 import time
 time.sleep(10)
 
-# code after 10 seconds of waiting...
+# code after waiting...
 ```
 
 - `time` - module with time functions
