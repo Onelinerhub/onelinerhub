@@ -5,7 +5,7 @@ padded = "{:05d}".format(number)
 ```
 
 - `padded` - will contain zero-padded string
-- `05d` - pad using 5 places
+- `05d` - pad using `5` places
 - `format(` - formats string and injects specified variables
 - `number` - number to pad
 
