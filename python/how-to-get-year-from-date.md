@@ -7,6 +7,8 @@ year = datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S").year
 ```
 
 
+group: date_extract
+
 ## Example: 
 ```python
 import datetime
