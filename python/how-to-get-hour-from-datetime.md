@@ -10,7 +10,7 @@ hour = datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S").hour
 - `date = ` - example date to extract part from
 - `datetime.datetime.strptime` - parses given string  with the given format
 - `"%Y-%m-%d %H:%M:%S"` - format of the datetime string to parse
-- `.hour` - returns hour part of the date
+- `.hour` - returns hour part of the datetime
 
 group: date_extract
 
