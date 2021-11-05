@@ -7,6 +7,8 @@ type(object)
 - `type(` - return type of the object
 - `object` - object variable to get type of
 
+group: object_type
+
 ## Example: 
 ```python
 obj = 'hi'
