@@ -1,4 +1,4 @@
-# How to order dict by keys 1
+# How to order dict by keys
 
 ```python
 sorted = dict(sorted(unsorted.items(), key=lambda item: item[0]))
