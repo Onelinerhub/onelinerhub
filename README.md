@@ -56,7 +56,7 @@ We're happy to provide our code collection for integrations of all types. At thi
 Usage is as simple as calling `api.onelinerhub.com/search` endpoint with `quqery` parameter (GET or POST):
 
 ```bash
-curl "https://api.onelinerhub.com/search?query=php+header+jon"
+curl "https://api.onelinerhub.com/search?query=php+header+json"
 ```
 
 You'll get JSON array with the following objects:
