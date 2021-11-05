@@ -15,3 +15,5 @@ except:
 - `file.xml` - XML file to validate
 - `schema.xsd` - Schema to use for validation
 
+group: xml
+
