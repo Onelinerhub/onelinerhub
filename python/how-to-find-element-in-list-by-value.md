@@ -8,6 +8,8 @@ my_list.index('needle')
 - `index(` - returns index of found element or -1
 - `'needle'` - value to search in list
 
+group: find_element
+
 ## Example: 
 ```python
 my_list = ['first', 'needle', 'third']
