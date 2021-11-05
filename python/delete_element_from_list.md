@@ -5,7 +5,7 @@ myList.remove("Java")
 ```
 
 - `myList` - List to remove element from
-- `remove()` - Removes specified element by value 
+- `remove(` - Removes specified element by value 
 - `"Java"` - Value of an element to remove from list
 
 group: delete_element
