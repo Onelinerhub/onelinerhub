@@ -2,12 +2,12 @@
 
 ```python
 import re
-found = re.findall('[0-9]', 'I was 10 when I was a child')
+found = re.search('[0-9]', 'I was 10 when I was a child')
 ```
 
 - `import re` - module to work with regular expressions
 - `found` - will contain list of found matches
-- `findall` - returns all found matches
+- `search` - find a match of a specified regex in a specified string
 - `[0-9]` - example regular expression (matches all difits)
 - `I was 10 when I was a child` - example string to extract matches from
 
@@ -17,12 +17,12 @@ group: regex
 ```python
 import re
 
-found = re.findall('[0-9]+', 'I was 10 when I was not 9')
+found = re.search('[0-9]+', 'I was 10 when I was not 9')
 
-print(found)
+print(found[0])
 ```
 ```
-['10', '9']
+10
 
 ```
 
