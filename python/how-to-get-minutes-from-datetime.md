@@ -10,7 +10,7 @@ minute = datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S").minute
 - `date = ` - example date to extract part from
 - `datetime.datetime.strptime` - parses given string  with the given format
 - `"%Y-%m-%d %H:%M:%S"` - format of the datetime string to parse
-- `.minute` - returns minute part of the date
+- `.minute` - returns minute part of the datetime
 
 group: date_extract
 
