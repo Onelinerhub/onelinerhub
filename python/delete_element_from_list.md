@@ -1,10 +1,22 @@
-# Delete element from list
+# Delete element from list by value
 
 ```python
-myList = ["Python","Java","Rust","Javascript","Ruby"] 
-myList.pop(2)
 myList.remove("Java")
 ```
 
-- pop() - Remove element at specified index value
-- remove() - Remove specified element 
+- `myList` - List to remove element from
+- `remove()` - Removes specified element by value 
+- `"Java"` - Value of an element to remove from list
+
+group: delete_element
+
+## Example: 
+```python
+myList = ["Python", "Java", "Rust", "Javascript", "Ruby"]
+myList.remove("Java")
+print(myList)
+```
+```
+['Python', 'Rust', 'Javascript', 'Ruby']
+
+```
