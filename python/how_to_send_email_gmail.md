@@ -15,7 +15,7 @@ To: %s
 Subject: %s
 
 %s
-""" % ('my@gmail.com', ", ".to, subject, body)
+""" % ('my@gmail.com', to, subject, body)
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.ehlo()
