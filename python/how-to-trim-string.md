@@ -1,4 +1,4 @@
-# How to trim string
+# How to trim a string
 
 ```python
 " text ".strip()
