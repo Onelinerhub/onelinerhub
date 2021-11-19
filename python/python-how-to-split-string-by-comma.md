@@ -1,4 +1,4 @@
-# python how to split string by comma
+# How to split string by comma
 
 ```python
 str = 'a,b,c,d'
