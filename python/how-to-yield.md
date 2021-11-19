@@ -9,7 +9,7 @@ def squares():
 ```
 
 - `def squares()` - name of the generator function to yield something
-- `while x < 5` - we'll yield some values until x is `5`
+- `while x < 5` - we'll yield some values until `x` is `5`
 - `x = x + 1` - increment `x`
 - `yield x*x` - yields square of `x`
 
