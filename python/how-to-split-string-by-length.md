@@ -6,7 +6,7 @@ chunk = 3
 list = [ str[i*chunk:i*chunk+chunk] for i in range(0, int(len(str)/chunk)) ]
 ```
 
-- `str` - example string to split
+- `str =` - example string to split
 - `chunk` - size of the substring to split by
 - `list` - will contain list with resulting substrings
 - `range(0, int(len(str)/chunk))` - iterate amount of chunks that can fit in our string
