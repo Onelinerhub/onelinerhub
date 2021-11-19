@@ -1,4 +1,4 @@
-# python how to reverse string
+# How to reverse string
 
 ```python
 str = 'test'
