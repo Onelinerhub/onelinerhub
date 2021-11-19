@@ -5,7 +5,7 @@ str = 'a b c d'
 list = str.split(' ')
 ```
 
-- `a,b,c,d` - sample string to split
+- `a b c d` - sample string to split
 - `str.split(` - will split string by specified character
 - `' '` - split string by space
 
