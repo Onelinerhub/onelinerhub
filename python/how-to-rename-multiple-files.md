@@ -9,7 +9,7 @@ for file in os.listdir('/dir'):
 
 - import os - library to work with files and dirs
 - `os.listdir(` - gets all the files inside specified directory, iterates each file inside the loop
-- `/dir` - directory with files to rename
+- '/dir' - directory with files to rename
 - `new_` -  prefix to add to renamed files
 - `rename(` - function to rename the file
 
