@@ -1,4 +1,4 @@
-# python how to split string by space
+# How to split string by space
 
 ```python
 str = 'a b c d'
