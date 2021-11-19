@@ -2,7 +2,7 @@
 
 ```python
 lst = ["abc", "def", "ghi"]
-with open("out.txt", "w") as f:
+with open('out.txt', "w") as f:
     for element in lst:
         f.write(element + "\n")
 ```
