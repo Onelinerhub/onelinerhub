@@ -1,4 +1,4 @@
-# python how to split string by colon
+# How to split string by colon
 
 ```python
 str = 'a:b:c:d'
