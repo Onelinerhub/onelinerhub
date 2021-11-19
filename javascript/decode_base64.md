@@ -1,7 +1,17 @@
 # Decode base64
 
 ```javascript
-atob("ZXhhbXBsZQ==") // example
+atob("ZXhhbXBsZQ==")
 ```
 
-- atob - converts an <ins>A</ins>SCII (base64) string <ins>to</ins> a <ins>b</ins>inary (regular) string
+- `atob` - converts an `ASCII` (base64) string to a `binary` (regular) string
+
+group: base64
+
+## Example: 
+```javascript
+atob("ZXhhbXBsZQ==")
+```
+```
+example
+```
