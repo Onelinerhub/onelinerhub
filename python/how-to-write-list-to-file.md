@@ -2,14 +2,14 @@
 
 ```python
 lst = ["abc", "def", "ghi"]
-f = open("demofile.txt", "w")
-for element in lst:
-    f.write(element + "\n")
-f.close()
+with open("out.txt", "w") as f:
+    for element in lst:
+        f.write(element + "\n")
 ```
 
-- `'demofile.txt'` - name of the file to read
+- list = - sample list to write to file
+- `'out.txt'` - name of the file to read
 - `'w'` - used so that we can write something into new file
 - `f.write` - writes specified text into file
-- `element` - items of list
-
+-  + "\n" - add new file after each element of the list
+- `element` - item of list
