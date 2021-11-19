@@ -12,6 +12,8 @@ except Exception as mye:
 - `mye` - variable that stores exeption
 - `raise Exception('hi')` - throws example exception
 
+group: exception
+
 ## Example: 
 ```python
 try:
