@@ -1,4 +1,4 @@
-# python how to yield nothing
+# How to yield nothing
 
 ```python
 def yield_nothing():
