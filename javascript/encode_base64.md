@@ -1,7 +1,17 @@
 # Encode base64
 
 ```javascript
-btoa("example") // ZXhhbXBsZQ==
+btoa("example")
 ```
 
-- btoa - converts a <ins>b</ins>inary (regular) string <ins>to</ins> an <ins>A</ins>SCII (base64) string 
+- `btoa` - converts a `binary` (regular) string to an `ASCII` (base64) string 
+
+group: base64
+
+## Example: 
+```javascript
+btoa("example")
+```
+```
+ZXhhbXBsZQ==
+```
