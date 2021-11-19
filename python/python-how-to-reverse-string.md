@@ -19,3 +19,6 @@ print(reversed)
 tset
 
 ```
+
+## Additional keywords
+- mirror string
