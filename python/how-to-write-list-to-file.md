@@ -7,7 +7,7 @@ with open("out.txt", "w") as f:
         f.write(element + "\n")
 ```
 
-- list = - sample list to write to file
+- lst = - sample list to write to file
 - `'out.txt'` - name of the file to read
 - `'w'` - used so that we can write something into new file
 - `f.write` - writes specified text into file
