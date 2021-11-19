@@ -1,7 +1,7 @@
 # How to split string by length
 
 ```python
-str = "somelongstring"
+str = "somelongtext"
 chunk = 3
 list = [ str[i*chunk:i*chunk+chunk] for i in range(0, int(len(str)/chunk)) ]
 ```
@@ -16,12 +16,12 @@ group: split_string
 
 ## Example: 
 ```python
-str = "somelongstring"
+str = "somelongtext"
 chunk = 3
 list = [ str[i*chunk:i*chunk+chunk] for i in range(0, int(len(str)/chunk)) ]
 print(list)
 ```
 ```
-['som', 'elo', 'ngs', 'tri']
+['som', 'elo', 'ngt', 'ext']
 
 ```
