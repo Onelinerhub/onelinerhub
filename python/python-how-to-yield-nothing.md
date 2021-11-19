@@ -10,6 +10,8 @@ def yield_nothing():
 - `return` - returns nothing
 - `yield` - yields after return (so never actually yields anything)
 
+group: yield
+
 ## Example: 
 ```python
 def yield_nothing():
