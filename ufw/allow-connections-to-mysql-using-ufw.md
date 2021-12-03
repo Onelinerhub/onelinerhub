@@ -9,3 +9,8 @@ ufw allow mysql
 
 group: mysql
 
+
+## Additional keywords
+- accept
+- enable
+- open
