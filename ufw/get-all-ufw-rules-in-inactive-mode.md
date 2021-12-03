@@ -1,6 +1,6 @@
 # Get all ufw rules in inactive mode
 
-```ufw
+```bash
 ufw show added
 ```
 
@@ -9,7 +9,7 @@ ufw show added
 group: rules
 
 ## Example: 
-```ufw
+```bash
 ufw show added
 ```
 ```
