@@ -20,3 +20,5 @@ Rule added
 
 ## Additional keywords
 - HTTP
+- open
+- accept
