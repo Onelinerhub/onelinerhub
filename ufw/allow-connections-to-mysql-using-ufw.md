@@ -1,6 +1,6 @@
 # Allow connections to mysql using ufw
 
-```bash\
+```bash
 ufw allow mysql
 ```
 
