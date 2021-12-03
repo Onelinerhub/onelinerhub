@@ -23,3 +23,5 @@ Anywhere                   ALLOW IN    1.2.3.4
 - retrieve
 - fetch
 - see
+- find
+- watch
