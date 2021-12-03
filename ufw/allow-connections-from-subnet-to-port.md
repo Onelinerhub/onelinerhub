@@ -1,6 +1,6 @@
 # Allow connections from subnet to port
 
-```ufw
+```bash
 ufw allow from 1.2.3.0/24 proto tcp to any port 80
 ```
 
