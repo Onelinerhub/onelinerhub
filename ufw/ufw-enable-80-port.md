@@ -1,4 +1,4 @@
-# ufw enable 80 port
+# Enable 80 port in ufw
 
 ```bash
 ufw allow 80
