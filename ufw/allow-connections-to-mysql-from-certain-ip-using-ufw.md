@@ -1,6 +1,6 @@
 # Allow connections to mysql from certain IP using ufw
 
-```ufw
+```bash
 ufw allow from 1.2.3.4 to any port 3306
 ```
 
