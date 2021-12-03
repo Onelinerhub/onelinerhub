@@ -5,7 +5,7 @@ ufw logging on
 ```
 
 - `logging` - command to manage logs
-- `on` - enables logging (default level)
+- `on` - enables logging
 
 group: log
 
