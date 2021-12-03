@@ -1,6 +1,6 @@
 # Allow connections from subnet
 
-```ufw
+```bash
 ufw allow from 1.2.3.0/24 proto tcp
 ```
 
