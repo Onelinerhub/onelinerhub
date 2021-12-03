@@ -1,6 +1,6 @@
 # Deny connections to mysql using ufw
 
-```ufw
+```bash
 ufw deny mysql
 ```
 
