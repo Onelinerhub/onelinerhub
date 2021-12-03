@@ -1,4 +1,4 @@
-# How to install ufw in Ubuntu
+# How to install ufw in Ubuntu UBUNTU_VERSION
 
 ```ufw
 sudo apt install ufw
