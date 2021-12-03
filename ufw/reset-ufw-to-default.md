@@ -1,4 +1,4 @@
-# Reset ufw to default
+# Reset ufw to defaults
 
 ```ufw
 ufw --force disable
