@@ -8,6 +8,8 @@ ufw reject from 1.2.3.4 to any
 - `from 1.2.3.4` - specified IP address to reject connections from
 - `to any` - reject connections to all ports and interfaces
 
+group: ip
+
 
 ## Additional keywords
 - deny
