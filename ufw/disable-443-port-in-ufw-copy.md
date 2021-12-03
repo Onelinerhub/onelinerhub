@@ -1,4 +1,4 @@
-# Disable 443 port in ufw COPY
+# Disable 443 port in ufw
 
 ```bash
 ufw deny 80
