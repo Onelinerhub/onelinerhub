@@ -1,6 +1,6 @@
 # Get all ufw rules
 
-```ufw
+```bash
 ufw status numbered
 ```
 
@@ -10,7 +10,7 @@ ufw status numbered
 group: rules
 
 ## Example: 
-```ufw
+```bash
 ufw status numbered
 ```
 ```
