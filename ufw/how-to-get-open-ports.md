@@ -1,13 +1,13 @@
 # How to get open ports
 
-```ufw
+```bash
 ufw status verbose
 ```
 
 - `status verbose` - will return list of current rules, including opened/closed ports
 
 ## Example: 
-```ufw
+```bash
 ufw status verbose
 ```
 ```
@@ -17,3 +17,9 @@ To                         Action      From
 Anywhere                   ALLOW IN    1.2.3.4                   
 80 (v6)                    DENY IN     Anywhere (v6)  
 ```
+
+## Additional keywords
+- list
+- retrieve
+- fetch
+- see
