@@ -1,6 +1,6 @@
 # Deny connections from subnet
 
-```ufw
+```bash
 ufw deny from 1.2.3.0/24
 ```
 
