@@ -11,7 +11,7 @@ group: 443
 
 ## Example: 
 ```bash
-ufw allow 80
+ufw allow 443
 ```
 ```
 Rule added
