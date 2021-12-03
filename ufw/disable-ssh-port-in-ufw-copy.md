@@ -1,4 +1,4 @@
-# Disable SSH port in ufw COPY
+# Disable SSH port in ufw
 
 ```bash
 ufw deny 22
