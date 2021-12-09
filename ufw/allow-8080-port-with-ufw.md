@@ -7,7 +7,7 @@ ufw allow 8080
 - `allow` - enables specified rules to allow traffic
 - `8080` - port to allow
 
-group: 8080
+group: p8080
 
 
 ## Additional keywords
