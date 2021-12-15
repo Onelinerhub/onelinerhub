@@ -22,3 +22,4 @@ docker.io/library/ubuntu:latest
 ## Additional keywords
 - fetch
 - get
+- install
