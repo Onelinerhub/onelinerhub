@@ -1,6 +1,6 @@
 # How to delete docker container
 
-```docker
+```bash
 docker rm ec989e6a8dfe
 ```
 
@@ -10,7 +10,7 @@ docker rm ec989e6a8dfe
 group: delete
 
 ## Example: 
-```docker
+```bash
 docker rm ec989e6a8dfe
 ```
 ```
