@@ -1,6 +1,6 @@
 # How to run docker container
 
-```docker
+```bash
 docker run yandex/clickhouse-server
 ```
 
