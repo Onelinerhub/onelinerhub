@@ -1,6 +1,6 @@
 # How to delete all docker images
 
-```docker
+```bash
 docker rmi $(docker images -aq)
 ```
 
