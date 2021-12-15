@@ -4,7 +4,7 @@
 docker image ls
 ```
 
-- `image` - manipulate images
+- `image` - command to manipulate images
 - `ls` - lists images
 
 group: list
