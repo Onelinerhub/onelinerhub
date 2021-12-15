@@ -1,6 +1,6 @@
 # How to delete all docker containers
 
-```docker
+```bash
 docker rm $(docker ps --filter status=exited -q)
 ```
 
