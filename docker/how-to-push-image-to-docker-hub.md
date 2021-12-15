@@ -6,5 +6,5 @@ docker push user/repo
 
 - `push` - image to push to docker hub
 - `user` - Docker Hub username
-- `repo` - Hocker Hub repository
+- `repo` - Docker Hub repository
 
