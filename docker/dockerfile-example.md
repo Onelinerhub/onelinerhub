@@ -20,5 +20,3 @@ CMD nginx -g "daemon off;"
 - `CMD` - command to run within container
 - `nginx -g "daemon off;"` - run nginx in foregroung
 
-group: dockerfile
-
