@@ -23,3 +23,4 @@ docker.io/library/ubuntu:latest
 - fetch
 - get
 - install
+- add
