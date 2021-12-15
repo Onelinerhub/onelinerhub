@@ -1,6 +1,6 @@
 # How to delete docker image
 
-```docker
+```bash
 docker rmi 7f45e9841c87
 ```
 
@@ -10,7 +10,7 @@ docker rmi 7f45e9841c87
 group: delete
 
 ## Example: 
-```docker
+```bash
 docker rmi 7f45e9841c87
 ```
 ```
