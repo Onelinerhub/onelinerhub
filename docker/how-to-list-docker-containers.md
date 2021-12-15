@@ -4,6 +4,8 @@
 docker container ls
 ```
 
+- `container` - command to manipulate containers
+- `ls` - list containers
 
 group: list
 
