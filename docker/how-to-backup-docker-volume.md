@@ -33,3 +33,6 @@ tar: Removing leading `/' from member names
 /data/hello.txt
 backup.tar.gz
 ```
+
+## Additional keywords
+- We backup `data` volume from running container by creating second temporary container and making tar archive from what's inside the volume.
