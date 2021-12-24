@@ -17,6 +17,6 @@ group: id
 docker container inspect test | grep Id
 ```
 ```
-        "Id": "0548543a2e9824bc2df9ac068e21f763c87efba6d1c3a4425dae50f228ff1f5c",
+"Id": "0548543a2e9824bc2df9ac...",
 
 ```
