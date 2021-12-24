@@ -8,3 +8,5 @@ docker build -t some_name .
 - `-t some_name` - assign name to the image
 - `.` - path to the folder which [Dockerfile](https://onelinerhub.com/docker/dockerfile-example) is located in
 
+group: build
+
