@@ -1,6 +1,6 @@
 # How to add volume to docker container
 
-```docker
+```bash
 docker volume create data
 docker run -it --mount source=data,destination=/data ubuntu
 ```
@@ -18,7 +18,7 @@ docker run -it --mount source=data,destination=/data ubuntu
 group: volume
 
 ## Example: 
-```docker
+```bash
 # docker volume create data
 # docker run -it --mount source=data,destination=/data ubuntu
 root@b52eb21cff1d:/# ls -la /data/
