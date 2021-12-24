@@ -1,4 +1,4 @@
-# How to build docker image
+# How to build docker image from Dockerfile
 
 ```docker
 docker build -t some_name .
