@@ -1,4 +1,4 @@
-# How to find container docker id
+# How to find docker container id
 
 ### Container ID is seen under the first column of `docker ps` command:
 
