@@ -1,6 +1,6 @@
 # How to find ip address of a docker container
 
-```docker
+```bash
 docker container inspect 0548543a2e98 | grep 'IPAddress"'
 ```
 
@@ -11,7 +11,7 @@ docker container inspect 0548543a2e98 | grep 'IPAddress"'
 group: network
 
 ## Example: 
-```docker
+```bash
 docker container inspect 0548543a2e98 | grep 'IPAddress"'
 ```
 ```
