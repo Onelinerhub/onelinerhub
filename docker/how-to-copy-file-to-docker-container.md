@@ -9,3 +9,5 @@ docker cp /home/me/test.txt 7c27810f3d85:/var/www
 - `7c27810f3d85` - ID of the container to copy file to
 - `/var/www` - folder from the container to copy file into
 
+group: file
+
