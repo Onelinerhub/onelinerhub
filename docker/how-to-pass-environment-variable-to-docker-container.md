@@ -11,8 +11,7 @@ docker run -d -e SOME_VAR='some_val' image_name
 - `some_val` - environment variable value
 - `image_name` - name of the docker image to start
 
-## Example: 
-```docker
-set
-add
-```
+
+## Additional keywords
+- set
+- add
