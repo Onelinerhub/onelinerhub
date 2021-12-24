@@ -10,3 +10,5 @@ docker volume rm data
 - `rm` - remove specified volume
 - `data` - name of the volume to remove
 
+group: volume
+
