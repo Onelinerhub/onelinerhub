@@ -1,6 +1,6 @@
 # How to stop docker container
 
-```docker
+```bash
 docker container stop 0548543a2e98
 ```
 
