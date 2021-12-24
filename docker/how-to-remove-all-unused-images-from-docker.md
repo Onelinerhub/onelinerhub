@@ -1,4 +1,4 @@
-# How to remove all unused images from Docker
+# How to remove all unused images and containers from Docker
 
 ```docker
 docker system prune -a
