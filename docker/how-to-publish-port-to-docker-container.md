@@ -11,6 +11,8 @@ docker run -it -p 81:80 nginx
 - `80` - port of container to forward to specified local machine port
 - `nginx` - name of the image to launch container from
 
+group: port
+
 
 ## Additional keywords
 - expose
