@@ -15,6 +15,8 @@ docker run -it --mount source=data,destination=/data ubuntu
 - `destination=/data` - path which volume will be accessed from the container
 - `ubuntu` - image name to launch
 
+group: volume
+
 ## Example: 
 ```docker
 # docker volume create data
