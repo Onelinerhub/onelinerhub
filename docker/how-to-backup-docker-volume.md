@@ -1,5 +1,7 @@
 # How to backup docker volume
 
+### We backup `data` volume from running container by creating second temporary container and making tar archive from what's inside the volume.
+
 ```bash
 docker run -it --mount source=data,destination=/data ubuntu
 docker run --rm --volumes-from 804e9d6977ba -v /tmp/data:/backup ubuntu tar czvf /backup/backup.tar.gz /data
@@ -33,6 +35,3 @@ tar: Removing leading `/' from member names
 /data/hello.txt
 backup.tar.gz
 ```
-
-## Additional keywords
-- We backup `data` volume from running container by creating second temporary container and making tar archive from what's inside the volume.
