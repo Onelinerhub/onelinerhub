@@ -1,7 +1,5 @@
 # How to find docker container id by name 
 
-### Container ID is seen under the first column of `docker ps` command:
-
 ```bash
 docker container inspect test | grep Id
 ```
