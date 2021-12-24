@@ -1,6 +1,6 @@
 # How to check docker network
 
-```docker
+```bash
 docker container inspect 0548543a2e98 | grep Networks -A 20
 ```
 
@@ -11,7 +11,7 @@ docker container inspect 0548543a2e98 | grep Networks -A 20
 group: network
 
 ## Example: 
-```docker
+```bash
 docker container inspect 0548543a2e98 | grep Networks -A 20
 ```
 ```
