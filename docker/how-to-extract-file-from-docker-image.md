@@ -1,6 +1,6 @@
 # How to extract file from docker image
 
-### In order to extract file from docker image, we will create temporary container, copy the file and then delete container
+### In order to extract file from docker image, we will create temporary container, copy the file and then delete container.
 
 ```docker
 docker run --name=tmp ubuntu
