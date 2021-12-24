@@ -10,3 +10,8 @@ docker build -t some_name .
 
 group: build
 
+## Example: 
+```docker
+docker build -t some_name .
+docker run some_name
+```
