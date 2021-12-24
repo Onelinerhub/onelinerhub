@@ -1,6 +1,6 @@
 # How to stop all running docker containers
 
-```docker
+```bash
 docker container stop $(docker ps -q)
 ```
 
@@ -11,7 +11,7 @@ docker container stop $(docker ps -q)
 group: stop
 
 ## Example: 
-```docker
+```bash
 docker container stop $(docker ps -q)
 ```
 ```
