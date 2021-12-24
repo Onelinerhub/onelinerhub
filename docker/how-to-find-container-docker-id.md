@@ -8,6 +8,8 @@ docker ps -a
 
 - `ps -a` - lists all docker containers
 
+group: id
+
 ## Example: 
 ```bash
 docker ps -a
