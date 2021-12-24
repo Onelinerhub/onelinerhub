@@ -1,6 +1,6 @@
 # How to backup docker volume
 
-```docker
+```bash
 docker run -it --mount source=data,destination=/data ubuntu
 docker run --rm --volumes-from 804e9d6977ba -v /tmp/data:/backup ubuntu tar czvf /backup/backup.tar.gz /data
 ```
@@ -22,7 +22,7 @@ docker run --rm --volumes-from 804e9d6977ba -v /tmp/data:/backup ubuntu tar czvf
 group: volume
 
 ## Example: 
-```docker
+```bash
 docker run -it --mount source=data,destination=/data ubuntu
 docker run --rm --volumes-from 804e9d6977ba -v /tmp/data:/backup ubuntu tar czvf /backup/backup.tar.gz /data
 ls /tmp/data
