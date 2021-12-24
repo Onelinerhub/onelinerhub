@@ -17,3 +17,5 @@ docker rm tmp
 - `/tmp` - local path to copy file to
 - `docker rm tmp` - remove `tmp` container
 
+group: file
+
