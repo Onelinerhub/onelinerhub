@@ -4,6 +4,7 @@
 cmd >> log.txt 2>&1
 ```
 
-- cmd - command which output we're going to log
-- log.txt - we will append output to ```log.txt``` file
-- 2>&1 - will redirect stderr to the same output
+- `cmd` - command which output we're going to log
+- `log.txt` - we will append output to ```log.txt``` file
+- `2>&1` - will redirect stderr to the same output
+
