@@ -9,4 +9,4 @@ cmd >> log.txt 2>&1
 - `2>&1` - will redirect stderr to the same output
 
 
-link_youtube: https://www.youtube.com/watch?v=BWpPrsa67V8
+link_youtube: https://www.youtube.com/watch?v=21inzTlNRDs
