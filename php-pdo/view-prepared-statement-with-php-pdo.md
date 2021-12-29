@@ -1,4 +1,4 @@
-# View prepared statement with PHP PDO
+# View prepared PHP PDO statement
 
 ```php
 $st = $pdo->prepare('SELECT * FROM test WHERE age = :52');
