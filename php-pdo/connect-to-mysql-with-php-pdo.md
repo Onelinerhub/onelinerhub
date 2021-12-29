@@ -1,6 +1,6 @@
 # Connect to Mysql with PHP PDO
 
-```php-pdo
+```php
 try {
   $pdo = new PDO('mysql:host=localhost;dbname=test', 'user', 'pwd');
 } catch ( PDOException $e ) {
