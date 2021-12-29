@@ -1,4 +1,4 @@
-# How to contribute to onelinerhub.com library
+# How to contribute to Onelinerhub
 
 Have and idea of a useful code but don't know how to write it? Create an [issue](https://github.com/Onelinerhub/onelinerhub/issues/new) here so community might help. Search through current [open issues](https://github.com/Onelinerhub/onelinerhub/issues) for requested solutions you can help with.
 
