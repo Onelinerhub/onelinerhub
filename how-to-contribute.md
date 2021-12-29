@@ -16,9 +16,17 @@ You need to follow our simple guidelines:
 - Extension is always ".md", so all the markdown works
 - File must include title (```"# title"```) as the first line
 - File must include actual code snippet in the [highlighted code](https://guides.github.com/features/mastering-markdown/) block
-- File should also include code explanation block, so it's well explained (a list with "part: description" pairs like [here](/template_simple.md))
+- File should also include code explanation block, so it's well explained (a list with "{part} - {description}" pairs like [here](/template_simple.md))
 - You can upload PNG file with the same file name as the code file and it will automatically be added to the code page in UI (like [here](https://onelinerhub.com/ffmpeg/downmix_audio))
 
-## Templates
+### Example
+Given [this code example](/javascript/array_unique.md), this is how it's `md` file looks like:
+![Code example](/code_example.png)
+
+This will render into:
+
+![UI example](/ui_example.png)
+
+## Code templates
 - [Simple template](/template_simple.md)
 - [Advanced template](/template.md)
