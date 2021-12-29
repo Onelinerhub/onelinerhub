@@ -1,6 +1,6 @@
 # Select with prepared statement in PHP PDO
 
-```php-pdo
+```php
 $st = $pdo->prepare('SELECT * FROM test');
 $st->execute();
 foreach ( $st as $row ) {
