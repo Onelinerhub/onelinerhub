@@ -16,4 +16,47 @@ foreach ( $st as $row ) {
 
 group: select
 
+## Example: 
+```php
+<?php
+
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'usr', 'pwd');
+
+$st = $pdo->prepare('SELECT * FROM test');
+$st->execute();
+
+foreach ( $st as $row ) {
+  print_r($row);
+}
+```
+```
+Array
+(
+    [id] => 1
+    [0] => 1
+    [age] => 25
+    [1] => 25
+    [name] => A
+    [2] => A
+)
+Array
+(
+    [id] => 2
+    [0] => 2
+    [age] => 52
+    [1] => 52
+    [name] => B
+    [2] => B
+)
+Array
+(
+    [id] => 3
+    [0] => 3
+    [age] => 52
+    [1] => 52
+    [name] => C
+    [2] => C
+)
+
+```
 
