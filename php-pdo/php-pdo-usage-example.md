@@ -16,7 +16,7 @@ foreach ( $st as $row ) {
 - `new PDO` - create new PDO connection
 - `foreach ( $st as $row )` - go through each row in result set
 - `print_r($row)` - print each row
-- `test` - database to use
+- `dbname=test` - database to use
 - `usr` - db user
 - `pwd` - db password
 
