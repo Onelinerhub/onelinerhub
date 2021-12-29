@@ -13,3 +13,8 @@ $pdo = new PDO('mysql:host=localhost;dbname=test', 'usr', 'pwd', [
 group: settings
 
 
+## Additional keywords
+- keep
+- alive
+- keepalive
+
