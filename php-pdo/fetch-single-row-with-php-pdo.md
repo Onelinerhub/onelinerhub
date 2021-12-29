@@ -11,6 +11,8 @@ $row = $st->fetch(PDO::FETCH_ASSOC);
 - `fetch` - returns single row from resulting set
 - `FETCH_ASSOC` - will return row as an associative array (rather than numbered array)
 
+group: fetch
+
 ## Example: 
 ```php
 <?php
