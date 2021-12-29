@@ -16,4 +16,6 @@ try {
 - `pwd` - password
 - `PDOException $e` - exception will be thrown if connection failed
 
+group: connect
+
 
