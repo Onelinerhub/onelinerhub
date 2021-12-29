@@ -1,6 +1,6 @@
 # Get JSON from table with PHP PDO
 
-### We have `test` table with `data` text column which stores data in JSON format.
+### We have `test` table with `data` text column which we will store data in JSON format.
 
 ```php
 $st = $pdo->prepare('SELECT data FROM test WHERE id = 8');
