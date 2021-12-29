@@ -11,7 +11,7 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
 ```
 
 ### Example response
-```json
+```javascript
 [
     {
         "url": "https:\/\/onelinerhub.com\/javascript\/fetch_post_uri",
@@ -20,7 +20,7 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
         "lang": "javascript",
         "code": "fetch('\/backend.php', {\n  method: 'post',\n  headers: { 'Content-Type': 'application\/x-www-form-urlencoded;charset=UTF-8' },\n  body: 'var1=' + encodeURIComponent('Donald Trump :(') + '&amp;var2=123'\n}).then(function(r) {\n  return r.json();\n}).then(function(data) {\n  console.log(data);\n});"
     }
-    //, ...
+    // , ...
 ]
 ```
 
