@@ -4,6 +4,7 @@
 apt install php-redis
 ```
 
-- `php-redis` - name of redis extension for PHP
+- `php-redis` - PHP Redis extension package to install
+- `apt install` - installs specified package on Ubuntu
 
 
