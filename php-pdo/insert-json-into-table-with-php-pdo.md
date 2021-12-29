@@ -1,6 +1,6 @@
 # Insert JSON into table with PHP PDO
 
-### We have `test` table with `data` text column which stores data in JSON format.
+### We have `test` table with `data` text column which we will store data in JSON format.
 
 ```php
 $json = ['some' => 'value', 'key' => 'okay'];
