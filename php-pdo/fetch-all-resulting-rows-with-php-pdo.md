@@ -1,19 +1,16 @@
 # Fetch all resulting rows with PHP PDO
 
-### get
-retrieve
-query
-
 ```php
 $st = $pdo->prepare('SELECT * FROM test');
 $st->execute();
-$row = $st->fetchAll(PDO::FETCH_ASSOC);
+$rows = $st->fetchAll(PDO::FETCH_ASSOC);
 ```
 
 - `$pdo->prepare` - prepare given query to execute
 - `$st->execute(` - run query on the server
 - `fetchAll` - returns all rows from result set
 - `FETCH_ASSOC` - will return row as an associative array (rather than numbered array)
+- `$rows` - resulting array of rows
 
 group: fetch
 
@@ -58,4 +55,9 @@ Array
 )
 
 ```
+
+## Additional keywords
+- get
+- retrieve
+- query
 
