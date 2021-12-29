@@ -15,7 +15,6 @@ group: errors
 <?php
 
 $pdo = new PDO('mysql:host=localhost;dbname=test', 'usr', 'pwd');
-
 $pdo->query('WRONG');
 
 $error = $pdo->errorInfo();
