@@ -1,4 +1,4 @@
-# Fetch key-value pairs from table using PHP PDO
+# Get key-value pairs from table using PHP PDO
 
 ```php
 $st = $pdo->prepare('SELECT id, name FROM test');
