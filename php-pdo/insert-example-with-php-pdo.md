@@ -7,6 +7,8 @@ $st->execute([':name' => 'Donald', ':age' => 90]);
 
 - `$pdo->prepare` - prepare given query to execute
 - `$st->execute(` - run query on the server
+- `SET name = :name, age = :age` - use placeholders to insert safe values
+- `[':name' => 'Donald', ':age' => 90]` - values we want to insert into table
 
 ## Example: 
 ```php
