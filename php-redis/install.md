@@ -8,3 +8,4 @@ apt install php-redis
 - `apt install` - installs specified package on Ubuntu
 
 
+link_youtube: https://www.youtube.com/watch?v=Wc0Q-dfmFGY
