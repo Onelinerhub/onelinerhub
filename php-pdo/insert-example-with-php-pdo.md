@@ -10,6 +10,8 @@ $st->execute([':name' => 'Donald', ':age' => 90]);
 - `SET name = :name, age = :age` - use placeholders to insert safe values
 - `[':name' => 'Donald', ':age' => 90]` - values we want to insert into table
 
+group: insert
+
 ## Example: 
 ```php
 <?php
