@@ -2,9 +2,11 @@
 
 ```php
 $st = $pdo->prepare('INSERT INTO test SET name = :name, age = :age');
-$st->execute([':name' => 'Donald', ':age' => 90]);
+$st->execute([':name' => 'Donald', ':age' => 90]); 
 ```
 
+- `$pdo->prepare` - prepare given query to execute
+- `$st->execute(` - run query on the server
 
 ## Example: 
 ```php
