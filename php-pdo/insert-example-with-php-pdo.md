@@ -1,4 +1,4 @@
-# Insert example with PHP PDO
+# Insert example using PHP PDO
 
 ```php
 $st = $pdo->prepare('INSERT INTO test SET name = :name, age = :age');
