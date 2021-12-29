@@ -1,6 +1,6 @@
 # How to bind table name in PHP PDO
 
-### You can't bind table names with PDO, but you can use white filtering and 
+### You can't bind table names with PDO, but you can use white filtering and string injection:
 
 ```php
 $allowed = ['test', 'users', 'messages'];
