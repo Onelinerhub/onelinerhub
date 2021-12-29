@@ -36,3 +36,8 @@ Array
 
 ```
 
+## Additional keywords
+- get
+- retrieve
+- query
+
