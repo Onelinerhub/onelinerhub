@@ -10,6 +10,8 @@ $id = $pdo->lastInsertId();
 - `$st->execute(` - run query on the server
 - `$pdo->lastInsertId` - will return last inserted ID of new row (if it's [autoincrement](https://dev.mysql.com/doc/refman/8.0/en/example-auto-increment.html))
 
+group: insert
+
 ## Example: 
 ```php
 <?php
