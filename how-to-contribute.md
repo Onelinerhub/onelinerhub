@@ -1,7 +1,9 @@
 # How to contribute to onelinerhub.com library
 
-## Requirements
-Basically everyone can contribute any amount of code solutions for any technology.
+Have and idea of a useful code but don't know how to write it? Create an [issue](https://github.com/Onelinerhub/onelinerhub/issues/new) here so community might help. Search through current [open issues](https://github.com/Onelinerhub/onelinerhub/issues) for requested solutions you can help with.
+
+## Requirements for contributors
+Basically everyone (having a github account) can contribute any amount of code solutions for any technology.
 You need to follow our simple guidelines:
 - code solution should be useful to other developers
 - code should solve specific issue in a simplest possible way
