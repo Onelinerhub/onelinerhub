@@ -27,10 +27,13 @@ We're building non-profit opensource code hub, we address following issues:
 
 ## FAQ
 > "What if I want to create new folder/technology in onelinerhub repo?"
+
 You are welcome to do it with pull request as long as it is useful technology/solution for engineers
 
 > "What if I want to edit some published code?"
+
 You are welcome to do it with pull request as long as it will make the code better (simple, modern, minimal)
 
 > "Can I post multi-line code (not a one-liner)?"
+
 Yes, as long as the solution is targeted towards specific problem and is well explained
