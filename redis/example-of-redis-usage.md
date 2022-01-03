@@ -1,4 +1,4 @@
-# Example of Redis usage
+# Sample Redis usage
 
 ```bash
 redis-cli SET test 123
