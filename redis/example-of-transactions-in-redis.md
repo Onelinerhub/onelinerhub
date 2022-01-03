@@ -13,6 +13,8 @@ redis-cli
 - `INCR test` - sample commands within transaction
 - `EXEC` - commit transaction
 
+group: transaction
+
 ## Example: 
 ```bash
 127.0.0.1:6379> MULTI
