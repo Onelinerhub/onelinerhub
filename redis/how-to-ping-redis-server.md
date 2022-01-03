@@ -1,4 +1,4 @@
-# How to ping Redis server
+# How to ping Redis server for health
 
 ```bash
 redis-cli PING
