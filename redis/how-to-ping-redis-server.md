@@ -15,3 +15,7 @@ redis-cli PING
 PONG
 ```
 
+## Additional keywords
+- health check
+- healthcheck
+
