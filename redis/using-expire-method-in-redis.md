@@ -1,4 +1,4 @@
-# Using expire method in Redis
+# Key expire in Redis
 
 ```bash
 redis-cli EXPIRE test 60
