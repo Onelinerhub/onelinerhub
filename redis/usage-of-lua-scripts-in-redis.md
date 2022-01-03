@@ -12,6 +12,8 @@ redis-cli EVAL "return redis.call('get', KEYS[1]) + redis.call('get', KEYS[2]);"
 - `KEYS[2]` - refers to second argument passed to `EVAL` command (`key2`)
 - `2` - number of arguments we'll pass to the comman
 
+group: eval
+
 ## Example: 
 ```bash
 redis-cli EVAL "return redis.call('get', KEYS[1]) + redis.call('get', KEYS[2]);" 2 key1 key2
