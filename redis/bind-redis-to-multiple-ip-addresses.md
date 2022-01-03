@@ -2,7 +2,7 @@
 
 ### Edit `/etc/redis/redis.conf` Redis configuration file:
 
-```redis
+```bash
 bind 127.0.0.1 1.2.3.4
 ```
 
