@@ -1,4 +1,4 @@
-# What's Redis default port
+# Find Redis server port
 
 ```bash
 redis-cli info | grep port
