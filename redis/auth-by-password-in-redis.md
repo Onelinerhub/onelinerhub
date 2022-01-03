@@ -1,6 +1,6 @@
 # Auth by password in Redis
 
-```redis
+```bash
 redis-cli AUTH strong0pwd
 ```
 
