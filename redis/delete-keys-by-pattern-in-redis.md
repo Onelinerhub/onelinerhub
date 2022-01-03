@@ -8,6 +8,8 @@ redis-cli KEYS "pattern"
 - `KEYS` - find keys using specified pattern
 - `pattern` - patter to search keys based on
 
+group: delete_key
+
 ## Example: 
 ```bash
 redis-cli KEYS "key*" | xargs redis-cli DEL
