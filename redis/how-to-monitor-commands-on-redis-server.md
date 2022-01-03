@@ -1,6 +1,7 @@
 # How to monitor commands on Redis server
 
 ### processlist
+debug
 
 ```bash
 redis-cli MONITOR
