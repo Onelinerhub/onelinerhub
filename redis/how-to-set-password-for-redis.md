@@ -2,7 +2,7 @@
 
 ### Edit `/etc/redis/redis.conf` Redis configuration file (and don't forget to [restart Redis](/redis/how-to-restart-redis-on-ubuntu-ubuntuversion) after that):
 
-```redis
+```bash
 requirepass strong0pwd
 ```
 
