@@ -2,7 +2,7 @@
 
 ### Edit `/etc/redis/redis.conf` Redis configuration file:
 
-```redis
+```bash
 maxmemory 1Gb
 ```
 
