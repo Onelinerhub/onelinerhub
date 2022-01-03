@@ -6,7 +6,7 @@ redis-cli SUBSCRIBE some
 
 - `redis-cli` - executes Redis command in bash
 - `SUBSCRIBE` - receive message from the specified channel
-- `some` - name of the channel (just a string) which messages are going to be [published to]()
+- `some` - name of the channel (just a string) which messages are going to be [published to](/redis/publish-a-message-to-redis-channel)
 
 group: pub_sub
 
