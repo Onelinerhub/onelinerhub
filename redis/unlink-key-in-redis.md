@@ -8,7 +8,7 @@ redis-cli UNLINK test
 - `UNLINK` - remove specified key in a non-blocking way
 - `test` - name of the key to remove
 
-group: keys
+group: delete_key
 
 ## Example: 
 ```bash
