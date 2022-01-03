@@ -1,6 +1,6 @@
 # How to restart Redis on Ubuntu UBUNTU_VERSION
 
-```redis
+```bash
 systemctl restart redis
 ```
 
