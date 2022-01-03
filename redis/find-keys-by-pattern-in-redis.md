@@ -8,6 +8,8 @@ redis-cli KEYS pattern
 - `KEYS` - find keys using specified pattern
 - `pattern` - patter to search keys based on
 
+group: find
+
 ## Example: 
 ```bash
 redis-cli KEYS k*
