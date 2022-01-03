@@ -11,4 +11,14 @@ for k in $(redis-cli KEYS '*'); do echo $k \"$(redis-cli GET $k)\"; done
 
 group: find
 
+## Example: 
+```bash
+for k in $(redis-cli KEYS '*'); do echo $k \"$(redis-cli GET $k)\"; done
+
+```
+```
+test "125"
+key2 "15"
+key1 "123"
+```
 
