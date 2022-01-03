@@ -1,4 +1,4 @@
-# How to install Bitnami Redis docker image
+# How to use Bitnami Redis docker image
 
 ```bash
 docker run bitnami/redis
