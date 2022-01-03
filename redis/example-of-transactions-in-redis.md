@@ -1,4 +1,4 @@
-# Example of transactions in Redis
+# Using transactions in Redis
 
 ```bash
 redis-cli
