@@ -1,6 +1,6 @@
 # How to install Redis on Ubuntu UBUNTU_VERSION
 
-```redis
+```bash
 apt install redis-server
 ```
 
