@@ -17,3 +17,7 @@ redis-cli CONFIG GET logfile
 2) "/var/log/redis/redis-server.log"
 ```
 
+## Additional keywords
+- find
+- locate
+
