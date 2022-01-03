@@ -1,4 +1,4 @@
-# Clear all data in Redis
+# Clear all data in Redis (entire server)
 
 ```bash
 redis-cli FLUSHALL
