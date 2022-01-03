@@ -1,5 +1,7 @@
 # How to turn only Appendonly (AOF) in Redis
 
+### Edit `/etc/redis/redis.conf` Redis configuration file:
+
 ```bash
 appendonly yes
 ```
