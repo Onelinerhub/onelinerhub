@@ -8,6 +8,8 @@ redis-cli info memory | grep used_memory_human:
 - `info memory` - returns stats on memory usage
 - `used_memory_human` - filter only information on currently used memory
 
+group: mem
+
 ## Example: 
 ```bash
 redis-cli info memory | grep used_memory_human:
