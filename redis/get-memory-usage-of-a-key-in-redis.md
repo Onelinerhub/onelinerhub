@@ -1,4 +1,4 @@
-# Get memory usage of a key in Redis
+# Get total memory usage in Redis
 
 ```bash
 redis-cli info memory | grep used_memory_human:
