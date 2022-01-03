@@ -7,8 +7,6 @@ redis-cli PING
 - `redis-cli` - executes Redis command in bash
 - `PING` - send `PING` to the server, which should answer `PONG` in response
 
-group: health
-
 ## Example: 
 ```bash
 redis-cli PING
