@@ -1,4 +1,4 @@
-# Example of eval in Redis
+# Usage of eval in Redis
 
 ```bash
 redis-cli EVAL "return redis.call('get', 'key1') * 2;" 0
