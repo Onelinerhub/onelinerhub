@@ -8,7 +8,7 @@ redis-cli MONITOR
 ```
 
 - `redis-cli` - launch Redis CLI interface in interactive mode
-- `MONITOR` - will print all commands executed by the server in real time
+- `MONITOR` - will print all commands executed by the server in real time (`ctrl+c` to exit)
 
 ## Example: 
 ```bash
