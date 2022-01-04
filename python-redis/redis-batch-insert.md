@@ -18,6 +18,8 @@ pipe.execute()
 - `pipe.set` - plan setting value by key later (at this point - we just insert this command to a pipeline, but don't execute it)
 - `pipe.execute()` - execute all commands in pipeline (actually inserts everything to Redis we have added before)
 
+group: pipelines
+
 ## Example: 
 ```python
 import redis
