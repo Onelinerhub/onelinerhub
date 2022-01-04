@@ -21,6 +21,6 @@ $r->connect('127.0.0.1', 6379);
 echo $r->ping();
 ```
 ```
-Key exists!
+1
 ```
 
