@@ -21,4 +21,7 @@ keys = r.keys('*')
 r.delete(*keys)
 print( r.keys('*') )
 ```
+```
+[]
+```
 
