@@ -1,6 +1,8 @@
 # Check if key exists in Redis
 
 ```php
+<?php
+
 $redis->exists('test');
 ```
 
