@@ -9,6 +9,8 @@ dict = r.hgetall('dict')
 - `hgetall` - gets Redis hash data and returns a dict
 - `'dict'` - name of the hash in Redis
 
+group: dict
+
 ## Example: 
 ```python
 import redis
