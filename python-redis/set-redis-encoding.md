@@ -8,7 +8,7 @@ str = r.get('test')
 - `redis.StrictRedis` - connect to Redis server
 - `utf-8` - chosen charset to automatically decode bytes
 - `decode_responses` - will automatically decode bytes to strings using specified charset
-- `str` - will contain utf-8 string automatically decoded from Redis bytes
+- `str =` - will contain utf-8 string automatically decoded from Redis bytes
 
 ## Example: 
 ```python
