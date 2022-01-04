@@ -6,7 +6,7 @@ r.rpush('list', 'value')
 ```
 
 - `redis.Redis` - connect to Redis server
-- `lpush` - pushes specified element to the end of the list
+- `rpush` - pushes specified element to the end of the list
 - `list` - name of the list to add element to
 - `value` - value of the new element to add to the list
 
