@@ -11,4 +11,6 @@ r = redis.Redis( host='localhost', port=6379, password='123')
 - `redis.Redis` - connect to Redis server
 - `password='123'` - specify your password in this argument
 
+group: connect
+
 
