@@ -10,13 +10,14 @@ r = redis.Redis()
 
 r.set('dt', time.time())
 r.set_response_callback('GET', float)
-print(datetime.fromtimestamp(r.get('dt')))
+result = datetime.fromtimestamp(r.get('dt'))
 ```
 
 - `import redis` - import Redis module
 - `set_response_callback` - automatically convert objects from Redis
 - `float` - convert object to float
 - `datetime.fromtimestamp` - convert timestamp to datetime
+- `result` - variable will contain resulting datetime object
 
 ## Example: 
 ```python
