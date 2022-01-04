@@ -9,6 +9,7 @@ r.zadd('top', {'Donald': 2})
 - `zadd` - adds element(s) to the specified sorted set
 - `Donald` - name of the element
 - `2` - score of the element to add
+- `top` - name of the sorted set in Redis to add element to
 
 group: sorted_sets
 
