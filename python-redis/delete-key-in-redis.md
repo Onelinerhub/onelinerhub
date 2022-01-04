@@ -9,6 +9,8 @@ r.delete('test')
 - `delete` - deletes specified key
 - `test` - name of the key to remove
 
+group: delete
+
 ## Example: 
 ```python
 import redis
