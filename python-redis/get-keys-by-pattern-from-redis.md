@@ -1,4 +1,9 @@
-# Get keys by pattern from Redis
+# Search keys by pattern from Redis
+
+### find
+get
+fetch
+retrieve
 
 ```python
 r = redis.Redis()
