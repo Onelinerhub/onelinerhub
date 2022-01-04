@@ -2,7 +2,6 @@
 
 ```python
 r = redis.Redis()
-
 val = r.eval("return redis.call('get', 'test')", 0)
 ```
 
@@ -10,6 +9,7 @@ val = r.eval("return redis.call('get', 'test')", 0)
 - `eval` - executes Lua script
 - `"return redis.call('get', 'test')"` - sample Lua script to execute (returns value of `test` key from Redis)
 - `, 0)` - need to use this zero so Redis will not wait any additional data from us ("required shit")
+- `val =` - variable will contain returned data from Lua script
 
 ## Example: 
 ```python
