@@ -1,7 +1,6 @@
 # Decode value obtained from Redis
 
 ```python
-import redis
 r = redis.Redis()
 val = r.get('test').decode('utf-8')
 ```
