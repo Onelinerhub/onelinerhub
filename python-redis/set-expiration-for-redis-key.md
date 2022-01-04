@@ -1,4 +1,6 @@
-# Set expiration for Redis key
+# Set expiration (TTL) for Redis key
+
+### TTL
 
 ```python
 r = redis.Redis()
@@ -9,6 +11,8 @@ r.expire('a', 60)
 - `expire` - sets key expiration in seconds (from now)
 - `'a'` - key to set expiration for
 - `60` - number of seconds that key will expire in
+
+group: ttl
 
 ## Example: 
 ```python
