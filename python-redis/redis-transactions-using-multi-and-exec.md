@@ -12,7 +12,7 @@ p.execute()
 
 - `redis.Redis` - connect to Redis server
 - `r.pipeline()` - create Redis pipeline to execute transaction
-- `p.set` - sample set command inside transaction (pipeline)
+- `p.set` - sample `set` command inside transaction (pipeline)
 - `p.execute()` - commits transaction (executes pipeline commands)
 
 group: transactions
