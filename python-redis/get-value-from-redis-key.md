@@ -10,6 +10,8 @@ val = r.get('test')
 - `test` - key to get value from
 - `val` - variable will store value obtained from Redis
 
+group: values
+
 ## Example: 
 ```python
 import redis
