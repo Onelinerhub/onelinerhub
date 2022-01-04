@@ -16,7 +16,7 @@ for m in q.listen():
 - `r.pubsub()` - creates pubsub instance
 - `subscribe` - subscribe to specified channel
 - `'test'` - name of the channel to subscribe to
-- `q.listen` - will iterate through messages and wait for new 
+- `q.listen` - will wait for and iterate through [messages being published](/python-redis/redis-pubsub-publish-example)
 
 group: pubsub
 
