@@ -17,7 +17,8 @@ r = redis.Redis()
 
 r.set('a', '1')
 r.expire('a', 5) # will expire in 5 sec
-print(r.get('a'))
+
+print(r.get('a')) # make sure it has some value
 
 time.sleep(5) # wait for 5 sec
 
