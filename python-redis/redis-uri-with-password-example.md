@@ -1,5 +1,7 @@
 # Redis URI with password example
 
+### URIs are used in [connections by URL](/python-redis/connecting-to-redis-with-fromurl):
+
 ```txt
 redis://user:pwd@1.2.3.4:6379/0
 ```
