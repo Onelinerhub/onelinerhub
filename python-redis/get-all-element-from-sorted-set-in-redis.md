@@ -9,6 +9,7 @@ list = r.zrange('top', 0, -1)
 - `zrange` - retrieves sorted set elements based on offset and limit
 - `top` - name of sorted set in Redis
 - `0, -1` - will return all elements from sorted set
+- `list` - resulting list with elements from sorted set
 
 group: sorted_sets
 
