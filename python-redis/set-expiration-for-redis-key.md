@@ -18,6 +18,7 @@ r = redis.Redis()
 r.set('a', '1')
 r.expire('a', 5)
 print(r.get('a'))
+
 time.sleep(5)
 print(r.get('a'))
 ```
