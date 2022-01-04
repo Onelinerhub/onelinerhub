@@ -10,4 +10,6 @@ $r->auth('pwd');
 - `connect(` - connect to specified host and port
 - `auth(` - authenticate using specified password (use `user:pwd` for username/password pair)
 
+group: connect
+
 
