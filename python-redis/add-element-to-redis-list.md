@@ -1,4 +1,4 @@
-# Add element to Redis list
+# Add element to the list in Redis
 
 ```python
 r = redis.Redis()
