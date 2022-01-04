@@ -16,11 +16,12 @@ import redis, time
 r = redis.Redis()
 
 r.set('a', '1')
-r.expire('a', 5)
+r.expire('a', 5) // will expire in 5 sec
 print(r.get('a'))
 
-time.sleep(5)
-print(r.get('a'))
+time.sleep(5) // wait for 5 sec
+
+print(r.get('a')) // now it's empty
 ```
 ```
 b'1'
