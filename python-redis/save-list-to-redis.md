@@ -1,4 +1,4 @@
-# Save list to Redis
+# Save entire list to Redis
 
 ```python
 r = redis.Redis()
