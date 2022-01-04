@@ -1,4 +1,4 @@
-# Install Redis module
+# How to install Redis module
 
 ```python
 pip install redis
