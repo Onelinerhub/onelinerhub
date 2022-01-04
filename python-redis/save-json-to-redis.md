@@ -1,8 +1,6 @@
 # Save JSON to Redis
 
 ```python
-import redis, json
-
 obj = {'name': 'Donald', 'years': [4, 8, 12]}
 
 r = redis.Redis()
