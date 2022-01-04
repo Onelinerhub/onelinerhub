@@ -1,5 +1,7 @@
 # Configure Redis to use unix socket
 
+### Edit `/etc/redis/redis.conf` Redis configuration file:
+
 ```yml
 unixsocket /var/run/redis/redis-server.sock
 unixsocketperm 775
