@@ -5,7 +5,6 @@ r = redis.Redis()
 val = r.get('test').decode('utf-8')
 ```
 
-- `import redis` - import Redis module
 - `redis.Redis` - connect to Redis server
 - `r.get` - gets value by key from Redis
 - `test` - key to get value from
