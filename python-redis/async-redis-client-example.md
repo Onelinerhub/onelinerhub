@@ -12,7 +12,7 @@ async def main():
 asyncio.run(main())
 ```
 
-- `aioredis` - async client redis (see [how to install](/python-redis/install-redis-async-client))
+- `aioredis` - async Redis client (see [how to install](/python-redis/install-redis-async-client))
 - `aioredis.Redis()` - connect to Redis server
 - `await redis.set` - wait for async Redis method call (setting value)
 - `'some', 'val1'` - set `val1` value of `some` key
