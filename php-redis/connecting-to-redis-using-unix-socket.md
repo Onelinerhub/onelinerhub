@@ -9,6 +9,8 @@ $r->connect("/var/run/redis/redis-server.sock");
 - `connect(` - connect to specified unix socket
 - `/var/run/redis/redis-server.sock` - path to unix socket file from [Redis configuration](/redis/configure-redis-to-use-unix-socket)
 
+group: connect
+
 ## Example: 
 ```php
 <?php
