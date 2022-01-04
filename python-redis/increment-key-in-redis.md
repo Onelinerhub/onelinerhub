@@ -1,4 +1,4 @@
-# Increment key in Redis
+# Increment key value in Redis
 
 ```python
 r = redis.Redis()
