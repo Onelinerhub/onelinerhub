@@ -1,4 +1,4 @@
-# Search keys by pattern from Redis
+# Search keys by pattern in Redis
 
 ### find
 get
