@@ -1,5 +1,7 @@
 # Get dict from Redis
 
+### We'll use [Redis hash structure](https://redis.io/topics/data-types-intro#redis-hashes) to save dicts:
+
 ```python
 r = redis.Redis()
 dict = r.hgetall('dict')
