@@ -1,4 +1,4 @@
-# Connecting to Redis with from_url()
+# Connect to Redis using URL
 
 ```python
 import redis
