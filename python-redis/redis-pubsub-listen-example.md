@@ -3,8 +3,6 @@
 ### This is messages listener that subscribes to specified channel and waits for messages infinitely:
 
 ```python
-import redis
-
 r = redis.Redis()
 
 q = r.pubsub()
@@ -14,6 +12,11 @@ for m in q.listen():
   print(m)
 ```
 
+- `redis.Redis` - connect to Redis server
+- `r.pubsub()` - creates pubsub instance
+- `subscribe` - subscribe to specified channel
+- `'test'` - name of the channel to subscribe to
+- `q.listen` - will iterate through messages and wait for new 
 
 group: pubsub
 
