@@ -20,7 +20,7 @@ while True:
 
 - `import redis` - import Redis module
 - `redis.ConnectionPool` - creates Redis connection pool to be used later
-- `redis.Redis` - connect to Redis server
+- `redis.Redis` - connect to Redis server using connection pool (will automatically reconnect when server is available again)
 - `r.ping()` - pings Redis server (will return `True` on success)
 - `except Exception as e` - intercept and print error message so the script will not break 
 - `time.sleep(1)` - wait for 1 second till next iteration
