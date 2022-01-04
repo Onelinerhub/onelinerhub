@@ -1,4 +1,4 @@
-# Decode value obtained from Redis
+# Decode bytes obtained from Redis to string
 
 ```python
 r = redis.Redis()
