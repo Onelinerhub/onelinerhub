@@ -1,4 +1,4 @@
-# Redis key watch example
+# Redis watch example
 
 ### Pipelines use transactions by default, so we have to `watch()` our key from pipeline:
 
