@@ -20,6 +20,11 @@ group: connect
 
 $r = new Redis(); 
 $r->connect('127.0.0.1', 6379); 
-echo $r->ping();
+if ( $r->ping() ) {
+  echo 'Connection is ok';
+}
+```
+```
+Connection is ok
 ```
 
