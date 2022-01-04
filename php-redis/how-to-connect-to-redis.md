@@ -10,6 +10,8 @@ $r->connect('127.0.0.1', 6379);
 - `127.0.0.1` - Redis host IP
 - `6379` - Redis port to connect to
 
+group: connect
+
 ## Example: 
 ```php
 <?php
