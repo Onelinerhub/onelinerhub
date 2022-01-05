@@ -1,12 +1,12 @@
 # Automatically pick a mode based on file extension
 
 ```html
-&lt;script src=&quot;https://pagecdn.io/lib/ace/1.4.12/ext-modelist.min.js&quot;&gt;&lt;/script&gt;
+<script src="https://pagecdn.io/lib/ace/1.4.12/ext-modelist.min.js"></script>
 
-&lt;script&gt;
+<script>
   var modes = ace.require('ace/ext/modelist');
   editor.session.setMode( modes.getModeForPath( 'file.js' ).mode );
-&lt;/script&gt;
+</script>
 ```
 
 - `ext-modelist.min.js` - includes mode list extension to automatically pick modes
