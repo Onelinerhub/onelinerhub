@@ -16,4 +16,4 @@
 - `'file.js'` - example file path to get mode for (javascript file in our case)
 
 
-link_youtube: https://www.youtube.com/watch?v=Wc0Q-dfmFGY
+link_youtube: https://youtu.be/c6FBeebx_74
