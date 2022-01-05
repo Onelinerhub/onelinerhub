@@ -11,9 +11,11 @@
 </script>
 ```
 
-- <textarea id="editor" - this will be replaced by Ace code editor
-- cdnjs.cloudflare.com - load Ace library from public CDN
-- ace.edit - init editor
-- 'editor' - id of the element to replace with Ace code editor (textarea in our case)
-- editor.session.setMode - set syntax highlighter type
-- ace/mode/javascript - use JS syntax
+- `id="editor"` - this will be replaced by Ace code editor
+- `pagecdn.io/lib/ace` - load Ace library from public CDN
+- `ace.edit` - init editor
+- `'editor'` - id of the element to replace with Ace code editor (textarea in our case)
+- `editor.session.setMode` - set syntax highlighter type
+- `ace/mode/javascript` - use JS syntax
+
+
