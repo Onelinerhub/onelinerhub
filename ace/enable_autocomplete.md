@@ -1,15 +1,15 @@
 # Enable autocompletion in Ace editor.
 
 ```html
-&lt;script src=&quot;https://pagecdn.io/lib/ace/1.4.12/ace.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://pagecdn.io/lib/ace/1.4.12/ext-language_tools.min.js&quot;&gt;&lt;/script&gt;
+<script src="https://pagecdn.io/lib/ace/1.4.12/ace.min.js"></script>
+<script src="https://pagecdn.io/lib/ace/1.4.12/ext-language_tools.min.js"></script>
 
-&lt;textarea id=&quot;editor&quot;&gt;&lt;/textarea&gt;
+<textarea id="editor"></textarea>
 
-&lt;script&gt;
+<script>
   var editor = ace.edit('editor', { enableBasicAutocompletion: true, enableSnippets: true, enableLiveAutocompletion: true });
   editor.session.setMode('ace/mode/javascript');
-&lt;/script&gt;
+</script>
 ```
 
 - `ace.min.js` - load Ace lib from CDN
