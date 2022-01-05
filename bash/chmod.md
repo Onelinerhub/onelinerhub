@@ -4,12 +4,11 @@
 chmod 777 /path
 ```
 
-- chmod - changes permissions of file or directory
-- 777 - allow read and write for all users
-- /path - path to dir (or file) to change permissions of
-
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
---- | --- | --- | --- | --- | --- | --- | ---
-No permissions | Execute | Write | Write + Execute | Read | Read + Execute | Read + Write | Read + Write + Execute
+- `chmod` - changes permissions of file or directory
+- `777` - allow read and write for all users
+- `/path` - path to dir (or file) to change permissions of
 
 group: chmod
+
+
+link_youtube: https://youtu.be/SE8y1FuGnco
