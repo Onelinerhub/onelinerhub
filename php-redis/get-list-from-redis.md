@@ -12,4 +12,21 @@ $redis->lrange('list1', 1, 4);
 
 group: list
 
+## Example: 
+```php
+<?php
+
+$r = new Redis(); 
+$r->connect('127.0.0.1', 6379);
+
+print_r($r->lrange('list1', 1, 2));
+```
+```
+Array
+(
+    [0] => 2
+    [1] => 1
+)
+
+```
 
