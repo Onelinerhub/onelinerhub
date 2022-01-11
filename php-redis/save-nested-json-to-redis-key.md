@@ -1,7 +1,5 @@
 # Save nested JSON to Redis key
 
-### We assume our JSON is not [nested](/) so let's use Redis hashes:
-
 ```php
 $json = ['name' => 'Donald', 'top' => [1, 2, 3]];
 $redis->set('js', json_encode($json));
