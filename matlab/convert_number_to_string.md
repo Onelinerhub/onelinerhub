@@ -1,5 +1,9 @@
-# Convert Number To String Number in matlab
+# Convert number to string number
 
 ```matlab
 num2str(22)
 ```
+
+- `num2str` - will convert specified number to string
+
+
