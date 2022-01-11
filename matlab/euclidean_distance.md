@@ -8,7 +8,7 @@ end
 
 - `euclideanDistance` - name of the function that will be used later
 - `sqrt` - square root
-- `(x1 - y1) ^ 2` - square of coordinate difference of first point
-- `(x2 - y2) ^ 2` - square of coordinate difference of second point
+- ``(x1 - y1) ^ 2`` - square of coordinate difference of first point
+- ``(x2 - y2) ^ 2`` - square of coordinate difference of second point
 
 
