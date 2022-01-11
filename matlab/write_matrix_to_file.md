@@ -1,4 +1,4 @@
-# Write Matrix Data in .txt file
+# Write matrix data to a text file
 
 ```matlab
 function SaveMatrix(data, name)
@@ -14,3 +14,8 @@ function SaveMatrix(data, name)
     fclose(fid);
 end
 ```
+
+
+group: matrix_txt
+
+
