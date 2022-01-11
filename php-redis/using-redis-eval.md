@@ -1,6 +1,8 @@
 # Using Redis eval
 
 ```php
+<?php
+
 $redis->eval("return redis.call('get', 'test');");
 ```
 
