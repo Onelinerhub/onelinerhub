@@ -1,6 +1,6 @@
 # How to remove specific remote branch locally
 
-````
+```bash
 git push origin --delete <branch-name>
 ```
 
