@@ -1,6 +1,6 @@
 # Get nested JSON from Redis key
 
-### If our JSON is [stored as string]():
+### If our JSON is [stored as string](/php-redis/save-nested-json-to-redis-key):
 
 ```php
 $json = json_decode($redis->get('js'), 1);
@@ -8,7 +8,7 @@ $json = json_decode($redis->get('js'), 1);
 
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `get` - get string key value
-- `js` - name of the key with our [saved JSON string]()
+- `js` - name of the key with our [saved JSON string](/php-redis/save-nested-json-to-redis-key)
 - `json_decode` - decodes JSON string into associative array
 
 group: json
