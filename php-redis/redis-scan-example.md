@@ -12,6 +12,7 @@ while( $it !== 0 ) {
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `scan` - scans keys based on specified pattern and returns iterator
 - `'t*'` - sample [pattern](https://redis.io/commands/KEYS) to search keys (in this case, all keys starting with `t`)
+- `$it` - iterator object
 
 group: keys
 
