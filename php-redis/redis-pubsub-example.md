@@ -2,7 +2,7 @@
 
 ```php
 # run from first script
-$redis->subscribe(['ch1'], function($m) {
+$redis->subscribe(['chl'], function($r, $c, $m) {
   # do something with message
 });
 
@@ -24,7 +24,7 @@ $redis->publish('chl', 'hi');
 $r = new Redis(); 
 $r->connect('127.0.0.1', 6379); 
 
-$r->subscribe(['ch1'], function($r, $c, $m) {
+$r->subscribe(['chl'], function($r, $c, $m) {
   die($m);
 });
 
