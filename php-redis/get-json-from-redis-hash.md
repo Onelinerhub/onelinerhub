@@ -10,6 +10,8 @@ $redis->hgetall('json');
 - `hgetall` - gets all key/values from hash
 - `json` - name of the hash to get JSON from
 
+group: json
+
 ## Example: 
 ```php
 <?php
