@@ -16,7 +16,7 @@ group: expire
 ```php
 <?php
 
-$r = new Redis(); 
+$r = new Redis(); l
 $r->connect('127.0.0.1', 6379);
 
 $r->setex('key', 30, 'test');
@@ -27,4 +27,7 @@ echo $r->ttl('key');
 ```
 29
 ```
+
+## Additional keywords
+- ttl
 
