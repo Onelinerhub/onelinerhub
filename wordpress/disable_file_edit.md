@@ -1,7 +1,10 @@
-# Disable File Edit From Wordpress Panel
+# Disable file edit from Wordpress panel
 
 ```php
 define( 'DISALLOW_FILE_EDIT', true );
 ```
 
-add this code in wp-config.php
+- `define` - defines PHP constant
+- `DISALLOW_FILE_EDIT` - will disable file editing from admin panel
+
+
