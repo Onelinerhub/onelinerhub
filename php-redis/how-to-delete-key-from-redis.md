@@ -1,4 +1,4 @@
-# How to delete key from Redis
+# How to delete a key
 
 ```php
 $redis->delete('key');
