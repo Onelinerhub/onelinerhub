@@ -1,4 +1,4 @@
-# Redis getset example
+# Redis getset usage example
 
 ```php
 $previous = $redis->getset('a', 25);
