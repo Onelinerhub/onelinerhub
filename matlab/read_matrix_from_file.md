@@ -1,4 +1,4 @@
-# Read Matrix Data from .txt file
+# Read matrix data from text file
 
 ```matlab
 function data = ReadMatrix(name)
@@ -24,3 +24,8 @@ function data = ReadMatrix(name)
     fclose(fid);
 end
 ```
+
+- `ReadMatrix` - function name to use for reading matrices from text files
+- `fopen` - opens specified file for read
+
+
