@@ -9,4 +9,6 @@ git add . && git commit -m "my messages"
 - `commit -m` - commit with inline message
 - `my messages` - commit message
 
+group: commit
+
 
