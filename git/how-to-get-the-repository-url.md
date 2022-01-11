@@ -1,4 +1,4 @@
-# How to get the repository url
+# How to get the repository (remote) url
 
 ```bash
 git remote -v
@@ -6,6 +6,8 @@ git remote -v
 
 - `git` - base command
 - `remote -v` - will list all remotes
+
+group: remote
 
 ## Example: 
 ```bash
