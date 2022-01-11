@@ -8,6 +8,8 @@ redis-cli INFO keyspace
 - `INFO` - get system information
 - `keyspace` - will return information on available databases and their keys
 
+group: dbs
+
 ## Example: 
 ```bash
 redis-cli INFO keyspace
