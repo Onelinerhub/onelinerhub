@@ -1,5 +1,7 @@
 # How to jump to previous commit
 
+### To get out of commit you've jumped into, you need to [get out from detached HEAD state](/git/how-to-fix-head-detached-from)
+
 ```bash
 git checkout d8d587
 ```
