@@ -5,6 +5,8 @@ Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https:
 - [How to contribute](/how-to-contribute.md)
 - [API Docs](/api.md)
 - [YouTube channel](https://www.youtube.com/channel/UCRtux0BT0CBgEwY3CXAkE0w)
+- [Latest updates](https://onelinerhub.com/fresh)
+- [List of all technologies](https://onelinerhub.com/techs)
 
 ## Why we do it and where we go
 We're building non-profit opensource code hub, we address following issues:
