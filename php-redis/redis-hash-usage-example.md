@@ -10,6 +10,7 @@ $redis->hgetall('h1');
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `hset` - sets hash key and value
 - `hgetall` - gets all key/values from hash
+- `'h1'` - name of the hash to save/get
 
 ## Example: 
 ```php
