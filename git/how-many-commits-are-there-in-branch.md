@@ -1,4 +1,4 @@
-# How many commits are there in branch
+# How many commits are there in a branch
 
 ```bash
 git rev-list --count branch
