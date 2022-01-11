@@ -1,21 +1,21 @@
-# How to show databases count in Redis
+# How to list all created databases in Redis
 
 ```bash
-redis-cli CONFIG GET DATABASES
+redis-cli INFO keyspace
 ```
 
 - `redis-cli` - launch Redis CLI interface in interactive mode
-- `CONFIG GET` - returns value of the specified config parameter
-- `DATABASES` - total count of databases that can be used
+- `INFO` - get system information
+- `keyspace` - will return information on available databases and their keys
 
 group: dbs
 
 ## Example: 
 ```bash
-redis-cli CONFIG GET DATABASES
+redis-cli INFO keyspace
 ```
 ```
-1) "databases"
-2) "16"
+# Keyspace
+db0:keys=4,expires=0,avg_ttl=0
 ```
 
