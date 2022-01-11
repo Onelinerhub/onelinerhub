@@ -15,6 +15,9 @@ function SaveMatrix(data, name)
 end
 ```
 
+- `SaveMatrix` - function for saving matrix to a specified file
+- `name` - path of the file to save matrix to
+- `fopen` - opens specified file for writing
 
 group: matrix_txt
 
