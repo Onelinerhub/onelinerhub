@@ -26,3 +26,6 @@ echo $r->ttl('key');
 29
 ```
 
+## Additional keywords
+- ttl
+
