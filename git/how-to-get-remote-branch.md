@@ -9,7 +9,7 @@ git fetch origin branch4
 - `origin` - remote name
 - `branch4` - branch name
 
-group: branch-remote
+group: branch_remote
 
 ## Example: 
 ```bash
