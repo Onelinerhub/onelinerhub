@@ -8,6 +8,8 @@ $redis->eval("return redis.call('get', 'test');");
 - `eval` - evaluates specified LUA code
 - `redis.call('get', 'test')` - LUA code to get key value from Redis
 
+group: lua
+
 ## Example: 
 ```php
 <?php
