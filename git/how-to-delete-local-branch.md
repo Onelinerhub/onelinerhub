@@ -11,4 +11,11 @@ git branch -d test
 
 group: delete_branch
 
+## Example: 
+```bash
+git branch -d test
+```
+```
+Deleted branch test (was d7ded3f).
+```
 
