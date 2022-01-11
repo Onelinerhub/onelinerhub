@@ -1,10 +1,14 @@
 # Remove a directory that is not empty
 
-```php
-function deleteDirectory($dir) {
-	system('rm -rf — ' . escapeshellarg($dir), $retval);
-	return $retval == 0;
-}
+### This will work only on Linux:
 
-deleteDirectory("foldername");
+```php
+system('rm -rf — ' . escapeshellarg($dir));
 ```
+
+- `system` - executes OS command
+- `rm -rf` - removes given files and folders
+- `escapeshellarg` - safely escapes arguments to pass to a `system` command
+- `$dir` - path of the directory to remove
+
+
