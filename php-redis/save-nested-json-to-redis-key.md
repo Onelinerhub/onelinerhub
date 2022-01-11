@@ -10,7 +10,7 @@ $redis->set('js', json_encode($json));
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `set` - save string value to the specified Redis key
 - `json_encode` - converts associative array to JSON string
-- `js` - name of the Redis key to store JSON string to
+- `'js'` - name of the Redis key to store JSON string to
 
 group: json
 
