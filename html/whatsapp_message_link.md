@@ -1,7 +1,12 @@
-# How To make Whatsapp Text Message Link in Webpage
+# Add Whatsapp message link to a web page
 
 ```html
-<a href="https://wa.me/(phone)?text=(test text)">Share</a>
-
-<a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
+<a href="https://wa.me/123456789?text=Hi">Send via Whatsapp</a>
 ```
+
+- `123456789` - full phone number in international format
+- `Hi` - text you want to send
+
+group: whatsapp
+
+
