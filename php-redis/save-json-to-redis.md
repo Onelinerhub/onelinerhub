@@ -15,6 +15,8 @@ array_walk($json, function($v, $k) use ($redis) {
 - `hset` - sets hash key and value
 - `json` - name of the hash to save our JSON to
 
+group: json
+
 ## Example: 
 ```php
 <?php
