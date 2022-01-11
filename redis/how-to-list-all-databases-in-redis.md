@@ -1,4 +1,4 @@
-# How to list all databases in Redis
+# How to list all created databases in Redis
 
 ```bash
 redis-cli INFO keyspace
