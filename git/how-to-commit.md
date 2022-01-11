@@ -1,4 +1,4 @@
-# How to commit
+# How to commit all changes
 
 ```bash
 git add . && git commit -m "my messages"
