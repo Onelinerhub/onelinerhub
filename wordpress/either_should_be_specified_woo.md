@@ -1,4 +1,4 @@
-# Fix Either should be specified Error in Woocommerce
+# Fix Woocommerce error: “offers”, “review”, or “aggregateRating” should be specified
 
 ```php
 function wc_remove_product_schema_product_archive() {
@@ -7,4 +7,5 @@ function wc_remove_product_schema_product_archive() {
 add_action( 'woocommerce_init', 'wc_remove_product_schema_product_archive' );
 ```
 
-add this code in function.php current active theme
+
+
