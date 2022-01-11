@@ -32,11 +32,6 @@ $r->subscribe(['ch1'], function($r, $c, $m) {
 # $r->publish('chl', 'hi');
 ```
 ```
-PHP Fatal error:  Uncaught Error: Object of class Redis could not be converted to string in /tmp/test.php:9
-Stack trace:
-#0 [internal function]: {closure}()
-#1 /tmp/test.php(11): Redis->subscribe()
-#2 {main}
-  thrown in /tmp/test.php on line 9
+hi
 ```
 
