@@ -12,8 +12,8 @@ $redis->publish('chl', 'hi');
 
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `subscribe` - subscribe to a specified channel(will wait till message arrived)
-- `ch1` - channel name to subscribe/publish to
-- `function($m)` - callback will be called when new messages arrives
+- `chl` - channel name to subscribe/publish to
+- `function($r, $c, $m)` - callback will be called when new messages arrives
 - `publish` - publish message to specified channel
 - `'hi'` - message to publish
 
