@@ -6,6 +6,7 @@ $redis->get('a');
 
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `get` - get string key value
+- `'a'` - name of the key to get value from
 
 group: value
 
