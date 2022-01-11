@@ -5,7 +5,7 @@ $r = new Redis();
 $r->connect('127.0.0.1', 6379); 
 ```
 
-- `new Redis()` - create [Redis object](/php-redis/install)
+- `new Redis()` - create [PHP Redis object](/php-redis/install)
 - `connect(` - connect to specified host and port
 - `127.0.0.1` - Redis host IP
 - `6379` - Redis port to connect to
