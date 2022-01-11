@@ -8,4 +8,6 @@ git restore .
 - `restore` - restore all uncommited changes
 - `.` - base path to restore changes in
 
+group: restore
+
 
