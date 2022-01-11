@@ -11,6 +11,6 @@ $r->auth('user', 'pwd');
 - `auth(` - authenticate using specified password
 - `'user', 'pwd'` - username and password used to authenticate
 
-group: connect
+group: auth
 
 
