@@ -17,4 +17,6 @@ with open('output.txt', 'w') as output_file:
 - `output_file.write` - write unique line to `output.txt`
 - `lines_seen.add` - save unique line to seen lines
 
+group: remove_duplicates
+
 
