@@ -7,6 +7,9 @@ $redis->hset('h1', 'age', '120');
 $redis->hgetall('h1');
 ```
 
+- `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
+- `hset` - sets hash key and value
+- `hgetall` - gets all key/values from hash
 
 ## Example: 
 ```php
