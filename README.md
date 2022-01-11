@@ -3,7 +3,8 @@ Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https:
 
 ## Quick links
 - [How to contribute](/how-to-contribute.md)
-- [API](/api.md)
+- [API Docs](/api.md)
+- [YouTube channel](https://www.youtube.com/channel/UCRtux0BT0CBgEwY3CXAkE0w)
 
 ## Why we do it and where we go
 We're building non-profit opensource code hub, we address following issues:
@@ -20,7 +21,7 @@ We're building non-profit opensource code hub, we address following issues:
 - Image illustrations are welcome
 
 ## Contributors are welcome
-- Clone [repo](https://github.com/Onelinerhub/onelinerhub) and create pull requests of your new/updated codes. Feel free to add/update any tech code piece you find useful.
+- Clone [repo](https://github.com/Onelinerhub/onelinerhub) and create pull requests (see [code format guidelines](/how-to-contribute.md)) of your new/updated codes. Feel free to add/update any tech code piece you find useful.
 - Create [issues](https://github.com/Onelinerhub/onelinerhub/issues) for UI/code updates.
 - Join our organization here: https://github.com/Onelinerhub.
 - Donate (contact me for details: joe@onelinerhub.com).
