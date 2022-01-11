@@ -1,12 +1,12 @@
 # Get keys by pattern
 
 ```php
-$redis->keys('pre*');
+$redis->keys('pattern');
 ```
 
 - `$redis` - Redis object after [connection](/php-redis/how-to-connect-to-redis)
 - `keys` - returns keys that match selected pattern
-- `'pre*'` - [pattern to match](https://redis.io/commands/KEYS) keys
+- `'pattern'` - [pattern to match](https://redis.io/commands/KEYS) keys
 
 group: keys
 
