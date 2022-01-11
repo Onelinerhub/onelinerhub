@@ -4,9 +4,12 @@
 chown user:group /path/to/file
 ```
 
-- chown - changes owner of specified file or dir
-- user - new owner user name
-- group - new owner group
-- /path/to/file - path to dir (or file) to change owner of
+- `chown` - changes owner of specified file or dir
+- `user` - new owner user name
+- `group` - new owner group
+- `/path/to/file` - path to dir (or file) to change owner of
 
 group: chown
+
+
+link_youtube: https://youtu.be/yFF5kWgM4Wk
