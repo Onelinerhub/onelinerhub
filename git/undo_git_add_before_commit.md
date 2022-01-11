@@ -4,5 +4,9 @@
 git reset HEAD -- file_name
 ```
 
-- HEAD - points to current branch. change it if yours is diffrent.
-- file_name - name of file you want to unstage(undo "git add")
+- `HEAD` - points to current branch. change it if yours is diffrent.
+- `file_name` - name of file you want to unstage(undo "git add")
+
+group: undo_add
+
+
