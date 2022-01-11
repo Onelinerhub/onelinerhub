@@ -1,4 +1,4 @@
-# Save JSON to Redis
+# Save JSON to Redis hash
 
 ### We assume our array is not [nested](/php-redis/save-nested-json-to-redis-key) so let's use Redis hashes:
 
