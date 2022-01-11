@@ -1,4 +1,4 @@
-# Get JSON from Redis key
+# Get nested JSON from Redis key
 
 ### If our JSON is [stored as string]():
 
