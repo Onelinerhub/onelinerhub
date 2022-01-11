@@ -9,6 +9,8 @@ $redis->lrange('list1', 0, -1);
 - `list1` - name of the list to get elements of
 - `0, -1` - offset and limit to use for the elements (`0, -1` - get all elements from start)
 
+group: list
+
 ## Example: 
 ```php
 <?php
