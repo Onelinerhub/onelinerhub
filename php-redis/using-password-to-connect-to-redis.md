@@ -8,7 +8,7 @@ $r->auth('pwd');
 
 - `new Redis()` - create Redis object
 - `connect(` - connect to specified host and port
-- `auth(` - authenticate using specified password (use `user:pwd` for username/password pair)
+- `auth(` - authenticate using specified password
 
 group: connect
 
