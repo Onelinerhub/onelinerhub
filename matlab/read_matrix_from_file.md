@@ -28,4 +28,6 @@ end
 - `ReadMatrix` - function name to use for reading matrices from text files
 - `fopen` - opens specified file for read
 
+group: matrix_txt
+
 
