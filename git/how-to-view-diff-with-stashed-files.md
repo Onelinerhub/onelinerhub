@@ -12,10 +12,16 @@ group: stash
 
 ## Example: 
 ```bash
-git stash show
+git diff stash
 ```
 ```
- test | 1 -
- 1 file changed, 1 deletion(-)
+diff --git a/test b/test
+new file mode 100644
+index 0000000..32aad8c
+--- /dev/null
++++ b/test
+@@ -0,0 +1 @@
++hi!
+
 ```
 
