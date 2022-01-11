@@ -1,0 +1,8 @@
+# to list all the commits in the current working branch
+git log
+
+
+# The command to list all commits is
+git rev-list --remotes
+
+rev-list list commit objects in reverse chronological order
