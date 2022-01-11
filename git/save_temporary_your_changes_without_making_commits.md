@@ -5,7 +5,7 @@ git stash
 ```
 
 - `git` - base command
-- `stash` - Stash the changes in a dirty working directory away just for you
+- `stash` - moves all current changes in a temp directory away
 
 group: stash
 
