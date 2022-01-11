@@ -1,6 +1,6 @@
 # How to revert repository back to last commit
 
-### This will revert only files that were previously under git as well as **delete new** files:
+### This will revert files that were previously under git as well as **delete new** files:
 
 ```bash
 git clean -f
