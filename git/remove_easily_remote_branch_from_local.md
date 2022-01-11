@@ -1,11 +1,10 @@
-# How to Remove a Specific Remote Branch Locally
-
-To delete a remote branch, we use:
+# How to remove specific remote branch locally
 
 ````
-git push origin --delete <specify-the-branch-name>
-````
+git push origin --delete <branch-name>
+```
 
-- --delete - specify the action
-- specify-the-branch-name - the name of the branch.
+- `--delete` - specify the action
+- `branch-name` - the name of the branch.
+
 
