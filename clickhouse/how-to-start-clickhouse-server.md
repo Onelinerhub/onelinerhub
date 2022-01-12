@@ -1,6 +1,6 @@
 # How to start Clickhouse server
 
-```clickhouse
+```bash
 clickhouse start
 ```
 
