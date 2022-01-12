@@ -1,4 +1,4 @@
-# List all tables
+# List all tables from database
 
 ```sql
 SHOW TABLES
