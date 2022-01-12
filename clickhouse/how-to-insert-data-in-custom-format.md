@@ -14,7 +14,7 @@ echo 'My name is Donald and I am 125' | clickhouse-client -q "INSERT INTO tbl FO
 - `FORMAT Template` - use Template format
 - `format_template_row` - set path to our template format file
 
-group: JSONEachRow
+group: Template_format
 
 ## Example: 
 ```sql
