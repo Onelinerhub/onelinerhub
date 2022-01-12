@@ -1,22 +1,25 @@
-# Clickhouse HTTP GET query example
+# Clickhouse HTTP query example
 
 ```bash
-curl "127.0.0.1:8123?query=select+now()"
+curl "127.0.0.1:8123" --data "SELECT * FROM tbl"
 ```
 
 - `curl` - use curl to send HTTP request
 - `127.0.0.1` - Clickhouse host IP
 - `8123` - Clickhouse server port
-- `query` - send SQL query in `query` parameter
-- `select+now()` - URL-encoded SQL query
+- `--data` - send raw data to server
+- `SELECT * FROM tbl` - sample request to execute on Clickhouse server
 
 group: http
 
 ## Example: 
 ```bash
-curl "127.0.0.1:8123?query=select+now()"
+curl "127.0.0.1:8123" --data "SELECT * FROM tbl"
 ```
 ```
-2022-01-12 19:02:22
+1970-01-01	Donald	0	125
+2022-01-07	Donald	0	0
+2022-01-10	Donald	0	0
+...
 ```
 
