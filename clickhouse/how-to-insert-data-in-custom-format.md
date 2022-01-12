@@ -1,4 +1,4 @@
-# How to insert data in custom format
+# Using Template format to insert data in custom format
 
 ```sql
 echo 'My name is ${col:CSV} and I am ${age:CSV}' > tmp.tpl
