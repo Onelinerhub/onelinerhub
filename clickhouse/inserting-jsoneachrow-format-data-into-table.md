@@ -13,7 +13,7 @@ group: JSONEachRow
 
 ## Example: 
 ```bash
-SELECT * FROM tbl FORMAT JSONEachRow
+cat json_rows.txt
 ```
 ```
 {"date":"2022-01-07","col":"Donald","val":0,"age":0}
