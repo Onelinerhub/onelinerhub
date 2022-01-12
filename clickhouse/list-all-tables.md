@@ -8,4 +8,14 @@ SHOW TABLES
 
 group: list_db
 
+## Example: 
+```sql
+SHOW TABLES
+```
+```
+┌─name─┐
+│ tbl  │
+│ tbl1 │
+...
+```
 
