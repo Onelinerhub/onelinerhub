@@ -8,6 +8,8 @@ SELECT toDateTime(now(), 'Europe/Lisbon')
 - `toDateTime` - converts given string to DateTime
 - `Europe/Lisbon` - pass timezone to convert date/time to as a second argument
 
+group: timezone
+
 ## Example: 
 ```sql
 SELECT toDateTime(now(), 'Europe/Lisbon')
