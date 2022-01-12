@@ -7,6 +7,8 @@ SELECT toYYYYMMDD(now())
 - `now()` - returns current date/time
 - `toYYYYMMDD` - format given date/time in "YYYYMMDD" style
 
+group: date_format
+
 ## Example: 
 ```sql
 SELECT toYYYYMMDD(now())
