@@ -12,4 +12,12 @@ git push origin --delete v0.7
 
 group: tags
 
+## Example: 
+```bash
+git push origin --delete v0.7
+```
+```
+To ...
+ - [deleted]         v0.7
+```
 
