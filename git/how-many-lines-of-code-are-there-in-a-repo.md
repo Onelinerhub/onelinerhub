@@ -9,4 +9,15 @@ git ls-files | xargs wc -l
 
 group: count
 
+## Example: 
+```bash
+git ls-files | xargs wc -l
+```
+```
+  1 .gitignore
+  2 README.md
+  6 file.txt
+  9 total
+
+```
 
