@@ -5,7 +5,7 @@ clickhouse start
 ```
 
 - `clickhouse` - server control script
-- `start` - starts the server
+- `stop` - stops the server
 
 group: ctl
 
