@@ -1,4 +1,4 @@
-# Clickhouse HTTP query example
+# Clickhouse HTTP GET query example
 
 ```bash
 curl "127.0.0.1:8123?query=select+now()"
