@@ -1,6 +1,6 @@
 # How to test Clickhouse HTTP connection
 
-```sql
+```bash
 curl 127.0.0.1:8123
 ```
 
@@ -11,7 +11,7 @@ curl 127.0.0.1:8123
 group: http
 
 ## Example: 
-```sql
+```bash
 curl 127.0.0.1:8123
 ```
 ```
