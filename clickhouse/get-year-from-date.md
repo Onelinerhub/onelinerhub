@@ -9,4 +9,13 @@ SELECT toYear(now())
 
 group: date_format
 
+## Example: 
+```sql
+SELECT toYear(now())
+```
+```
+┌─toYear(now())─┐
+│          2022 │
+└───────────────┘
+```
 
