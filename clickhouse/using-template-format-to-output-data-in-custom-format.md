@@ -24,6 +24,9 @@ clickhouse-client -q "SELECT * FROM tbl FORMAT Template SETTINGS format_template
 Query id: ef3a3c26-5db4-4d09-9d58-39ba6f80f41b
 
 My name is "Donald" and I am 125
+
+My name is "hi" and I am 0
+
 ...
 ```
 
