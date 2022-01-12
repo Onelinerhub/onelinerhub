@@ -1,7 +1,7 @@
 # How to stop Clickhouse server
 
 ```clickhouse
-clickhouse start
+clickhouse stop
 ```
 
 - `clickhouse` - server control script
