@@ -11,4 +11,6 @@ git merge origin/main
 - `merge` - merges changes to current branch
 - `origin/main` - merge changes from master (named `main` in our case)
 
+group: merge
+
 
