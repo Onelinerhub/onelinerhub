@@ -1,14 +1,14 @@
-# Get table size
+# Get total database size
 
 ```sql
-SELECT formatReadableSize(sum(bytes)) FROM system.parts WHERE active AND table = 'tbl';
+SELECT formatReadableSize(sum(bytes)) FROM system.parts WHERE active AND database = 'default';
 ```
 
 - `formatReadableSize` - converts bytes into human-readable form
 - `sum(bytes)` - get sum of all parts sizes of our table
 - `system.parts` - system table with table parts info
 - `active` - select only active parts
-- `table = 'tbl'` - name of the table to get size for (`tbl` in our case)
+- `default` - name of the database to get size for (`tbl` in our case)
 
 group: sizes
 
