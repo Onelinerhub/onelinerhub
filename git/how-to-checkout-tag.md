@@ -10,4 +10,12 @@ git checkout v0.7
 
 group: tags
 
+## Example: 
+```bash
+git checkout v0.7
+```
+```
+Note: switching to 'v0.7'.
+...
+```
 
