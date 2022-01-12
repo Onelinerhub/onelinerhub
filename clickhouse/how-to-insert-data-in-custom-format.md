@@ -1,6 +1,6 @@
 # Using Template format to insert data in custom format
 
-```sql
+```bash
 echo 'My name is ${col:CSV} and I am ${age:CSV}' > tmp.tpl
 echo 'My name is Donald and I am 125' | clickhouse-client -q "INSERT INTO tbl FORMAT Template SETTINGS format_template_row = 'tmp.tpl'"
 ```
