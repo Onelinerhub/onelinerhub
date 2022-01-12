@@ -5,6 +5,7 @@ SELECT toDate('2025-05-15')
 ```
 
 - `toDate` - converts given string to date
+- `2025-05-15` - sample textual date
 
 group: date_convert
 
