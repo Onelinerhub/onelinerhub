@@ -9,7 +9,7 @@ cat json_rows.txt | clickhouse-client -q "INSERT INTO tbl FORMAT JSONEachRow"
 - `INSERT INTO tbl` - insert given data into `tbl` table
 - `FORMAT JSONEachRow` - set format of input data to `JSONEachRow`
 
-group: JSONEachRow
+group: Template_format
 
 ## Example: 
 ```bash
