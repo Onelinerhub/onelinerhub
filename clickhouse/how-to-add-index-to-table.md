@@ -1,7 +1,7 @@
 # How to add index to table
 
 ```sql
-ALTER TABLE tbl ADD INDEX col_index(col) TYPE minmax GRANULARITY 3;
+ALTER TABLE tbl ADD INDEX col_index(col) TYPE minmax GRANULARITY 3
 ```
 
 - `ALTER TABLE` - change specified table
