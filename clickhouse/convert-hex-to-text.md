@@ -5,7 +5,7 @@ SELECT unhex('6578616D706C65')
 ```
 
 - `unhex(` - converts given HEX to string
-- `example` - string to convert
+- `6578616D706C65` - HEX num to convert to text
 
 group: hex
 
