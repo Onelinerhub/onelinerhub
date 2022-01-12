@@ -18,7 +18,7 @@ SELECT  formatReadableSize(sum(bytes)) as size FROM system.parts WHERE active AN
 ```
 ```
 ┌─size──────┐
-│ 49.00 MiB │
+│ 89.00 MiB │
 └───────────┘
 
 ```
