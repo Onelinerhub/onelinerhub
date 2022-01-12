@@ -6,6 +6,8 @@ SHOW USERS
 
 - `SHOW USERS` - Will list all users from Clickhouse server
 
+group: users
+
 ## Example: 
 ```sql
 SHOW USERS;
