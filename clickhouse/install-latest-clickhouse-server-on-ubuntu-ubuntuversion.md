@@ -1,6 +1,6 @@
 # Install latest Clickhouse server on Ubuntu UBUNTU_VERSION
 
-```sql
+```bash
 apt install -y apt-transport-https ca-certificates dirmngr
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E0C56BD4
 apt update && apt install -y clickhouse-server clickhouse-client
