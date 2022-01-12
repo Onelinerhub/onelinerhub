@@ -10,6 +10,8 @@ SELECT formatReadableSize(sum(bytes)) FROM system.parts WHERE active AND table =
 - `active` - select only active parts
 - `table = 'tbl'` - name of the table to get size for (`tbl` in our case)
 
+group: sizes
+
 ## Example: 
 ```sql
 SELECT  formatReadableSize(sum(bytes)) as size FROM system.parts WHERE active AND table = 'tbl';
