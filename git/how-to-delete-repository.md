@@ -1,5 +1,7 @@
 # How to delete repository
 
+### Just remove `.git` folder inside your repo:
+
 ```bash
 rm -rf .git
 ```
