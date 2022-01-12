@@ -1,6 +1,6 @@
 # How to stop Clickhouse server
 
-```clickhouse
+```bash
 clickhouse stop
 ```
 
