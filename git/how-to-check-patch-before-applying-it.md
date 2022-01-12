@@ -1,4 +1,4 @@
-# How to check patch before applying it
+# How to check patch (dry-run) before applying it
 
 ```bash
 git apply --stat name.patch
