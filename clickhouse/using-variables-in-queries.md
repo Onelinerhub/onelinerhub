@@ -9,6 +9,8 @@ WITH '2020' AS min_year SELECT * FROM tbl WHERE toYear(date) > min_year
 - `min_year` - user variable name
 - `SELECT * FROM tbl` - sample select
 
+group: with
+
 ## Example: 
 ```sql
 WITH '2020' AS min_year SELECT * FROM tbl WHERE toYear(date) > min_year
