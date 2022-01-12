@@ -1,6 +1,6 @@
 # Disable logs
 
-### In order to disable Clickhouse logs (`trace` by dafault), change this setting in `/etc/clickhouse-server/config.xml`:
+### In order to disable Clickhouse logs (`trace` by default), change this setting in `/etc/clickhouse-server/config.xml` and restart server:
 
 ```xml
 <level>fatal</level>
