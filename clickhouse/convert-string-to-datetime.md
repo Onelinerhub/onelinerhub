@@ -4,7 +4,8 @@
 SELECT toDateTime('2025-05-15 01:02:03')
 ```
 
-- `toDate` - converts given string to date
+- `toDateTime` - converts given string to date/time
+- `2025-05-15 01:02:03` - sample textual date/time
 
 group: date_convert
 
