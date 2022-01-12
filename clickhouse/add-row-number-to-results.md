@@ -20,7 +20,6 @@ SELECT rowNumberInAllBlocks(), * FROM tbl
 │                      2 │ 2022-01-11 │ Donald │
 │                      3 │ 2022-01-11 │ Donald │
 │                      4 │ 2022-01-12 │ Donald │
-└────────────────────────┴────────────┴────────┘
 
 ```
 
