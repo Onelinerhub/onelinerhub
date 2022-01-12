@@ -1,6 +1,6 @@
 # How to restart Clickhouse server
 
-```clickhouse
+```bash
 clickhouse restart
 ```
 
