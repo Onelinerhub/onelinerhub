@@ -1,4 +1,4 @@
-# Select where date example
+# Select with date column values
 
 ```sql
 SELECT * FROM tbl WHERE date = toDate('2022-01-12')
