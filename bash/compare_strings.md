@@ -4,8 +4,11 @@
 if [ "$var" = "good" ]; then echo "var is good"; fi
 ```
 
-- $var - some variable with a string value
-- "good" - string to compare ```$var``` with
-- echo "var is good" - execute this code if ```$var``` contains ```good```
+- `$var` - some variable with a string value
+- `"good"` - string to compare ```$var``` with
+- `echo "var is good"` - execute this code if ```$var``` contains ```good```
 
 group: compare_strings
+
+
+link_youtube: https://youtu.be/dlBs24zak-U
