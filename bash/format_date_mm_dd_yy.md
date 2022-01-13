@@ -4,6 +4,9 @@
 echo $(date '+%m/%d/%y')
 ```
 
-- +%m/%d/%y - MM/DD/YY format
+- `+%m/%d/%y` - MM/DD/YY format
 
 group: date_formats
+
+
+link_youtube: https://youtu.be/Eq4RLzeXm7U
