@@ -4,4 +4,7 @@
 printf "line1\nline2\nline3\n"
 ```
 
-- printf - this command understands ```\n``` symbol as opposed to ```echo```
+- `printf` - this command understands ```\n``` symbol as opposed to ```echo```
+
+
+link_youtube: https://youtu.be/UH0eAHnrQxM
