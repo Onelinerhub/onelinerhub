@@ -4,5 +4,8 @@
 while IFS="" read -r p || [ -n "$p" ]; do echo $p; done < file.txt
 ```
 
-- file.txt - text file we're going to read
-- echo $p; - print line by line (replace this with your code)
+- `file.txt` - text file we're going to read
+- `echo $p;` - print line by line (replace this with your code)
+
+
+link_youtube: https://youtu.be/6Ku40leUF_w
