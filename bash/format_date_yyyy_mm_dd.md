@@ -4,6 +4,9 @@
 echo $(date '+%Y-%m-%d')
 ```
 
-- +%Y-%m-%d - YYYY-MM-DD format
+- `+%Y-%m-%d` - YYYY-MM-DD format
 
 group: date_formats
+
+
+link_youtube: https://youtu.be/bQQ42NtRGEc
