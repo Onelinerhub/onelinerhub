@@ -4,6 +4,9 @@
 fallocate -l 1G test
 ```
 
-- fallocate - utility to create files with contents
-- -l 1G - set size of 1G for the file
-- test - name of the file we want to create
+- `fallocate` - utility to create files with contents
+- `-l 1G` - set size of 1G for the file
+- `test` - name of the file we want to create
+
+
+link_youtube: https://youtu.be/s1zTKI0Vecw
