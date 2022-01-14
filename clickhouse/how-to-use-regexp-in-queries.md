@@ -1,4 +1,4 @@
-# How to use regexp in queries
+# How to use regex in queries
 
 ```sql
 SELECT * FROM tbl WHERE match(col, 'D.+')
