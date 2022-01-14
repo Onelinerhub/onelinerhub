@@ -7,6 +7,8 @@ SELECT arrayJoin([1, 2, 3])
 - `arrayJoin` - will expand array to rows (each row for each array element)
 - `[1, 2, 3]` - sample array to convert to rows
 
+group: array_to
+
 ## Example: 
 ```sql
 SELECT arrayJoin([1, 2, 3]);
