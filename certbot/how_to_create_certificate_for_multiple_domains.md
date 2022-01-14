@@ -4,5 +4,8 @@
 certbot certonly -d example.com,mob.example.com,www.example.com
 ```
 
-- certonly - just issues certificate without further steps
-- -d - specify list of domain to issue certificate for
+- `certonly` - just issues certificate without further steps
+- `-d` - specify list of domain to issue certificate for
+
+
+link_youtube: https://youtu.be/579WjME_KRg
