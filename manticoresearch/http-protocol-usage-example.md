@@ -14,4 +14,6 @@ curl -X POST localhost:9308/sql --data-urlencode "query=SELECT * FROM index1 WHE
 - `index1` - name of the index
 - `text` - sample text to match among our index
 
+group: http
+
 
