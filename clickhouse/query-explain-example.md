@@ -1,7 +1,7 @@
 # Query EXPLAIN example
 
 ```sql
--- EXPLAIN SELECT...
+EXPLAIN SELECT...
 
 ┌─explain───────────────────────────────────────────────────────────────────┐
 │ Expression (Projection)                                                               │
