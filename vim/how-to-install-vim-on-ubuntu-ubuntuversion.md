@@ -1,6 +1,6 @@
 # How to install vim on Ubuntu UBUNTU_VERSION
 
-```vim
+```bash
 apt install vim
 ```
 
