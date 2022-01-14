@@ -14,3 +14,6 @@ INSERT INTO tbl(date, col) VALUES(today(), 'hi'),(today(), 'good'),...
 group: batch_insert
 
 
+## Additional keywords
+- batch
+
