@@ -7,6 +7,10 @@ EXPLAIN SELECT...
 - `EXPLAIN` - will print explanation of the query execution plan
 - `SELECT...` - query to explain
 
+## Example: 
+```sql
+EXPLAIN SELECT * FROM large_table WHERE complex_col = 1
+```
 ```
 ┌─explain───────────────────────────────────────────────────────────────────────────────┐
 │ Expression (Projection)                                                               │
