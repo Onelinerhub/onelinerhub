@@ -4,7 +4,7 @@
 source text_src
 {
   type = csvpipe
-  csvpipe_command = can /path/to/data.csv
+  csvpipe_command = cat /path/to/data.csv
   csvpipe_attr_string = name
   csvpipe_field = description
 }
