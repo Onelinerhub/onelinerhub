@@ -1,4 +1,4 @@
-# Run Manticoresearch docker container
+# Run Manticoresearch Docker container
 
 ```docker
 docker run -p 9306:9306 -d manticoresearch/manticore
