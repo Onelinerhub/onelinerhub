@@ -1,6 +1,6 @@
 # How to install Manticore search on Ubuntu UBUNTU_VERSION
 
-```manticoresearch
+```bash
 wget http://repo.manticoresearch.com/manticore-repo.noarch.deb
 dpkg -i manticore-repo.noarch.deb
 apt update
