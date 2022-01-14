@@ -1,6 +1,6 @@
 # Get long query progress updates over HTTP
 
-```sql
+```bash
 curl -i "127.0.0.1:8123?send_progress_in_http_headers=1" --data "SELECT * FROM large_table WHERE something = 1"
 ```
 
@@ -11,7 +11,7 @@ curl -i "127.0.0.1:8123?send_progress_in_http_headers=1" --data "SELECT * FROM l
 - `curl -i` - curl will show headers while executing request
 
 ## Example: 
-```sql
+```bash
 curl -i "127.0.0.1:8123?send_progress_in_http_headers=1" --data "SELECT * FROM large_table WHERE something = 1"
 ```
 ```
