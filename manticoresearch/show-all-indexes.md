@@ -8,8 +8,6 @@ SHOW TABLES
 
 - `SHOW TABLES` - Will list all indexes
 
-group: rt
-
 ## Example: 
 ```sql
 SHOW TABLES
