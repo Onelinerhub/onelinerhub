@@ -1,4 +1,4 @@
-# TSV index example
+# How to index TSV data
 
 ```bash
 source text_src
