@@ -4,9 +4,9 @@
 INSERT INTO tbl3(ts, list) VALUES(now(), ['a', 'b', 'c'])
 ```
 
-- `tbl3` - name of the table with array column to create
-- `list` - name of the array column
-- `Array(String)` - this will be array of strings
+- `tbl3` - table [with array column](/clickhouse/create-array-column)
+- `list` - name of array (of strings) column
+- `['a', 'b', 'c']` - value for array column
 
 group: array
 
