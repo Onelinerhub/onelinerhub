@@ -1,4 +1,4 @@
-# Show all indexes
+# List all indexes
 
 ### Execute this Manticosearch query using [Mysql protocol](/manticoresearch/mysql-client-connection-example):
 
