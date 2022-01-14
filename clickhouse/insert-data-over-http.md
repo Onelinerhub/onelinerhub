@@ -13,11 +13,4 @@ curl "127.0.0.1:8123?query=INSERT+INTO+tbl+FORMAT+TSV" --data-binary @data.tsv
 
 group: http
 
-## Example: 
-```bash
-curl "127.0.0.1:8123?query=select+now()"
-```
-```
-2022-01-12 19:02:22
-```
 
