@@ -1,6 +1,6 @@
 # How to index data from PostgreSQL
 
-```bash
+```txt
 source text_src {
   type = pgsql
   sql_host = localhost
