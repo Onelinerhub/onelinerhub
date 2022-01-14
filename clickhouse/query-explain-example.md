@@ -1,7 +1,7 @@
 # Query EXPLAIN example
 
 ```sql
--- EXPLAIN SELECT ...
+-- EXPLAIN SELECT...
 
 ┌─explain───────────────────────────────────────────────────────────────────┐
 │ Expression (Projection)                                                               │
@@ -20,5 +20,7 @@
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
+- `EXPLAIN` - will print explanation of the query execution plan
+- `SELECT...` - query to explain
 
 
