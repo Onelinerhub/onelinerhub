@@ -1,4 +1,4 @@
-# CSV index example
+# How to index CSV data
 
 ```bash
 source text_src
