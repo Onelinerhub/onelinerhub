@@ -3,7 +3,7 @@
 ```sql
 -- EXPLAIN SELECT ...
 
-┌─explain───────────────────────────────────────────────────────────────────────────────┐
+┌─explain───────────────────────────────────────────────────────────────────┐
 │ Expression (Projection)                                                               │
 │   CreatingSets (Create sets before main query execution)                              │
 │     Expression (Before ORDER BY)                                                      │
@@ -17,7 +17,7 @@
 │             Expression (Before ORDER BY)                                              │
 │               SettingQuotaAndLimits (Set limits and quota after reading from storage) │
 │                 ReadFromMergeTree                                                     │
-└───────────────────────────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────────────
 ```
 
 
