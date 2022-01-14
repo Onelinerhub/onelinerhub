@@ -1,6 +1,6 @@
 # Generate test data for a table
 
-```clickhouse
+```sql
 INSERT INTO tbl(date, val) SELECT today(), number FROM numbers(10000)
 ```
 
