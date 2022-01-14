@@ -1,4 +1,4 @@
-# Sending commands to the terminal in a console application
+# Executing terminal commands in a console application
 
 ```c
 #include <stdlib.h>
