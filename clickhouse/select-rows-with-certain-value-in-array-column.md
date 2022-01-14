@@ -11,4 +11,13 @@ SELECT * FROM tbl3 WHERE has(list, 'd')
 
 group: array
 
+## Example: 
+```sql
+SELECT * FROM tbl3 WHERE has(list, 'd')
+```
+```
+┌──────────────────ts─┬─list──────────┐
+│ 2022-01-14 17:41:38 │ ['b','c','d'] │
+└─────────────────────┴───────────────┘
+```
 
