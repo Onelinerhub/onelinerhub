@@ -2,8 +2,13 @@
 
 ```sql
 EXPLAIN SELECT...
+```
 
-┌─explain───────────────────────────────────────────────────────────────────┐
+- `EXPLAIN` - will print explanation of the query execution plan
+- `SELECT...` - query to explain
+
+```
+┌─explain───────────────────────────────────────────────────────────────────────────────┐
 │ Expression (Projection)                                                               │
 │   CreatingSets (Create sets before main query execution)                              │
 │     Expression (Before ORDER BY)                                                      │
@@ -17,10 +22,7 @@ EXPLAIN SELECT...
 │             Expression (Before ORDER BY)                                              │
 │               SettingQuotaAndLimits (Set limits and quota after reading from storage) │
 │                 ReadFromMergeTree                                                     │
-└──────────────────────────────────────────────────────────────────────────┘
+└───────────────────────────────────────────────────────────────────────────────────────┘
+
 ```
-
-- `EXPLAIN` - will print explanation of the query execution plan
-- `SELECT...` - query to explain
-
 
