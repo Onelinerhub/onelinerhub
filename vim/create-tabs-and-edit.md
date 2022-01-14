@@ -2,18 +2,18 @@
 
 Open a file in VIM
 ```console
-vim foo
+vim file.txt
 ```
 
 On Command Mode, type 
 ```console
-:tabedit bar
+:tabedit file2.txt
 ```
 ```console
-:tabedit foo2
+:tabedit file3.txt
 ```
 
-To switch between tabs, type this command to go to the NEXT tab
+To switch between tabs, type this command to go to the NEXT tab on the editor(file2)
 ```console
 :tabn
 ```
