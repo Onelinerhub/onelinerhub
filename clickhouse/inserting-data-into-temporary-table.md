@@ -5,8 +5,8 @@ INSERT INTO tmp VALUES(1, 'Don')
 ```
 
 - `INSERT INTO` - will insert data into specified table
-- `tmp` - name of the [tmp table to insert data to
-- `id UInt64, name String` - temp table column declaration
+- `tmp` - name of the [tmp table](/clickhouse/how-to-create-temporary-table) to insert data to
+- `VALUES(1, 'Don')` - values to insert
 
 group: tmp
 
