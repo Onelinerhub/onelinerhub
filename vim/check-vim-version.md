@@ -1,6 +1,6 @@
 # Check vim version
 
-```vim
+```bash
 vim --version
 ```
 
@@ -10,7 +10,7 @@ vim --version
 group: setup
 
 ## Example: 
-```vim
+```bash
 vim --version
 ```
 ```
