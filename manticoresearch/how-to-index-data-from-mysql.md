@@ -29,4 +29,6 @@ index text_idx {
 - `text_idx` - name of the index block and our index
 - `/var/lib/manticore/data/test` - path to store index files in
 
+group: index_db
+
 
