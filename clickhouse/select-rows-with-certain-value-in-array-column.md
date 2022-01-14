@@ -4,7 +4,7 @@
 SELECT * FROM tbl3 WHERE has(list, 'd')
 ```
 
-- `tbl3` - table with array column
+- `tbl3` - table with [array column in it](/clickhouse/create-array-column)
 - `has` - will return `true` if specified array column has specified value in it
 - `list` - name of the array column
 - `'d'` - value to search in array
