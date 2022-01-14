@@ -1,6 +1,6 @@
 # Alter table settings 
 
-```clickhouse
+```sql
 ALTER TABLE test MODIFY SETTING index_granularity = 256
 ```
 
