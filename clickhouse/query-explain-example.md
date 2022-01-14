@@ -17,7 +17,7 @@
 │             Expression (Before ORDER BY)                                              │
 │               SettingQuotaAndLimits (Set limits and quota after reading from storage) │
 │                 ReadFromMergeTree                                                     │
-└──────────────────────────────────────────────────────────────────────────
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 
