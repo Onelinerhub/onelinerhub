@@ -17,7 +17,7 @@ index text_idx {
 ```
 
 - `text_src` - name of the source block
-- `type = tsvpipe` - let Mantico know that data will have TSV format
+- `type = tsvpipe` - let Manticore know that data will have TSV format
 - `tsvpipe_command` - command to execute to get TSV data
 - `/path/to/data.tsv` - path to the TSV file
 - `tsvpipe_attr_string` - sample string attribute declaration (first column in TSV)
