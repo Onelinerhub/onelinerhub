@@ -1,4 +1,4 @@
-# Using sumIf example
+# Select sumIf query example
 
 ```sql
 SELECT sumIf(age, date < '2022-01-01') FROM tbl
