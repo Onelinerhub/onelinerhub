@@ -17,7 +17,7 @@ index text_idx {
 ```
 
 - `text_src` - name of the source block
-- `type = csvpipe` - let Manticor know that data will have CSV format
+- `type = csvpipe` - let Manticore know that data will have CSV format
 - `csvpipe_command` - command to execute to get CSV data
 - `/path/to/data.csv` - path to the CSV file
 - `csvpipe_attr_string` - sample string attribute declaration (first column in CSV)
