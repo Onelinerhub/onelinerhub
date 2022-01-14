@@ -11,4 +11,17 @@ SELECT date, any(col) FROM tbl GROUP BY date
 
 group: any
 
+## Example: 
+```sql
+SELECT date, any(col) FROM tbl GROUP BY date
+```
+```
+┌───────date─┬─any(col)─┐
+│ 1970-01-01 │ hi       │
+│ 2022-01-07 │ Donald   │
+│ 2022-01-10 │ Donald   │
+│ 2022-01-11 │ Donald   │
+│ 2022-01-12 │ Donald   │
+└────────────┴──────────┘
+```
 
