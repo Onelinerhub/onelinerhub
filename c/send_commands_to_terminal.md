@@ -9,7 +9,7 @@ int main(){
 }
 ```
 
-- `include <stdlib.h>` - Standard C library that contains system functions
-- `system(arguments)` - The function receives the argument and executes it on the terminal.
+- `include <stdlib.h>` - standard C library that contains system functions
+- `system("echo foo")` - function receives the argument (`echo foo` in this case) and executes it on the terminal.
 
 
