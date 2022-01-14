@@ -11,4 +11,13 @@ SELECT sumIf(age, date < '2022-01-01') FROM tbl
 
 group: agregate_if
 
+## Example: 
+```sql
+SELECT sumIf(age, date < '2022-01-01') FROM tbl
+```
+```
+┌─sumIf(age, less(date, '2022-01-01'))─┐
+│                                  125 │
+└──────────────────────────────────────┘
+```
 
