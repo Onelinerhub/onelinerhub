@@ -1,4 +1,4 @@
-# Array join query example
+# Using groupArray in queries
 
 ```sql
 SELECT date, groupArray(col) FROM tbl GROUP BY date
