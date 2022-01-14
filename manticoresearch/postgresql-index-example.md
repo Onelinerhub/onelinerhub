@@ -1,4 +1,4 @@
-# Postgresql index example
+# How to index data from PostgreSQL
 
 ```bash
 source text_src {
