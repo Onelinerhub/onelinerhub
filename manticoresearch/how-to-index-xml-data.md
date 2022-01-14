@@ -15,7 +15,7 @@ index text_idx {
 ```
 
 - `text_src` - name of the source block
-- `type = xmlpipe2` - let Manticor know that data will have XML format
+- `type = xmlpipe2` - let Manticore know that data will have XML format
 - `xmlpipe_command` - command to execute to get XML data
 - `/path/to/data.xml` - path to the XML file
 - `text_idx` - name of the index block and our index
