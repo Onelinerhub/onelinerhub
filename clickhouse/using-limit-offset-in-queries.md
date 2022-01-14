@@ -1,4 +1,4 @@
-# Using limit offset in queries
+# Using LIMIT OFFSET in queries
 
 ```sql
 SELECT * FROM tbl LIMIT 2 OFFSET 3
