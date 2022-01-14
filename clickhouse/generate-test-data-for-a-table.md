@@ -1,5 +1,7 @@
 # Generate test data for a table
 
+### This query will insert 10k rows into `tbl` rable:
+
 ```sql
 INSERT INTO tbl(date, val) SELECT today(), number FROM numbers(10000)
 ```
