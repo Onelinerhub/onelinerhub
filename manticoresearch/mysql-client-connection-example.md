@@ -1,4 +1,4 @@
-# Mysql client connection example
+# Connect to Manticoresearch using Mysql client
 
 ```bash
 mysql -H 127.0.0.1 -P 9306 --protocol tcp
