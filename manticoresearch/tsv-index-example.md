@@ -4,7 +4,7 @@
 source text_src
 {
   type = tsvpipe
-  tsvpipe_command = can /path/to/data.tsv
+  tsvpipe_command = cat /path/to/data.tsv
   tsvpipe_attr_string = name
   tsvpipe_field = description
 }
