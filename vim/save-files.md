@@ -14,7 +14,7 @@ OR
 :write
 ```
 
-To save your file and quit the editor
+OR to save your file and quit the editor
 ```console
 :wq
 ```
