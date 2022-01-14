@@ -12,3 +12,6 @@ cat data.tsv | clickhouse-client -q "INSERT INTO tbl FORMAT TSV"
 group: batch_insert
 
 
+## Additional keywords
+- batch
+
