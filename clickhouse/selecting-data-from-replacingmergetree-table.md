@@ -1,7 +1,7 @@
 # Selecting data from ReplacingMergeTree table
 
 ```sql
-SELECT * FROM rt FINAL;
+SELECT * FROM rt FINAL
 ```
 
 - `rt` - name of the [ReplacingMergeTree table](/clickhouse/create-replacingmergetree-table)
