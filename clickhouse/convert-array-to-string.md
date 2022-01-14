@@ -8,6 +8,8 @@ SELECT arrayStringConcat(['I', 'am', 'string'], ' ')
 - `['I', 'am', 'string']` - sample array to convert to string
 - `' '` - separator to user to join array elements
 
+group: array_to
+
 ## Example: 
 ```sql
 SELECT arrayStringConcat(['I', 'am', 'string'], ' ')
