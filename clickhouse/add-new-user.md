@@ -23,3 +23,4 @@ Ok.
 0 rows in set. Elapsed: 0.001 sec.
 ```
 
+link_youtube: https://youtu.be/olYfLRs9v_g
