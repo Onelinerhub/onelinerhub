@@ -13,3 +13,4 @@ ALTER TABLE test MODIFY SETTING max_parts_in_total = 10000
 group: alter
 
 
+link_youtube: https://youtu.be/BZJagXerc1g
