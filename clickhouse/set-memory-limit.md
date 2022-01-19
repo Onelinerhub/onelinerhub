@@ -1,4 +1,4 @@
-# Set memory limit
+# Change memory limit
 
 ### You should edit this configuration option in `/etc/clickhouse-server/users.xml` (for `default` or specific user profile):
 
