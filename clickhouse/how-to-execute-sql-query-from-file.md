@@ -1,6 +1,6 @@
 # How to execute SQL query from a file
 
-```sql
+```bash
 clickhouse-client < /tmp/test.sql
 ```
 
@@ -8,7 +8,7 @@ clickhouse-client < /tmp/test.sql
 - `/tmp/test.sql` - path to the file with SQL queries
 
 ## Example: 
-```sql
+```bash
 echo 'SELECT NOW()' > /tmp/test.sql;
 clickhouse-client < /tmp/test.sql;
 ```
