@@ -1,6 +1,6 @@
 # How to go to end of file
 
-### Press `Esc` to [switch to command mode](/vim/how-to-switch-to-command-mode) and then type:
+### Press `Esc` to [switch to command mode](/vim/how-to-switch-to-command-mode) and then type (then press `Enter`):
 
 ```bash
 :$
