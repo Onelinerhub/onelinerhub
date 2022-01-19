@@ -1,4 +1,4 @@
-# Calculating median
+# How to get median value
 
 ```sql
 SELECT median(age) FROM tbl;
