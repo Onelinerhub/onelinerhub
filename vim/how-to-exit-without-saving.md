@@ -8,6 +8,7 @@
 
 - `q` - to exit vim editor
 - `!` - will ask vim not to write any changes to the file
+- `:` - lets vim know we're going to input commands
 
 group: exit_save
 
