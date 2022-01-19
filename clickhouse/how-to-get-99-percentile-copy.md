@@ -1,4 +1,4 @@
-# How to get 99% percentile COPY
+# How to get 99% percentile
 
 ```sql
 SELECT quantile(0.99)(age) FROM tbl;
