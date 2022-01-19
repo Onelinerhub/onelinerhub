@@ -1,6 +1,6 @@
 # How to switch to command mode
 
-```vim
+```text
 Esc
 ```
 
