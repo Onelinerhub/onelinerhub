@@ -20,3 +20,6 @@ print(os.date("*t").sec)
 
 ```
 
+## Additional keywords
+- wait
+
