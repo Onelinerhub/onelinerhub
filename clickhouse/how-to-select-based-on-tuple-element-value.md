@@ -1,4 +1,4 @@
-# How to select based on tuple element value
+# How to select based on Tuple element value
 
 ```sql
 SELECT * FROM tbl4 WHERE person.name = 'Joe'
