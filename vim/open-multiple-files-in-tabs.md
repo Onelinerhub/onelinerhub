@@ -1,5 +1,7 @@
 # Open multiple files in tabs
 
+### Press `Esc` to [switch to command mode](/vim/how-to-switch-to-command-mode) and then type (then press `Enter`):
+
 ```text
 :tabedit text2.txt
 ```
@@ -10,4 +12,7 @@
 
 group: tabs
 
+
+## Additional keywords
+- tabedit
 
