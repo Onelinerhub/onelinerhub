@@ -18,3 +18,4 @@ SELECT arrayZip([1, 2], ['Donald', 'Joe'])
 └─────────────────────────────────────┘
 ```
 
+link_youtube: https://youtu.be/bgK9yGreQdU
