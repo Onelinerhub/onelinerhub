@@ -1,4 +1,4 @@
-# INSERT UUID into table
+# How to insertr UUID into table
 
 ```sql
 INSERT INTO utbl SELECT generateUUIDv4(), today(), 'Joe'
