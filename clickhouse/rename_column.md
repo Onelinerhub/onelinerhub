@@ -1,4 +1,4 @@
-# Rename column
+# How to rename a column
 
 ```sql
 ALTER TABLE tbl RENAME COLUMN col1 TO col2
