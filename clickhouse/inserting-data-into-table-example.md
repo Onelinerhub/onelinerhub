@@ -1,6 +1,6 @@
 # Inserting data into table example
 
-### Although Clickhouse allows inserting data row-by-row, **use [bulk insert](/clickhouse/insert-bulk-csv-data-into-table-copy)** to get best performance for large amounts of data.
+### Although Clickhouse allows inserting data row-by-row, **use [bulk insert](/clickhouse/insert-bulk-csv-data-into-table-copy)** to get best performance if inserting more than 1 row.
 
 ```sql
 INSERT INTO tbl(ts, col) VALUES(now(), 123)
