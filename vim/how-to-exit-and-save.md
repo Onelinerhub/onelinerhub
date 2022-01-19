@@ -6,6 +6,8 @@
 :wq
 ```
 
+- `w` - to write changes to the file
+- `q` - to exit vim editor
 
 group: exit_save
 
