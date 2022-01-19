@@ -1,6 +1,6 @@
 # How to switch to insert mode
 
-```vim
+```text
 i
 ```
 
