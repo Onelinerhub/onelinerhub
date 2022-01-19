@@ -1,0 +1,5 @@
+# Short solution needed: "How to add user to sudoers" (ubuntu) #918
+
+$ usermod -aG sudo user
+
+change user with the user name you wanted
