@@ -15,3 +15,4 @@ clickhouse-client -q "SELECT * FROM tbl FORMAT TSV" | gzip > data.tsv.gz
 group: backup
 
 
+link_youtube: https://youtu.be/Y8A8EkPzjRM
