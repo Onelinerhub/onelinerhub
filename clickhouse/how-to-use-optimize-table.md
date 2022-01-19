@@ -1,4 +1,4 @@
-# How to use optimize table
+# How to optimize a table
 
 ### **Warning.** This query can take a lot of time and resources for large tables.
 
