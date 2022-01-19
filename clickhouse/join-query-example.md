@@ -1,4 +1,4 @@
-# Join query example
+# JOIN query example
 
 ```sql
 SELECT * FROM tbl1 t1 JOIN tbl2 t2 ON (t1.id = t2.event_id)
