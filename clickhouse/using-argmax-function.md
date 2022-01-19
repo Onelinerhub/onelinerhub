@@ -1,4 +1,4 @@
-# Using "argMax" function
+# Using argMax() function
 
 ```sql
 SELECT argMax(date, age) FROM tbl
