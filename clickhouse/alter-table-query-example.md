@@ -9,3 +9,4 @@ ALTER TABLE tbl ADD COLUMN val UInt32, ADD COLUMN age UInt8;
 - `ADD COLUMN` - add specified columns
 
 
+link_youtube: https://youtu.be/M3KsjRRNgqw
