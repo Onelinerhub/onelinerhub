@@ -25,3 +25,4 @@ SELECT date, groupArray(col) FROM tbl GROUP BY date
 
 ```
 
+link_youtube: https://youtu.be/099XqjRIsyQ
