@@ -1,0 +1,11 @@
+# How to switch to insert mode
+
+```vim
+i
+```
+
+- `i` - type `i` letter to switch to insert mode
+
+group: modes
+
+
