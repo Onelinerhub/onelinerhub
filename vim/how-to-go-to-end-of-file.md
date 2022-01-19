@@ -7,6 +7,7 @@
 ```
 
 - `$` - will move cursor to the last line of current file
+- `:` - lets vim know we're going to input commands 
 
 group: goto
 
