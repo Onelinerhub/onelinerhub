@@ -23,3 +23,4 @@ SELECT rowNumberInAllBlocks(), * FROM tbl
 ...
 ```
 
+link_youtube: https://youtu.be/1h0F3yAoP9E
