@@ -1,6 +1,6 @@
 # How to install ssconvert on Ubuntu UBUNTU_VERSION
 
-```ssconvert
+```bash
 apt install gnumeric
 ```
 
