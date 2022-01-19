@@ -13,6 +13,3 @@
 group: tabs
 
 
-## Additional keywords
-- tabedit
-
