@@ -9,7 +9,7 @@
 - `:` - lets vim know we're going to input commands
 - `set` - change specified option value
 - `tabstop` - size of a tab
-- `4` - set tab to the size of 4 spaces
+- `4` - set tab to the size of 4 whitespaces
 
 group: tab
 
