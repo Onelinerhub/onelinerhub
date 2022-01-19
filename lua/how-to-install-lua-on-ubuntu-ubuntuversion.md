@@ -1,6 +1,6 @@
 # How to install Lua on Ubuntu UBUNTU_VERSION
 
-```lua
+```bash
 apt install lua5.4
 ```
 
