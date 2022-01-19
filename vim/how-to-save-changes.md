@@ -8,4 +8,6 @@
 
 - `w` - to write changes to the file
 
+group: exit_save
+
 
