@@ -10,6 +10,8 @@ print('Hi ' .. some_var)
 - `print` - outputs given text 
 - `..` - join (concatenate) string on the left (`Hi `) with a string on the right (`some_var` variable)
 
+group: example
+
 ## Example: 
 ```lua
 some_var = 'all!'
