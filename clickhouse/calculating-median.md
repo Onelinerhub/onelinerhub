@@ -11,3 +11,4 @@ SELECT median(age) FROM tbl;
 group: percentiles
 
 
+link_youtube: https://youtu.be/pCQrpsxQ1yw
