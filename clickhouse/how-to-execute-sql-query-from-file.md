@@ -1,4 +1,4 @@
-# How to execute SQL query from file
+# How to execute SQL query from a file
 
 ```sql
 clickhouse-client < /tmp/test.sql
