@@ -23,3 +23,4 @@ curl "127.0.0.1:8123" --data "SELECT * FROM tbl"
 ...
 ```
 
+link_youtube: https://youtu.be/dqs6JLK_e9E
