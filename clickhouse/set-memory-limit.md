@@ -7,6 +7,6 @@
 ```
 
 - `max_memory_usage` - will set max memory usage when executing queries
-- `8000000000` - set to `8G`
+- `8000000000` - set max memory usage to `8G`
 
 
