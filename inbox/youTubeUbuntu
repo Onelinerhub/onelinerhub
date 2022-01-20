@@ -1,0 +1,7 @@
+# Short solution needed: "How to download Youtube video in CLI" (ubuntu) #951
+
+youtube-dl URL
+
+for example
+youtube-dl https://www.youtube.com/watch?v=08gkULhBxbo
+
