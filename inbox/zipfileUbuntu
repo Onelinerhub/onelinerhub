@@ -1,0 +1,12 @@
+# Short solution needed: "How zip a folder in CLI" (ubuntu) #950
+
+first install zip  and unzip using following command
+sudo apt install zip unzip
+
+synatx is:
+zip -r filename.zip folder
+zip -r filename.zip folder1 folder2
+zip -r filename.zip /path/to/folder1 /path/to/file2
+
+for example:
+zip -r rithya.zip rithya/
