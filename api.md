@@ -18,7 +18,7 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
     "tech": "javascript",
     "subject": "Ajax post x-www-form-urlencoded data",
     "lang": "javascript",
-    "code": "fetch('\/backend.php', {\n  method: 'post',\n  headers: { 'Content-Type': 'application\/x-www-form-urlencoded;charset=UTF-8' },\n  body: 'var1=' + encodeURIComponent('Donald Trump :(') + '&amp;var2=123'\n}).then(function(r) {\n  return r.json();\n}).then(function(data) {\n  console.log(data);\n});"
+    "code": "fetch('\/backend.php...log(data);\n});"
   }
   // , ...
 ]
