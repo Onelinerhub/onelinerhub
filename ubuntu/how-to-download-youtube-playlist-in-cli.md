@@ -4,7 +4,7 @@
 youtube-dl --yes-playlist 'https://www.youtube.com/watch?v=olYfLRs9v_g&list=PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl'
 ```
 
-- `youtube-dl` - youtube downloader utility package
+- `youtube-dl` - [youtube downloader](/ubuntu/how-to-install-youtube-downloader) utility
 - `--yes-playlist` - will download all videos from playlist
 - `/watch?v=olYfLRs9v_g&list=PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl` - Youtube playlist URL (any video playing from it)
 
