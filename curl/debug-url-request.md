@@ -1,12 +1,12 @@
 # Debug URL request
 
-```curl
+```bash
 curl -v https://google.com
 ```
 
 
 ## Example: 
-```curl
+```bash
 curl -v https://google.com
 ```
 ```
