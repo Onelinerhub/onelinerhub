@@ -1,0 +1,4 @@
+# Short solution needed: "How to reboot from CLI\" (ubuntu) #945
+
+reboot
+sudo reboot     #to avoid any message
