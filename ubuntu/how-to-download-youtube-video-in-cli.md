@@ -1,9 +1,11 @@
 # How to download Youtube video in CLI
 
 ```bash
-youtube-dl https://www.youtube.com/watch?v=dqs6JLK_e9E
+youtube-dl 'https://www.youtube.com/watch?v=dqs6JLK_e9E'
 ```
 
+- `youtube-dl` - [youtube downloader](/ubuntu/how-to-install-youtube-downloader) utility
+- `/watch?v=dqs6JLK_e9E` - Youtube video URL to download
 
 group: youtube
 
