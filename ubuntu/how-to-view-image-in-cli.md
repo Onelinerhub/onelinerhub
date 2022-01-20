@@ -1,6 +1,6 @@
 # How to view image in CLI
 
-### Use [`fim`](/ubuntu/how-to-install-fim-image-viewer) tool open images right in the terminal ([original image](https://www.deviantart.com/mioree-art/art/Wonder-Woman-692400960)):
+### Use [`fim`](/ubuntu/how-to-install-fim-image-viewer) tool open images right in the terminal ([original image](https://www.deviantart.com/mioree-art/art/Wonder-Woman-692400960)). In order to quit image viewer type `:q` and press `Enter`:
 
 ```bash
 fim -t image.jpg
