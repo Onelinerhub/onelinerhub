@@ -1,6 +1,13 @@
 # How to contribute to Onelinerhub
-
 Have and idea of a useful code but don't know how to write it? Create an [issue](https://github.com/Onelinerhub/onelinerhub/issues/new) here so community might help. Search through current [open issues](https://github.com/Onelinerhub/onelinerhub/issues) for requested solutions you can help with.
+
+## How to contribute one or several solutions only
+If you have just a quick fix (or couple) to do, you can:
+- create [an issue](https://github.com/Onelinerhub/onelinerhub/issues) with updated/new code to publish
+- create [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with changes/additions you want to publish
+
+## How to apply to become constant contributor
+Create [new issue](https://github.com/Onelinerhub/onelinerhub/issues) describing set of technologies you can help with. After approval you're going to be added to the repository as a contributor and you'll be able to push code directly.
 
 ## Requirements for contributors
 Basically everyone (having a github account) can contribute any amount of code solutions for any technology.
