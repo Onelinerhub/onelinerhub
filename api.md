@@ -34,3 +34,4 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
 
 ## Integrations
 - [Visual Studio plugin](https://marketplace.visualstudio.com/items?itemName=pashkatrick.oneliner)
+- [oh - search onelinerhub.com in terminal](http://new.onelinerhub.com/tools)
