@@ -24,7 +24,7 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
 ]
 ```
 
-#### Where:
+#### params:
 - `url` - public URL of the code piece page
 - `tech` - technology of this code
 - `subject` - Full title for the code
