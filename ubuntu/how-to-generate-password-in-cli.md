@@ -1,17 +1,11 @@
-# How to generate password in CLI
+# How to change password in CLI
 
 ```bash
-openssl rand -base64 12
+passwd
 ```
 
+- `passwd` - will ask you for the new password
 
 group: pwd
 
-## Example: 
-```bash
-openssl rand -base64 12
-```
-```
-8U2ZA+VndUyxTiYn
-```
 
