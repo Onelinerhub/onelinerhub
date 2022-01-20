@@ -1,8 +1,0 @@
-# Short solution needed: "How to get battery status in CLI" (ubuntu) #919
-
-# command that displays the battery status in the terminal
-$ upower -i $(upower -e | grep 'BAT') | grep -E "state|to\ full|percentage"
-
-
-# below command output below command outputs a lot status and statistical information about the batterys a lot status and statistical information about the battery
-upower -i /org/freedesktop/UPower/devices/battery_BAT0
