@@ -1,7 +1,7 @@
 # How to download Youtube playlist in CLI
 
 ```bash
-www.youtube.com/watch?v=olYfLRs9v_g&list=PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl'
+youtube-dl --yes-playlist 'https://www.youtube.com/watch?v=olYfLRs9v_g&list=PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl'
 ```
 
 
@@ -9,7 +9,7 @@ group: youtube
 
 ## Example: 
 ```bash
-www.youtube.com/watch?v=olYfLRs9v_g&list=PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl'
+youtube-dl --yes-playlist 'https://www.youtube.com/watch?v=olYfLRs9v_g&list=PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl'
 ```
 ```
 [youtube:tab] Downloading playlist PLNb8bMSPnPc6an-6TdHO7mxSxeMNSjeSl - add --no-playlist to just download video olYfLRs9v_g
