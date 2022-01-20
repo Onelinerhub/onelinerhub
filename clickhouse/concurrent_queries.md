@@ -9,3 +9,4 @@
 - `max_concurrent_queries` - this setting limits number of queries executing concurrently
 
 
+link_youtube: https://youtu.be/_sSwQbvaJ0Y
