@@ -1,4 +1,4 @@
-# How to generate password in CLI
+# How to change password in CLI
 
 ```bash
 passwd
