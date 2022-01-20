@@ -18,13 +18,14 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
     "tech": "javascript",
     "subject": "Ajax post x-www-form-urlencoded data",
     "lang": "javascript",
-    "code": "fetch('\/backend.php', {\n  method: 'post',\n  headers: { 'Content-Type': 'application\/x-www-form-urlencoded;charset=UTF-8' },\n  body: 'var1=' + encodeURIComponent('Donald Trump :(') + '&amp;var2=123'\n}).then(function(r) {\n  return r.json();\n}).then(function(data) {\n  console.log(data);\n});"
+    "code": "fetch('\/backend.php...log(data);\n});"
   }
   // , ...
 ]
 ```
 
-#### Where:
+
+Response data description:
 - `url` - public URL of the code piece page
 - `tech` - technology of this code
 - `subject` - Full title for the code
@@ -33,4 +34,5 @@ curl "https://api.onelinerhub.com/search?query=php+header+json"
 
 
 ## Integrations
-- [Visual Studio plugin](https://marketplace.visualstudio.com/items?itemName=pashkatrick.oneliner)
+- [Code search plugin for Visual Studio](https://marketplace.visualstudio.com/items?itemName=pashkatrick.oneliner)
+- [oh - search code solutions directly from terminal](http://new.onelinerhub.com/tools)

@@ -1,7 +1,0 @@
-# Short solution needed: "How to lock screen from CLI" (ubuntu) #952
-
-- first install the Gnome Screensaver utility:
-sudo apt-get install gnome-screensaver
-
-- to lock screen from CLI use the below command
-gnome-screensaver-command -l

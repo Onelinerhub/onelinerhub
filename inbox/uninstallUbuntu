@@ -1,6 +1,0 @@
-# Short solution needed: "How to uninstall application in CLI" (ubuntu) #953
-
-sudo apt remove program_name
-
-for example
-sudo apt remove brave-browser
