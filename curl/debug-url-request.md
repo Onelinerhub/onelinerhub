@@ -4,6 +4,9 @@
 curl -v https://google.com
 ```
 
+- `curl` - base curl command
+- `-v` - verbose mode enabled
+- `https://google.com` - sample URL to debug request to
 
 ## Example: 
 ```bash
