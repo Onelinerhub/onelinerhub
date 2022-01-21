@@ -1,7 +1,5 @@
 # Download and extract tar.gz file
 
-### This will extract downloaded zip archive into current directory:
-
 ```bash
 curl https://examples.onelinerhub.com/file.tar.gz | tar -xz
 ```
