@@ -11,4 +11,17 @@ curl https://httpbin.org/anything --data @data.json
 
 group: json
 
+## Example: 
+```bash
+curl https://httpbin.org/anything --data @data.json
+```
+```
+{
+  ...
+  "form": {
+    "{\"key\": \"value\"}": ""
+  }, 
+  ...
+}
+```
 
