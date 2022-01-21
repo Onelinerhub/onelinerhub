@@ -1,4 +1,4 @@
-# Sending request with query string from terminal
+# How to send request with query string from terminal
 
 ```bash
 curl "https://onelinerhub.com/search?q=clickhouse&p=2"
