@@ -1,5 +1,7 @@
 # Download and extract zip file
 
+### This will extract downloaded zip archive into current directory:
+
 ```bash
 curl https://examples.onelinerhub.com/file.zip -o /tmp/tmp.zip && unzip /tmp/tmp.zip && rm /tmp/tmp.zip
 ```
