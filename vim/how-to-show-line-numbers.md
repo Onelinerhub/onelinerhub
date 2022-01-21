@@ -1,6 +1,6 @@
 # How to show line numbers
 
-Enable or disable line numbers in VIM. 
+Enable line numbers in VIM. 
 
 ```bash
 :set number
