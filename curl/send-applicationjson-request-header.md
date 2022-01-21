@@ -9,4 +9,6 @@ curl https://example.org/post -H 'Content-Type: application/json'
 - `-H` - set specified header
 - `application/json` - set content type of our request to JSON
 
+group: json
+
 
