@@ -13,6 +13,8 @@ curl -o /dev/null -s -w "%{http_version}\n" https://onelinerhub.com
 - `https://onelinerhub.com` - sample URL to request
 - `http_version` - will return HTTP protocol version
 
+group: http_version
+
 ## Example: 
 ```bash
 curl -o /dev/null -s -w "%{http_version}\n" https://onelinerhub.com
