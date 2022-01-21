@@ -10,6 +10,8 @@ curl -s https://examples.onelinerhub.com/json.json | jq .
 - `|` - pipe downloaded response to the specified command
 - `jq .` - will format specified JSON (downloaded from our URL)
 
+group: json
+
 ## Example: 
 ```bash
 curl -s https://examples.onelinerhub.com/json.json | jq .
