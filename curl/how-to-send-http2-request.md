@@ -8,4 +8,6 @@ curl --http2 https://onelinerhub.com
 - `https://onelinerhub.com` - sample URL to request
 - `--http2` - will force HTTP2 request
 
+group: http_v
+
 
