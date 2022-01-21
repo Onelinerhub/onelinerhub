@@ -1,4 +1,4 @@
-# How to set Origin of request
+# How to set Origin for request
 
 ```bash
 curl https://example.org -X OPTIONS -H "Origin: https://onelinerhub.com"
