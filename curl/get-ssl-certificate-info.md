@@ -1,5 +1,7 @@
 # Get SSL certificate info
 
+### Source of original solution: https://serverfault.com/a/749381
+
 ```bash
 curl -vvI https://google.com 2>&1 | awk 'BEGIN { cert=0 } /^\* SSL connection/ { cert=1 } /^\*/ { if (cert) print }'
 ```
