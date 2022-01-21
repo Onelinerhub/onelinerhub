@@ -11,6 +11,7 @@ curl -o /dev/null -s -w "%{http_version}\n" https://onelinerhub.com
 - `-s` - will not display any system information
 - `-w` - will ask curl to display specified data about request
 - `https://onelinerhub.com` - sample URL to request
+- `http_version` - will return HTTP protocol version
 
 ## Example: 
 ```bash
