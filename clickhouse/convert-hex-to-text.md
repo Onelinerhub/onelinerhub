@@ -20,3 +20,4 @@ SELECT unhex('6578616D706C65')
 
 ```
 
+link_youtube: https://youtu.be/r2o5FBOS-Vs
