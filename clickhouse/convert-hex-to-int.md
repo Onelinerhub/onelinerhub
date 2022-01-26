@@ -20,3 +20,4 @@ SELECT toInt32(unhex('313233'))
 └──────────────────────────┘
 ```
 
+link_youtube: https://youtu.be/Di9H5HTXcL4
