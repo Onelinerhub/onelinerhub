@@ -13,3 +13,4 @@ CREATE TABLE tbl (date Date, col String) ENGINE = MergeTree ORDER BY date;
 group: create
 
 
+link_youtube: https://youtu.be/MIF3_X_rhJg
