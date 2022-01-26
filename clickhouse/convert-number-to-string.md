@@ -19,3 +19,4 @@ SELECT toString(25.50)
 └────────────────┘
 ```
 
+link_youtube: https://youtu.be/N4oS3_k9GQk
