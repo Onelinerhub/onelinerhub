@@ -8,3 +8,4 @@ CREATE DATABASE db
 - `db` - name of the database to create
 
 
+link_youtube: https://youtu.be/MYaXbEtthaU
