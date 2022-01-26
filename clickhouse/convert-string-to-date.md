@@ -19,3 +19,4 @@ SELECT toDate('2025-05-15')
 └──────────────────────┘
 ```
 
+link_youtube: https://youtu.be/Oy3GV7JS0U4
