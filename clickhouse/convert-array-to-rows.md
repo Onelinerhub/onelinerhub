@@ -29,3 +29,4 @@ SELECT arrayJoin([1, 2, 3]), now();
 └──────────────────────┴─────────────────────┘
 ```
 
+link_youtube: https://youtu.be/fx8LwAdwpsY
