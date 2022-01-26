@@ -20,3 +20,4 @@ SELECT arrayStringConcat(['I', 'am', 'string'], ' ')
 └───────────────────────────────────────────────┘
 ```
 
+link_youtube: https://youtu.be/ODz23YLL53A
