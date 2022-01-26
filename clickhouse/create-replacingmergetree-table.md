@@ -26,3 +26,4 @@ SELECT * FROM rt FINAL;
 └────┴─────┴──────┘
 ```
 
+link_youtube: https://youtu.be/RKv0THlTI8Y
