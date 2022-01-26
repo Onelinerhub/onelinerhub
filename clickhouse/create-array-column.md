@@ -11,3 +11,4 @@ CREATE TABLE tbl3 (ts DateTime, list Array(String)) ENGINE = MergeTree ORDER BY 
 group: array
 
 
+link_youtube: https://youtu.be/giEkNCEHCHY
