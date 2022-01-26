@@ -20,3 +20,4 @@ SELECT hex('example')
 
 ```
 
+link_youtube: https://youtu.be/BJbm54Dv0G4
