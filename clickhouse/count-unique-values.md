@@ -20,3 +20,4 @@ SELECT uniq(col) FROM tbl
 └───────────┘
 ```
 
+link_youtube: https://youtu.be/anYmgAsPAxE
