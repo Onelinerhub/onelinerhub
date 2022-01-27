@@ -13,3 +13,4 @@ CREATE TABLE utbl ( id UUID, date Date, col String ) ENGINE = MergeTree ORDER BY
 group: uuid
 
 
+link_youtube: https://youtu.be/rcv-zTLArhc
