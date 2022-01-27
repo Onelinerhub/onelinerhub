@@ -12,3 +12,4 @@ ALTER TABLE tbl DROP INDEX col_index
 group: indexes
 
 
+link_youtube: https://youtu.be/C5jiQ4f7d5M
