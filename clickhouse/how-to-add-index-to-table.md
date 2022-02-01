@@ -16,3 +16,4 @@ ALTER TABLE tbl ADD INDEX col_index(col) TYPE minmax GRANULARITY 3
 group: indexes
 
 
+link_youtube: https://youtu.be/xjNcKOiZhZ8
