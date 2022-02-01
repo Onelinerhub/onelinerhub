@@ -19,3 +19,4 @@ SELECT toYYYYMMDD(now())
 └───────────────────┘
 ```
 
+link_youtube: https://youtu.be/jBTag2Att-I
