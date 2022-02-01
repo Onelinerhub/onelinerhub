@@ -18,3 +18,4 @@ SELECT generateUUIDv4()
 └──────────────────────────────────────┘
 ```
 
+link_youtube: https://youtu.be/6SQvm0C_r5Y
