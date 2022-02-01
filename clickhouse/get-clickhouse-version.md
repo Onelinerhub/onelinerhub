@@ -17,3 +17,4 @@ SELECT version()
 
 ```
 
+link_youtube: https://youtu.be/JCQ_bo8omOY
