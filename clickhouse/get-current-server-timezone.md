@@ -18,3 +18,4 @@ SELECT timezone()
 └───────────────┘
 ```
 
+link_youtube: https://youtu.be/1qIqrE1Ovdk
