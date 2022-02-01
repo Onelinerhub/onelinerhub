@@ -19,3 +19,4 @@ SELECT toYear(now())
 └───────────────┘
 ```
 
+link_youtube: https://youtu.be/_4r6RMtcNaE
