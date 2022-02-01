@@ -23,3 +23,4 @@ SELECT  formatReadableSize(sum(bytes)) as size FROM system.parts WHERE active AN
 
 ```
 
+link_youtube: https://youtu.be/ddGtSKbxc5s
