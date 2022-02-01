@@ -13,3 +13,4 @@ INSERT INTO tbl(date, val) SELECT today(), number FROM numbers(10000)
 - `numbers(10000)` - will generate 10k rows with `number` column value in a 1...10000 range
 
 
+link_youtube: https://youtu.be/tD8GGDkzoBE
