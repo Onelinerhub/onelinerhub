@@ -1,12 +1,13 @@
-# How to kill process by port
+# How to force kill process
 
 ```bash
-sudo kill `sudo lsof -t -i:8123`
+sudo kill -9 1234
 ```
 
 - `sudo` - execute command as super user (root)
 - `kill` - will kill specified process
-- `lsof -t -i:8123` - will list all processes listening on `8123` port
+- `-9` - force killing
+- `1234` - PID of the process to kill
 
 group: kill
 
