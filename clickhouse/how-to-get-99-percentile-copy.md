@@ -10,3 +10,4 @@ SELECT quantile(0.99)(age) FROM tbl;
 group: percentiles
 
 
+link_youtube: https://youtu.be/gkHcxQ6wo9g
