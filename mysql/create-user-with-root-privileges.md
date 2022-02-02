@@ -1,7 +1,7 @@
 # Create user with root privileges
 
 ```sql
-CREATE USER user1@localhost IDENTIFIED BY 'pwd';
+CREATE USER user@localhost IDENTIFIED BY 'pwd';
 GRANT ALL PRIVILEGES ON *.* TO user@localhost WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
