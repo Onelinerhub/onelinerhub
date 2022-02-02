@@ -16,3 +16,4 @@ SELECT now()
 └─────────────────────┘
 ```
 
+link_youtube: https://youtu.be/qjALOdrElf0
