@@ -9,4 +9,6 @@ yyp
 - `yy` - will copy current line
 - `p` - will paste copied line right after current line
 
+group: copy
+
 
