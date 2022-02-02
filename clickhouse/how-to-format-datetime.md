@@ -26,3 +26,4 @@ SELECT formatDateTime(now(), '%Y, %d/%m %H:%M (:%S)')
 
 ```
 
+link_youtube: https://youtu.be/ULndndtqBus
