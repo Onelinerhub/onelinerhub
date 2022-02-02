@@ -1,4 +1,4 @@
-# How to download from URL in CLI
+# How to download URL in CLI
 
 ```bash
 wget "https://mysqly.com/mysqly.php"
