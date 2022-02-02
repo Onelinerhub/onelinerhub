@@ -13,3 +13,4 @@ CREATE TABLE tbl4 ( `ts` DateTime, `person` Tuple(name String, code UInt32) ) EN
 group: tuple
 
 
+link_youtube: https://youtu.be/vI_K9rPVf_s
