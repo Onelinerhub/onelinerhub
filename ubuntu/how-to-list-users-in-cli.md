@@ -7,6 +7,8 @@ cat /etc/passwd
 - `cat` - print contents of specified file
 - `/etc/passwd` - all system users reside in this file
 
+group: users
+
 ## Example: 
 ```bash
 cat /etc/passwd
