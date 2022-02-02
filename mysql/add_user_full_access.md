@@ -1,7 +1,7 @@
 # Create user with full access to single database
 
 ```sql
-CREATE USER user1@localhost IDENTIFIED BY 'pwd';
+CREATE USER user@localhost IDENTIFIED BY 'pwd';
 GRANT ALL PRIVILEGES ON db.* TO user@localhost;
 FLUSH PRIVILEGES;
 ```
