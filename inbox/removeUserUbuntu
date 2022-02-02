@@ -1,0 +1,9 @@
+# Short solution needed: "How to remove user in CLI" (ubuntu) #946
+
+sudo userdel username
+
+#The userdel command won’t work if the user is currently logged in or has processes running under the account
+
+sudo killall -u username
+OR
+sudo userdel -f username

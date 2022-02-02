@@ -1,0 +1,7 @@
+# Short solution needed: "How to move file in CLI" (ubuntu) #944
+
+mv [sourcefile] [destination_Path or folder_name or directory]
+
+for example:
+mv ubuntu.txt Linuxcommands
+mv index.html /home/Projects
