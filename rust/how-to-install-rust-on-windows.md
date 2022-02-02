@@ -2,7 +2,7 @@
 
 ```txt
 1. Install Visual Studio C++ Build tools from https://visualstudio.microsoft.com/visual-cpp-build-tools/
-2. Install Rust https://www.rust-lang.org/tools/install
+2. Download and install Rust https://forge.rust-lang.org/infra/other-installation-methods.html#standalone
 ```
 
 
