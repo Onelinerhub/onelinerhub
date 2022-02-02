@@ -1,6 +1,0 @@
-# Short solution needed: "How to list users in CLI" (ubuntu) #942
-
-cat <path in which users need to be listed>
-
-for example:
-cat /admin/Desktop
