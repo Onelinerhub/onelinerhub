@@ -13,3 +13,4 @@ CREATE FUNCTION test AS (date, age) -> CONCAT(toString(age), ', ', toString(toYe
 group: udf
 
 
+link_youtube: https://youtu.be/RWdrT03gtWY
