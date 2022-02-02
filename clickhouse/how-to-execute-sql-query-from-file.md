@@ -16,3 +16,4 @@ clickhouse-client < /tmp/test.sql;
 2022-01-19 14:26:38
 ```
 
+link_youtube: https://youtu.be/1kbZiH9EPHA
