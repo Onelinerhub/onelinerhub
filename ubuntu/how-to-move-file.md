@@ -2,9 +2,4 @@
 
 mv [file] [directory]
 
-- `mv` - moves 
-
-**Exemple**
-```bash
-mv old.txt doc/
-```
+- `mv` - moves a file
