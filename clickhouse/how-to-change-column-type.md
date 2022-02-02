@@ -13,3 +13,4 @@ ALTER TABLE test MODIFY COLUMN col_name UInt64
 group: columns
 
 
+link_youtube: https://youtu.be/_XmX0E3-kws
