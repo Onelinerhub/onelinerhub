@@ -15,3 +15,4 @@ CREATE TABLE tbl_buf AS tbl ENGINE = Buffer(default, tbl, 16, 10, 100, 10000, 10
 group: buffer
 
 
+link_youtube: https://youtu.be/3np1Co2yW2w
