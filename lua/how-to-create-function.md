@@ -6,8 +6,7 @@ function say_hi(to)
 end
 ```
 
-- `function` - declare new function
-- `say_hi` - function name
+- `function say_hi` - declare new function named `say_hi`
 - `(to)` - argument(s)
 - `return 'Hi ' .. to.. '!';` - implementation (returns greeting string in our case)
 - `end` - ends function block
