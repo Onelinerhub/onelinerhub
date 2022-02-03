@@ -8,7 +8,7 @@ string.format("%#x", 0xaf)
 - `%#x` - treat given variable as hex number
 - `0xaf` - hex value to convert to string
 
-group: convert
+group: convert_str
 
 ## Example: 
 ```lua
