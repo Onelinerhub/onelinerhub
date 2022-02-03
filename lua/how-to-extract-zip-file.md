@@ -1,5 +1,7 @@
 # How to extract ZIP file
 
+### We'll use [zip lib](https://luarocks.org/modules/brimworks/lua-zip) to load file contents from zip archive:
+
 ```lua
 zip = require 'brimworks.zip'
 
