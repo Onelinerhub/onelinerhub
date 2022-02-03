@@ -10,6 +10,8 @@ end
 - `if ( true ) then` - condition to break loop on (always true in our case)
 - `break` - will break loop execution
 
+group: loop
+
 ## Example: 
 ```lua
 x = 1
