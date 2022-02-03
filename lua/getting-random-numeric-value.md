@@ -10,6 +10,8 @@ rand = math.random(1, 10)
 - `1, 10` - min and max value of the number to generate
 - `rand =` - will contain generated random number
 
+group: random
+
 ## Example: 
 ```lua
 math.randomseed(os.time())
