@@ -1,31 +1,35 @@
 # How to break loop
 
+### Lua doesn't have continue statement, but we can easily use `goto` instead:
+
 ```lua
 while true do
-  if ( true ) then break end
+  ::mark::
+  -- do something
+  if ( true ) then goto mark end
 end
 ```
 
 - `while true do` - sample loop
-- `if ( true ) then` - condition to break loop on (always true in our case)
-- `break` - will break loop execution
+- `if ( true ) then` - condition to stop loop cycle and continue from the start
+- `::mark::` - mark loop start to have a change to go here later
+- `goto mark` - will continue execution at specified place inside loop
 
 group: loop
 
 ## Example: 
 ```lua
-x = 1
+x = 0
 while true do
+  ::start::
+  x = x+1
+  
+  if (x < 5) then goto start end
   if (x > 10) then break end
   print(x)
-  x = x+1
 end
 ```
 ```
-1
-2
-3
-4
 5
 6
 7
