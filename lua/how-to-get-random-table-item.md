@@ -2,26 +2,26 @@
 
 ```lua
 math.randomseed(os.time())
-rand = math.random(1, 10)
+el = tbl[math.random(1, #tbl)]
 ```
 
 - `math.randomseed(os.time())` - init unique random generator (use local time for seed)
 - `math.random(` - return random number within given range
-- `1, 10` - min and max value of the number to generate
-- `rand =` - will contain generated random number
+- `tbl` - table to get random element from
+- `1,` - min random value (first index of table)
+- `#tbl` - max random value (table size)
+- `el` - will contain random element from given table
 
 group: random
 
 ## Example: 
 ```lua
 math.randomseed(os.time())
-print( math.random(1, 10) )
-print( math.random(1, 10) )
-print( math.random(1, 10) )
+tbl = {1, 2, 3}
+el = tbl[math.random(1, #tbl)]
+print(el)
 ```
 ```
-7
-10
 3
 
 ```
