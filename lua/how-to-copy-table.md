@@ -4,9 +4,11 @@
 tbl_copy = {table.unpack(tbl)}
 ```
 
-- `table.clone` - will duplicate given table
+- `table.unpack` - return list of table items instead of the table itself
 - `tbl` - table to copy
 - `tbl_copy` - variable with a new table copied from given
+
+group: table_manage
 
 ## Example: 
 ```lua
