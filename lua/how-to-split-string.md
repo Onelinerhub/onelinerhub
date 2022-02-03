@@ -11,7 +11,7 @@ for w in string.gmatch(str, "[^ ]+") do
 end
 ```
 
-- `str` - sample string to split
+- `str =` - sample string to split
 - `words` - this array will container list of words
 - `string.gmatch` - finds all matches by a given regex
 - `for w in` - iterate through all matches items
