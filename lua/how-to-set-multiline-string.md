@@ -8,7 +8,7 @@ am
 multiline!]]
 ```
 
-- `str` - multi-line string
+- `str =` - multi-line string
 - `[[` - beginning of multi-line string
 - `]]` - end of multi-line string
 
