@@ -12,10 +12,12 @@ group: convert_num
 
 ## Example: 
 ```lua
-print(1+.0)
+x = 25
+y = x + .0
+print(y)
 ```
 ```
-1.0
+25.0
 
 ```
 
