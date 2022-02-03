@@ -8,7 +8,7 @@ y = math.floor(x)
 - `x` - float value
 - `math.floor` - will return largest integer that is small than given float number
 
-group: convert
+group: convert_num
 
 ## Example: 
 ```lua
