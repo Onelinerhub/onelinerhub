@@ -1,22 +1,24 @@
 # How to print table
 
 ```lua
-print(table.concat(tbl, ', '))
+for k, v in pairs(tbl) do print(k, v) end
 ```
 
-- `table.concat` - join all given table items using given symbol
+- `for k, v in pairs(tbl)` - iterate through all items of `tbl` table
 - `tbl` - table to print
-- `', '` - string to join table items when printing
+- `print(k, v)` - print key and value of each table element
 
 group: print_table
 
 ## Example: 
 ```lua
-tbl = {1, 2, 3}
-print(table.concat(tbl, ', '))
+tbl = {a= 1, b= 2, c= 3}
+for k, v in pairs(tbl) do print(k, v) end
 ```
 ```
-1, 2, 3
+c	3
+b	2
+a	1
 
 ```
 
