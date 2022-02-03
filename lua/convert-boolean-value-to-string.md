@@ -8,7 +8,7 @@ str = tostring(bool)
 - `tostring` - converts given value to string
 - `bool` - boolean variable
 
-group: convert
+group: convert_str
 
 ## Example: 
 ```lua
