@@ -7,8 +7,6 @@ local db = pool:connect('test', 'usr', 'pwd')
 
 local sql = string.format("SELECT * FROM test WHERE name = '%s'", db:escape("Don'T"))
 db:execute(sql)
-
-print(sql)
 ```
 
 - `require "luasql.mysql"` - includes [lib:mysql](https://onelinerhub.com/lua-mysql/how-to-install-mysql-lib) module to work with database
