@@ -14,4 +14,6 @@ db:execute('INSERT INTO test SET name = "Donald"')
 - `db:execute` - executes given query
 - `INSERT INTO test SET name = "Donald"` - sample `INSERT` query to execute
 
+group: insert
+
 
