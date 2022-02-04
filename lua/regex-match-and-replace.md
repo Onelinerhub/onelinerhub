@@ -8,6 +8,8 @@ local str1 = str:gsub('D.+\\?!', 'Bill')
 - `local str` - sample string to find and replace in based on regex
 - `gsub` - will match and replace found strings based on regex
 - `str1` - will contain final string
+- `'D.+\\?!'` - regex to match
+- `'Bill'` - string to replace matched substrings with
 
 group: regex
 
