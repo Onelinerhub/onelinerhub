@@ -14,12 +14,16 @@ local db = pool:connect('test', 'usr', 'pwd')
 
 ## Example: 
 ```lua
---mysql = require "luasql.mysql"
---local pool = mysql.mysql()
---local db = pool:connect('test', 'usr', 'pwd')
+mysql = require "luasql.mysql"
+local pool = mysql.mysql()
+local db = pool:connect('test', 'usr', 'pwd')
 
---local cursor = db:execute('SELECT NOW()')
+local cursor = db:execute('SELECT NOW() as now')
+row = cursor:fetch ({}, "a")
+print(row.now)
+```
+```
+2022-02-04 17:09:53
 
-print(cursor)
 ```
 
