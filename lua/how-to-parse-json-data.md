@@ -4,7 +4,7 @@
 
 ```lua
 local cjson = require "cjson"
-tbl = cjson.decode('{"name":"Donald"}')
+local tbl = cjson.decode('{"name":"Donald"}')
 ```
 
 - `require "cjson"` - load [lib:cjson](https://onelinerhub.com/lua/install-cjson-module-with-luarocks) module to work with JSON
