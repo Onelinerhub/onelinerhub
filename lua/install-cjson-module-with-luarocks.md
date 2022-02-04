@@ -9,6 +9,4 @@ luarocks install lua-cjson
 - `luarocks` - Lua package manager
 - `luarocks install` - installs specified Lua package
 
-group: luarocks
-
 
