@@ -40,7 +40,7 @@ srv:loop()
 ```lua
 lua srv.lua
 curl http://127.0.0.1:82/test
-# ctrl+c to stop server
+// ctrl+c to stop server
 ```
 ```
 Received 'GET' request on '/test' at Fri Feb  4 13:42:53 2022
