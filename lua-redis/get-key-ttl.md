@@ -11,6 +11,8 @@ local expires_in = redis:ttl('key')
 - `:ttl` - returns seconds it'll take specified key to expire (or `-1` if it's not expirable)
 - `'key'` - name of the key to get expiration second for
 
+group: expire
+
 ## Example: 
 ```lua
 local redis = (require 'redis').connect('127.0.0.1', 6379)
