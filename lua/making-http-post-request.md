@@ -22,7 +22,7 @@ response = table.concat(body)
 - `require("socket.http")` - load standard HTTP utility lib
 - `body = {}` - declare variable to save response body to
 - `http.request` - sends specified HTTP request
-- `body, code, headers, status` - variables will store response body, code, headers and status
+- `res, code, headers, status` - variables will store response result, code, headers and status
 - `"POST"` - send POST request
 - `https://httpbin.org/post` - URL to post to
 - `'var=123'` - data to post to
