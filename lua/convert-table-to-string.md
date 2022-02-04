@@ -1,8 +1,8 @@
 # Convert table to string
 
-### We'll use [cjson](https://luarocks.org/modules/openresty/lua-cjson) module to convert table to string representation:
+### We'll use [lib:cjson](https://onelinerhub.com/lua/install-cjson-module-with-luarocks) module to convert table to string representation:
 
-```lua
+```bash
 local cjson = require "cjson"
 str_table = cjson.encode(table)
 ```
@@ -15,7 +15,7 @@ str_table = cjson.encode(table)
 group: convert_str
 
 ## Example: 
-```lua
+```bash
 local cjson = require "cjson"
 t={{1,2,3},{4,5,6}}
 print(cjson.encode(t))
