@@ -9,7 +9,7 @@ redis:set('key', 'val')
 - `connect` - connect to Redis server
 - `'127.0.0.1', 6379` - Redis host and port to connect to
 - `:set` - sets specified key value
-- `key` - key name
+- `'key'` - key name
 - `'val'` - value to set
 
 group: getset
