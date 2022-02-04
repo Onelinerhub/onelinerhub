@@ -1,4 +1,4 @@
-# How to parse XML COPY
+# How to convert table to XML string
 
 ```lua
 local xml = require "xml"
