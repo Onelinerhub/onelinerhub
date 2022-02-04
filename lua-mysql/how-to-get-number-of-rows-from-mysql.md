@@ -28,7 +28,7 @@ local num = cursor:numrows()
 print(num)
 ```
 ```
-15
+16
 
 ```
 
