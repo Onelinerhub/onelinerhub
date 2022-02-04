@@ -5,7 +5,7 @@ mysql = require "luasql.mysql"
 local pool = mysql.mysql()
 local db = pool:connect('test', 'usr', 'pwd')
 
-local cursor = db:execute('SELECT id, name FROM test LIMIT 5')
+local cursor = db:execute('SELECT id, name FROM test)
 local row = cursor:fetch({})
 while row do
   print(row[1], row[2])
