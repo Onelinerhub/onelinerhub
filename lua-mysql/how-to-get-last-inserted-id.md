@@ -16,6 +16,8 @@ local id = db:getlastautoid()
 - `:getlastautoid()` - returns last inserted ID for current connection
 - `local id` - returned ID
 
+group: insert
+
 ## Example: 
 ```lua
 mysql = require "luasql.mysql"
