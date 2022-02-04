@@ -2,50 +2,73 @@
 
 ```lua
 local http = require("socket.http")
-local body, code, headers, status = http.request {
+local ltn12 = require"ltn12"
+local body = {}
+
+local res, code, headers, status = http.request {
     method = "POST",
     url = "https://httpbin.org/post",
-    source = 'var=1',
+    source = ltn12.source.string('var=123'),
     headers = {
         ["content-type"] = "text/plain",
-        ["content-length"] = '5'
-    }
+        ["content-length"] = '7'
+    },
+    sink = ltn12.sink.table(body)
 }
 
-print(code)
+response = table.concat(body)
 ```
 
 - `require("socket.http")` - load standard HTTP utility lib
-- `http.request` - sends GET request to the specified address
-- `https://google.com` - sample URL
+- `body = {}` - declare variable to save response body to
+- `http.request` - sends specified HTTP request
 - `body, code, headers, status` - variables will store response body, code, headers and status
+- `"POST"` - send POST request
+- `https://httpbin.org/post` - URL to post to
+- `'var=123'` - data to post to
+- `headers` - specify header to send
+- `sink` - collect response body into specified `body` variable
+- `response` - will contain full response text
 
 group: http
 
 ## Example: 
 ```lua
 local http = require("socket.http")
-local body, code, headers, status = http.request {
+local ltn12 = require"ltn12"
+local body = {}
+
+local res, code, headers, status = http.request {
     method = "POST",
     url = "https://httpbin.org/post",
-    
+    source = ltn12.source.string('var=123'),
     headers = {
         ["content-type"] = "text/plain",
-        ["content-length"] = '5'
-    }
+        ["content-length"] = '7'
+    },
+    sink = ltn12.sink.table(body)
 }
 
-print(status)
+print(table.concat(body))
 ```
 ```
+{
+  "args": {}, 
+  "data": "var=123", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Content-Length": "7", 
+    "Content-Type": "text/plain", 
+    "Host": "httpbin.org", 
+    "User-Agent": "LuaSocket 3.0-rc1", 
+    "X-Amzn-Trace-Id": "Root=1-61fd22ff-798910395122567b557f334b"
+  }, 
+  "json": null, 
+  "origin": "3.123.32.182", 
+  "url": "http://httpbin.org/post"
+}
 
 
-
-
-lua: /usr/share/lua/5.3/ltn12.lua:290: attempt to call a string value (local 'src')
-stack traceback:
-	[C]: in function 'socket.http.request'
-	/tmp/test.lua:2: in main chunk
-	[C]: in ?
 ```
 
