@@ -16,7 +16,7 @@ group: expire
 ## Example: 
 ```lua
 local redis = (require 'redis').connect('127.0.0.1', 6379)
-redis:expire('key', 60);
+redis:expire('key', 60)
 print(redis:ttl('key'))
 ```
 ```
