@@ -11,7 +11,7 @@ file_idx = zip_arc:add('test.txt', "file", '/tmp/test.txt')
 zip_arc:close()
 ```
 
-- `require 'brimworks.zip'` - load [zip lib](https://luarocks.org/modules/brimworks/lua-zip)
+- `require 'brimworks.zip'` - load [zip lib](https://onelinerhub.com/lua/install-zip-module-with-luarocks)
 - `zip.open` - create new zip archive
 - `/tmp/file.zip` - name of the archive to create
 - `zip_arc:add` - adds new file to zip archive
