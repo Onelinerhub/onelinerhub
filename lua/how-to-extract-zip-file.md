@@ -13,7 +13,7 @@ str = file:read(stat.size)
 zip_arc:close()
 ```
 
-- `require 'brimworks.zip'` - load [zip lib](https://luarocks.org/modules/brimworks/lua-zip)
+- `require 'brimworks.zip'` - load [zip lib](https://onelinerhub.com/lua/install-zip-module-with-luarocks)
 - `zip.open` - create existing zip archive to extract file from
 - `zip_arc:open` - open specified file from archive (using its index)
 - `zip_arc:get_num_files()` - get number of files in zip archive (assume there's one file, then we'll get `1`)
