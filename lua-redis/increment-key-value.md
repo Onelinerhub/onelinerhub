@@ -13,6 +13,8 @@ redis:incr('key')
 - `:incr` - increments specified key
 - `'key'` - key name to increment
 
+group: incr_decr
+
 ## Example: 
 ```lua
 local redis = (require 'redis').connect('127.0.0.1', 6379)
