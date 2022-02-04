@@ -9,7 +9,7 @@ redis:get('key')
 - `connect` - connect to Redis server
 - `'127.0.0.1', 6379` - Redis host and port to connect to
 - `:get` - gets value by key
-- `key` - key name
+- `;key'` - key name
 
 group: getset
 
