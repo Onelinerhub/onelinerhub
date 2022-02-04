@@ -1,6 +1,6 @@
 # How to compress a file to ZIP archive
 
-### We'll use [zip lib](https://luarocks.org/modules/brimworks/lua-zip) to create zip archive from file:
+### We'll use [zip lib](https://onelinerhub.com/lua/install-zip-module-with-luarocks) to create zip archive from file:
 
 ```lua
 zip = require 'brimworks.zip'
