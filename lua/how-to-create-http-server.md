@@ -1,5 +1,7 @@
 # How to create HTTP server
 
+### We'll create sample HTTP server in the file named `srv.lua` and launch it with `lua srv.lua` command. Press `Ctrl+C` to stop server.
+
 ```lua
 local server = require 'http.server'
 local headers = require 'http.headers'
@@ -40,7 +42,6 @@ srv:loop()
 ```lua
 lua srv.lua
 curl http://127.0.0.1:82/test
-// ctrl+c to stop server
 ```
 ```
 Received 'GET' request on '/test' at Fri Feb  4 13:42:53 2022
