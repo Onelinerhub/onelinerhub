@@ -10,6 +10,8 @@ local tbl = yml.load('sample: yaml')
 - `'sample: yaml'` - sample YAML string to parse
 - `tbl` - resulting table with parsed data
 
+group: yaml
+
 ## Example: 
 ```lua
 local yml = require "lyaml"
