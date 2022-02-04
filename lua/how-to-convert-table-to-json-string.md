@@ -4,7 +4,7 @@
 
 ```lua
 local cjson = require "cjson"
-json_str = cjson.encode(tbl)
+local json_str = cjson.encode(tbl)
 ```
 
 - `require "cjson"` - load [lib:cjson](https://onelinerhub.com/lua/install-cjson-module-with-luarocks) module to work with JSON
@@ -18,7 +18,7 @@ group: json
 ```lua
 local cjson = require "cjson"
 local tbl = {name="Donald"}
-str = cjson.encode(tbl)
+local str = cjson.encode(tbl)
 print(str)
 ```
 ```
