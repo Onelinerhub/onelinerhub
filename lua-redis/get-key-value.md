@@ -16,9 +16,10 @@ group: getset
 ## Example: 
 ```lua
 local redis = (require 'redis').connect('127.0.0.1', 6379)
-print redis:get('key') 
+print(redis:get('key'))
 ```
 ```
-1
+val
+
 ```
 
