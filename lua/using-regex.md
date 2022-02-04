@@ -9,6 +9,8 @@ str:match('l+')
 - `match` - match given string with specified regex
 - `'l+'` - sample regex (will match all occurrences of `l` letter)
 
+group: regex
+
 ## Example: 
 ```lua
 local str = 'Hi you all';
