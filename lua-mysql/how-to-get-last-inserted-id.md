@@ -13,7 +13,6 @@ local id = db:getlastautoid()
 - `mysql.mysql()` - init Mysql connection
 - `pool:connect` - connect to Mysql server based on specified credentials
 - `db:execute` - executes given query and returns cursor to iterate through results
-- `cursor` - cursor to manipulate result set
 - `:getlastautoid()` - returns last inserted ID for current connection
 - `local id` - returned ID
 
