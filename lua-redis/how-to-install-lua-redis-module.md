@@ -1,6 +1,6 @@
 # How to install Lua-Redis module
 
-```lua
+```bash
 apt install lua-redis
 ```
 
