@@ -7,7 +7,7 @@ local cjson = require "cjson"
 str_table = cjson.encode(table)
 ```
 
-- `require "cjson"` - load [cjson](https://luarocks.org/modules/openresty/lua-cjson) module to work with JSON
+- `require "cjson"` - load [lib:cjson](https://luarocks.org/modules/openresty/lua-cjson) module to work with JSON
 - `str_table` - will convert string representation of a table
 - `table` - table to convert to string
 - `cjson.encode` - encode given object to JSON
