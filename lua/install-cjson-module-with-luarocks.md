@@ -1,6 +1,6 @@
 # Install cjson module with luarocks
 
-```lua
+```bash
 apt install luarocks
 luarocks install lua-cjson
 ```
