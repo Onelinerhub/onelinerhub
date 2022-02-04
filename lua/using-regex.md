@@ -3,6 +3,7 @@
 ```lua
 local str = 'Hi you all';
 str:match('l+')
+
 ```
 
 - `'Hi you all'` - sample string to match regex in
