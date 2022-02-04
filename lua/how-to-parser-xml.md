@@ -1,4 +1,4 @@
-# How to parser XML
+# How to parse XML
 
 ```lua
 local xml = require "xml"
