@@ -10,4 +10,11 @@ redis-cli TS.ALTER ts_2 LABELS test demo tmp
 - `LABELS` - list label for specified time series
 - `test demo tmp` - list of labels to assign to time series
 
+## Example: 
+```bash
+redis-cli TS.ALTER ts_2 LABELS test demo tmp
+```
+```
+OK
+```
 
