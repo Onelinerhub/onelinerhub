@@ -4,7 +4,7 @@
 str := string(byte)
 ```
 
-- `str` - string variable
+- `str :=` - string variable
 - `string` - converts specified byte to string
 - `byte` - byte to convert to string
 
