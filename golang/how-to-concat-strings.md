@@ -6,6 +6,8 @@ result := "hi" + " all!"
 
 - `result` - final variable with concatenated strings value
 - ` + ` - concatenate two strings
+- `"hi"` - first string
+- `" all!"` - second string
 
 ## Example: 
 ```go
