@@ -7,5 +7,7 @@ o
 O
 ```
 
-- `o` - adds a new line below the cursor
-- `O` - adds a new line avobe the cursor
+- ``o`` - adds a new line below the cursor
+- ``O`` - adds a new line avobe the cursor
+
+
