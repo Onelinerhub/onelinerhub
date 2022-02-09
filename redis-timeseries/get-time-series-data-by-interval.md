@@ -10,6 +10,8 @@ redis-cli TS.RANGE ts_2 1644415000020 1644417094099
 - `1644415000020` - timestamp to start from
 - `1644417094099` - timestamp to end range
 
+group: get_data
+
 ## Example: 
 ```bash
 redis-cli TS.RANGE ts_2 1644415000020 1644417094099
