@@ -1,6 +1,6 @@
 # How to install golang for Ubuntu UBUNTU_VERSION
 
-```golang
+```bash
 apt install golang-go
 ```
 
