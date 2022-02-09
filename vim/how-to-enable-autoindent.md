@@ -1,4 +1,4 @@
-# Enable autoindent
+# How to enable autoindent
 
 ### Press `Esc` to [switch to command mode](/vim/how-to-switch-to-command-mode) and then type (then press `Enter`):
 
@@ -6,8 +6,8 @@
 :set smartindent
 ```
 
-- `:` - lets vim know we're going to input commands
-- `set` - change specified option value
-- `smartindent` - will indent new lines automatically
+- ``:`` - lets vim know we're going to input commands
+- ``set`` - change specified option value
+- ``smartindent`` - will indent new lines automatically
 
-group:tab
+
