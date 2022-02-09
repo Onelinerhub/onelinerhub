@@ -1,23 +1,31 @@
 # Hello world example
 
-```bash
+```go
 package main
+import "fmt"
 
 func main() {
-  echo("Hello world")
+  fmt.Println("Hello world")
 }
 ```
 
+- `package main` - default package declaration
+- `import "fmt"` - loads `fmt` package to operate on strings (and print them)
+- `func main() {` - declare `main` function that will be launched automatically
+- `fmt.Println` - prints specified string
+- `"Hello world"` - string to print
 
 ## Example: 
-```bash
+```go
 package main
+import "fmt"
 
 func main() {
-  echo("Hello world")
+  fmt.Println("Hello world")
 }
 ```
 ```
-1
+Hello world
+
 ```
 
