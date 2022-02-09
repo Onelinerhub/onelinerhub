@@ -1,7 +1,7 @@
 # Create new time series
 
 ```bash
-redis-cli TS.CREATE ts_2 LABELS test demo
+redis-cli TS.CREATE ts_2 LABELS type demo
 
 ```
 
@@ -9,7 +9,7 @@ redis-cli TS.CREATE ts_2 LABELS test demo
 - `TS.CREATE` - creates specified time series
 - `ts_2` - name of time series
 - `LABELS` - list label for new time series
-- `test demo` - add `test` and `demo` labels for our time series
+- `type demo` - add `type` label with `demo` value
 
 ## Example: 
 ```bash
