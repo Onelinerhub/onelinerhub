@@ -9,8 +9,7 @@ local values = redis:hgetall('hash_test')
 - `connect` - connect to Redis server
 - `'127.0.0.1', 6379` - Redis host and port to connect to
 - `hash_test` - hash name
-- `'a'` - key name
-- `hget` - returns specified key value for a given hash
+- `hgetall` - returns all key/values from given hash
 
 group: hash
 
