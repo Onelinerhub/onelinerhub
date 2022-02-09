@@ -9,4 +9,6 @@ ssconvert -S file.xls "%s.out.csv"
 - `"%s.out.csv"` - output `csv` files template (`%s` will be substituted with a sheet name)
 - `-S` - export all sheets to separate files
 
+group: sheet_names
+
 
