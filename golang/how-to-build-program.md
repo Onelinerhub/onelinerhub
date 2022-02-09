@@ -1,6 +1,6 @@
 # How to build program
 
-```go
+```bash
 go build test.go
 ```
 
