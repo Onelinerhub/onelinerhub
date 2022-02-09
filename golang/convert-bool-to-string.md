@@ -5,11 +5,13 @@ package main
 import "strconv"
 
 func main() {
-  var str string
-  str = strconv.FormatBool(false))
+  str := strconv.FormatBool(false))
 }
 ```
 
+- `str :=` - will contain string representation of given boolean value
+- `FormatBool` - converts given boolean to string
+- `false` - sample boolean to convert
 
 group: convert
 
