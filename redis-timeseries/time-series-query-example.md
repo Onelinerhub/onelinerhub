@@ -1,4 +1,4 @@
-# Time series query example
+# Time series aggregated query example
 
 ```bash
 redis-cli TS.RANGE ts_2 1644415000020 1644417094099 COUNT 2 AGGREGATION sum 3600000
