@@ -11,6 +11,8 @@ redis-cli TS.CREATE ts_2 LABELS type demo
 - `LABELS` - list label for new time series
 - `type demo` - add `type` label with `demo` value
 
+group: create_delete
+
 ## Example: 
 ```bash
 redis-cli TS.CREATE ts_3 LABELS test demo
