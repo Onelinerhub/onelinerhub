@@ -10,4 +10,11 @@ redis-cli TS.CREATE ts_2 LABELS test demo
 - `LABELS` - list label for new time series
 - `test demo` - add `test` and `demo` labels for our time series
 
+## Example: 
+```bash
+redis-cli TS.CREATE ts_3 LABELS test demo
+```
+```
+OK
+```
 
