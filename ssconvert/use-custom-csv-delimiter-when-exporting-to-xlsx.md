@@ -1,7 +1,7 @@
 # Use custom CSV delimiter when exporting to XLS(x)
 
 ```bash
-mv file.csv tmp.txt && ssconvert tmp.txt tmp.csv && sscovert tmp.csv out.xls
+mv file.csv tmp.txt && ssconvert tmp.txt tmp.csv && ssconvert tmp.csv out.xls
 ```
 
 - `ssconvert` - convertion utility
