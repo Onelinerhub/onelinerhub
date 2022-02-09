@@ -10,4 +10,11 @@ redis-cli TS.ADD ts_2 \* 15
 - `\*` - will set current time (or specify timestamp in milliseconds) for a given value
 - `15` - value to store for a given time
 
+## Example: 
+```bash
+redis-cli TS.ADD ts_2 \* 15
+```
+```
+(integer) 1644417216955
+```
 
