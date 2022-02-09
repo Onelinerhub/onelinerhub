@@ -1,6 +1,6 @@
 # Create new time series
 
-```redis
+```bash
 redis-cli TS.CREATE ts_2 LABELS test demo
 ```
 
