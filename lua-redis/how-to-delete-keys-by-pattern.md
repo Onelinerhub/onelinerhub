@@ -22,13 +22,23 @@ group: delete
 ```lua
 local redis = (require 'redis').connect('127.0.0.1', 6379)
 
-redis:set('t_1', 1);
-redis:set('t_2', 2);
-redis:set('t_3', 3);
+redis:set('t_1', 1)
+redis:set('t_2', 2)
+redis:set('t_3', 3)
 local keys = redis:scan(0, {match='t_*', count=100})[2]
 
 for i,k in ipairs(keys) do
   redis:del(k)
 end
+
+print(redis:get('t_1'))
+print(redis:get('t_2'))
+print(redis:get('t_3'))
+```
+```
+nil
+nil
+nil
+
 ```
 
