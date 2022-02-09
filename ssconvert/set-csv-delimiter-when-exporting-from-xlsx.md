@@ -1,4 +1,4 @@
-# Set CSV delimiter when exporting from XLS(x)
+# Set CSV delimiter when importing from XLS(x)
 
 ```bash
 ssconvert -O 'separator=;' file.xls out.txt && mv out.txt out.csv
