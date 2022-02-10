@@ -18,6 +18,8 @@ N
 - ```N``` - replace the first match in the range before the cursor
 - ```/``` - used to separate the parameters, can be any unicode character
 
+group: find
+
 ## Example: 
 ```text
 -----------
