@@ -16,7 +16,6 @@ N
 - ``<flags>`` - the flags for the search ("g" = "replace all", "i" = "case insensitive", and "c" = "ask confirmation")
 - ```n``` - replace the next match in the range
 - ```N``` - replace the first match in the range before the cursor
-- ```/``` - used to separate the parameters, can be any unicode character
 
 group: find
 
