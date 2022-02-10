@@ -8,28 +8,28 @@ n
 N
 ```
 
-- `:` - tells Vim we are gonna input a command
-- `<range>` - the range to match text (by default the line where the cursor is. ``%`` for the whole file)
-- ``s`` - character used to indicate "find and replace"
-- `<target>` - the string(s) we want to replace (regular expressions can be used)
-- `<dest>` - the string we want the match(es) to be converted to
-- `<flags>` - the flags for the search ("g" = "replace all", "i" = "case insensitive", and "c" = "ask confirmation")
-- ``n`` - replace the next match in the range
-- ``N`` - replace the first match in the range before the cursor
-- ``/`` - used to separate the parameters, can be any unicode character
+- ``:`` - tells Vim we are gonna input a command
+- ``<range>`` - the range to match text (by default the line where the cursor is. ``%`` for the whole file)
+- ```s``` - character used to indicate "find and replace"
+- ``<target>`` - the string(s) we want to replace (regular expressions can be used)
+- ``<dest>`` - the string we want the match(es) to be converted to
+- ``<flags>`` - the flags for the search ("g" = "replace all", "i" = "case insensitive", and "c" = "ask confirmation")
+- ```n``` - replace the next match in the range
+- ```N``` - replace the first match in the range before the cursor
+- ```/``` - used to separate the parameters, can be any unicode character
 
-## Example
-
+## Example: 
 ```text
+-----------
 Goods are
 good things
-```
+-----------
 
-```text
 [Esc] :%s/good/awesome/gi
-```
 
-```text
+```
+```
 awesomes are
 awesome things
 ```
+
