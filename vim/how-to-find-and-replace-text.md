@@ -10,7 +10,7 @@ N
 
 - ``:`` - tells Vim we are gonna input a command
 - ``<range>`` - the range to match text (by default the line where the cursor is. ``%`` for the whole file)
-- ```s``` - character used to indicate "find and replace"
+- `s/` - character used to indicate "find and replace"
 - ``<target>`` - the string(s) we want to replace (regular expressions can be used)
 - ``<dest>`` - the string we want the match(es) to be converted to
 - ``<flags>`` - the flags for the search ("g" = "replace all", "i" = "case insensitive", and "c" = "ask confirmation")
