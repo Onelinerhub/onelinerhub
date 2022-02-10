@@ -6,10 +6,9 @@
 :e <filename>
 ```
 
-- ``vim`` - use vim
 - ``:`` - tell vim we want to use a command
 - ```e``` - key for "edit"
-- ``<filename>`` - the name of the file
+- ``<filename>`` - the name of the file to open
 
 group: open
 
