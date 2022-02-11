@@ -10,3 +10,4 @@ clickhouse restart
 group: ctl
 
 
+link_youtube: https://youtu.be/YMQHHMWwju4
