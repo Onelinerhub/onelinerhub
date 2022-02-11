@@ -21,3 +21,4 @@ SELECT * FROM tbl4;
 └─────────────────────┴──────────────┘
 ```
 
+link_youtube: https://youtu.be/naTWg13gbl4
