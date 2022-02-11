@@ -11,3 +11,4 @@ RENAME TABLE old_name TO new_name
 group: rename
 
 
+link_youtube: https://youtu.be/w8B-eVsjFRM
