@@ -22,3 +22,4 @@ SELECT replaceAll('Thos os odeal', 'o', 'i')
 
 ```
 
+link_youtube: https://youtu.be/kTdtUMj9mP0
