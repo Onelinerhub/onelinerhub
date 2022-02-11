@@ -12,3 +12,4 @@ SELECT count(*) FROM tbl_buf
 group: buffer
 
 
+link_youtube: https://youtu.be/P2_PBvVBHHU
