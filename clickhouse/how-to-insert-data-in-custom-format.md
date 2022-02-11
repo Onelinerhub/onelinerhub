@@ -17,3 +17,4 @@ echo 'My name is Donald and I am 125' | clickhouse-client -q "INSERT INTO tbl FO
 group: Template_format
 
 
+link_youtube: https://youtu.be/eLw9TMH2NvY
