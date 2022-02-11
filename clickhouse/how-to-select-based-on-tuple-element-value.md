@@ -22,3 +22,4 @@ SELECT * FROM tbl4 WHERE person.name = 'Joe';
 
 ```
 
+link_youtube: https://youtu.be/-IAMsBVGLdk
