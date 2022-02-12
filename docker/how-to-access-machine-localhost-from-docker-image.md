@@ -9,3 +9,5 @@ docker run -d --network="host" my_image
 - `--network="host"` - you'll be able to connect to machine localhost from container, just go to `127.0.0.1` on container
 - `my_image` - name or ID of the image to launch
 
+
+link_youtube: https://youtu.be/Zbj53WX2sso
