@@ -8,3 +8,5 @@ docker save efc62499a2e3 | gzip > image.tar.gz
 - `gzip` - gzip output
 - `image.tar.gz` - archive name to export image to
 
+
+link_youtube: https://youtu.be/8nkXxbkAmbc
