@@ -29,3 +29,5 @@ drwxr-xr-x 2 root root 4096 Dec 24 10:29 .
 drwxr-xr-x 1 root root 4096 Dec 24 10:32 ..
 -rw-r--r-- 1 root root    0 Dec 24 10:29 hello.txt
 ```
+
+link_youtube: https://youtu.be/ocaghOYEaFo
