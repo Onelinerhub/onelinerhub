@@ -16,3 +16,5 @@ docker exec -it d58bbe0f302a /bin/bash
 - console
 - bash
 - shell
+
+link_youtube: https://youtu.be/oDCTMQU8e-A
