@@ -15,3 +15,5 @@ group: build
 docker build -t some_name .
 docker run some_name
 ```
+
+link_youtube: https://youtu.be/qx9e4QO7N4w
