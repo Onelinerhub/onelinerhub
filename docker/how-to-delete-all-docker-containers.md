@@ -9,3 +9,5 @@ docker rm $(docker ps --filter status=exited -q)
 
 group: delete
 
+
+link_youtube: https://youtu.be/j87Zk_odwDA
