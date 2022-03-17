@@ -6,6 +6,10 @@ server {
 }
 ```
 
-- add_header - sets specified header
-- Access-Control-Allow-Origin - set CORS header to control access from origins
-- $http_origin - always set to specified origin (thus, allow access for any origin)
+- `add_header` - sets specified header
+- `Access-Control-Allow-Origin` - set CORS header to control access from origins
+- `$http_origin` - always set to specified origin (thus, allow access for any origin)
+
+group: cors
+
+
