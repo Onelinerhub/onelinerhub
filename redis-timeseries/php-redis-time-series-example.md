@@ -1,5 +1,7 @@
 # PHP redis time series example
 
+### This examples is based on [Redis Timeseries](https://onelinerhub.com/redis-timeseries) module:
+
 ```php
 $redis->rawCommand('TS.RANGE', 'ts_2', 1644415000020, 1644417094099);
 ```
