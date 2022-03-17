@@ -1,4 +1,4 @@
-# Access log disable
+# Disable access log
 
 ```nginx
 server {
