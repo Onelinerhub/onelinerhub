@@ -1,4 +1,4 @@
-# The simplest PHP configuration
+# PHP host configuration using PHP-FPM
 
 ```nginx
 server {
@@ -13,7 +13,9 @@ server {
 }
 ```
 
-- index index.php - launch index.php file by default
-- \.php$ - regex to intercept all php files
-- snippets/fastcgi-php.conf - fastcgi configuration snippet
-- /var/run/php/php7.4-fpm.sock - path to your fpm socket (check your version)
+- `index index.php` - launch index.php file by default
+- `\.php$` - regex to intercept all php files
+- `snippets/fastcgi-php.conf` - fastcgi configuration snippet
+- `/var/run/php/php7.4-fpm.sock` - path to your fpm socket (check your version)
+
+
