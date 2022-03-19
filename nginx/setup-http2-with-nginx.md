@@ -7,8 +7,6 @@ server {
   
   ssl_certificate /path/to/domain.crt;
   ssl_certificate_key /path/to/pdomain.key;
-  
-  ssl_protocols TLSv1.2;
 }
 ```
 
