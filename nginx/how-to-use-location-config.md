@@ -14,4 +14,6 @@ server {
 - `location / {` - default location block that will be triggered on all requests
 - `root /var/www/website` - set document root for current location block
 
+group: location
+
 
