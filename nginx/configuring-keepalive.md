@@ -1,4 +1,4 @@
-# Configuring keepalive
+# Setup keepalive connections
 
 ```nginx
 server {
