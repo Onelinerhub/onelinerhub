@@ -1,4 +1,4 @@
-# Using nested location
+# Using nested locations
 
 ```nginx
 server {
