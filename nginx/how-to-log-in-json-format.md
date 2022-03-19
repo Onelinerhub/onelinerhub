@@ -1,4 +1,4 @@
-# How to log in JSON format
+# Access log in JSON format
 
 ```nginx
 log_format json escape=json
