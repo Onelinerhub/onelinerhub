@@ -10,7 +10,7 @@ server {
 ```
 
 - `server {` - virtual server configuration block
-- `proxy_cache my_cache` - remove this directive to disable upstream caching
+- `proxy_cache my_cache` - remove or connect this directive to disable upstream caching
 
 group: cache
 
