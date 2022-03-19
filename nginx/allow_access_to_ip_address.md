@@ -7,5 +7,9 @@ location / {
 }
 ```
 
-- 1.2.3.4 - IP address to allow requests from
-- deny all - will show 403 error (forbidden) for all other IPs
+- `1.2.3.4` - IP address to allow requests from
+- `deny all` - will show 403 error (forbidden) for all other IPs
+
+group: block
+
+
