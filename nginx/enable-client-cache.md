@@ -3,8 +3,8 @@
 ```nginx
 server {
   location ~* \.(css|js|png|jpg|gif|svg)$ {
-    expires 30d;
     add_header Cache-Control "public";
+    expires 30d;
   }
 }
 ```
