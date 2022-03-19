@@ -12,7 +12,7 @@ server {
 - `server {` - virtual server configuration block
 - `max=100000` - cache up to 100000 file descriptors
 - `inactive=30m` - if file is accessed 2 times within 30 minutes, we will cache it's descriptor
-- `open_file_cache_valid` - period of time to check if file is updated
+- `open_file_cache_valid` - period of time to check if cached file is updated
 - `open_file_cache_min_uses` - min number of times file is accessed within 30 minutes (`inactive` param) to cache it's descriptor
 - `open_file_cache_errors` - also cache errors like absent file or access denied
 
