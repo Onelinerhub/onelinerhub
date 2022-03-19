@@ -1,4 +1,4 @@
-# How to clear cache
+# How to cache data in Nginx
 
 ```nginx
 proxy_cache_path /var/cache/nginx levels=2:2:2 keys_zone=my_cache:100m max_size=50g inactive=60m use_temp_path=off;
