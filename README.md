@@ -10,7 +10,7 @@ Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https:
 
 ## Why we do it and where we go
 We're building non-profit opensource code hub, we address following issues:
-- clear simple modern solutions for repeatable coding challeges
+- clear simple modern solutions for repeatable coding problems
 - moderated single-standard solutions instead of "here's a list of 25 answers with 125 comments"
 - code parts explanations to fight dumb copy-paste, but educate instead
 - no ads, no paid access, just community contributions and usefulness instead of profits 
