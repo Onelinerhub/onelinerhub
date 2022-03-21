@@ -13,7 +13,7 @@ server {
 }
 ```
 
-- `geoip2` - [lib:geoip2 module](/nginx/how-to-use-geoip2-module) directives
+- `geoip2` - [lib:geoip2 module](/nginx/how-to-install-geoip2-modile) directives
 - `auto_reload 5m` - check for DB updates every 5 minutes
 - `$geoip2_data_country_code` - this variable will store detected country code
 - `return 403 'no no';` - forbidden access if country code is `RU`
