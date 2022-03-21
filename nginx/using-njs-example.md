@@ -19,4 +19,11 @@ server {
 
 group: njs
 
+## Example: 
+```nginx
+curl http://localhost
+```
+```
+Hi everyone
+```
 
