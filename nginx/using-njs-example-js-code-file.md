@@ -4,6 +4,8 @@
 function test() {
   r.return(200, "Hi everyone");
 }
+
+export default {test}
 ```
 
 - `test()` - sample function that is [called from Nginx](/nginx/using-njs-example)
