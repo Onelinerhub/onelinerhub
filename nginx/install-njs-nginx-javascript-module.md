@@ -1,4 +1,4 @@
-# Install NJS (Nginx Javascript) module
+# Install NJS (Nginx Javascript) module in Ubuntu UBUNTU_VERSION
 
 ```bash
 apt install curl gnupg2 ca-certificates lsb-release debian-archive-keyring
