@@ -1,4 +1,4 @@
-# Include files into config
+# Include file into config
 
 ```nginx
 server {
