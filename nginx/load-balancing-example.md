@@ -1,4 +1,4 @@
-# Load balancing example
+# Simple load balancing example
 
 ```nginx
 upstream backend {
