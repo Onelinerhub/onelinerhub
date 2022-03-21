@@ -3,7 +3,7 @@
 ```nginx
 geoip2 /etc/country.mmdb {
   auto_reload 5m;
-  $geoip2_data_country_code default=US source=$variable_with_ip country iso_code;
+  $geoip2_data_country_code country iso_code;
 }
 
 server {
