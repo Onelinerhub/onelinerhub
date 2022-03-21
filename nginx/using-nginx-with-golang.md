@@ -1,4 +1,4 @@
-# Using Nginx with Golang
+# Using Nginx to serve Golang app
 
 ```nginx
 server {
