@@ -1,4 +1,4 @@
-# Using python app with Nginx
+# Using Python app with Nginx
 
 ```nginx
 server {
