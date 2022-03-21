@@ -1,7 +1,7 @@
 # Using NJs example
 
 ```nginx
-js_import test.js;
+js_import /var/www/test.js;
 
 server {
   location / {
