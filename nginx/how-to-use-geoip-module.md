@@ -18,6 +18,6 @@ server {
 - `"RU"` - sample value to check upon
 - `return 403 'no';` - return `403` header if request is detected as `RU`
 
-group: geoip
+group: geoip1
 
 
