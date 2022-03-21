@@ -1,4 +1,4 @@
-# How to install geoip2 modile
+# How to install geoip2 module
 
 ```nginx
 apt install nginx-full
