@@ -20,6 +20,7 @@ server {
 - `server {` - virtual server configuration block
 - `location / {` - default location block
 - `proxy_pass http://backend;` - process request using load balancing
+- `least_conn` - will pick server from the list with least active connections
 
 group: balancing
 
