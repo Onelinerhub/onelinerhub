@@ -1,6 +1,6 @@
 # Using map
 
-### This example demonstrates map usage for redirecting old website to new and mapping old URLs to new using `map` rules:
+### This example demonstrates redirecting old website to new and mapping old URLs to new using `map` rules:
 
 ```nginx
 map $uri $new_uri {
