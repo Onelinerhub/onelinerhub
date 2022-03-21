@@ -12,6 +12,7 @@ server {
 - `$http_cookie` - variable to access cookie values
 - `session` - sample value to match against cookies
 - `if (` - checks specified rule
+- `set $test "ok";` - set `$test` variable if rule is `true`
 
 group: if_else
 
