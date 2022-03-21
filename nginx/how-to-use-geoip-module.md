@@ -1,5 +1,7 @@
 # How to use geoip module
 
+### **Warning.** This module is deprecated, use [geoip2 module]() instead.
+
 ```nginx
 geoip_country /var/geoip.dat;
 
