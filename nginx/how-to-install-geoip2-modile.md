@@ -1,6 +1,6 @@
 # How to install geoip2 module
 
-```nginx
+```bash
 apt install nginx-full
 ```
 
