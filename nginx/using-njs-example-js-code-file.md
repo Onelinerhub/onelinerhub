@@ -1,7 +1,7 @@
 # Using NJs example (JS code file)
 
 ```js
-function test() {
+function test(r) {
   r.return(200, "Hi everyone");
 }
 
