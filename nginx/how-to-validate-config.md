@@ -6,6 +6,8 @@ nginx -t
 
 - `nginx -t` - will validate current Nginx config file
 
+group: config
+
 ## Example: 
 ```bash
 nginx -t
