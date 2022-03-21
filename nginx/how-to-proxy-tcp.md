@@ -1,4 +1,4 @@
-# How to proxy TCP
+# How to proxy TCP traffic
 
 ```nginx
 stream {
