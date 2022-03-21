@@ -1,4 +1,4 @@
-# Using rewrite
+# Using rewrite rules
 
 ```nginx
 server {
