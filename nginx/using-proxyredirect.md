@@ -13,4 +13,6 @@ server {
 - `http://localhost:81/old/` - sample backend to use to proxy
 - `/new/` - replace `Location` header from proxy backend by this URI (will use same server name and port)
 
+group: proxy
+
 
