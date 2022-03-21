@@ -9,6 +9,7 @@ server {
 ```
 
 - `server {` - virtual server configuration block
+- `$http_cookie` - variable to access cookie values
 
 group: if_else
 
