@@ -1,4 +1,4 @@
-# Get specific request header with Lua
+# Get request header with Lua
 
 ```nginx
 server {
