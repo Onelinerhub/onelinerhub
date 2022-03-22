@@ -12,10 +12,10 @@ server {
 }
 ```
 
-- `lua_need_request_body` - ask Nginx to fill `$request_body` variable
+- `lua_need_request_body` - ask Nginx to fill `$request_body` variable using [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion)
 - `log_format` - specify custom log format to log request body
 - `$request_body` - this variable will contain request body
-- `content_by_lua` - executed Lua script output will be sent to client
+- `content_by_lua` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to execute specified Lua code
 - `ngx.say("ok")` - just outputs `ok` so the client gets something in return
 - `access_log` - set access log path and format
 - `/var/log/nginx/lua.log` - path to access log
