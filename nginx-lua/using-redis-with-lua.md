@@ -1,6 +1,6 @@
 # Using Redis with Lua
 
-```bash
+```nginx
 server {
   location /redis {
     add_header Content-type text/plain;
