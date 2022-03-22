@@ -4,8 +4,8 @@
 server {
   location / {
     content_by_lua_block {
-      local request_body = ngx.req.get_body_data()  
-      ngx.say(request_body)
+      local ts = os.time()
+      ngx.say(ts)
     }
   }
 }
