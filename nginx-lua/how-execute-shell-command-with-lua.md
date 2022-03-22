@@ -1,6 +1,6 @@
 # How execute shell command with Lua
 
-### If you want to capture command output, you should use [`io.opepn`](/nginx-lua/executing-commands-with-iopopen-in-lua) instead.
+### If you want to capture command output, you should use [`io.popen`](/nginx-lua/executing-commands-with-iopopen-in-lua) instead.
 
 ```nginx
 server {
