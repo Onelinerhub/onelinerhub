@@ -18,7 +18,7 @@ server {
 - `log_hdrs` - access log format name with request header
 - `$req_hdr` - this variable will contain specific request header value
 - `set_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive that sets specified variable with a result from Lua code
-- `ngx.req.get_headers()` - returns table with request headers ([online example](http://lua.onelinerhub.com/get_header))
+- `ngx.req.get_headers()` - returns table with request headers
 - `Accept` - sample HTTP header to log value of
 - `access_log` - set access log path and format
 - `/var/log/nginx/lua.log` - path to access log
