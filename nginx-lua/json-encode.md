@@ -1,4 +1,4 @@
-# Json encode
+# How to encode to JSON
 
 ```nginx
 init_by_lua_block  {
