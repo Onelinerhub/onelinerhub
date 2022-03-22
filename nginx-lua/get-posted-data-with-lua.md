@@ -1,4 +1,4 @@
-# Get posted data with Lua
+# Get post variable value
 
 ```nginx
 server {
