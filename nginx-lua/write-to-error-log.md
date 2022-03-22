@@ -1,4 +1,4 @@
-# Write to error log
+# How to write to error log
 
 ```nginx
 server {
