@@ -20,6 +20,8 @@ server {
 - `access_log` - set access log path and format
 - `/var/log/nginx/lua.log` - path to access log
 
+group: log
+
 ## Example: 
 ```nginx
 curl localhost --data "test123"
