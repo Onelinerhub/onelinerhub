@@ -22,5 +22,9 @@ group: cookie
 ## Example: 
 ```nginx
 ngx.header['Set-Cookie'] = 'somecookie=123; path=/'
+ngx.say('ok')
+```
+```
+ok
 ```
 
