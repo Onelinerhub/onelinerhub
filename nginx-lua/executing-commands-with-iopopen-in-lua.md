@@ -29,7 +29,7 @@ handle:close()
 ngx.say(out)
 ```
 ```
-Tue Mar 22 16:52:27 UTC 2022
+Tue Mar 22 16:54:33 UTC 2022
 
 
 ```
