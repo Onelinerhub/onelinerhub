@@ -7,6 +7,8 @@ apt install nginx-extra
 - `apt install` - installs specified package on Ubuntu
 - `nginx-extra` - extra modules for Nginx including Lua
 
+group: quickstart
+
 ## Example: 
 ```bash
 nginx -V
