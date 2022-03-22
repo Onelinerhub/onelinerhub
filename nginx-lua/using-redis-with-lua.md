@@ -29,7 +29,7 @@ server {
 - `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
 - `require "nginx.redis"` - load [lib:redis](/nginx-lua/using-redis-with-lua-copy) modle
 - `red:connect` - connect to Redis server
-- `red:get` - get Redis value by specified key
+- `red:get` - get Redis value by specified key, see [online demo](http://lua.onelinerhub.com/redis?get=test)
 - `red:set` - save value to Redis by specified key
 
 group: redis
