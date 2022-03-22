@@ -14,6 +14,10 @@ server {
 }
 ```
 
+- `init_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to run specified Lua code on server startup
+- `author` - this variable can be accessed globally
+- `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
+- `ngx.say` - output given text to client
 
 group: global
 
