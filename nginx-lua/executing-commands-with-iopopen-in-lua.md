@@ -1,4 +1,4 @@
-# Executing commands with io.popen in Lua
+# Read shell command output with io.popen
 
 ```nginx
 server {
