@@ -1,4 +1,4 @@
-# Using Redis with Lua COPY
+# Install Nginx Lua Redis module
 
 ```bash
 apt install lua-nginx-redis
