@@ -1,6 +1,6 @@
 # Nginx Lua code example
 
-```bash
+```nginx
 server {
   location /hello {
     add_header Content-type text/plain;
