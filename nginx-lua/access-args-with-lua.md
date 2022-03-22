@@ -1,4 +1,4 @@
-# Access args with Lua
+# How to access query params with Lua
 
 ```bash
 server {
