@@ -5,7 +5,7 @@ server {
   location / {
     content_by_lua_block {
       local date = os.date("!%Y-%m-%d")
-      ngx.say(ts)
+      ngx.say(date)
     }
   }
 }
