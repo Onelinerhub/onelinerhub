@@ -1,4 +1,4 @@
-# How to access query params with Lua
+# How to get query params with Lua
 
 ```nginx
 server {
