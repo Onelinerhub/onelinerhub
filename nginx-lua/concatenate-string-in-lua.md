@@ -19,4 +19,14 @@ server {
 
 group: string
 
+## Example: 
+```nginx
+local str1 = "Hi "
+local str2 = "All!"
+ngx.say(str1 .. str2)
+```
+```
+Hi All!
+
+```
 
