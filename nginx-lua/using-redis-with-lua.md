@@ -27,7 +27,7 @@ server {
 - `location` - specific location (group of URLs) configuration
 - `/redis {` - handle all `/redis...` requests
 - `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
-- `require "nginx.redis"` - load [lib:redis](/) modle
+- `require "nginx.redis"` - load [lib:redis](/nginx-lua/using-redis-with-lua-copy) modle
 - `red:connect` - connect to Redis server
 - `red:get` - get Redis value by specified key
 - `red:set` - save value to Redis by specified key
