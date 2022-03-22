@@ -19,4 +19,6 @@ server {
 - `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
 - `ngx.say("Hello")` - sample Lua code that prints `Hello` to the browser
 
+group: quickstart
+
 
