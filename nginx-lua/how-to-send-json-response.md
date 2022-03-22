@@ -26,6 +26,8 @@ server {
 - `application/json` - set content type to `application/json`
 - `ngx.say` - output given text to client
 
+group: response_content
+
 ## Example: 
 ```nginx
 local data = {name='Donald'}
