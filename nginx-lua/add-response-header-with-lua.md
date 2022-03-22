@@ -13,7 +13,7 @@ server {
 - `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
 - `ngx.header` - allows to set response headers
 - `X-Example` - sample header to set
-- `onelinerhub-example` - sample value to set
+- `onelinerhub-example` - sample value to set ([online example](http://lua.onelinerhub.com/set_header))
 
 group: set_header
 
