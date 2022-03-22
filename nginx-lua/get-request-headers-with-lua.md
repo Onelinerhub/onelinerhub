@@ -14,6 +14,6 @@ server {
 - `ngx.say` - output given text to client
 - `ngx.req.raw_header()` - returns raw HTTP request headers ([online example](http://lua.onelinerhub.com/headers))
 
-group: headers
+group: get_header
 
 
