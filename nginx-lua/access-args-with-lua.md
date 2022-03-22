@@ -1,6 +1,6 @@
 # How to access query params with Lua
 
-```bash
+```nginx
 server {
   location / {
     content_by_lua_block {
