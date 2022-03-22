@@ -1,4 +1,4 @@
-# Get post variable value
+# Get POST variable value
 
 ```nginx
 server {
