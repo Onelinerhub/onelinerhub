@@ -1,4 +1,4 @@
-# Block requests by IP address
+# Block access by IP address
 
 ```nginx
 server {
