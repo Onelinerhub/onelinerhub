@@ -1,4 +1,4 @@
-# Using ngx.exit in Lua
+# How to return 200 status code
 
 ```nginx
 server {
@@ -15,6 +15,8 @@ server {
 - `ngx.say` - output given text to client
 - `ngx.exit` - end response with specified status code
 - `ngx.HTTP_OK` - HTTP code 200, see [list of available codes](https://github.com/openresty/lua-nginx-module#http-status-constants)
+
+group: status_code
 
 ## Example: 
 ```nginx
