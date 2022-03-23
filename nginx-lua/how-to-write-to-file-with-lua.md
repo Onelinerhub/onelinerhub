@@ -1,4 +1,4 @@
-# How to write to file with Lua
+# with Lua
 
 ```nginx
 server {
