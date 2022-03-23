@@ -1,4 +1,4 @@
-# Hello world with Lua in Nginx
+# Hello world with Nginx Lua module
 
 ```nginx
 server {
