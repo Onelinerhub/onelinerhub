@@ -19,7 +19,7 @@ server {
 - `ngx.var.remote_addr` - returns client IP address
 - `1.2.3.4` - sample IP address to allow access for (whitelist)
 - `ngx.HTTP_FORBIDDEN` - HTTP code 403, see [list of available codes](https://github.com/openresty/lua-nginx-module#http-status-constants)
-- `'access allowed'` - this will be sent to client if IP is allowed
+- `'access allowed'` - this will be sent to client if IP is in the allowed list
 
 group: ip
 
