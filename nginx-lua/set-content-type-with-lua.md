@@ -1,4 +1,4 @@
-# Set content type with Lua
+# How to set content type
 
 ```nginx
 server {
