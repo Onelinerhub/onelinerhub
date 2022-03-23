@@ -1,4 +1,4 @@
-# Calculating md5 COPY
+# Calculating crc32
 
 ```nginx
 server {
