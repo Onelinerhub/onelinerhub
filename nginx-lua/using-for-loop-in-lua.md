@@ -1,4 +1,4 @@
-# Using for loop in Lua
+# How to use for loop
 
 ```nginx
 server {
