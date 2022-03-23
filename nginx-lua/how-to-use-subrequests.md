@@ -15,6 +15,8 @@ server {
 - `ngx.location.capture` - executes sync [Nginx subrequest](https://github.com/openresty/lua-nginx-module#ngxlocationcapture) to the specified URI
 - `/page?test=1` - sample URL with arguments to make subrequest to
 - `local res` - this table will have 4 fields: `status`, `header`, `body` and `truncated`
+- `ngx.say` - output given text to client
+- `res.body` - response body returned after subrequest execution
 
 ## Example: 
 ```nginx
