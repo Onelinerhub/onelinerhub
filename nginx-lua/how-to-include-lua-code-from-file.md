@@ -1,5 +1,7 @@
 # How to include Lua code from file
 
+### Nginx will cache Lua code from specified file once reloaded. If you want Nginx to load code dynamically, you need to [disable Lua code cache](/nginx-lua/disable-lua-code-cache).
+
 ```nginx
 server {
   location /test {
@@ -13,7 +15,4 @@ server {
 
 group: include
 
-
-## Additional keywords
-- Nginx will cache Lua code from specified file once reloaded. If you want Nginx to load code dynamically, you need to [disable Lua code cache](/nginx-lua/disable-lua-code-cache).
 
