@@ -1,5 +1,7 @@
 # How to do 301 redirect
 
+### Want to do [302 redirect](/nginx-lua/how-to-do-redirect)?
+
 ```nginx
 server {
   location / {
