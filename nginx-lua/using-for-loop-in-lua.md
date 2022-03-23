@@ -14,7 +14,7 @@ server {
 ```
 
 - `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
-- `for i = 1,10,1` - for loop from `1` to `10` with incremental step of `1`
+- `for i = 1,10,1` - for loop from `1` to `10` with increment step of `1`
 - `ngx.say` - output given text to client
 
 ## Example: 
