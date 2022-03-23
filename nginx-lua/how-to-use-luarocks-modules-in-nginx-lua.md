@@ -19,7 +19,7 @@ server {
 ```
 
 - `lua_package_path` - specify include path for Lua modules
-- `/usr/local/share/lua/5.3/` - possible path to Luarocks installed modules ([find your own path](/))
+- `/usr/local/share/lua/5.3/` - possible path to Luarocks installed modules ([find your own path](/lua/how-to-find-luarocks-module-path))
 - `init_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to run specified Lua code on server startup
 - `require("uuid")` - loads UUID Luarocks module
 - `content_by_lua_block` - [lib:nginx-lua](/nginx-lua/how-to-install-nginx-lua-module-in-ubuntu-ubuntuversion) module directive to specify block of Lua code
