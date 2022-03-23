@@ -1,4 +1,4 @@
-# Using sha1 with Lua
+# Calculating sha1
 
 ```nginx
 server {
