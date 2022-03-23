@@ -1,4 +1,4 @@
-# with Lua
+# How to write file
 
 ```nginx
 server {
