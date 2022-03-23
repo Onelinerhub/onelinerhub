@@ -1,4 +1,4 @@
-# Using regex with Lua
+# How to use regex
 
 ```nginx
 server {
