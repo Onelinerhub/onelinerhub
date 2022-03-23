@@ -1,4 +1,4 @@
-# How to read file with Lua
+# How to read file
 
 ```nginx
 server {
