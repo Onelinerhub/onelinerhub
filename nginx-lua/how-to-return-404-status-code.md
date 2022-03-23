@@ -4,7 +4,7 @@
 server {
   location / {
     content_by_lua_block {
-      ngx.say('no')
+      ngx.say('not found')
       ngx.exit(ngx.HTTP_NOT_FOUND)
     }
   }
