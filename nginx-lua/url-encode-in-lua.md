@@ -1,4 +1,4 @@
-# Url encode in Lua
+# How to do URL encode
 
 ```nginx
 server {
