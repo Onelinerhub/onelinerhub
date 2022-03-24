@@ -7,7 +7,7 @@ pip install numpy
 - `pip install` - installs python package
 - `numpy` - package to install
 
-group: install
+group: quickstart
 
 ## Example: 
 ```bash
