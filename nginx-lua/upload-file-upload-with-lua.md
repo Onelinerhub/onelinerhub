@@ -1,4 +1,4 @@
-# Upload file upload with Lua
+# Upload file with Lua and Nginx
 
 ```nginx
 server {
