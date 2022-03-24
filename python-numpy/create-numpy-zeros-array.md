@@ -1,4 +1,4 @@
-# Create Numpy zeros array
+# Generate Numpy zeros array
 
 ```python
 import numpy as np
