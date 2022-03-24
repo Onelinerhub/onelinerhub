@@ -1,4 +1,4 @@
-# How to use Luarocks modules in Nginx Lua
+# How to use Luarocks and other modules in Nginx Lua
 
 ### After installation of [Luarocks](https://luarocks.org/) module, we need to add its include path into Nginx Lua environment:
 
