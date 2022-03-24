@@ -1,6 +1,6 @@
 # How to install Python Numpy lib
 
-```python
+```bash
 pip install numpy
 ```
 
