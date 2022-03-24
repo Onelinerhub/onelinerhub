@@ -1,11 +1,11 @@
-# Simple example of Numpy usage
+# Simple Numpy usage example
 
 ```python
 import numpy as np
 
 a = np.array([1, 3, 5, 9])
 
-mean_a = a.mean(axis=0)
+mean_a = a.mean()
 print(mean_a)
 ```
 
@@ -25,5 +25,9 @@ a = np.array([1, 3, 5, 9])
 
 mean_a = a.mean()
 print(mean_a)
+```
+```
+4.5
+
 ```
 
