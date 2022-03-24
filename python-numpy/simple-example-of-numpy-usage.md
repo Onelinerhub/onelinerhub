@@ -23,7 +23,7 @@ import numpy as np
 
 a = np.array([1, 3, 5, 9])
 
-mean_a = a.mean(axis=0)
+mean_a = a.mean()
 print(mean_a)
 ```
 
