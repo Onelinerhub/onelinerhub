@@ -1,4 +1,4 @@
-# Calculate x^2 in Numpy
+# Calculate x^2 (square) for Numpy array
 
 ```python
 import numpy as np
