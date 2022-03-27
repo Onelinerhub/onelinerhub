@@ -1,4 +1,4 @@
-# How to import pandas module
+# How to import Pandas module
 
 ```python
 import pandas as pd
