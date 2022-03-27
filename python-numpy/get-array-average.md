@@ -11,6 +11,8 @@ average = np.average(arr)
 - `[[1, 2], [3, 4]]` - sample matrix data
 - `np.average` - returns given array average
 
+group: aggregates
+
 ## Example: 
 ```python
 import numpy as np
