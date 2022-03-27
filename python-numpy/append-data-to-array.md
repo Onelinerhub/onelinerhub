@@ -1,4 +1,4 @@
-# Append data to array
+# Append new values to array
 
 ```python
 import numpy as np
