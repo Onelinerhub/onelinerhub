@@ -11,6 +11,8 @@ median = np.median(arr)
 - `[[1, 2], [3, 4]]` - sample matrix data
 - `np.median` - returns given array median
 
+group: aggregates
+
 ## Example: 
 ```python
 import numpy as np
