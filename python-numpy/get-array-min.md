@@ -11,7 +11,7 @@ min = np.min(arr)
 - `[[1, 2], [3, 4]]` - sample matrix data
 - `np.min` - returns min value of a given array
 
-group: agregates
+group: aggregates
 
 ## Example: 
 ```python
