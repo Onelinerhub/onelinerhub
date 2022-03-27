@@ -1,4 +1,4 @@
-# Append new values to array
+# How to append row to Numpy array
 
 ```python
 import numpy as np
