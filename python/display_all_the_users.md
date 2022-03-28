@@ -1,7 +1,7 @@
 # Display list of all the users on Unix-like systems
 
 ```python
-python -c "print '\n'.join(line.split(':',1)[0] for line in open('/etc/passwd'))"
+python -c "print('\n'.join(line.split(':',1)[0] for line in open('/etc/passwd')))"
 ```
 
 - -c - terminates the option list (following options are passed as arguments to the command).
