@@ -1,4 +1,4 @@
-# How to reshape array
+# How to reshape Numpy array
 
 ```python
 import numpy as np
