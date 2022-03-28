@@ -1,4 +1,4 @@
-# Import image data to Numpy arrays
+# Import image data to Numpy array
 
 ```python
 import numpy as np
