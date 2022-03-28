@@ -1,17 +1,16 @@
 # Reverse a string
 
 ```python
-reversed = "string"[::-1]
+reversed = lambda s:s[::-1]
 ```
 
-- reversed - will contain reversed string
-- "string" - example string to reverse
+- reversed - function that reverses a collection
 - \[::-1\] - slice assignment operation
 
 
 ## Example
 ```python
-print("string"[::-1])
+print(reversed("string"))
 ```
 ```
 gnirts
