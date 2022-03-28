@@ -1,4 +1,4 @@
-# How to use multiple conditions in where
+# How to use multiple conditions in where()
 
 ```python
 import numpy as np
