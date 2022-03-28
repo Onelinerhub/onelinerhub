@@ -11,12 +11,12 @@ outputcontent = ''
 for (root, dirs, file) in os.walk(path):
   for f in file:
     if '.txt' in f:
-    	filecontent = open(path + f, mode="r")
-    	filecontent = filecontent.read()
-    	outputcontent += filecontent + "\n"
+      filecontent = open(path + f, mode="r")
+      filecontent = filecontent.read()
+      outputcontent += filecontent + "\n"
 
 with open('output.txt', mode='a') as f:
-	f.write(outputcontent)
+  f.write(outputcontent)
 ```
 
 - `import os` - we need this module to get list of files in a directory
