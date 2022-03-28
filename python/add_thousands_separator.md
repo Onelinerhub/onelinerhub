@@ -1,9 +1,19 @@
 # Add thousands separator to number
 
 ```python
-import re
-re.sub(r"\B(?=(?:\d{3})+$)", separator, str(value))
+sep = "{:,}".format(123456789)
 ```
 
-- separator - separator character, it can be comma (,) or period (.) based on local format
-- value - number to be processed
+- `,` - separator character
+- `123456789` - number to be add separators to
+- `sep` - will contain number with separator
+
+## Example: 
+```python
+print( "{:,}".format(123456789) )
+```
+```
+123,456,789
+
+```
+
