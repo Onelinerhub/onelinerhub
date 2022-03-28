@@ -1,4 +1,4 @@
-# How to change nan values to 0
+# How to change nan values to zero
 
 ```python
 import pandas as pd
