@@ -16,7 +16,7 @@ jsn = json.dumps(a.tolist())
 - `.tolist()` - convert given Numpy array to list
 - `json.dumps` - convert given list to JSON
 
-group: convert
+group: json
 
 ## Example: 
 ```python
