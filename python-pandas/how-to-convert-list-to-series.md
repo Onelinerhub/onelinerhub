@@ -1,4 +1,4 @@
-# How to convert list to series
+# How to convert list to Pandas Series
 
 ```python
 import pandas as pd
