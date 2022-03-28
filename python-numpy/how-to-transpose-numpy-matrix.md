@@ -9,6 +9,7 @@ transposed = mtx.T
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array
 - `.T` - returns transposed matrix from the specified one
+- `transposed` - will contain transposed matrix
 
 ## Example: 
 ```python
