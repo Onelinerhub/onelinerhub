@@ -1,4 +1,4 @@
-# Get Numpy shape
+# Get Numpy array shape
 
 ```python
 import numpy as np
