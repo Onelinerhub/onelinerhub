@@ -2,28 +2,30 @@
 
 ```python
 import numpy as np
-arr = np.array([[1, 2], [3, 4], [5, 6]])
-shp = arr.shape
+arr = np.array([1, 2, 3, 4, 5, 6])
+rsp = arr.reshape(3,2)
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array
-- `[[1, 2], [3, 4], [5, 6]]` - sample matrix data
-- `.shape` - attribute contains shape of a given array
-- `shp` - variable will contain arr shape
+- `[1, 2, 3, 4, 5, 6]` - sample 1-dimensional array to use for reshaping
+- `.reshape` - reshape given array to the specified dimensions
+- `(3,2)` - rows/cols to reshape to (`2` columns and `3` rows in our case)
+- `rsp` - contains reshaped array
 
 group: shape
 
 ## Example: 
 ```python
 import numpy as np
-arr = np.array([[[1, 2, 3], [4, 5, 6]],
-                [[7, 8, 9], [10, 11, 12]],
-                [[13, 14, 15], [16, 17, 18]]])
-print( arr.shape )
+arr = np.array([1, 2, 3, 4, 5, 6])
+rsp = arr.reshape(3,2)
+print(rsp)
 ```
 ```
-(3, 2, 3)
+[[1 2]
+ [3 4]
+ [5 6]]
 
 ```
 
