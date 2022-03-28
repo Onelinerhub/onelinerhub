@@ -12,9 +12,9 @@ with open('output.txt', mode='a') as fw:
   for (root, dirs, file) in os.walk(path):
     for f in file:
       if '.txt' in f:
-    	  with open(path + f, mode="r") as filecontent:
-    	    filecontent = filecontent.read()
-    	    fw.write(filecontent + "\n")
+        with open(path + f, mode="r") as filecontent:
+          filecontent = filecontent.read()
+          fw.write(filecontent + "\n")
 	      
 ```
 
