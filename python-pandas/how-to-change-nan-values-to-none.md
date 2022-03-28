@@ -11,11 +11,16 @@ phoneDataSet = {
 }
 
 data = pd.DataFrame(phoneDataSet)
-data = data.replace(np.nan, 0)
+data = data.replace(np.nan, None)
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
+- `phoneDataSet` - sample dict data to create dataframe from
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `.replace(` - search given value and replace with specified value
+- `np.nan` - value to search for
+- `None` - value to replace to
 
 group: nan
 
