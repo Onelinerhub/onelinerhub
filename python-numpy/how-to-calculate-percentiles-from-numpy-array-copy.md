@@ -11,7 +11,7 @@ p95 = np.percentile(arr, 95)
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array
-- `np.quantile` - calculate quantile of a given array on a given level
+- `np.percentile` - calculate percentile of a given array on a given level
 - `p10` - 10% percentile
 - `p50` - 50% percentile (same as average)
 - `p95` - 95% percentile
