@@ -1,4 +1,4 @@
-# How to calculate percentiles from Numpy array
+# How to calculate percentile from Numpy array
 
 ```python
 import numpy as np
