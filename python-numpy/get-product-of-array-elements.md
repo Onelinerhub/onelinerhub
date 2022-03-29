@@ -5,7 +5,7 @@ import numpy as np
 
 a = np.array([1,2,3,4])
 
-prod = np.dot(a,b)
+prod = np.prod(a,b)
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
