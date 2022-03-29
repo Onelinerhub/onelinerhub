@@ -12,6 +12,8 @@ roots = np.roots(arr)
 - `.roots(` - return array with roots
 - `roots` - will contain calculated roots
 
+group: polynomial
+
 ## Example: 
 ```python
 import numpy as np
