@@ -3,7 +3,7 @@
 ```python
 import numpy as np
 arr = np.array([[1, 2], [3, 4]])
-row = arr[:,0]
+row = arr[:,-1]
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
