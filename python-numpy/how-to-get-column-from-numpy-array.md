@@ -1,4 +1,4 @@
-# How to get row from Numpy array
+# How to get specific row from Numpy array
 
 ```python
 import numpy as np
