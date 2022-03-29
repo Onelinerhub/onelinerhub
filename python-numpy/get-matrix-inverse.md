@@ -1,4 +1,4 @@
-# Get matrix inverse
+# Calculate matrix inverse
 
 ```python
 import numpy as np
