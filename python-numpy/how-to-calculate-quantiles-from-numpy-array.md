@@ -13,7 +13,7 @@ q95 = np.quantile(arr,.95)
 - `np.array` - declare Numpy array
 - `np.quantile` - calculate quantile of a given array on a given level
 - `q10` - 10% quanile
-- `q50` - 50% quantile
+- `q50` - 50% quantile (same as average)
 - `q95` - 95% quantile
 
 group: tiles
@@ -34,7 +34,7 @@ print('95%', q95)
 ```
 ```
 10% 2.1
-50% 9.0
+50% 9.0 9.0
 95% 16.45
 
 ```
