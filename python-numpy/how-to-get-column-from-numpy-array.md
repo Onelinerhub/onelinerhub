@@ -12,7 +12,7 @@ row = arr[1,:]
 - `arr` - variable contains array
 - `[1,:]` - return second row (index number is `1`) of the specified matrix
 
-group: get_row_col
+group: get_row
 
 ## Example: 
 ```python
