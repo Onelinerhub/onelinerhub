@@ -1,4 +1,4 @@
-# Get correlation of Numpy arrays
+# Get correlation of two Numpy arrays
 
 ```python
 import numpy as np
