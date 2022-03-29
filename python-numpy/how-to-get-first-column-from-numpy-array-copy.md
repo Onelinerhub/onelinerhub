@@ -1,4 +1,4 @@
-# How to get first column from Numpy array COPY
+# How to get first column from Numpy array
 
 ```python
 import numpy as np
