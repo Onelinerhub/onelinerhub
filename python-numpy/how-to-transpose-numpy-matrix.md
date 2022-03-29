@@ -11,6 +11,8 @@ transposed = mtx.T
 - `.T` - returns transposed matrix from the specified one
 - `transposed` - will contain transposed matrix
 
+group: matrix
+
 ## Example: 
 ```python
 import numpy as np
