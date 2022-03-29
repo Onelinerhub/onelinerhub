@@ -12,9 +12,9 @@ q95 = np.quantile(arr,.95)
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array
 - `np.quantile` - calculate quantile of a given array on a given level
-- `q10` - 10% quanile
-- `q50` - 50% quantile (same as average)
-- `q95` - 95% quantile
+- `q10` - 0.1 quanile
+- `q50` - 0.5 quantile (same as average)
+- `q95` - 0.95 quantile
 
 group: tiles
 
