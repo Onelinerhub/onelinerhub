@@ -12,7 +12,7 @@ row = arr[-1,:]
 - `arr` - variable contains array
 - `[-1,:]` - return last row of the specified matrix
 
-group: get_row_col
+group: get_row
 
 ## Example: 
 ```python
