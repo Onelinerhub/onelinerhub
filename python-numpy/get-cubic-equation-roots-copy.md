@@ -1,4 +1,4 @@
-# Get cubic equation roots COPY
+# Get cubic equation roots
 
 ```python
 import numpy as np
