@@ -1,4 +1,4 @@
-# How to calculate quantiles from Numpy array
+# How to calculate quantile from Numpy array
 
 ```python
 import numpy as np
