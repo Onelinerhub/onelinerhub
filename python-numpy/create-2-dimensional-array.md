@@ -1,4 +1,4 @@
-# Create 2-dimensional array
+# Create 2-dimensional array (matrix)
 
 ```python
 import numpy as np
