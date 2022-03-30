@@ -10,6 +10,7 @@ np.sort(a)      # sort in ascending order
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array
+- `np.sort` - returns a sorted copy of an array
 
 ## Example
 ```python
