@@ -16,8 +16,7 @@ group: quickstart
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
-plt.plot([1,2,3])
-# plt.show()
-plt.savefig('/tmp/test.png')
+plt.plot([1,2,10])
+plt.show()
 ```
 
