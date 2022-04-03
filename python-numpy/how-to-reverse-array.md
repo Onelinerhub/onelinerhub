@@ -1,4 +1,4 @@
-# How to reverse array
+# How to reverse Numpy array
 
 ```python
 import numpy as np
