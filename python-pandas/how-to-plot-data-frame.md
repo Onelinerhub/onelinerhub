@@ -16,7 +16,7 @@ plt.show()
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `.random.normal(0,1,100)` - generates `100` elements with `0` mean and `1` standard deviation
 - `.DataFrame.from_dict` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) from given dict (`a`)
-- `.plot()` - plots DataFrame
+- `.plot()` - plots DataFrame data as a line chart
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `plt.show()` - renders plotted data
 
