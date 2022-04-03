@@ -7,6 +7,8 @@ pip install matplotlib
 - `pip install` - installs python package
 - `matplotlib` - python package to install
 
+group: quickstart
+
 ## Example: 
 ```bash
 pip install matplotlib
