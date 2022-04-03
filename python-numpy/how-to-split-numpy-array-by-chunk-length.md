@@ -9,7 +9,7 @@ split = np.array_split(a, math.ceil(a.size/chunk_size))
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
-- `np.array` - declare Numpy array
+- `np.array(` - declare Numpy array
 - `np.array_split` -  split array into specified number of sub-arrays; returns a list of sub-arrays
 - `chunk_size` - number of elements in each chunk (chunk size) after split
 - `math.ceil(a.size/chunk_size)` - calculate number of chunks to split by based on chunk size and given array size
