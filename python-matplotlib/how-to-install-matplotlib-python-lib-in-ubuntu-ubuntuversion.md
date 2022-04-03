@@ -1,4 +1,4 @@
-# How to install matplotlib Python lib in Ubuntu UBUNTU_VERSION
+# How to install Matplotlib Python lib in Ubuntu UBUNTU_VERSION
 
 ```bash
 pip install matplotlib
