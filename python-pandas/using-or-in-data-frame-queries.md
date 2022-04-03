@@ -17,7 +17,7 @@ ford_or_lexus = df[(df["Brand"] == "Ford") | (df["Brand"] == "Lexus")]
 - `ford_or_lexus` - resulting `DataFrame` containing all cars that are either `Ford` or `Lexus`
 - `df["Brand"] == "Ford"` - Mask of all cars whose `Brand` equals `Ford`
 - `df["Brand"] == "Lexus"` - Mask of all cars whose `Brand` equals `Lexus`
-- `&` - Boolean `AND` operator
+- `|` - Boolean `OR` operator
 
 group: and_or
 
