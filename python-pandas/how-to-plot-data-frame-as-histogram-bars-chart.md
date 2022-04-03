@@ -1,4 +1,4 @@
-# How to draw data frame histogram (bars chart)
+# How to draw data frame histogram (bars charts)
 
 ```python
 import pandas as pd
