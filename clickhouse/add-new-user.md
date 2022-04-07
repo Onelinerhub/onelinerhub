@@ -1,4 +1,4 @@
-# Add new user
+# Create new user
 
 ```sql
 CREATE USER user1 HOST IP '127.0.0.1' IDENTIFIED WITH sha256_password BY 'pwd';
