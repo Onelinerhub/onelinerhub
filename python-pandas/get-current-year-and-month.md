@@ -7,8 +7,6 @@ currentYearMonth = "{month}/{year}".format(
   month = datetime.now().month,
   year = datetime.now().year
 )
-
-print(currentYearMonth)
 ```
 
 - `from datetime import datetime` - import datetime utility to operate with time
