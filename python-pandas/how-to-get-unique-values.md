@@ -1,4 +1,4 @@
-# How to get unique values
+# How to get unique values from data frame
 
 ```python
 import pandas as pd
