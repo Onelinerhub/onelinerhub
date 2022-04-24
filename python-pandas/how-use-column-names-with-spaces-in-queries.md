@@ -14,7 +14,7 @@ small_apartments = apartments.query('`Area m2` < 25')
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `apartments.query('\`Area m2\` < 25')` - return all apartments with area less than 25 square meters. You can refer to column names that are not valid Python variable names by surrounding them in backticks. This includes column names with spaces in them.
+- `apartments.query('``Area m2`` < 25')` - return all apartments with area less than 25 square meters. You can refer to column names that are not valid Python variable names by surrounding them in backticks. This includes column names with spaces in them.
 
 ## Example: 
 ```python
