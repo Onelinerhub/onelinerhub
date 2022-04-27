@@ -12,3 +12,5 @@ docker run -it -m 2g ubuntu
 
 group: resources
 
+
+link_youtube: https://youtu.be/THCJH7Eitlg
