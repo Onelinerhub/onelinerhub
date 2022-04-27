@@ -8,3 +8,5 @@ docker build -t image_name .
 - ` -t` - set image name
 - `image_name` - name for the image
 
+
+link_youtube: https://youtu.be/aDMjpzcnBBE
