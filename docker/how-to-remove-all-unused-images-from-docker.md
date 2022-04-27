@@ -8,3 +8,5 @@ docker system prune -a --volumes
 - `-a` - remove all unused images, not only dangling
 - `--volumes` - also remove unused volumes
 
+
+link_youtube: https://youtu.be/hGqg0NjyuRA
