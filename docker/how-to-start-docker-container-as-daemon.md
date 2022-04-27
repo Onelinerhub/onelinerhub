@@ -10,3 +10,5 @@ docker run -d yandex/clickhouse-server
 
 group: run
 
+
+link_youtube: https://youtu.be/VS2PvqTZeb8
