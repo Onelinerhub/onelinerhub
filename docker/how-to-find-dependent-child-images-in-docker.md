@@ -14,3 +14,5 @@ PARENT=ba6acccedd29; docker inspect --format='"{{.Id}}" : "{{.Parent}}"' $(docke
 - `since=$PARENT` - show only those images which were created after parent image
 - `grep $PARENT` - finally, filter output to see only children of the specified parent
 
+
+link_youtube: https://youtu.be/Q6C8Bag9sow
