@@ -31,3 +31,5 @@ lrwxrwxrwx 1 root root     4 Oct  6 19:47 run -> /run
 drwxr-xr-x 2 root root  4096 Oct  6 19:47 spool
 drwxrwxrwt 2 root root  4096 Oct  6 19:58 tmp
 ```
+
+link_youtube: https://youtu.be/lwOyISmxpY8
