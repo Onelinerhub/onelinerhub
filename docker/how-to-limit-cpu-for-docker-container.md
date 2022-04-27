@@ -12,3 +12,5 @@ docker run -it --cpus="2.0" ubuntu
 
 group: resources
 
+
+link_youtube: https://youtu.be/0e3iNt3Vf8A
