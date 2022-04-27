@@ -17,3 +17,5 @@ docker container inspect 0548543a2e98 | grep 'IPAddress"'
 ```
 "IPAddress": "172.17.0.2",
 ```
+
+link_youtube: https://youtu.be/m0i-o3E3IMc
