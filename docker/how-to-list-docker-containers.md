@@ -23,3 +23,5 @@ d58bbe0f302a   yandex/clickhouse-server   "/entrypoint.sh"   3 seconds ago   Up 
 - see
 - get
 - print
+
+link_youtube: https://youtu.be/k0hEDG2FamE
