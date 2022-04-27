@@ -10,3 +10,4 @@ docker run -p 9306:9306 -d manticoresearch/manticore
 - `manticoresearch/manticore` - official Manticoresearch docker image
 
 
+link_youtube: https://youtu.be/BcSO70smjOU
