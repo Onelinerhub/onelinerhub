@@ -26,3 +26,4 @@ print( math.random(1, 10) )
 
 ```
 
+link_youtube: https://youtu.be/61HSxeAU-oQ
