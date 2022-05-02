@@ -22,3 +22,4 @@ print(hex)
 
 ```
 
+link_youtube: https://youtu.be/4TRkdTIIDG8
