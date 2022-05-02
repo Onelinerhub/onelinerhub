@@ -21,3 +21,4 @@ print(len)
 
 ```
 
+link_youtube: https://youtu.be/h_CLZBEknM8
