@@ -19,3 +19,4 @@ print(len)
 
 ```
 
+link_youtube: https://youtu.be/5A6KWHC9FuE
