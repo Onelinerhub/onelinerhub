@@ -20,3 +20,4 @@ print(string.format("%#x", hex))
 
 ```
 
+link_youtube: https://youtu.be/3Fv-7SSkCr4
