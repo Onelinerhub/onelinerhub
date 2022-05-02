@@ -17,3 +17,4 @@ print(os.time())
 
 ```
 
+link_youtube: https://youtu.be/aQTqh8mf520
