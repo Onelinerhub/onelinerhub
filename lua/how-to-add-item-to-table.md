@@ -21,3 +21,4 @@ print(table.concat(tbl, ', '))
 
 ```
 
+link_youtube: https://youtu.be/nmhXxDkFID0
