@@ -30,3 +30,4 @@ print(table.concat(tbl1, ' '))
 
 ```
 
+link_youtube: https://youtu.be/skcQQvvzXI8
