@@ -8,3 +8,4 @@ apt install lua5.4
 - `lua5.4` - will install latest Lua interpreter
 
 
+link_youtube: https://youtu.be/JrpjjSaMF8Q
