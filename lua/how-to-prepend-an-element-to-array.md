@@ -22,3 +22,4 @@ print(table.concat(arr, ', '))
 
 ```
 
+link_youtube: https://youtu.be/4SN3NkPB78k
