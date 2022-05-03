@@ -23,3 +23,4 @@ print(os.date("*t").sec)
 ## Additional keywords
 - wait
 
+link_youtube: https://youtu.be/5TaW_yWuQH0
