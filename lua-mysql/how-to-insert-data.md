@@ -17,3 +17,4 @@ db:execute('INSERT INTO test SET name = "Donald"')
 group: insert
 
 
+link_youtube: https://youtu.be/aoqc73ETSQs
