@@ -24,3 +24,4 @@ print(redis:hget('htst', 'a'))
 
 ```
 
+link_youtube: https://youtu.be/Xff_pxkNuQs
