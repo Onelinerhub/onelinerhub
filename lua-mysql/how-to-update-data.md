@@ -15,3 +15,4 @@ db:execute('UPDATE test SET name = "Bill" WHERE id = 14')
 - `'UPDATE test SET name = "Bill" WHERE id = 14'` - sample `UPDATE` query
 
 
+link_youtube: https://youtu.be/Ly80EDfYxxc
