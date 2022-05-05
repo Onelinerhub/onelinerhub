@@ -17,3 +17,4 @@ local redis = (require 'redis').connect('127.0.0.1', 6379)
 redis:auth('user:pwd')
 ```
 
+link_youtube: https://youtu.be/xvUF3zNz74c
