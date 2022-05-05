@@ -9,3 +9,4 @@ local redis = (require 'redis').connect('127.0.0.1', 6379)
 - `'127.0.0.1', 6379` - Redis host and port to connect to
 
 
+link_youtube: https://youtu.be/KW5arNnKznU
