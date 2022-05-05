@@ -8,3 +8,4 @@ apt install lua-redis
 - `lua-redis` - Redis module for Lua
 
 
+link_youtube: https://youtu.be/Db3DGHvagPs
