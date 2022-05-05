@@ -28,3 +28,4 @@ print(redis:ttl('key'))
 
 ```
 
+link_youtube: https://youtu.be/rLTNxZ-KAmM
