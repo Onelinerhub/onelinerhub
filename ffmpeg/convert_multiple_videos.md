@@ -4,5 +4,8 @@
 for i in *.mp4; do ffmpeg -i "$i" "${i%.*}.mkv"; done
 ```
 
-- *.mp4 - will select all mp4 files in current folder
-- ${i%.*}.mkv - will convert everything to mkv (change extension automatically)
+- `*.mp4` - will select all mp4 files in current folder
+- `${i%.*}.mkv` - will convert everything to mkv (change extension automatically)
+
+
+link_youtube: https://youtu.be/i0JAn47cXIw
