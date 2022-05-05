@@ -27,3 +27,4 @@ print( redis:get('key') )
 
 ```
 
+link_youtube: https://youtu.be/rSCUDhVd-A8
