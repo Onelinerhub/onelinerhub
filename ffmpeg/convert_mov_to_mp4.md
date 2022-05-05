@@ -4,8 +4,11 @@
 ffmpeg -i input.mov -q:v 0 output.mp4
 ```
 
-- -i input.mov - input video file
-- -q:v 0 - this options sets the best possible quality
-- output.mp4 - resulting video file
+- `-i input.mov` - input video file
+- `-q:v 0` - this options sets the best possible quality
+- `output.mp4` - resulting video file
 
 group: convert_video
+
+
+link_youtube: https://youtu.be/H4JX8__BY2k
