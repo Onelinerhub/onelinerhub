@@ -5,6 +5,7 @@ Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https:
 - [How to contribute](/how-to-contribute.md)
 - [API Docs](/api.md)
 - [YouTube channel](https://www.youtube.com/channel/UCRtux0BT0CBgEwY3CXAkE0w)
+- [Twitter channel](https://twitter.com/JosephMarkberg)
 - [Latest updates](https://onelinerhub.com/fresh)
 - [List of all technologies](https://onelinerhub.com/techs)
 
