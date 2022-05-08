@@ -4,5 +4,8 @@
 curl -L http://google.com/
 ```
 
-- -L - will automatically follow redirects (301/302 response codes)
-- google.com - example URL that returns a redirect response
+- `-L` - will automatically follow redirects (301/302 response codes)
+- `google.com` - example URL that returns a redirect response
+
+
+link_youtube: https://youtu.be/zdPF_v3TUJg
