@@ -18,3 +18,4 @@ Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps mqtt pop3 
 Features: alt-svc AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
 ```
 
+link_youtube: https://youtu.be/b1nlxMPX-0o
