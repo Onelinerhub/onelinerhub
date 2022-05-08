@@ -10,3 +10,4 @@ curl -u user:pwd ftp://host:port/file
 - `/file` - path to specific file on FTP server
 
 
+link_youtube: https://youtu.be/n5GOgLMGUQk
