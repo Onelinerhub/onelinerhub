@@ -18,3 +18,4 @@ curl -o /dev/null -s -w "%{time_total}s\n" https://onelinerhub.com
 0.146088s
 ```
 
+link_youtube: https://youtu.be/XFmI3ZnU2ik
