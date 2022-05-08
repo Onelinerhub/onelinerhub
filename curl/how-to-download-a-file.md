@@ -10,3 +10,4 @@ curl https://examples.onelinerhub.com/file.yml -o /tmp/f.yml
 - `/tmp/f.yml` - file path to save downloaded file to
 
 
+link_youtube: https://youtu.be/UWVDl8JgBAQ
