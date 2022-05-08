@@ -23,3 +23,4 @@ curl -s https://examples.onelinerhub.com/json.json | jq .
 }
 ```
 
+link_youtube: https://youtu.be/7btK7bNQqgY
