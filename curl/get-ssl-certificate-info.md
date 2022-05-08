@@ -14,3 +14,4 @@ curl -vvI https://google.com 2>&1 | awk 'BEGIN { cert=0 } /^\* SSL connection/ {
 - `SSL connection` - find this substring in curl output and show everything after that
 
 
+link_youtube: https://youtu.be/dV38hQyoPmQ
