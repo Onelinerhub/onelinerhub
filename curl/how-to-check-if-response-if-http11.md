@@ -23,3 +23,4 @@ curl -o /dev/null -s -w "%{http_version}\n" https://onelinerhub.com
 1.1
 ```
 
+link_youtube: https://youtu.be/g25CQDIJbtk
