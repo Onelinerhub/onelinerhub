@@ -8,3 +8,4 @@ apt install curl
 - `curl` - name of curl package
 
 
+link_youtube: https://youtu.be/jztPRbPWzvg
