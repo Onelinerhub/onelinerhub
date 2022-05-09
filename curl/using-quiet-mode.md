@@ -10,3 +10,4 @@ curl -s -S https://google.com
 - `https://google.com` - sample URL to send silent HTTP request through cURL
 
 
+link_youtube: https://youtu.be/sTZMd0XMdro
