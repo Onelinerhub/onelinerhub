@@ -11,3 +11,4 @@ curl --tlsv1.2 https://onelinerhub.com/
 group: tls
 
 
+link_youtube: https://youtu.be/eEQWQ8OQE-4
