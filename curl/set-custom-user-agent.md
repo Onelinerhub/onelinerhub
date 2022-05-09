@@ -10,3 +10,4 @@ curl -A "Onelinerhub-bot" https://example.org/
 - `https://example.org/` - sample URL to send request to
 
 
+link_youtube: https://youtu.be/SC6Z95CUNHk
