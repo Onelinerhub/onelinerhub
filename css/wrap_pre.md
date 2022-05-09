@@ -6,5 +6,8 @@ pre {
 }
 ```
 
-- white-space - defines line breaking rules
-- pre-wrap - will break lines (wrap text) when needed automatically
+- `white-space` - defines line breaking rules
+- `pre-wrap` - will break lines (wrap text) when needed automatically
+
+
+link_youtube: https://youtu.be/uPePeWFn4Rg
