@@ -4,9 +4,12 @@
 curl -F file=@file.txt https://example.org/script.php
 ```
 
-- -F - uploads specified file as multipart form post
-- file= - variable name (on the server) to upload file to
-- file.txt - path to local file that we want to upload
-- example.org/script.php - example script to upload file to
+- `-F` - uploads specified file as multipart form post
+- `file=` - variable name (on the server) to upload file to
+- `file.txt` - path to local file that we want to upload
+- `example.org/script.php` - example script to upload file to
 
 group: upload
+
+
+link_youtube: https://youtu.be/3hW89HVnqQ8
