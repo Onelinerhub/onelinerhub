@@ -9,8 +9,11 @@
 }
 ```
 
-- .child-div - your aligned div
-- position: absolute - position your div relatively to its parent 
-- left: 50% - position your div halfway to the right
-- top: 50% - position your div halfway to the bottom
-- transform: translate(-50%, -50%) - position your div halfway to its own origin
+- `.child-div` - your aligned div
+- `position: absolute` - position your div relatively to its parent 
+- `left: 50%` - position your div halfway to the right
+- `top: 50%` - position your div halfway to the bottom
+- `transform: translate(-50%, -50%)` - position your div halfway to its own origin
+
+
+link_youtube: https://youtu.be/II6uFgXEPLE
