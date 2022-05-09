@@ -7,11 +7,14 @@ table, tr, td{
 }
 ```
 
-- table - your table element
-- tr - your row element
-- td - your cell element
-- border - your border property
-- 1px - border thickness
-- solid - border fill style
-- black - border color
-- border-collapse: collapse - collapses 2 touching borders into a single one
+- `table` - your table element
+- `tr` - your row element
+- `td` - your cell element
+- `border` - your border property
+- `1px` - border thickness
+- `solid` - border fill style
+- `black` - border color
+- `border-collapse: collapse` - collapses 2 touching borders into a single one
+
+
+link_youtube: https://youtu.be/um61H-nWUn4
