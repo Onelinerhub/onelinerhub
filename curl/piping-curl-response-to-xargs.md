@@ -12,3 +12,4 @@ curl -s https://examples.onelinerhub.com/cmd.sh | xargs ls
 - `ls` - will try to list file named exactly as it is in `cmd.sh` file
 
 
+link_youtube: https://youtu.be/JqIB_PtRdcs
