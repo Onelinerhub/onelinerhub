@@ -9,7 +9,10 @@
 }
 ```
 
-- .parent-div - parent element inside of which your aligned div should be 
-- display: flex - set display property to flex
-- height: 100% - give the parent element some width and height so it'll be bigger than the aligned div
-- align-items: center - set the vertical alignment to center
+- `.parent-div` - parent element inside of which your aligned div should be 
+- `display: flex` - set display property to flex
+- `height: 100%` - give the parent element some width and height so it'll be bigger than the aligned div
+- `align-items: center` - set the vertical alignment to center
+
+
+link_youtube: https://youtu.be/PjUV6TieF-M
