@@ -4,5 +4,8 @@
 img.thumb { width: 50px; }
 ```
 
-- img.thumb - selector for resized images
-- width: 50px - setting only one dimension will automatically resize other dimension keeping aspect ratio
+- `img.thumb` - selector for resized images
+- `width: 50px` - setting only one dimension will automatically resize other dimension keeping aspect ratio
+
+
+link_youtube: https://youtu.be/QkP0JemabVw
