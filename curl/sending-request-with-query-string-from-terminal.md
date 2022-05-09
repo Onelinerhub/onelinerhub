@@ -9,3 +9,4 @@ curl "https://onelinerhub.com/search?q=clickhouse&p=2"
 - `?q=` - quotes (`"`) will safely allow to send `?` and `&` symbols from terminal
 
 
+link_youtube: https://youtu.be/WYydigXWNgo
