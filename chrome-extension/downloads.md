@@ -1,17 +1,18 @@
 # Add downloads permissions
 
-This should be edited in [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/) file.
-
 ```json
 {
   "name": "My",
   ...
-  |{|"permissions": [
+  "permissions": [
     "downloads"
-  ]|}|,
+  ],
   ...
 }
 ```
 
-- permissions - define which permissions our extension will have
-- "downloads" - allow extension to launch downloading of files
+- `permissions` - define which permissions our extension will have
+- `"downloads"` - allow extension to launch downloading of files
+
+
+link_youtube: https://youtu.be/lQL7Vw17Kks
