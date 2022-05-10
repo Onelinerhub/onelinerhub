@@ -1,1 +1,9 @@
-[How to intercept HTTP request](https://onelinerhub.com/chrome-extension/block_request)
+# How to intercept HTTP request
+
+```
+
+```
+
+
+
+link_youtube: https://youtu.be/Cxyc1qdnc_c
