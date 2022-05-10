@@ -1,17 +1,18 @@
 # Add context menu permissions
 
-This should be edited in [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/) file.
-
 ```json
 {
   "name": "My",
   // ...
-  |{|"permissions": [
+  "permissions": [
     "contextMenus"
-   ]|}|,
+   ],
   // ...
 }
 ```
 
-- permissions - specify extension permissions list
-- contextMenus - allow access to context menu
+- `permissions` - specify extension permissions list
+- `contextMenus` - allow access to context menu
+
+
+link_youtube: https://youtu.be/Xr_mEt0zWqA
