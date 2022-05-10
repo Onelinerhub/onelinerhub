@@ -18,10 +18,13 @@
 }
 ```
 
-- "name" - title for our extension
-- "version" - version of our extension
-- "manifest_version": 3 - v3 format
-- bg.js - background script (worker) to load
-- content.js - content script to load
-- "\*://\*/\*" - load content script on all pages
-- all_frames": true - load content script in all frames
+- `"name"` - title for our extension
+- `"version"` - version of our extension
+- `"manifest_version": 3` - v3 format
+- `bg.js` - background script (worker) to load
+- `content.js` - content script to load
+- `"\*://\*/\*"` - load content script on all pages
+- `all_frames": true` - load content script in all frames
+
+
+link_youtube: https://youtu.be/E9bSD_4d7nc
