@@ -1,1 +1,9 @@
-[Set local storage key in chrome extension](https://onelinerhub.com/chrome-extension/storage_set)
+# Set local storage key in chrome extension
+
+```
+
+```
+
+
+
+link_youtube: https://youtu.be/PMPqOz4mMhs
