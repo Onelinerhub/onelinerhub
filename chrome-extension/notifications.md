@@ -1,19 +1,20 @@
 # Allow notifications permissions
 
-This should be edited in [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/) file.
-
 ```json
 {
   "name": "My",
   // ...
-  |{|"permissions": [
+  "permissions": [
     "notifications"
-   ]|}|,
+   ],
   // ...
 }
 ```
 
-- permissions - specify extension permissions list
-- notifications - enable [notifications API](https://developer.chrome.com/docs/extensions/reference/notifications/) permissions
+- `permissions` - specify extension permissions list
+- `notifications` - enable [notifications API](https://developer.chrome.com/docs/extensions/reference/notifications/) permissions
 
 group: notification
+
+
+link_youtube: https://youtu.be/-eotjfyJb6g
