@@ -1,4 +1,4 @@
-# Convert video to WEBM
+# Encode video for web using WEBM codec
 
 ```bash
 ffmpeg -i in.mp4 -b:v 1M out.webm
@@ -8,7 +8,7 @@ ffmpeg -i in.mp4 -b:v 1M out.webm
 - `-b:v 1M` - set good quality (bitrate, bigger number = better quality)
 - `out.webm` - resulting video file in WEBM format
 
-group: convert_video
+group: webm
 
 
 link_youtube: https://youtu.be/XWzYntUbMkQ
