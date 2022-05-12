@@ -1,4 +1,4 @@
-# Encoding video for usage on a website (H.264)
+# Encoding video for web using H.264 codec
 
 ```bash
 ffmpeg -i in.mov -vcodec libx264 -pix_fmt yuv420p -crf 18 -movflags +faststart out.mp4
