@@ -1,7 +1,7 @@
 # Convert video from H.265 to H.264 codec
 
 ```bash
-ffmpeg -i in.mp4 -map 0 -c:v libx264 -crf 18 -vf format=yuv420p -c:a copy out.mkv
+ffmpeg -i in.mp4 -c:v libx264 -crf 18 -vf format=yuv420p -c:a copy out.mkv
 
 ```
 
