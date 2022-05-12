@@ -1,4 +1,4 @@
-# Set good quality for H.265 codec
+# Set best quality for H.265 codec
 
 ```bash
 ffmpeg -i in.mp4 -c:v libx265 -crf 10 -preset slower out.mp4
