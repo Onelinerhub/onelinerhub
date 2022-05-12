@@ -8,7 +8,7 @@ ffmpeg -i in.mp4 -b:v 1M out.webm
 - `-b:v 1M` - set good quality (bitrate, bigger number = better quality)
 - `out.webm` - resulting video file in WEBM format
 
-group: webm
+group: web
 
 
 link_youtube: https://youtu.be/XWzYntUbMkQ
