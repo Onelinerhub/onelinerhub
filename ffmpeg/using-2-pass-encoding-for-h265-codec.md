@@ -13,6 +13,7 @@ ffmpeg -i in.mp4 -c:v libx265 -b:v 2600k -x265-params pass=2 -c:a aac -b:a 128k 
 - `-x265-params pass=2` - second pass to encode video using computed data
 - `-b:a 128k` - use 128k bitrate for audio
 - `out.mp4` - resulting video file
+- `-c:a aac` - use [`AAC` codec](/ffmpeg/encode-mp3-to-aac) for audio
 
 group: h265
 
