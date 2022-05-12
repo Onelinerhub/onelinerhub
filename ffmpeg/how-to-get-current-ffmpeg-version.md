@@ -8,6 +8,8 @@ ffmpeg -version | grep "ffmpeg version"
 - `-version` - prints details about currently installed ffmpeg
 - `grep "ffmpeg version"` - filter output so only version info is visible
 
+group: install
+
 ## Example: 
 ```bash
 ffmpeg -version | grep "ffmpeg version"
