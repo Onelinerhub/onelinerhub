@@ -5,7 +5,7 @@ ffmpeg -hide_banner -devices
 ```
 
 - `ffmpeg` - ffmpeg utility
-- `-devices` - will list all supported devices
+- `-devices` - will list all supported [devices](https://ffmpeg.org/ffmpeg-devices.html)
 - `-hide_banner` - skip version details and print only what we need
 
 ## Example: 
