@@ -1,4 +1,4 @@
-# List H.264 presets and tunes
+# How to list H.264 presets and tunes
 
 ```bash
 ffmpeg -hide_banner -f lavfi -i nullsrc -c:v libx264 -preset help -f mp4 - 2>&1 | grep Possible
