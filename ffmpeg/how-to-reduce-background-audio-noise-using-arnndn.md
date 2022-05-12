@@ -1,4 +1,4 @@
-# How to reduce background audio noise using arnndn
+# How to reduce background audio noise using arnndn (neural network models)
 
 ```bash
 git clone https://github.com/GregorR/rnnoise-models.git
