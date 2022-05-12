@@ -1,5 +1,7 @@
 # Convert mp4 to avi
 
+### Since `avi` and `mp4` are containers, not codecs, we simply copy video/audio streams:
+
 ```bash
 ffmpeg -i in.mp4 -c:v copy -c:a copy out.avi
 ```
