@@ -1,4 +1,4 @@
-# Lossless conversion to H.264 codec
+# Lossless conversion using H.264 codec
 
 ```bash
 ffmpeg -i in.mp4 -c:v libx264 -preset veryslow -qp 0 out.mkv
