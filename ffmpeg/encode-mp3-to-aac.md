@@ -6,7 +6,7 @@ ffmpeg -i in.mp3 -c:a aac out.m4a
 
 - `ffmpeg` - name of the package to install
 - `-i in.mp3` - input MP3 file
-- `-c:a aac` - use `AAC` codec for convertion
+- `-c:a aac` - use `AAC` codec for conversion
 - `out.m4a` - resulting `aac` file
 
 group: aac
