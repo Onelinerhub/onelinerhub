@@ -1,4 +1,4 @@
-# Using CRF with H.264 codec
+# How to set bitrate for H.264 codec
 
 ```bash
 ffmpeg -i in.mp4 -c:v libx264 -preset slow -crf 18 -c:a copy out.mkv
