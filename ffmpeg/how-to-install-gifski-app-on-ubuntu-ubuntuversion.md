@@ -1,4 +1,4 @@
-# How to install gifski app on Ubuntu UBUNTU_VERSION
+# How to install gifski on Ubuntu UBUNTU_VERSION
 
 ```bash
 wget https://gif.ski/gifski-1.6.4.zip
