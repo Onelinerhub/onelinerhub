@@ -1,4 +1,4 @@
-# How to convert GIF animation to Webm video
+# How to convert GIF animation to WEBM video
 
 ```bash
 ffmpeg -i in.gif -pix_fmt yuv420p out.webm
