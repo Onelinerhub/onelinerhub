@@ -4,7 +4,10 @@
 find /tmp -name "*a*" -or -name "*b*"
 ```
 
-- /tmp - base path to search in
-- -name "\*a\*" - find everything that contains ```a``` in its name
-- -or - check additional following condition
-- -name "\*b\*" - find everything that contains ```b``` in its name
+- `/tmp` - base path to search in
+- `-name "\*a\*"` - find everything that contains ```a``` in its name
+- `-or` - check additional following condition
+- `-name "\*b\*"` - find everything that contains ```b``` in its name
+
+
+link_youtube: https://youtu.be/4NofJOz-Gy0
