@@ -1,6 +1,6 @@
 # How to change loglevel
 
-### You can set one of the following log levels: "quiet", "panic", "fatal", "error", "warning", "info", "verbose", "debug", "trace"
+### You can set one of the following log levels: "quiet", "panic", "fatal", "error", "warning", "info", "verbose", "debug", "trace":
 
 ```bash
 ffmpeg -loglevel error -i in.mp4 out.mp4
