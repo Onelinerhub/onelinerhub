@@ -8,7 +8,7 @@
 
 ```golang
 total := 0
-itotal := 0
+i_total := 0
 for i := 0; i < 10; i++ {
     total += 1
     i_total += i
@@ -18,7 +18,7 @@ fmt.Println(itotal)
 ```
 
 - ``total := 0`` - define the loop total (optional)
-- ``itotal := 0`` - define the cumulative total (optional)
+- ``i_total := 0`` - define the cumulative total (optional)
 - ``for`` - open the definition of the loop
 - ``i := 0;`` - define the variable (`i`) that will be looped over (does not have to be 0)
 - ``i < 10;`` - define the condition the loop will run on (could be `<=`, `>`, or `>=`)
