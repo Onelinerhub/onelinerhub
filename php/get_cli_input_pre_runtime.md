@@ -11,8 +11,7 @@ if (array_key_exists('required', $input) && !empty($input['required'])) {
 ```
 
 - ```$input = getopt``` - assign the options to the variable ``$input``
-- ```'f``` - short option for a simple flag called ``f``
-- ```o:``` - short option for an optional parameter called ``o`` (defined by ``:``)
+- ```fo:``` - short option for a simple flag called ``f`` and an optional parameter called ``o`` (defined by ``:``)
 - ```r::``` - short option for a required parameter called ``r`` (defined by ``::``)
 - ```flag ``` - long option for the ``f`` flag
 - ```optional:``` - long option for ``o``, also with optional parameter
