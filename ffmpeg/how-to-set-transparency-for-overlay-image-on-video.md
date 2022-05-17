@@ -10,4 +10,6 @@ ffmpeg -i in.mp4 -i in.png -filter_complex "[1]format=yuva444p,colorchannelmixer
 - `aa=0.5` - sets opacity to 50% for second stream (overlay image)
 - `out.mp4` - resulting video file
 
+group: overlay
+
 
