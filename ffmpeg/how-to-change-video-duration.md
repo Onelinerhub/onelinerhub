@@ -1,6 +1,6 @@
 # How to change video duration
 
-### In order to change duration, you can either [change speed]() or cut video:
+### In order to change duration, you can either [change speed](/ffmpeg/how-to-slow-down-video) or cut video:
 
 ```bash
 ffmpeg -i in.mp4 -ss 00:00:03 -t 00:00:05 out.mp4
