@@ -1,20 +1,7 @@
-# Change colour of text
+# How to change color of CLI text
 
-```php
-"\e[0;34;43mYour text here\e[0m"
-```
-
-- `"\e` open and escape the string
-- `[0;34` - set the foreground colour to blue
-- `;42` - set the background colour to yellow (optional)
-- `m` - close the colour-setting portion
-- `Your text here` - the text to be outputted
-- `\e[0m"` - reset the colour to the default
-
-### Please note:
-This is only usable at the command line.
-Foreground colours have alternate codes; they are made by using `1;` rather than `0;`, and change the tone or heaviness
-of the base `0` colour, depending on the terminal used.
+### Please note, this is only usable at the command line.
+Foreground colours have alternate codes; they are made by using `1;` rather than `0;`, and change the tone or heaviness of the base `0` colour, depending on the terminal used.
 
 | Colour         | Foreground Code | Background Code |
 |----------------|-----------------|-----------------|
@@ -34,3 +21,15 @@ of the base `0` colour, depending on the terminal used.
 | Light Cyan     | 1;36            | n/a             |
 | Light Grey     | 0;37            | 47              |
 | White	         | 1;37            | n/a             |
+
+```php
+"\e[0;34;43mYour text here\e[0m"
+```
+
+- ``[0;34`` - set the foreground colour to blue
+- ``;42`` - set the background colour to yellow (optional)
+- ``m`` - close the colour-setting portion
+- ``Your text here`` - the text to be outputted
+- ``\e[0m"`` - reset the colour to the default
+
+
