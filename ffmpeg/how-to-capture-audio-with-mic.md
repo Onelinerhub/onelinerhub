@@ -1,5 +1,7 @@
 # How to capture audio with mic
 
+### This command will start capturing, press `Ctrl+C` when finished:
+
 ```bash
 ffmpeg -f alsa -i hw:1 out.wav
 ```
