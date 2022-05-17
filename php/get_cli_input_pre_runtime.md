@@ -1,4 +1,4 @@
-# Get Command Line Input Pre-Runtime
+# Get Command Line Arguments Pre-Runtime
 
 ```php
 $input = getopt('fo:r::', ['flag', 'optional:', 'required::']);
