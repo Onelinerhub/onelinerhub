@@ -1,10 +1,5 @@
 # Search keys by pattern in Redis
 
-### find
-get
-fetch
-retrieve
-
 ```python
 r = redis.Redis()
 all_keys = r.keys('pattern')
@@ -27,4 +22,10 @@ print(r.keys('test*'))
 [b'test2', b'test']
 
 ```
+
+## Additional keywords
+- find
+- get
+- fetch
+- retrieve
 
