@@ -26,18 +26,7 @@ group: cli_input
 
 ## Example: 
 ```php
-# example.php:
-$input = getopt('fo:r::', ['flag', 'optional:', 'required::']);
-if (array_key_exists('f', $input) || array_key_exists('flag', $input)) {
-    echo "Flag found.\n";
-}
-if (array_key_exists('required', $input) && !empty($input['required'])) {
-    echo "Required: " . $input['required'] . "\n";
-}
-```
-
 php example.php -f --required=test
-
 ```
 ```
 Flag found.
