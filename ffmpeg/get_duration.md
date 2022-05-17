@@ -16,7 +16,7 @@ group: duration
 
 ## Example: 
 ```bash
-f video	View publicEdit codePlay videoVideo screen
+ffprobe EXAMPLE.mp4 -v quiet -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 -sexagesimal
 ```
 ```
 0:00:20.000000
