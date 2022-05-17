@@ -8,4 +8,6 @@ ffmpeg -txt_format text -i in.mkv out.srt
 - `-txt_format text` - set output format to text (for subtitles extraction)
 - `out.srt` - resulting subtitles file
 
+group: subtitles
+
 
