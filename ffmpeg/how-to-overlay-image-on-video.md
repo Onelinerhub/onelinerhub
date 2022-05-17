@@ -1,9 +1,7 @@
 # How to overlay image on video
 
 ```bash
-ffmpeg -i in.mp4 -i in.png \
--filter_complex "[0:v][1:v] overlay=100:100" \
--pix_fmt yuv420p -c:a copy out.mp4
+ffmpeg -i in.mp4 -i in.png -filter_complex "[0:v][1:v] overlay=100:100" -pix_fmt yuv420p -c:a copy out.mp4
 ```
 
 - `-i in.mp4` - input video file
