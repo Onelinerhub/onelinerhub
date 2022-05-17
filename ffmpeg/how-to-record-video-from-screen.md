@@ -1,4 +1,4 @@
-# How to record video from screen
+# How to record video from screen in Ubuntu
 
 ### This command will start capturing, press `Ctrl+C` when finished:
 
