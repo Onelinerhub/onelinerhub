@@ -10,7 +10,7 @@ $time = time() - $start;
 - ```$start = time();``` - assign the current time to a variable called ``$start``
 - ```# Other code``` - the rest of the code to execute
 - ```sleep(15);``` - wait 15 seconds (for testing purposes)
-- ```$time = time() - $start;``` - assign the total time since ``$start`` to a variable called ``$time``
+- ``$time = time() - $start;`` - assign the total time since ``$start`` to a variable called ``$time``
 
 ## Example: 
 ```php
