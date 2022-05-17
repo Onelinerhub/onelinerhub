@@ -1,6 +1,6 @@
 # How to change color of CLI text
 
-### Please note, this is only usable at the command line.
+### **Please note**, this is only usable at the command line.
 Foreground colours have alternate codes; they are made by using `1;` rather than `0;`, and change the tone or heaviness of the base `0` colour, depending on the terminal used.
 
 | Colour         | Foreground Code | Background Code |
