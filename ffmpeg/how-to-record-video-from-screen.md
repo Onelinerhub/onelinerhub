@@ -16,3 +16,6 @@ ffmpeg -video_size 1280x720 -framerate 25 -f x11grab -i :0.0+100,200 out.mp4
 group: capture
 
 
+## Additional keywords
+- capture
+
