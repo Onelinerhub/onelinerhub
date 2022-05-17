@@ -19,3 +19,6 @@ ffmpeg -video_size 1280x720 -framerate 25 -f x11grab -i :0.0+100,200 -f alsa -ac
 group: capture
 
 
+## Additional keywords
+- record
+
