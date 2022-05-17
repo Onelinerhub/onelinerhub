@@ -1,6 +1,6 @@
 # How to speed up audio 4x
 
-### Since `atempo` filter allows max `2x` speed, we use multiple `atempo` filters to bypass that limit:
+### Since `atempo` filter allows max `2x` speed increase, we use multiple `atempo` filters to bypass that limit:
 
 ```ffmpeg
 ffmpeg -i in.mp3 -filter:a "atempo=2.0,atempo=2.0" -vn out.mp3
