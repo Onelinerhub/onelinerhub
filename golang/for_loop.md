@@ -25,7 +25,7 @@ fmt.Println(itotal)
 - ``i++`` - define how much to increment `i` on each run of the loop
 - ``{`` - close the definition of the loop, start the logic within it
 - ``total += 1`` - increment the loop total by one (optional)
-- ``itotal += i`` - add the current `i` to the cumulative total (optional)
+- ``i_total += i`` - add the current `i` to the cumulative total (optional)
 - ``fmt.Println(total)`` - print the loop total, which is 10 (optional)
 - ``fmt.Println(itotal)`` - print the cumulative total, which is 45 (optional)
 
