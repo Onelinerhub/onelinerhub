@@ -4,7 +4,10 @@
 find /var/log -size 0
 ```
 
-- /var/log - directory to search inside
-- -size 0 - will locate all zero-sized files
+- `/var/log` - directory to search inside
+- `-size 0` - will locate all zero-sized files
 
 group: zero_size
+
+
+link_youtube: https://youtu.be/MN5iLyKISr0
