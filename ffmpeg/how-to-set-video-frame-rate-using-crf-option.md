@@ -1,4 +1,4 @@
-# How to set video frame rate using CRF option
+# How to set video frame rate (FPS) using CRF option
 
 ```bash
 ffmpeg -i in.mp4 -crf 18 out.mp4
