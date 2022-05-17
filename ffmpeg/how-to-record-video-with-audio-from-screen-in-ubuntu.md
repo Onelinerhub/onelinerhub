@@ -1,4 +1,4 @@
-# How to record video with audio from screen in Ubuntu
+# How to capture video with audio from screen in Ubuntu
 
 ### This command will start capturing, press `Ctrl+C` when finished:
 
