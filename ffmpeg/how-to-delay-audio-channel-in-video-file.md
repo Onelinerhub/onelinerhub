@@ -1,5 +1,7 @@
 # How to delay (sync with video) audio channel in video file 
 
+### We can use audio delay to fix unsynced audio/video channels:
+
 ```bash
 ffmpeg -i in.mp4 -itsoffset 5 -i in.mp4 -map 1:v -map 0:a -c copy out.mp4
 ```
