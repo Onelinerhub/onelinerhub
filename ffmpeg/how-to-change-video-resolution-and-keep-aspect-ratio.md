@@ -1,5 +1,7 @@
 # How to change video resolution and keep aspect ratio
 
+### In order to keep aspect ratio, set only one target dimension (width or height) and leave the other one as `-1`:
+
 ```bash
 ffmpeg -i in.mp4 -vf scale=-1:180 out.mp4
 ```
