@@ -4,6 +4,9 @@
 grep -L 'text' *.txt
 ```
 
-- 'text' - text to match against
-- -L - asks grep to show files that do not contain text (use ```-Lr``` for recursive search)
-- *.txt - check all ```txt``` files in current directory
+- `'text'` - text to match against
+- `-L` - asks grep to show files that do not contain text (use ```-Lr``` for recursive search)
+- `*.txt` - check all ```txt``` files in current directory
+
+
+link_youtube: https://youtu.be/_mHysUAPFos
