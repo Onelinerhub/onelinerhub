@@ -4,6 +4,9 @@
 grep -lr 'text' /path/
 ```
 
-- -lr - this will ask grep to print only found file names (```l```) and do recursive search (```r```)
-- 'text' - text to search
-- /path/ - directory with files to search text in
+- `-lr` - this will ask grep to print only found file names (```l```) and do recursive search (```r```)
+- `'text'` - text to search
+- `/path/` - directory with files to search text in
+
+
+link_youtube: https://youtu.be/DcxTD867IUs
