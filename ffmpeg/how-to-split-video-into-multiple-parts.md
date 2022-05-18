@@ -1,6 +1,6 @@
 # How to split video into multiple parts 
 
-### At the moment, the only reliable option is to manually call corresponding commands to cut off parts from the original video:
+### At the moment, the only reliable option is to manually call corresponding commands to cut off parts from the original video. In this example we cut 3 video parts 5-seconds length each:
 
 ```bash
 ffmpeg -i in.mp4 -ss 0  -t 5 p1.mp4
