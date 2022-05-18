@@ -9,5 +9,7 @@ ffprobe -v quiet -print_format json -show_format -show_streams in.mp4
 - `in.mp4` - video file to show info about
 - `-show_format -show_streams` - will show info about video format and streams
 
+group: info
+
 
 link_youtube: https://youtu.be/w_r7SZKmwpQ
