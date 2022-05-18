@@ -11,7 +11,7 @@ ffmpeg -i in.mp4 -ss 10 -t 5 p3.mp4
 
 - `-i in.mp4` - input video file
 - `-ss` - set start position (in seconds) to cut the part from source video
-- `-t` - set resulting video length (in seconds)
+- `-t` - set resulting video part length (in seconds)
 - `p1.mp4` - name of the first video part
 
 
