@@ -4,5 +4,8 @@
 grep \\. file.txt
 ```
 
-- \\. - escaped dot text to search for
-- file.txt - file to search in
+- `\\.` - escaped dot text to search for
+- `file.txt` - file to search in
+
+
+link_youtube: https://youtu.be/S2fLH154RuA
