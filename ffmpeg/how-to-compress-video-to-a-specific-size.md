@@ -1,6 +1,6 @@
 # How to compress video to a specific size
 
-### In order to compress video to a specific size, first calculate target bitrate as `bitrate = target size / duration`. Then use this bitrate in the specified command. For example, we want video of `1Mb` in size and our target video is 1 minute and 22 seconds in length. Then we should use `1024/82 = 12k`:
+### In order to compress video to a specific size, first calculate target bitrate as `bitrate = target size / duration`. Then use this bitrate in the specified command. For example, we want to get a video of `1Mb` in size and our original video is 1 minute and 22 seconds in length. Then we should use `1024/82 = 12k` bitrate for conversion:
 
 ```bash
 ffmpeg -y -i in.mp4 -c:v libx264 -b:v 12k -pass 1 -f mp4 /dev/null
