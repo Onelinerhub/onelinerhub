@@ -1,4 +1,4 @@
-# How to set audio quality from MP3
+# How to set audio quality for MP3
 
 ### In order to reduce audio quality, try reducing bitrate of your audio (channel):
 
