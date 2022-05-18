@@ -1,4 +1,4 @@
-# How to extract frames from video to images
+# How to extract frames from video to high quality images
 
 ```bash
 ffmpeg -i in.mp4 -r 1/1 out-%03d.png
