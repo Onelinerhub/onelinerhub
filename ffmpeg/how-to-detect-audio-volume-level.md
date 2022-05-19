@@ -9,6 +9,7 @@ ffmpeg -hide_banner -i in.mp3 -filter:a volumedetect -f null /dev/null
 - `-i in.mp3` - input MP3 file
 - `-filter:a` - applies specified audio filter
 - `volumedetect` - detect `mean` and `max` audio volume for given file
+- `-f null /dev/null` - used to hide errors
 
 group: volume
 
