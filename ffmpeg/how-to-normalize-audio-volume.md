@@ -22,8 +22,8 @@ ffmpeg -i in.mp3 -filter:a volumedetect -f null /dev/null
 ```
 ```
 ...
-[Parsed_volumedetect_0 @ 0x55c817cff140] mean_volume: -24.1 dB
-[Parsed_volumedetect_0 @ 0x55c817cff140] max_volume: -10.7 dB
+[Parsed_volumedetect...] mean_volume: -24.1 dB
+[Parsed_volumedetect...] max_volume: -10.7 dB
 ...
 ```
 
