@@ -1,6 +1,6 @@
 # How to use filter_complex to apply filters to videos
 
-### When you have multiple inputs or you need to apply multiple filters, you can use `filter_complex`:
+### When you have multiple inputs or you need to apply multiple filters, you can use `filter_complex`. This example resizes given image to `50x50` and places it (overlays) over given video:
 
 ```bash
 ffmpeg -i in.mp4 -i in.png -filter_complex "[1]scale=50:50[in2];[0][in2]overlay" out.mp4
