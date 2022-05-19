@@ -16,3 +16,4 @@ ffmpeg -r 1/5 -i img%04d.jpg -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4
 group: images
 
 
+link_youtube: https://youtu.be/ikdbhwa1o8U
