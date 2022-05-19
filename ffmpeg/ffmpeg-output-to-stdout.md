@@ -9,3 +9,4 @@ ffmpeg -i in.mp4 -f avi pipe:1
 - `pipe:1` - send output to `stdout` instead of file
 
 
+link_youtube: https://youtu.be/vBvsOvQD2dI
