@@ -1,6 +1,6 @@
 # How to install ffmpeg-normalize on Ubuntu UBUNTU_VERSION
 
-```ffmpeg
+```bash
 sudo pip3 install ffmpeg-normalize
 ```
 
