@@ -12,5 +12,7 @@ ffmpeg -i part1.mkv -i part2.mkv -filter_complex "[0:v] [0:a] [1:v] [1:a] concat
 - `-map "[v]" -map "[a]"` - tells ffmpeg to use video and audio stream from concat filter
 - `output.mkv` - is the resulting file
 
+group: concat
+
 
 link_youtube: https://youtu.be/ZFzv1a0pNLY
