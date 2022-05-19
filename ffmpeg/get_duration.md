@@ -22,3 +22,4 @@ ffprobe EXAMPLE.mp4 -v quiet -show_entries format=duration -of default=noprint_w
 0:00:20.000000
 ```
 
+link_youtube: https://youtu.be/3_RrW-AlroI
