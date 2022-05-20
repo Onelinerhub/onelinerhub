@@ -11,3 +11,4 @@ for i in $(ls *.wav); do ffmpeg -i $i ${i/wav/mp3}; done
 group: batch
 
 
+link_youtube: https://youtu.be/N-TyMiI0tB4
