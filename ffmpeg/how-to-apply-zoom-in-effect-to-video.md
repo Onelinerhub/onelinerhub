@@ -12,3 +12,4 @@ ffmpeg -i in.mp4 -vf "zoompan=z='min(max(zoom,pzoom)+0.0015,1.5)':d=0:x='iw/2-(i
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/cuam3SzMM3A
