@@ -18,3 +18,4 @@ ffmpeg -i in.mp4 -vf "drawtext=x=10:y=20:fontsize=24:fontcolor=white:textfile=te
 group: drawtext
 
 
+link_youtube: https://youtu.be/AbrPc06WXfE
