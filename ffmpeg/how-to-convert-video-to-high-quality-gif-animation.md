@@ -12,3 +12,4 @@ gifski --fps 10 -o out.gif in.mp4
 group: gifhq
 
 
+link_youtube: https://youtu.be/qYl6JB8nAic
