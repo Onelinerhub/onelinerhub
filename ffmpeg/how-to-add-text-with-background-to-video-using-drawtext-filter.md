@@ -21,3 +21,4 @@ ffmpeg -i in.mp4 -vf "drawtext=text='hola':box=1:boxborderw=5:boxcolor=black:x=1
 group: drawtext
 
 
+link_youtube: https://youtu.be/9qQhHFXFTA8
