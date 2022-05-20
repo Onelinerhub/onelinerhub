@@ -15,3 +15,4 @@ ffmpeg -i in.mp4 -c:v libx264 -b:v 12k -pass 2 out.mp4
 - `-pass 2` - second pass to encode video using collected data
 
 
+link_youtube: https://youtu.be/jBienpxjZog
