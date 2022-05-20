@@ -15,3 +15,4 @@ ffmpeg -i in.mp4 -vf scale=100:200,setsar=1:1 out.mp4
 group: resolution
 
 
+link_youtube: https://youtu.be/2qa8O_xC_sI
