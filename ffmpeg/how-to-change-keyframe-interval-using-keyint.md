@@ -12,3 +12,4 @@ ffmpeg -i in.mp4 -vcodec libx264 -x264-params keyint=5 -acodec copy out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/6MnJ-60qtvY
