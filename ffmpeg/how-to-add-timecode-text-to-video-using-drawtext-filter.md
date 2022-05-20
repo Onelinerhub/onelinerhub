@@ -19,3 +19,4 @@ ffmpeg -i in.mp4 -vf "drawtext=timecode='00\:00\:00\:00':r=30:x=10:y=10:fontsize
 group: drawtext
 
 
+link_youtube: https://youtu.be/h4rXBqCvVRQ
