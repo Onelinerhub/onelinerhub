@@ -12,3 +12,4 @@ ffmpeg -f image2 -framerate 10 -i in%03d.png out.gif
 group: gif
 
 
+link_youtube: https://youtu.be/NQ5Bbp7X9RI
