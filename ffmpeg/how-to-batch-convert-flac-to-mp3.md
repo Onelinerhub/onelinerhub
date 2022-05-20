@@ -11,3 +11,4 @@ for i in $(ls *.flac); do ffmpeg -i $i ${i/flac/mp3}; done
 group: batch
 
 
+link_youtube: https://youtu.be/600NKGdVq-g
