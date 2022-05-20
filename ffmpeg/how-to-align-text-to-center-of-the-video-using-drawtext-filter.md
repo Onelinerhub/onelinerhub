@@ -20,3 +20,4 @@ ffmpeg -i in.mp4 -vf "drawtext=text='I am middle text':x=(w-text_w)/2:y=(h-text_
 group: drawtext
 
 
+link_youtube: https://youtu.be/Ajb4km5gIiU
