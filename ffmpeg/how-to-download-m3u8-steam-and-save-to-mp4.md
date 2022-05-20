@@ -11,3 +11,4 @@ ffmpeg -i "https://dv...ter.m3u8" -bsf:a aac_adtstoasc -crf 18 out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/z1-WRxM75sM
