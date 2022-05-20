@@ -22,3 +22,4 @@ ffmpeg -hide_banner -i in.mp3 -filter:a volumedetect -f null /dev/null
 ...
 ```
 
+link_youtube: https://youtu.be/iiIXmvQP9VM
