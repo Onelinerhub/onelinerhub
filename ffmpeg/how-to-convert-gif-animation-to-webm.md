@@ -11,3 +11,4 @@ ffmpeg -i in.gif -pix_fmt yuv420p out.webm
 group: gif
 
 
+link_youtube: https://youtu.be/CS6GJ7OgLvk
