@@ -11,3 +11,4 @@ for i in $(ls *.mkv); do ffmpeg -i $i ${i/mkv/mp4}; done
 group: batch
 
 
+link_youtube: https://youtu.be/HjdI0exen8A
