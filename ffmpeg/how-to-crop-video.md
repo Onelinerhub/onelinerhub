@@ -13,3 +13,4 @@ ffmpeg -i in.mp4 -vf "crop=iw/2:ih/2" out.mp4
 group: zoom
 
 
+link_youtube: https://youtu.be/7GJ89cWT11Q
