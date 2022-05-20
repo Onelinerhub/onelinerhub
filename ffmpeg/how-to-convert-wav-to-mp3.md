@@ -13,3 +13,4 @@ ffmpeg -i in.wav -vn -ar 44100 -b:a 192k out.mp3
 group: wav
 
 
+link_youtube: https://youtu.be/fvoAnxbVKBU
