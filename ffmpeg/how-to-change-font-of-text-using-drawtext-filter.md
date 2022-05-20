@@ -19,3 +19,4 @@ ffmpeg -i in.mp4 -vf "drawtext=text='Some text':x=10:y=20:fontsize=24:fontcolor=
 group: drawtext
 
 
+link_youtube: https://youtu.be/Exe-l6clMyY
