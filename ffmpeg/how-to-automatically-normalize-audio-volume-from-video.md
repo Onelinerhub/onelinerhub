@@ -13,3 +13,4 @@ ffmpeg-normalize in.mp4  -c:a aac -b:a 192k -o out.mp4
 group: ffmpeg-normalize
 
 
+link_youtube: https://youtu.be/I6QnKCKqHsA
