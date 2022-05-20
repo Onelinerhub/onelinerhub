@@ -18,3 +18,4 @@ ffmpeg -i in.mp4 -itsoffset 5 -i in.mp4 -map 1:v -map 0:a -c copy out.mp4
 group: itsoffset
 
 
+link_youtube: https://youtu.be/23iM7m8msZs
