@@ -12,3 +12,4 @@ ffmpeg -i in.vob -vf yadif -c:v libx264 -crf 18 out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/-7S1F15tBNY
