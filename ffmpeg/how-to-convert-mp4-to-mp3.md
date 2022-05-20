@@ -9,3 +9,4 @@ ffmpeg -i in.mp4 out.mp3
 - `out.mp3` - resulting audio file
 
 
+link_youtube: https://youtu.be/oMbeC58c6xM
