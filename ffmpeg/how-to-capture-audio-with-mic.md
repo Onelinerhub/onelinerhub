@@ -14,3 +14,4 @@ ffmpeg -f alsa -i hw:1 out.wav
 group: capture
 
 
+link_youtube: https://youtu.be/Z32LSsUiUHg
