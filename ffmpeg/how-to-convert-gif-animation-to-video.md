@@ -11,3 +11,4 @@ ffmpeg -i in.gif -pix_fmt yuv420p out.mp4
 group: gif
 
 
+link_youtube: https://youtu.be/cLkB8UFJHqA
