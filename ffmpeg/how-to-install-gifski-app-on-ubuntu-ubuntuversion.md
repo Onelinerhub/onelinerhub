@@ -13,3 +13,4 @@ sudo apt install ./gifski-1.6.4/debian/gifski_1.6.4_amd64.deb
 group: gifhq
 
 
+link_youtube: https://youtu.be/hq3R63gcFOU
