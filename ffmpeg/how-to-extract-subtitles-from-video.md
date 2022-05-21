@@ -11,3 +11,4 @@ ffmpeg -txt_format text -i in.mkv out.srt
 group: subtitles
 
 
+link_youtube: https://youtu.be/vwZ8DPY9VqY
