@@ -8,3 +8,4 @@ ffplay -f lavfi "movie=in.mp4[out0]"
 - `in.mp4` - input video file to play
 
 
+link_youtube: https://youtu.be/F8GPhoYC9ms
