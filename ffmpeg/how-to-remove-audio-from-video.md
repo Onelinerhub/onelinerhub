@@ -10,3 +10,4 @@ ffmpeg -i in.mp4 -vcodec copy -an out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/s4YJJRTaiCE
