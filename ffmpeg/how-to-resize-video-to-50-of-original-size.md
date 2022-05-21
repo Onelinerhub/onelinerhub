@@ -14,3 +14,4 @@ ffmpeg -i in.mp4 -vf 'scale=-1:ih/2' out.mp4
 group: resize
 
 
+link_youtube: https://youtu.be/o1WRIxsoS3I
