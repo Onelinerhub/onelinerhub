@@ -10,3 +10,4 @@ ffmpeg -i in.mp4 -r 1/1 out-%03d.png
 - `out-%03d.png` - output file name template (e.g. `out-001.png`, `out-002.png`,...)
 
 
+link_youtube: https://youtu.be/XhBd04wPxiM
