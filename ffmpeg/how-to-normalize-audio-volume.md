@@ -27,3 +27,4 @@ ffmpeg -i in.mp3 -filter:a volumedetect -f null /dev/null
 ...
 ```
 
+link_youtube: https://youtu.be/ey0z4Au2hYU
