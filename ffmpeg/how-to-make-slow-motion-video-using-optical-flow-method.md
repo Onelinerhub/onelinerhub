@@ -16,3 +16,4 @@ ffmpeg -i tmp.mp4 -filter:v "minterpolate='mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps
 group: speed
 
 
+link_youtube: https://youtu.be/s0eBSXot8FI
