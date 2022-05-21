@@ -15,3 +15,4 @@ ffmpeg -i in.mp4 -filter_complex "[0:v]setpts=0.5*PTS[v];[0:a]atempo=2.0[a]" -ma
 group: speed
 
 
+link_youtube: https://youtu.be/JJl0voM8ZNo
