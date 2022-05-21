@@ -17,3 +17,4 @@ ffmpeg -i in.mov -c:v libx264 -preset slow -crf 18 -c:a aac -b:a 192k -pix_fmt y
 group: exporting
 
 
+link_youtube: https://youtu.be/cqXlEIozhnA
