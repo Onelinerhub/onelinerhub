@@ -11,3 +11,4 @@ ffmpeg -i in.mp4 -c:v mpeg4 -q:v 10 out.avi
 - `out.avi` - resulting video file
 
 
+link_youtube: https://youtu.be/wYW9btU740c
