@@ -16,3 +16,4 @@ ffmpeg -i in.mp3 -af "afftdn=nr=10:nf=-30:tn=1" out.mp3
 group: noise
 
 
+link_youtube: https://youtu.be/sDdakK23cxM
