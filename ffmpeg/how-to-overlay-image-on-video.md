@@ -16,3 +16,4 @@ ffmpeg -i in.mp4 -i in.png -filter_complex "[0:v][1:v] overlay=100:100" -pix_fmt
 group: overlay
 
 
+link_youtube: https://youtu.be/R9s6lXMAmbQ
