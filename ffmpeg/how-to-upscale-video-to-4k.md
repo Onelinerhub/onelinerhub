@@ -17,3 +17,4 @@ ffmpeg -i in.mp4 -vf scale=-1:2160:flags=lanczos -c:v libx264 -crf 21 out.mp4
 group: upscale
 
 
+link_youtube: https://youtu.be/Y6_niBPXPzE
