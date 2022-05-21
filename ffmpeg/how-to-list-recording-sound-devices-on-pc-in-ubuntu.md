@@ -22,3 +22,4 @@ card 1: Generic [HD-Audio Generic], device 2: ALC887-VD Alt Analog [ALC887-VD Al
   Subdevice #0: subdevice #0
 ```
 
+link_youtube: https://youtu.be/GG0eGWtLABs
