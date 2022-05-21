@@ -12,3 +12,4 @@ ffmpeg-i in.mp4 -c:v libx264 -b:v 2M -maxrate 2M -bufsize 1M out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/FISfwmNId5g
