@@ -15,3 +15,4 @@ ffmpeg -i in.mp4 -ss 10 -t 5 p3.mp4
 - `p1.mp4` - name of the first video part
 
 
+link_youtube: https://youtu.be/GrLQQVL4aKE
