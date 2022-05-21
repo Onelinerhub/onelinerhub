@@ -11,3 +11,4 @@ sudo pip3 install ffmpeg-normalize
 group: ffmpeg-normalize
 
 
+link_youtube: https://youtu.be/tPyX605y1uM
