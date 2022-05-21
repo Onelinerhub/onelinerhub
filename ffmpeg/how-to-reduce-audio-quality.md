@@ -14,3 +14,4 @@ ffmpeg -i in.mp3 -b:a 32k out.mp3
 group: audio_quality
 
 
+link_youtube: https://youtu.be/6MlRR4mn8ew
