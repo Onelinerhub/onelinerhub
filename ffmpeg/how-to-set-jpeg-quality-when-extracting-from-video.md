@@ -12,3 +12,4 @@ ffmpeg -i in.mp4 -q:v 2 out_%03d.jpg
 group: video_thumbnail
 
 
+link_youtube: https://youtu.be/OS6GjLfmBb8
