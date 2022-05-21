@@ -15,3 +15,4 @@ ffmpeg -i in.mp4 -vf "crop=ih*(9/16):ih" -crf 21 -c:a copy out.mp4
 group: exporting
 
 
+link_youtube: https://youtu.be/RjFYdy9EY90
