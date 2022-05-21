@@ -11,3 +11,4 @@ ffmpeg -stream_loop 3 -i in.mp4 -c copy out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/mOHujYrkT7M
