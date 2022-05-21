@@ -13,3 +13,4 @@ ffmpeg -i in.mp4 -i in.png -filter_complex "[1]format=yuva444p,colorchannelmixer
 group: overlay
 
 
+link_youtube: https://youtu.be/Aj6aMRv5M2M
