@@ -14,3 +14,4 @@ ffmpeg -i in.mp4 -i in.mp3 -map 0:v:0 -map 1:a:2 out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/blBDNgAZ1xI
