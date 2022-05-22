@@ -14,3 +14,4 @@ ffmpeg -i in.mp4 -ss 00:00:05 -to 00:00:10 out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/hDyRJRkzOL8
