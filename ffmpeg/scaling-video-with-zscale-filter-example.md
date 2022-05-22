@@ -12,3 +12,4 @@ ffmpeg -i in.mp4 -vf zscale=w=-1:h=180 out.mp4
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/OSlglPdJjxs
