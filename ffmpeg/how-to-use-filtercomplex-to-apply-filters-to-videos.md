@@ -14,3 +14,4 @@ ffmpeg -i in.mp4 -i in.png -filter_complex "[1]scale=50:50[in2];[0][in2]overlay"
 - `out.mp4` - resulting video file
 
 
+link_youtube: https://youtu.be/pBIPKn0bqCM
