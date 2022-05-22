@@ -23,3 +23,4 @@ ffmpeg -hide_banner -f lavfi -i nullsrc -c:v libx264 -preset help -f mp4 - 2>&1 
 
 ```
 
+link_youtube: https://youtu.be/lRPanovK9Qc
