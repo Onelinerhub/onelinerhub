@@ -15,3 +15,4 @@ ffmpeg -i in.mp4 -vf "scale=2*iw:-1,crop=iw/2:ih/2" out.mp4
 group: zoom
 
 
+link_youtube: https://youtu.be/cyU0b4uxZbA
