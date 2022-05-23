@@ -9,4 +9,6 @@ google-chrome --headless --dump-dom "https://github.com" > source.html
 - `github.com` - url to open
 - `source.html` - path to file to save output html to
 
+group: src
+
 
