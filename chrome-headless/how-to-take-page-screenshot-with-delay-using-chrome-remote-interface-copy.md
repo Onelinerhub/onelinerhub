@@ -12,7 +12,7 @@ chromeLauncher.launch({ port: 9222, chromeFlags: [ '--window-size=400,800', '--h
     await Page.navigate({url: 'https://github.com'});
     await Page.loadEventFired();
     
-    await new Promise(r => setTimeout(r, 15000));
+    await new Promise(r => setTimeout(r, 6000));
     
     const {data} = await Page.captureScreenshot();
     fs.writeFileSync('screen.png', Buffer.from(data, 'base64'));
@@ -33,6 +33,7 @@ chromeLauncher.launch({ port: 9222, chromeFlags: [ '--window-size=400,800', '--h
 - `screen.png` - path to save screenshot to
 - `client.close` - close remote debugging interface connection
 - `chrome.kill()` - close browser
+- `setTimeout(r, 6000)` - wait for 6 seconds before taking screenshot
 
 group: screenshot
 
