@@ -4,10 +4,13 @@
 
 ```text
 v
+[select text]
 y
 ```
 
 - `v` - first press `v` to switch to visual mode and move cursor to select text to copy
 - `y` - once ready press `y` to yank text
+
+group: clipboard
 
 
