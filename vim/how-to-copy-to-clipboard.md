@@ -1,6 +1,6 @@
 # How to copy text to clipboard
 
-### Press `Esc` to [switch to command mode](/vim/how-to-switch-to-command-mode) and then type (then press `Enter`):
+### You can either copy to OS clipboard selecting text with mouse and pressing `Shift+Ctrl+c` or internal VIM buffer. Press `Esc` to [switch to command mode](/vim/how-to-switch-to-command-mode) and then type (then press `Enter`):
 
 ```text
 v
