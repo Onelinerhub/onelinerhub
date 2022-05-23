@@ -1,4 +1,4 @@
-# How to capture video
+# How to capture video using Chrome Remote Interface
 
 ### We can record video by using screen cast interface to generate series of frames and then using [`ffmpeg`](/ffmpeg) to generate final video:
 
