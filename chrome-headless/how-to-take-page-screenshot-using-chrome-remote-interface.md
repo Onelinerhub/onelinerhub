@@ -1,5 +1,7 @@
 # How to take page screenshot using Chrome Remote Interface
 
+### Execute this javascript file using `nodejs`:
+
 ```js
 const chromeLauncher = require('chrome-launcher');
 const CDP = require('chrome-remote-interface');
