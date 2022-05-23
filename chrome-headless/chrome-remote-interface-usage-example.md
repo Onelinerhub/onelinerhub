@@ -21,7 +21,6 @@ chromeLauncher.launch({
     await client.close();
     chrome.kill();
   });
-
 });
 ```
 
