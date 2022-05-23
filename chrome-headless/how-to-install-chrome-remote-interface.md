@@ -1,4 +1,4 @@
-# How to install Chrome Remote Interface
+# How to install Chrome Remote Interface library
 
 ```bash
 npm i --save chrome-remote-interface
