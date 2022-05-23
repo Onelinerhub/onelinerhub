@@ -1,6 +1,6 @@
 # How to install proxychains on Ubuntu UBUNTU_VERSION
 
-```proxychains
+```bash
 apt install proxychains
 ```
 
