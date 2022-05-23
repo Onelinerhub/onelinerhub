@@ -1,6 +1,6 @@
 # How to take page screenshot with delay using Chrome Remote Interface
 
-### We'll wait for 6 seconds before taking screenshot in this example:
+### We'll wait for `6 seconds` before taking screenshot in this example:
 
 ```js
 const chromeLauncher = require('chrome-launcher');
