@@ -1,5 +1,7 @@
 # How to capture video
 
+### We can record video by using screen cast interface to generate series of frames and then using [`ffmpeg`](/ffmpeg) to generate final video:
+
 ```js
 const chromeLauncher = require('chrome-launcher');
 const CDP = require('chrome-remote-interface');
