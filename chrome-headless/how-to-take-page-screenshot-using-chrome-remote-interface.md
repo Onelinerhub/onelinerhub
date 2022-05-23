@@ -6,7 +6,6 @@ const CDP = require('chrome-remote-interface');
 const fs = require('fs');
 
 chromeLauncher.launch({ port: 9222, chromeFlags: [ '--window-size=400,800', '--headless' ] }).then(function(chrome) {
-
   CDP(async (client) => {
     const {Page} = client;
     await Page.enable();
@@ -15,10 +14,8 @@ chromeLauncher.launch({ port: 9222, chromeFlags: [ '--window-size=400,800', '--h
     const {data} = await Page.captureScreenshot();
     fs.writeFileSync('screen.png', Buffer.from(data, 'base64'));
     await client.close();
-
     chrome.kill();
   });
-
 });
 
 ```
