@@ -10,4 +10,6 @@ google-chrome --headless --user-agent="MyBot2.0" --screenshot="screen.png" "http
 - `MyBot2.0` - sample user agent to use
 - `github.com` - url to open
 
+group: user-agent
+
 
