@@ -1,14 +1,32 @@
-# How to change user agent
+# How to change user agent using Chrome Remote Interface
 
-```bash
-google-chrome --headless --user-agent="MyBot2.0" --screenshot="screen.png" "https://github.com"
+```js
+const chromeLauncher = require('chrome-launcher');
+const CDP = require('chrome-remote-interface');
+
+chromeLauncher.launch({ port: 9222, chromeFlags: [ '--headless' ] }).then(function(chrome) {
+  CDP(async (client) => {
+    const {Network, Page} = client;
+    Network.setUserAgentOverride({'userAgent': 'MyBot2.0'});
+    await Page.enable();
+    await Page.navigate({url: 'https://github.com'});
+    await Page.loadEventFired();
+    
+    // Do something when page loads
+    
+    await client.close();
+    chrome.kill();
+  });
+});
+
 ```
 
-- `--headless` - will launch chrome in [headless mode](https://developers.google.com/web/updates/2017/04/headless-chrome#cli)
-- `--screenshot` - make screenshot and save it to specified file
-- `--user-agent` - set custom user agent
-- `MyBot2.0` - sample user agent to use
-- `github.com` - url to open
+- `require('chrome-launcher')` - [lib:Chrome-Launcher library](/chrome-headless/how-to-install-chrome-launcher-library) to start/stop Chrome browser programmatically
+- `require('chrome-remote-interface')` - [lib:Chrome-Remote-Interface library](/chrome-headless/how-to-install-chrome-remote-interface) to operate
+- `chromeLauncher.launch` - launch Chrome with specified params
+- `Network.setUserAgentOverride` - allows setting custom user agent
+- `MyBot2.0` - user agent value to use for page request
+- `Page.navigate` - go to specified URL
 
 group: user-agent
 
