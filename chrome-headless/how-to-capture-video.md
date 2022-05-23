@@ -43,4 +43,10 @@ chromeLauncher.launch({ port: 9222, chromeFlags: [ '--window-size=1280,720', '--
 - `client.close` - close remote debugging interface connection
 - `chrome.kill()` - close browser
 
+## Example: 
+```js
+ffmpeg -r 10 -i screen-%d.png \
+-c:v libx264 -vf fps=25 \
+-pix_fmt yuv420p cast.mp4
+```
 
