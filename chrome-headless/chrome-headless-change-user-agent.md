@@ -1,4 +1,4 @@
-# chrome headless change user agent
+# How to change user agent
 
 ```bash
 google-chrome --headless --user-agent="MyBot2.0" --screenshot="screen.png" "https://github.com"
