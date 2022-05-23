@@ -14,7 +14,6 @@ chromeLauncher.launch({
 });
 ```
 
-- `require('chrome-remote-interface')` - [lib:Chrome-Remote-Interface library](/chrome-headless/how-to-install-chrome-remote-interface) to operate
 - `require('chrome-launcher')` - [lib:Chrome-Launcher library](/chrome-headless/how-to-install-chrome-launcher-library) to start/stop Chrome browser programmatically
 - `chromeLauncher.launch` - launch Chrome with specified params
 - `port: 9222` - remote debugging protocol port
