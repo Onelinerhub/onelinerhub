@@ -1,5 +1,7 @@
 # Chrome Remote Interface usage example
 
+### Execute this javascript file using `nodejs`:
+
 ```js
 const chromeLauncher = require('chrome-launcher');
 const CDP = require('chrome-remote-interface');
