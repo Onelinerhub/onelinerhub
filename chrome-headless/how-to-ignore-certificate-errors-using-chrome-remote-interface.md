@@ -3,7 +3,6 @@
 ```js
 const chromeLauncher = require('chrome-launcher');
 const CDP = require('chrome-remote-interface');
-const fs = require('fs');
 
 chromeLauncher.launch({
   port: 9222,
