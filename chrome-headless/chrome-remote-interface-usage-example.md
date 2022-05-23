@@ -39,4 +39,11 @@ chromeLauncher.launch({
 
 group: cri
 
+## Example: 
+```js
+nodejs test.js
+```
+```
+# screen.png file generated
+```
 
