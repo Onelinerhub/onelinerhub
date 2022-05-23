@@ -8,8 +8,8 @@ xvfb-run google-chrome --remote-debugging-port=9222 --load-extension="/path/to/e
 
 - `xvfb-run` - [lib:xvfb](/xvfb/how-to-install-xvfb-on-ubuntu-ubuntuversion) framebuffer launcher
 - `--remote-debugging-port` - specify port to listen for [debugging protocol](/chrome-headless/chrome-remote-interface-usage-example)
-- `--load-extension` - specify extension path to load (you can use multiple paths, separated by comma)
-- `/path/to/ext` - path to extension dir (the one with `manifest.json` file inside)
+- `--load-extension` - specify [extension](/chrome-extension/manifest_v3_example) path to load (you can use multiple paths, separated by comma)
+- `/path/to/ext` - path to extension directory (the one with `manifest.json` file inside)
 - `onelinerhub.com` - sample URL to load on browser launch
 
 
