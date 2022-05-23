@@ -2,7 +2,7 @@
 
 ### In order to keep running, we should enable [debugging port](/), so Chrome knows we want it to stay:
 
-```js
+```bash
 google-chrome --headless --remote-debugging-port=9222 "https://onelinerhub.com/"
 ```
 
