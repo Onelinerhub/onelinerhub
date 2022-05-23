@@ -37,4 +37,11 @@ chromeLauncher.launch({ port: 9222, chromeFlags: [ '--window-size=400,800', '--h
 
 group: screenshot
 
+## Example: 
+```js
+nodejs test.js
+```
+```
+# screen.png file generated
+```
 
