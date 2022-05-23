@@ -14,4 +14,6 @@ p
 - ```p``` - pastes yanked text
 - `[select text]` - pres arrow buttons to select text in your vim
 
+group: clipboard
+
 
