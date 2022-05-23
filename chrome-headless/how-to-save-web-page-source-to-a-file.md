@@ -1,4 +1,4 @@
-# How to save web page source to a file
+# How to save web page source HTML to a file
 
 ```bash
 google-chrome --headless --dump-dom "https://github.com" > source.html
