@@ -12,7 +12,9 @@ group: background
 ## Example: 
 ```bash
 import matplotlib.pyplot as plt
-plt.plot([2,1,3])
+plt.plot([2,1,2,2])
+fig = plt.figure()
+fig.patch.set_facecolor('green')
 plt.show()
 ```
 
