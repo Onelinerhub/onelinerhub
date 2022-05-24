@@ -11,7 +11,7 @@ array.fill(5)
 - `.empty` - generate empty Numpy array of the specified shape
 - `10` - we're creating empty array of 10 elements
 - `.fill` - fill array with specified value
-- `5` - we're going to fill our array with `5`s
+- `5` - we're going to fill our array with values of `5`
 
 ## Example: 
 ```python
