@@ -4,13 +4,13 @@
 import numpy as np
 
 db = np.array([[1,2], [3,4], [5,6]])
-np.savetxt('/tmp/db.txt', db, delimiter=',')
+np.savetxt('/tmp/db.csv', db, delimiter=',')
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array (or matrix)
 - `.savetxt` - saves specified matrix to `csv` file
-- `/tmp/db.txt` - path to `csv` file to save matrix to
+- `/tmp/db.csv` - path to `csv` file to save matrix to
 - `db` - matrix to save to `csv` file
 - `delimiter=','` - specify delimiter to match `csv` format
 
