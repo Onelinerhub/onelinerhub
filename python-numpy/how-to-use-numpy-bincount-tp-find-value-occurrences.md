@@ -1,4 +1,4 @@
-# How to use Numpy bincount tp find value occurrences
+# How to use Numpy bincount to find value occurrences
 
 ```python
 import numpy as np
