@@ -11,7 +11,7 @@ np.savez('/tmp/numpies', a, b)
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `np.array` - declare Numpy array
 - `.savez` - save specified arrays to a file
-- `/tmp/numpie` - path to file to save array to (file will have `npz` extension)
+- `/tmp/numpies` - path to file to save array to (file will have `npz` extension)
 
 group: file
 
