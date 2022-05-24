@@ -1,6 +1,6 @@
 # How to change plot background color
 
-```bash
+```python
 import matplotlib.pyplot as plt
 plt.figure().patch.set_facecolor('cyan')
 plt.axes().set_facecolor('black')
@@ -19,7 +19,7 @@ plt.show()
 group: background
 
 ## Example: 
-```bash
+```python
 import matplotlib.pyplot as plt
 plt.figure().patch.set_facecolor('cyan')
 plt.axes().set_facecolor('black')
