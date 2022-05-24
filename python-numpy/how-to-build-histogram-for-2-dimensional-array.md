@@ -21,6 +21,7 @@ hres, xb, yb = np.histogram2d(x, y, 3)
 
 print(hres)
 print(xa)
+print(xb)
 ```
 ```
 [[1. 0. 0.]
