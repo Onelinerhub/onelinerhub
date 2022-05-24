@@ -1,6 +1,6 @@
 # How to set white background
 
-```bash
+```python
 import matplotlib.pyplot as plt
 plt.figure().patch.set_facecolor('white')
 plt.axes().set_facecolor('white')
@@ -17,7 +17,7 @@ plt.show()
 group: background
 
 ## Example: 
-```bash
+```python
 import matplotlib.pyplot as plt
 plt.figure().patch.set_facecolor('white')
 plt.axes().set_facecolor('white')
