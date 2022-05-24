@@ -2,11 +2,9 @@
 
 ```python
 import numpy as np
-z = 3+4j
-za = np.angle(z)
+za = np.angle(3+4j)
 ```
 
-- `z` - declared complex number
 - `3` - real part
 - `4` - imaginary part
 - `.angle` - computes angle of the complex argument
