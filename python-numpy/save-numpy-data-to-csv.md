@@ -1,4 +1,4 @@
-# Save Numpy data to CSV
+# How to save Numpy array to CSV
 
 ```python
 import numpy as np
