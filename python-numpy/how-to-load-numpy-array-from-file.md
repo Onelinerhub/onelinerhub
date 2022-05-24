@@ -1,6 +1,6 @@
 # How to load Numpy array from file
 
-### Before loading data from file, you should [save Numpy array to file](/python-numpy/save-array-to-file).
+### Before loading array data from file, you should [save Numpy array to file](/python-numpy/save-array-to-file).
 
 ```python
 import numpy as np
