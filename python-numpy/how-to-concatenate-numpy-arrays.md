@@ -10,7 +10,7 @@ joined = np.concatenate((a, b))
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
-- `(a, b)` - arrays to concatenate
+- `(a, b)` - arrays to concatenate (you can concatenate any number of arrays)
 - `np.concatenate` - joins a sequence of arrays
 - `joined` - resulting array of values from joined arrays
 
