@@ -1,4 +1,4 @@
-# Save array to file
+# How to save array to file
 
 ```python
 import numpy as np
