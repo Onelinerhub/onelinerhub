@@ -4,7 +4,7 @@
 import numpy as np
 
 matrix = np.array([[1,2], [3,4], [5,6]])
-np.savetxt('/tmp/db.csv', matrix)
+np.savetxt('/tmp/matrix.txt', matrix)
 ```
 
 - `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
