@@ -14,6 +14,8 @@ plt.show()
 - `.plot(` - plot specified data
 - `.show()` - render chart in a separate window
 
+group: background
+
 ## Example: 
 ```bash
 import matplotlib.pyplot as plt
