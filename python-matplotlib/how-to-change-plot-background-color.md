@@ -12,7 +12,7 @@ group: background
 ## Example: 
 ```bash
 import matplotlib.pyplot as plt
-plt.plot([1,2,3])
+plt.plot([2,1,3])
 plt.show()
 ```
 
