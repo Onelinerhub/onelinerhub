@@ -1,4 +1,4 @@
-# How to save Numpy array to text file	
+# How to save Numpy array to text file
 
 ```python
 import numpy as np
