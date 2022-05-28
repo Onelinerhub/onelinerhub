@@ -1,4 +1,4 @@
-# How to set line style
+# How to change line style
 
 ```python
 import matplotlib.pyplot as plt
