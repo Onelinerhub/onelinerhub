@@ -14,7 +14,9 @@ plt.show()
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.plot(` - plot specified data
 - `title` - set chart title
-- `fontname` - set font face from the [list of supported fonts](/python-matplotlib/how-to-list-supported-fonts)
+- `.rcParams.update` - update plot configuration
+- `text.usetex` - enables [`LaTeX` usage](https://matplotlib.org/3.5.0/tutorials/text/usetex.html)
+- `font.family` - specify font to use
 - `.show()` - render chart in a separate window
 
 group: font_name
