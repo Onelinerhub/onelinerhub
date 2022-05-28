@@ -4,9 +4,11 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rc('axes', labelsize=20)
+mpl.rc('axes', labelsize=30)
 
 plt.plot([2,1,3])
+plt.set_xlabel('X')
+plt.set_xlabel('Y')
 plt.show()
 ```
 
@@ -22,11 +24,9 @@ group: font_size
 ## Example: 
 ```python
 import matplotlib as mpl
-import matplotlib.pyplot as plt
-
-mpl.rc('axes', labelsize=20)
 
 plt.plot([2,1,3])
+plt.set_xlabel('X', fontsize=30)
 plt.show()
 ```
 
