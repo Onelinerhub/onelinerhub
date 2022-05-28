@@ -1,6 +1,6 @@
 # Example of multiple lines
 
-### Plotting multiple lines is as simple as calling `plt.plot()` method multiple times:
+### Plotting multiple lines is as simple as calling `plt.plot()` method multiple times. Let's plot 2 lines:
 
 ```python
 import matplotlib.pyplot as plt
