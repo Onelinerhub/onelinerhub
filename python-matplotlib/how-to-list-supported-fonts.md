@@ -6,6 +6,10 @@ fonts = matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
 print(fonts)
 ```
 
+- `import matplotlib.font_manager` - load font manager component
+- `findSystemFonts` - finds all fonts according to given params
+- `fontext='ttf'` - find all available `ttf` fonts
+- `print(fonts)` - print the list of supported fonts
 
 group: font_name
 
