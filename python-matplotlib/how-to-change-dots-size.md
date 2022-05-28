@@ -1,4 +1,4 @@
-# How to change dots size
+# How to change dot size
 
 ```python
 import matplotlib.pyplot as plt
@@ -21,7 +21,7 @@ group: dots
 ```python
 import matplotlib.pyplot as plt
 
-plt.plot([1, 3, 5, 7], [6, 6, 7, 8], 'o', ms=5)
+plt.plot([1, 3, 5, 7], [6, 6, 7, 8], 'o', ms=15)
 
 plt.show()
 ```
