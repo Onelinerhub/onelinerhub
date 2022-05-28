@@ -1,32 +1,27 @@
 # How to change font size of axes labels
 
 ```python
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rc('axes', labelsize=30)
-
 plt.plot([2,1,3])
-plt.set_xlabel('X')
-plt.set_xlabel('Y')
+plt.xlabel('woa X!', fontsize=20)
 plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
-- `mpl.rc` - manage configuration
-- `xtick` - setup x-axis ticks params
-- `ytick` - setup y-axis ticks params
-- `labelsize` - change size of labels for specified param
+- `xlabel` - add label to x-axis
+- `woa X!` - text to use as label
+- `fontsize` - set given label font size
 - `.show()` - render chart in a separate window
 
 group: font_size
 
 ## Example: 
 ```python
-import matplotlib as mpl
+import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.set_xlabel('X', fontsize=30)
+plt.xlabel('woa X!', fontsize=20)
 plt.show()
 ```
 
