@@ -14,8 +14,6 @@ plt.show()
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `mpl.rc` - manage configuration
-- `'text', color` - title color
-- `'axes', labelcolor` - axes labels color
 - `'xtick', color` - x value labels color
 - `'ytick', color` - y value labels color
 - `.show()` - render chart in a separate window
