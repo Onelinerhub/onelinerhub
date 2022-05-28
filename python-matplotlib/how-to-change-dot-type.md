@@ -12,7 +12,7 @@ plt.show()
 - `.plot(` - plot specified data
 - `[1, 3, 5, 7]` - x coordinates
 - `[6, 6, 7, 8]` - y coordinates
-- `'o'` - don't draw a line, only circle dots
+- `'p'` - set dot type to `pentagon` from the list of [available types](https://matplotlib.org/stable/api/markers_api.html)
 - `ms=` - sets the size of the dot
 - `.show()` - render chart in a separate window
 
