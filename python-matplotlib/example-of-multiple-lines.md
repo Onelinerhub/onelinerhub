@@ -1,4 +1,4 @@
-# Example of multiple lines
+# How to draw multiple lines
 
 ### Plotting multiple lines is as simple as calling `plt.plot()` method multiple times. Let's plot 2 lines:
 
