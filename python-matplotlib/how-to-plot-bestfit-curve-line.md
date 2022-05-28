@@ -1,5 +1,7 @@
 # How to plot bestfit curve line
 
+### In order to make curved line, we have to increase degree of our polynomial (3rd argument to `polyfit()`):
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -10,7 +12,7 @@ plt.plot(x, y, 'o')
 
 a, b, c = np.polyfit(x, y, 2)
 
-plt.plot(x, a * x^2 + b*x + c)
+plt.plot(x, a * x*x + b*x + c)
 
 plt.show()
 ```
@@ -30,7 +32,7 @@ plt.plot(x, y, 'o')
 
 a, b, c = np.polyfit(x, y, 2)
 
-plt.plot(x, a * x^2 + b*x + c)
+plt.plot(x, a * x*x + b*x + c)
 
 plt.show()
 ```
