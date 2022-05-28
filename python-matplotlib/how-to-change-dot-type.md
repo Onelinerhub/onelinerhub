@@ -3,7 +3,7 @@
 ```python
 import matplotlib.pyplot as plt
 
-plt.plot([1, 3, 5, 7], [6, 6, 7, 8], 'p')
+plt.plot([1, 3, 5, 7], [6, 6, 7, 8], 'p', ms=15)
 
 plt.show()
 ```
@@ -22,7 +22,7 @@ group: dots
 ```python
 import matplotlib.pyplot as plt
 
-plt.plot([1, 3, 5, 7], [6, 6, 7, 8], 'p')
+plt.plot([1, 3, 5, 7], [6, 6, 7, 8], 'p', ms=15)
 
 plt.show()
 ```
