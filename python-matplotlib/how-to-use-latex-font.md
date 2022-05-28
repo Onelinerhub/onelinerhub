@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 plt.plot([2,1,3])
 plt.rcParams.update({
     "text.usetex": True,
-    "font.family": "sans-serif",
-    "font.sans-serif": ["Georgia"]})
+    "font.family": "monospace"})
 plt.title('Other Font')
 plt.show()
 ```
@@ -27,8 +26,7 @@ import matplotlib.pyplot as plt
 plt.plot([2,1,3])
 plt.rcParams.update({
     "text.usetex": True,
-    "font.family": "sans-serif",
-    "font.sans-serif": ["Georgia"]})
+    "font.family": "monospace"})
 plt.title('Other Font')
 plt.show()
 ```
