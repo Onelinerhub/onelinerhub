@@ -16,7 +16,7 @@ plt.show()
 - `.plot(` - plot specified data
 - `.show()` - render chart in a separate window
 
-group: font
+group: font_size
 
 ## Example: 
 ```python
