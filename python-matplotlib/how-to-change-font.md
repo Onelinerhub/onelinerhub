@@ -16,7 +16,7 @@ group: font_name
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.title('Other Font', fontname='Georgia')
+plt.title('Other Font', fontname='comic')
 plt.show()
 ```
 
