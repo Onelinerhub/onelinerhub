@@ -4,7 +4,7 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rc('axes', labelcolor='orange')
+mpl.rc('axes', labelcolor='red')
 
 plt.plot([2,1,3])
 plt.xlabel("X")
@@ -25,7 +25,7 @@ group: font
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rc('axes', labelcolor='orange')
+mpl.rc('axes', labelcolor='red')
 
 plt.plot([2,1,3])
 plt.xlabel("X")
