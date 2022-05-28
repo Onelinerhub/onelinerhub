@@ -5,17 +5,23 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([1, 3, 5, 7])
-y = np.array([ 6, 3, 9, 5 ])
+y = np.array([6, 3, 9, 5])
 plt.plot(x, y, 'o')
 
-m, b = np.polyfit(x, y, 1)
+a, b = np.polyfit(x, y, 1)
 
-plt.plot(x, m*x + b)
+plt.plot(x, a*x + b)
 
 plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
+- `[1, 3, 5, 7]` - list of x coordinates of dots to plot best fit regression from
+- `[6, 3, 9, 5]` - list of y coordinates of dots to plot best fit regression from
+- `plt.plot(x, y, 'o')` - plot our dots
+- `polyfit` - calculates least square polynomial fit 
+- `a*x + b` - we plot 1-st degree polynomial using calculated `a` and `b` 
+- `.show()` - render chart in a separate window
 
 group: bestfit
 
@@ -25,12 +31,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([1, 3, 5, 7])
-y = np.array([ 6, 3, 9, 5 ])
+y = np.array([6, 3, 9, 5])
 plt.plot(x, y, 'o')
 
-m, b = np.polyfit(x, y, 1)
+a, b = np.polyfit(x, y, 1)
 
-plt.plot(x, m*x + b)
+plt.plot(x, a*x + b)
 
 plt.show()
 ```
