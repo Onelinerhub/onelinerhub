@@ -1,22 +1,31 @@
-# Append to an array
-
-### Note: if appending a single element, the short form is preferable as it eliminates the overhead of calling the function.
+# How to append an element to array
 
 ```php
-// Long
-array_push($myarray, [1, 2, 'hatstand']);
-// Long associative
-array_push($myarray, ['three' => 'hatstand']);
-// Short
-$myarray[] = [1, 2, 'hatstand'];
-// Short associative
-$myarray['three'] = 'hatstand';
+$myarray[] = 'hatstand';
 ```
 
-- ``array_push(`` - call the `array_push` function
-- ``$myarray,`` - the array to push to
-- ``[1, 2, 'hatstand']`` - the items to append
-- ``$myarray[] =`` - open the array to append in shorthand
-- ``['three' =>`` - the key to append
-- ``'hatstand'`` - the value to append
-- ``$myarray['three'] =`` - open the array to append with the key `three`
+- `$myarray` - the array to push element to
+- `[]` - array append operator
+- `hatstand` - element to append to array
+
+group: append
+
+## Example: 
+```php
+<?php
+
+$myarray = [1,2];
+$myarray[] = 'new_val';
+
+print_r($myarray);
+```
+```
+Array
+(
+    [0] => 1
+    [1] => 2
+    [2] => new_val
+)
+
+```
+
