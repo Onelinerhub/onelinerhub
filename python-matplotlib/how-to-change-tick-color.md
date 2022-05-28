@@ -18,7 +18,7 @@ plt.show()
 - `'ytick', color` - y value labels color
 - `.show()` - render chart in a separate window
 
-group: font
+group: font_color
 
 ## Example: 
 ```python
