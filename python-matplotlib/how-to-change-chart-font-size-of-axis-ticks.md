@@ -1,4 +1,4 @@
-# How to change chart font size of axis ticks
+# How to change font size of axis ticks
 
 ```python
 import matplotlib as mpl
