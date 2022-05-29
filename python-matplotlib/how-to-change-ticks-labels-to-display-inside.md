@@ -1,4 +1,4 @@
-# How to change ticks labels to display inside 
+# How to change ticks to display inside
 
 ### In order to change axis labels frequency, we can use `nbins` option of `locator_params` to set the amount of ticks we want:
 
@@ -16,7 +16,7 @@ plt.show()
 - `nbins` - sets the amount of tick labels to generate
 - `.show()` - render chart in a separate window
 
-group: ticks
+group: tick
 
 ## Example: 
 ```python
