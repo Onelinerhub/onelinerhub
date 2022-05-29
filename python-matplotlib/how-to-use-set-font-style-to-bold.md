@@ -25,7 +25,6 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 mpl.rc('font', weight='bold')
-
 plt.plot([2,1,3])
 
 plt.show()
