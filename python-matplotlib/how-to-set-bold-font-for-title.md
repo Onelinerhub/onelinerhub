@@ -15,7 +15,7 @@ plt.show()
 - `weight` - set weight of text (`bold` in our case)
 - `.show()` - render chart in a separate window
 
-group: font_style
+group: font_bold
 
 ## Example: 
 ```python
