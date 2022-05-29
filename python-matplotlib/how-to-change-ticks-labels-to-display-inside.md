@@ -1,4 +1,4 @@
-# How to change ticks to display inside
+# How to change ticks to display inside the axes
 
 ### In order to change axis labels frequency, we can use `nbins` option of `locator_params` to set the amount of ticks we want:
 
@@ -23,7 +23,7 @@ group: tick
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3,5,3,3,4,5,2,1])
-plt.tick_params(axis='x', direction='in')
+plt.tick_params(axis='x', direction='in', length=10)
 plt.show()
 ```
 
