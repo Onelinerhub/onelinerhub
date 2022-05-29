@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.yticks([0,1,2], ['A', 'B', 'C'])
+plt.yticks([0,1,2], ['10a', '20b', '30c'])
 plt.show()
 ```
 
