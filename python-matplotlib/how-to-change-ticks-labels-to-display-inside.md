@@ -12,9 +12,9 @@ plt.show()
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.plot(` - plot specified data
-- `locator_params` - configure locator object
-- `nbins` - sets the amount of tick labels to generate
-- `.show()` - render chart in a separate window
+- `tick_params` - set axis tick labels params
+- `axis='x'` - we want to update configuration for `x` axis only
+- `direction='in'` - display ticks inside the axis
 
 group: tick
 
