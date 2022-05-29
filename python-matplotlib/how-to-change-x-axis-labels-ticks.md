@@ -11,7 +11,7 @@ plt.show()
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.plot(` - plot specified data
 - `xticks(` - set labels for x-axis values (ticks)
-- `[0,1,2]` - list of ticks to set values for (index starts at `0`) 
+- `[0,1,2]` - list of ticks to set labels for (= x-axis values)
 - `['A', 'B', 'C']` - labels to use for ticks
 - `.show()` - render chart in a separate window
 
