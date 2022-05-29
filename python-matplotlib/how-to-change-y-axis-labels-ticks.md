@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.yticks([2,1,3], ['20a', '10b', '30c'])
+plt.yticks([1,2,3], ['10a', '20b', '30c'])
 plt.show()
 ```
 
@@ -22,7 +22,7 @@ group: ticks
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.yticks([2,1,3], ['20a', '10b', '30c'])
+plt.yticks([1,2,3], ['10a', '20b', '30c'])
 plt.show()
 ```
 
