@@ -1,28 +1,20 @@
-# How to use set font style to bold
+# How to set font style to bold
 
 ```python
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rc('text', weight='bold')
-mpl.rc('axes', labelcolor='orange')
-mpl.rc('xtick', color='blue')
-mpl.rc('ytick', color='green')
-
+mpl.rc('font', weight='bold')
 plt.plot([2,1,3])
-plt.xlabel("X")
-plt.ylabel("Y")
-plt.title('Example')
 
 plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `mpl.rc` - manage configuration
-- `'text', color` - title color
-- `'axes', labelcolor` - axes labels color
-- `'xtick', color` - x value labels color
-- `'ytick', color` - y value labels color
+- `font` - change font settings
+- `weight` - set weight of the font
+- `.plot(` - plot specified data
 - `.show()` - render chart in a separate window
 
 group: font_style
@@ -32,15 +24,9 @@ group: font_style
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.rc('text', weight='bold')
-mpl.rc('axes', labelcolor='orange')
-mpl.rc('xtick', color='blue')
-mpl.rc('ytick', color='green')
+mpl.rc('font', weight='bold')
 
 plt.plot([2,1,3])
-plt.xlabel("X")
-plt.ylabel("Y")
-plt.title('Example')
 
 plt.show()
 ```
