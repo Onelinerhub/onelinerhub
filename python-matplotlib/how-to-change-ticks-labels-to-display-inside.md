@@ -15,6 +15,7 @@ plt.show()
 - `tick_params` - set axis tick labels params
 - `axis='x'` - we want to update configuration for `x` axis only
 - `direction='in'` - display ticks inside the axis
+- `.show()` - render chart in a separate window
 
 group: tick
 
