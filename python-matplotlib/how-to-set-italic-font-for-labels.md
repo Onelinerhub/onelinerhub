@@ -14,7 +14,7 @@ plt.show()
 - `.plot(` - plot specified data
 - `xlabel` - set label for x-axis
 - `ylabel` - set label for y-axis
-- `weight='bold'` - set font style to `bold`
+- `style='italic'` - use `italic` font style
 - `.show()` - render chart in a separate window
 
 group: font_italic
