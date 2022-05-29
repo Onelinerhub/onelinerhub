@@ -13,7 +13,7 @@ plt.show()
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `mpl.rc` - manage configuration
 - `font` - change font settings
-- `style` - set style of font (to `italic` in our case)
+- `style` - set font style (`italic` in our case)
 - `.plot(` - plot specified data
 - `.show()` - render chart in a separate window
 
