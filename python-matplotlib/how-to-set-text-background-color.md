@@ -14,6 +14,8 @@ plt.show()
 - `.text(` - adds custom text to chart
 - `1, 3.5` - vertical and horizontal coordinates for our text box
 - `hi from python` - sample text to show
+- `facecolor` - background color
+- `alpha` - background opacity (transparency)
 - `.show()` - render chart in a separate window
 
 group: text
