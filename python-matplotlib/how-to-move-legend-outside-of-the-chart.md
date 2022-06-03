@@ -6,7 +6,7 @@ plt.plot([1,2,10,6,15,3,4], label='A')
 plt.plot([4,2,11,2,1,20,25], label='B')
 
 h, l = plt.gca().get_legend_handles_labels()
-plt.legend(loc='center right', bbox_to_anchor=(1, 0.5))
+plt.legend(loc=(0, 1.05),ncol=2)
 
 plt.show()
 ```
@@ -15,8 +15,10 @@ plt.show()
 - `.plot(` - plot specified data
 - `label` - set label for this line
 - `get_legend_handles_labels` - returns legend labels and handlers
-- `.legend(` - show and configure legend (we use default configuration in our case)
-- `[h[1], h[0]], [l[1], l[0]]` - we pass legend handles and labels in reverse order to reverse order
+- `.legend(` - show and configure legend
+- `loc=` - configure legend location, we can pass coordinates tuple here 
+- `(0, 1.05)` - place our legend in the top left corner a little higher than the chart top border
+- `ncol=2` - used to render legend labels horizontally
 - `.show()` - render chart in a separate window
 
 group: legend
@@ -28,7 +30,7 @@ plt.plot([1,2,10,6,15,3,4], label='A')
 plt.plot([4,2,11,2,1,20,25], label='B')
 
 h, l = plt.gca().get_legend_handles_labels()
-plt.legend(loc=(1, 1))
+plt.legend(loc=(0, 1.05),ncol=2)
 
 plt.show()
 ```
