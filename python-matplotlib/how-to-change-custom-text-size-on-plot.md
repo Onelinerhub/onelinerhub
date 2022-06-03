@@ -1,4 +1,4 @@
-# How to change custom text size on plot
+# How to change custom text size
 
 ```python
 import matplotlib.pyplot as plt
