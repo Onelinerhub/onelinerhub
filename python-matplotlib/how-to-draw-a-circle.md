@@ -18,6 +18,8 @@ plt.show()
 - `.25` - circle radius
 - `.show()` - render chart in a separate window
 
+group: circle
+
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
