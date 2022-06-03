@@ -11,8 +11,9 @@ plt.show()
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.plot(` - plot specified data
 - `label` - set label for this line
-- `.legend(` - show and configure legend (we use default configuration in our case)
+- `.legend(` - show and configure legend
 - `.show()` - render chart in a separate window
+- `ncol` - configure number of columns to place labels into (we use `2` because we have 2 labels)
 
 group: legend
 
