@@ -6,7 +6,7 @@ plt.plot([1,2,10,6,15,3,4], label='A')
 plt.plot([4,2,11,2,1,20,25], label='B')
 
 h, l = plt.gca().get_legend_handles_labels()
-plt.legend([h[1], h[0]], [l[1], l[0]])
+plt.legend(loc='center right', bbox_to_anchor=(1, 0.5))
 
 plt.show()
 ```
@@ -28,7 +28,7 @@ plt.plot([1,2,10,6,15,3,4], label='A')
 plt.plot([4,2,11,2,1,20,25], label='B')
 
 h, l = plt.gca().get_legend_handles_labels()
-plt.legend([h[1], h[0]], [l[1], l[0]])
+plt.legend(loc=(1, 1))
 
 plt.show()
 ```
