@@ -1,4 +1,4 @@
-# How to locate labels horizontally in legend
+# How to put labels horizontally in legend
 
 ```python
 import matplotlib.pyplot as plt
