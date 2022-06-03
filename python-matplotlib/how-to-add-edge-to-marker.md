@@ -1,4 +1,4 @@
-# How to add edge to marker
+# How to add outline (edge) to marker
 
 ```python
 import matplotlib.pyplot as plt
