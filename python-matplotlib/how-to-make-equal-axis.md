@@ -13,6 +13,8 @@ group: axis_range
 ```python
 import matplotlib.pyplot as plt
 plt.plot([1,2,3])
+ax = plt.gca()
+ax.set_aspect(1)
 plt.show()
 ```
 
