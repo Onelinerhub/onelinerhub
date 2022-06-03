@@ -9,8 +9,8 @@ plt.show()
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.plot(` - plot specified data
-- `locator_params(nbins=6)` - change bins number for ticks to change gird spacing
 - `.grid(` - add and configure grid
+- `color` - set color to use for grid lines
 - `.show()` - render chart in a separate window
 
 group: grid
