@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 plt.plot([1,2,10,6,15,3,4], label='A')
 plt.plot([4,2,11,2,1,20,25], label='B')
-plt.legend(ncol=2)
+plt.legend(prop={'size': 20})
 plt.show()
 ```
 
@@ -12,7 +12,8 @@ plt.show()
 - `.plot(` - plot specified data
 - `label` - set label for this line
 - `.legend(` - show and configure legend
-- `ncol` - configure number of columns to place labels into (we use `2` because we have 2 labels)
+- `prop` - set labels properties
+- `size` - specify font size to use for labels
 - `.show()` - render chart in a separate window
 
 group: legend
@@ -22,7 +23,7 @@ group: legend
 import matplotlib.pyplot as plt
 plt.plot([1,2,10,6,15,3,4], label='A')
 plt.plot([4,2,11,2,1,20,25], label='B')
-plt.legend(size=10)
+plt.legend(prop={'size': 20})
 plt.show()
 ```
 
