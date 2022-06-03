@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 plt.plot([1,2,10,6,15,3,4,2,5,1,7,3,4])
 plt.locator_params(nbins=6)
-plt.grid(True)+
+plt.grid(True)
 plt.show()
 ```
 
