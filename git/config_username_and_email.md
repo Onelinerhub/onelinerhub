@@ -5,6 +5,9 @@ git config --global user.name name
 git config --global user.email email
 ```
 
-- --global - allows to use this conig for all git repos
-- name - your username you want on your commits
-- email - your email you want on your commits
+- `--global` - allows to use this conig for all git repos
+- `name` - your username you want on your commits
+- `email` - your email you want on your commits
+
+
+link_youtube: https://youtu.be/Y3RLfPd0Gq4
