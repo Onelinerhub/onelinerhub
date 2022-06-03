@@ -3,8 +3,7 @@
 ```python
 import matplotlib.pyplot as plt
 
-plt.scatter(2,3,s=300)
-plt.scatter(4,7,s=900)
+plt.scatter(2,3)
 
 plt.show()
 ```
@@ -14,8 +13,7 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 
-plt.scatter(2,3,s=300)
-plt.scatter(4,7,s=900)
+plt.scatter(2,3)
 
 plt.show()
 ```
