@@ -1,5 +1,7 @@
 # How to plot a function
 
+### In order to plot a function (defined with `def`) we can easily use [`Numpy`](/python-numpy):
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
