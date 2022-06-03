@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.ylabel("Y title", rotation=0)
+plt.ylabel("Y", rotation=0)
 
 plt.show()
 ```
@@ -22,7 +22,7 @@ group: label
 import matplotlib.pyplot as plt
 
 plt.plot([2,1,3])
-plt.ylabel("Y title", rotation=0)
+plt.ylabel("Y", rotation=0)
 
 plt.show()
 ```
