@@ -4,6 +4,9 @@
 git branch -d branch1 branch2
 ```
 
-- -d - delete switch
-- branch1 - name of branch you want to delete
-- branch2 - you can pass multiple branches
+- `-d` - delete switch
+- `branch1` - name of branch you want to delete
+- `branch2` - you can pass multiple branches
+
+
+link_youtube: https://youtu.be/XHIIxvGnl-g
