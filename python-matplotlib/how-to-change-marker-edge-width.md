@@ -3,7 +3,7 @@
 ```python
 import matplotlib.pyplot as plt
 
-plt.scatter(2,3,s=900,color='cyan',edgecolors='black',linewidths=3)
+plt.scatter(2,3,s=900,edgecolors='black',linewidths=3)
 
 plt.show()
 ```
@@ -20,7 +20,7 @@ group: marker
 ```python
 import matplotlib.pyplot as plt
 
-plt.scatter(2,3,s=900,color='cyan',edgecolors='black',linewidths=3)
+plt.scatter(2,3,s=900,edgecolors='black',linewidths=3)
 
 plt.show()
 ```
