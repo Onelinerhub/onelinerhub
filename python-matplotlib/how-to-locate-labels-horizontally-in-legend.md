@@ -12,8 +12,8 @@ plt.show()
 - `.plot(` - plot specified data
 - `label` - set label for this line
 - `.legend(` - show and configure legend
-- `.show()` - render chart in a separate window
 - `ncol` - configure number of columns to place labels into (we use `2` because we have 2 labels)
+- `.show()` - render chart in a separate window
 
 group: legend
 
