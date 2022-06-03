@@ -22,3 +22,4 @@ git rev-list --left-right --count main...branch1
 7	1
 ```
 
+link_youtube: https://youtu.be/0B6zkx6Kzmw
