@@ -14,6 +14,7 @@ plt.show()
 - `.legend(` - show and configure legend (we use default configuration in our case)
 - `loc=` - configure legend location
 - `lower right` - show legend in the `lower right` corner, see [available values](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html)
+- `.show()` - render chart in a separate window
 
 group: legend
 
