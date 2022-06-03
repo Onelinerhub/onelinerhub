@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 plt.plot([3,2,4,5,6,1,1,4])
-plt.margins(-.5, 0)
+plt.margins(0, -0.5)
 plt.show()
 ```
 
@@ -21,7 +21,7 @@ group: zoom
 import matplotlib.pyplot as plt
 
 plt.plot([3,2,4,5,6,1,1,4])
-plt.margins(-.5, 0)
+plt.margins(0, -0.5)
 plt.show()
 ```
 
