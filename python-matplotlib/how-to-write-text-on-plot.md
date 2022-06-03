@@ -16,6 +16,8 @@ plt.show()
 - `hi from python` - sample text to show
 - `.show()` - render chart in a separate window
 
+group: text
+
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
