@@ -20,3 +20,4 @@ git log --author="joe" --pretty=tformat: --numstat
 2       0       README.md
 ```
 
+link_youtube: https://youtu.be/v2NVLfwML20
