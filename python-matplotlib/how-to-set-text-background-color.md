@@ -1,4 +1,4 @@
-# How to set text background color 
+# How to set text box background color 
 
 ```python
 import matplotlib.pyplot as plt
