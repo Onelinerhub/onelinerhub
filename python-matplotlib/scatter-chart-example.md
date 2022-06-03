@@ -17,6 +17,8 @@ plt.show()
 - `s=600` - point size
 - `.show()` - render chart in a separate window
 
+group: scatter
+
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
