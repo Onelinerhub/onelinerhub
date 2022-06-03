@@ -7,7 +7,8 @@ data = [[1, 2, 3, 4, 5],
         [10,20,30,40,50],
         [11,21,31,41,51]]
 
-plt.table(data, loc='center', colLabels=['A','B','C','D','E'])
+t = plt.table(data, loc='center')
+t.scale(1, 3)
 
 plt.show()
 ```
@@ -16,7 +17,8 @@ plt.show()
 - `data =` - data to use for table cells
 - `.table(` - plot a table from specified data
 - `loc='center'` - position table in the middle of the chart area 
-- `colLabels` - list of column titles
+- `.scale(` - scales table cells accordingly to given width/height
+- `1, 3` - do not scale width (`1`) and scale height by 3x (`3`)
 
 group: table
 
@@ -28,8 +30,8 @@ data = [[1, 2, 3, 4, 5],
         [10,20,30,40,50],
         [11,21,31,41,51]]
 
-t = plt.table(data, loc='center', colLabels=['A', 'B', 'C', 'D', 'E'])
-t.scale(1, 4)
+t = plt.table(data, loc='center')
+t.scale(1, 3)
 
 plt.show()
 ```
