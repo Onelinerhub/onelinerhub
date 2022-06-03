@@ -7,3 +7,4 @@
 - `72` - maximum length of a commit message
 
 
+link_youtube: https://youtu.be/q3BDs29M18Q
