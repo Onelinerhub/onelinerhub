@@ -1,4 +1,4 @@
-# How to set table column width
+# How to change table column width
 
 ```python
 import matplotlib.pyplot as plt
