@@ -16,6 +16,7 @@ plt.show()
 - `.Circle(` - plots a circle
 - `0.5, 0.5` - circle center point coordinates
 - `.25` - circle radius
+- `fill=False` - do not fill the circle
 - `.show()` - render chart in a separate window
 
 group: circle
