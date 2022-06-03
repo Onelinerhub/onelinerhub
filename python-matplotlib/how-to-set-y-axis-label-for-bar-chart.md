@@ -11,7 +11,7 @@ plt.show()
 - `.bar` - will plot bar chart
 - `['UA', 'UK', 'USA']` - x-axis values
 - `[10, 11, 12]` - y-axis values
-- `xlabel` - set label for x-axis
+- `ylabel` - set label for y-axis
 - `.show()` - render chart in a separate window
 
 group: bar
