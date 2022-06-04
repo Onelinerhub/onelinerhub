@@ -19,3 +19,4 @@ git tag -d v0.7
 Deleted tag 'v0.7' (was a5b9df3)
 ```
 
+link_youtube: https://youtu.be/xdCIXVKzBgU
