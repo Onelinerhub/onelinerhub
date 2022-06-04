@@ -11,3 +11,4 @@ git apply name.patch
 group: patch
 
 
+link_youtube: https://youtu.be/8Cvp0lX4q2M
