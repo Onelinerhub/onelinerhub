@@ -14,3 +14,4 @@ git rebase -i HEAD~2
 - ` s ` - second and all other commits should be changed to `s`
 
 
+link_youtube: https://youtu.be/Q6ntXxKzOM4
