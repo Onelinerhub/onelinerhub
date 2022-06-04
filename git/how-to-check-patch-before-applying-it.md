@@ -14,3 +14,4 @@ git apply --check name.patch
 group: patch
 
 
+link_youtube: https://youtu.be/qL1PD8Qh_k0
