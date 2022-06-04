@@ -12,3 +12,4 @@ git reset --hard HEAD~3
 group: delete_commit
 
 
+link_youtube: https://youtu.be/DXb1LNaZM7k
