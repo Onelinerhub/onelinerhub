@@ -10,3 +10,4 @@ git branch -m old new
 - `new` - new branch name
 
 
+link_youtube: https://youtu.be/JkuhW_5CYJA
