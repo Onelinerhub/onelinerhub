@@ -10,3 +10,4 @@ apt install git
 - `git` - name of the package to install
 
 
+link_youtube: https://youtu.be/jKGpm4kXZAw
