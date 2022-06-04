@@ -19,3 +19,4 @@ git reset --hard HEAD^
 HEAD is now at a5b9df3 ok
 ```
 
+link_youtube: https://youtu.be/9FbZvrbCPuI
