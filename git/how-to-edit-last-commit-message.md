@@ -9,3 +9,4 @@ git commit --amend
 - `--amend` - will show last commit message editor
 
 
+link_youtube: https://youtu.be/evHZ80GIw98
