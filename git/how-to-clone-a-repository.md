@@ -10,3 +10,4 @@ git clone https://github.com/Onelinerhub/onelinerhub-ui.git
 group: clone
 
 
+link_youtube: https://youtu.be/EQEk1NvOXBU
