@@ -12,3 +12,4 @@ git clone git@github.com:Onelinerhub/onelinerhub-ui.git
 group: clone
 
 
+link_youtube: https://youtu.be/KCfs-7b5T7Q
