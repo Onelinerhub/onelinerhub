@@ -9,3 +9,4 @@ git push --set-upstream origin branch_name
 - `branch_name` - local branch you want to push to remote repository
 
 
+link_youtube: https://youtu.be/erNTblsJB3c
