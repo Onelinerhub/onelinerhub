@@ -3,7 +3,11 @@
 ```bash
 git log --graph
 ```
-- log - display history.
-- --graph  - draws a graph representing the branch structure of the commit history.
+
+- `log` - display history.
+- `--graph ` - draws a graph representing the branch structure of the commit history.
 
 group: history
+
+
+link_youtube: https://youtu.be/HMYyjWBzeUw
