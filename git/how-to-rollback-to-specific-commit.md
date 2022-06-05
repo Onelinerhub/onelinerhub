@@ -14,3 +14,4 @@ git push -f origin main
 - `main` - branch name (master name in our case)
 
 
+link_youtube: https://youtu.be/s0jQUuG-LaM
