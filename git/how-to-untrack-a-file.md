@@ -9,3 +9,4 @@ git rm --cached file_name
 - `file_name` - file name to untrack from git repo
 
 
+link_youtube: https://youtu.be/EEC71mXk8QQ
