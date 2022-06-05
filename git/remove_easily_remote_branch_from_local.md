@@ -8,3 +8,4 @@ git push origin --delete <branch-name>
 - `branch-name` - the name of the branch.
 
 
+link_youtube: https://youtu.be/S0Gij8RbE4I
