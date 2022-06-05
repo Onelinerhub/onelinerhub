@@ -1,8 +1,11 @@
 # How to delete all local branches which has been deleted on the remote
 
 ```bash
- git fetch --prune
+git fetch --prune
 ```
 
-- fetch - fetch all remote changes
-- --prune - delete local branches that are no longer exists on the remote
+- `fetch` - fetch all remote changes
+- `--prune` - delete local branches that are no longer exists on the remote
+
+
+link_youtube: https://youtu.be/mqUEpWOroGw
