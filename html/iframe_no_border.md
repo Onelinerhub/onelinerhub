@@ -4,5 +4,8 @@
 <iframe src="/page" style="border: 0"></iframe>
 ```
 
-- src="/page" - page URL to load over iframe
-- style="border: 0" - sets iframe border to zero through CSS
+- `src="/page"` - page URL to load over iframe
+- `style="border: 0"` - sets iframe border to zero through CSS
+
+
+link_youtube: https://youtu.be/fPC906Ekg14
