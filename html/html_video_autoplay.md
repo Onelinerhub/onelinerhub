@@ -6,6 +6,9 @@
 </video>
 ```
 
-- video - insert video player into HTML
-- autoplay - automatically start playing video (beware that it won't work in some browsers due to automatic content policy)
-- source - video file URL (and type) to play
+- `video` - insert video player into HTML
+- `autoplay` - automatically start playing video (beware that it won't work in some browsers due to automatic content policy)
+- `source` - video file URL (and type) to play
+
+
+link_youtube: https://youtu.be/BBuBFLYFT1M
