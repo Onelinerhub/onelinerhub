@@ -4,5 +4,8 @@
 <input type="checkbox" onclick="return false;"/>
 ```
 
-- <input type="checkbox" - needed checkbox element
-- onclick="return false;" - will disable standard checkbox click behaviour (thus making the checkbox readonly)
+- `<input type="checkbox"` - needed checkbox element
+- `onclick="return false;"` - will disable standard checkbox click behaviour (thus making the checkbox readonly)
+
+
+link_youtube: https://youtu.be/ikZaQn3rU_Q
