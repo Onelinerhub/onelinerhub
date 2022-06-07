@@ -1,4 +1,4 @@
-# HTML doctype
+# HTML doctype example
 
 ```html
 <!DOCTYPE html>
