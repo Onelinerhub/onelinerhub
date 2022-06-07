@@ -6,8 +6,11 @@
 </video>
 ```
 
-- video - insert video player into HTML
-- controls - add video controls to the player
-- source - specify video file to load
-- video.mp4 - video URL
-- type - type of the video file to load
+- `video` - insert video player into HTML
+- `controls` - add video controls to the player
+- `source` - specify video file to load
+- `video.mp4` - video URL
+- `type` - type of the video file to load
+
+
+link_youtube: https://youtu.be/8hNf2UoBOUo
