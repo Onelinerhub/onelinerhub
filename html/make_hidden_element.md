@@ -4,7 +4,10 @@
 <div style="display: none;"></div>
 ```
 
-- div - sample element to make hidden
-- style - attribute allows us to set styles for this element
-- display - controls how the element is displayed
-- none - will hide an element
+- `div` - sample element to make hidden
+- `style` - attribute allows us to set styles for this element
+- `display` - controls how the element is displayed
+- `none` - will hide an element
+
+
+link_youtube: https://youtu.be/adbT_Ax98QM
