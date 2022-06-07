@@ -4,4 +4,7 @@
 <hr/>
 ```
 
-- hr - will add horizontal line to html document
+- `hr` - will add horizontal line to html document
+
+
+link_youtube: https://youtu.be/r9HPQbRbRFA
