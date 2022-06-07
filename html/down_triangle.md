@@ -4,6 +4,8 @@
 &#x25BC;
 ```
 
-Resulting symbol:  &#x25BC;
 
 group: triangles
+
+
+link_youtube: https://youtu.be/i-JYH2wYBXg
