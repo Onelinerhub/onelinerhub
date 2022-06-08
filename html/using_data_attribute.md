@@ -5,8 +5,11 @@
 <script> console.log(document.querySelector('#el').dataset.name); </script>
 ```
 
-- div - sample element
-- id="el" - id of sample element
-- data-name - data attribute named `name`
-- Donald - value of `name` data attribute
-- .dataset.name - access name property of `#el` element in javascript
+- `div` - sample element
+- `id="el"` - id of sample element
+- `data-name` - data attribute named `name`
+- `Donald` - value of `name` data attribute
+- `.dataset.name` - access name property of `#el` element in javascript
+
+
+link_youtube: https://youtu.be/HhY9w2rwbnU
