@@ -4,6 +4,8 @@
 &#x25B2;
 ```
 
-Resulting symbol:  &#x25B2;
 
 group: triangles
+
+
+link_youtube: https://youtu.be/W6jWayyQ6UI
