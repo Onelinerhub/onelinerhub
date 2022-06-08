@@ -4,4 +4,7 @@
 &nbsp;
 ```
 
-- nbsp - will print single space symbol in HTML document
+- `nbsp` - will print single space symbol in HTML document
+
+
+link_youtube: https://youtu.be/XLkXZejpewo
