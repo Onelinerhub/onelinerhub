@@ -5,6 +5,9 @@
 <button style="vertical-align: middle;" />
 ```
 
-- style - set inline CSS styles of current element
-- vertical-align - specify vertical align rule
-- middle - will align elements vertically
+- `style` - set inline CSS styles of current element
+- `vertical-align` - specify vertical align rule
+- `middle` - will align elements vertically
+
+
+link_youtube: https://youtu.be/LOem1geDjSA
