@@ -7,6 +7,9 @@
 </article>
 ```
 
-- article - tag is used to wrap around text post
-- h1 - article header
-- Text - text content (any html can go here)
+- `article` - tag is used to wrap around text post
+- `h1` - article header
+- `Text` - text content (any html can go here)
+
+
+link_youtube: https://youtu.be/q-fOs_h8gXw
