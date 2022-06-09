@@ -3,13 +3,13 @@
 ```python
 import matplotlib.pyplot as plt
 
-x = [6, 15, 2]
-y = [9, 15, 20]
+x = [2, 6, 15]
+y = [20, 9, 15]
 
 x_error = [2, 5.1, 1]
 
 plt.bar(x,y)
-plt.errorbar(x, y, xerr = x_error, fmt='o',ecolor = 'maroon',color='red')
+plt.errorbar(x, y, xerr = x_error,ecolor = 'maroon',color='red')
 
 plt.show()
 ```
@@ -25,13 +25,13 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 
-x = [6, 15, 2]
-y = [9, 15, 20]
+x = [2, 6, 15]
+y = [20, 9, 15]
 
 x_error = [2, 5.1, 1]
 
 plt.bar(x,y)
-plt.errorbar(x, y, xerr = x_error, fmt='o',ecolor = 'maroon',color='red')
+plt.errorbar(x, y, xerr = x_error,ecolor = 'maroon',color='red')
 
 plt.show()
 ```
