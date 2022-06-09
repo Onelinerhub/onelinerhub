@@ -1,4 +1,4 @@
-# How to use figsize
+# How to use figsize()
 
 ### Using `figsize()` allows specifying figure size in inches:
 
