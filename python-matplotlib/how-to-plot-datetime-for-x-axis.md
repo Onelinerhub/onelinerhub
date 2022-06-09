@@ -22,6 +22,7 @@ plt.show()
 - `.plot(` - plot specified data
 - `mdates.DayLocator(interval=1)` - we want to label `X` axis ticks every day 
 - `mdates.DateFormatter('%m/%d')` - we want to format `X` axis ticks labels as `mm/dd`
+- `.show()` - render chart in a separate window
 
 ## Example: 
 ```python
