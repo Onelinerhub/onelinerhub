@@ -2,41 +2,24 @@
 
 ```python
 import matplotlib.pyplot as plt
-import numpy as np
+
+plt.boxplot([2,3,6,2,4,5,1,10])
  
- 
-# Creating dataset
-np.random.seed(10)
-data = np.random.normal(100, 20, 200)
- 
-fig = plt.figure(figsize =(10, 7))
- 
-# Creating plot
-plt.boxplot(data)
- 
-# show plot
 plt.show()
 ```
 
+- `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
+- `.boxplot(` - plots `boxplot` (features of a given set of values: minimum, first quartile, median, third quartile and maximum)
+- `.show()` - render chart in a separate window
 
 group: boxplot
 
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
-import numpy as np
+
+plt.boxplot([2,3,6,2,4,5,1,10])
  
- 
-# Creating dataset
-np.random.seed(10)
-data = np.random.normal(100, 20, 200)
- 
-fig = plt.figure(figsize =(10, 7))
- 
-# Creating plot
-plt.boxplot(data)
- 
-# show plot
 plt.show()
 ```
 
