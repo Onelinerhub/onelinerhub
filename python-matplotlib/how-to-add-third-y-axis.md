@@ -9,7 +9,7 @@ fig, ax = plt.subplots()
 twin1 = ax.twinx()
 twin2 = ax.twinx()
 
-twin2.spines.right.set_position(("axes", 1.05))
+twin2.spines.right.set_position(("axes", -0.15))
 
 p1, = ax.plot([0, 1, 2], "g-")
 p2, = twin1.plot([1, 7, 5], "r-")
@@ -48,7 +48,7 @@ fig, ax = plt.subplots()
 twin1 = ax.twinx()
 twin2 = ax.twinx()
 
-twin2.spines.right.set_position(("axes", 1.05))
+twin2.spines.right.set_position(("axes", -0.15))
 
 p1, = ax.plot([0, 1, 2], "g-")
 p2, = twin1.plot([1, 7, 5], "r-")
