@@ -1,4 +1,4 @@
-# How to plot data from json
+# How to plot data from JSON
 
 ```python
 import matplotlib.pyplot as plt
