@@ -1,6 +1,6 @@
 # How to format string
 
-```golang
+```go
 package main
 import "fmt"
 
@@ -11,7 +11,7 @@ func main() {
 
 
 ## Example: 
-```golang
+```go
 package main
 import "fmt"
 
