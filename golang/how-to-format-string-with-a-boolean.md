@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
   res := fmt.Sprintf("%t is bool", true)
-  fmt.PrintLn(res)
+  fmt.Println(res)
 }
 ```
 
