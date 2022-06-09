@@ -14,6 +14,7 @@ func main() {
 - `import "fmt"` - loads `fmt` package to operate on strings (and print them)
 - `fmt.Sprintf(` - formats given string based on a given template and return result
 - `%t` - placeholder will return `true` or `false` based on a given boolean value
+- `true` - sample boolean value to format
 
 group: string_format
 
