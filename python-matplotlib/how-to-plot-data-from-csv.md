@@ -4,11 +4,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-plt.rcParams["figure.figsize"] = [7.00, 3.50]
-plt.rcParams["figure.autolayout"] = True
-columns = ["a", "b", "c"]
-df = pd.read_csv("/var/www/examples/file.csv", usecols=columns)
-plt.plot(df.Name, df.Marks)
+df = pd.read_csv("/var/www/examples/data.csv")
+plt.plot(df.a, df.b)
 plt.show()
 ```
 
@@ -18,11 +15,8 @@ plt.show()
 import pandas as pd
 import matplotlib.pyplot as plt
 
-plt.rcParams["figure.figsize"] = [7.00, 3.50]
-plt.rcParams["figure.autolayout"] = True
-columns = ["a", "b", "c"]
-df = pd.read_csv("/var/www/examples/file.csv", usecols=columns)
-plt.plot(df.Name, df.Marks)
+df = pd.read_csv("/var/www/examples/data.csv")
+plt.plot(df.a, df.b)
 plt.show()
 ```
 
