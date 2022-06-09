@@ -10,7 +10,7 @@ plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
-- `import geopandas` - loads [lib:GeoPandas module](/python-matplotlib/how-to-plot-world-map) to work with maps and geo charts
+- `import geopandas` - loads [lib:GeoPandas module](/python-matplotlib/how-to-install-geopandas-module) to work with maps and geo charts
 - `world.plot()` - plots world map
 - `.show()` - render chart in a separate window
 
