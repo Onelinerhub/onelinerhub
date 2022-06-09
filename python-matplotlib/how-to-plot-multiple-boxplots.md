@@ -3,8 +3,9 @@
 ```python
 import matplotlib.pyplot as plt
 
-plt.boxplot([2,3,6,2,4,5,1,10])
- 
+fig = plt.figure()
+plt.boxplot([[2,3,6,2,4,5,1,2], [4,5,7,17,3]])
+
 plt.show()
 ```
 
@@ -18,10 +19,9 @@ group: boxplot
 ```python
 import matplotlib.pyplot as plt
 
-fig = plt.figure(figsize = (10, 7))
-ax = fig.add_axes([0, 0, 1, 1])
-bp = ax.boxplot([[2,3,6,2,4,5,1,2], [4,5,7,17,3]])
- 
+fig = plt.figure()
+plt.boxplot([[2,3,6,2,4,5,1,2], [4,5,7,17,3]])
+
 plt.show()
 ```
 
