@@ -1,4 +1,4 @@
-# How to plot data from csv
+# How to plot data from CSV
 
 ```python
 import matplotlib.pyplot as plt
