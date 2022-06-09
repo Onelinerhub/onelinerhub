@@ -1,4 +1,4 @@
-# How to show only specific continent from world map
+# How to show specific continent from world map
 
 ```python
 import matplotlib.pyplot as plt
@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import geopandas
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-ax = world[world.continent='Africa'].plot()
+ax = world[world.continent=='Africa'].plot()
 
 plt.show()
 ```
