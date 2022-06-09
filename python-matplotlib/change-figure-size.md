@@ -1,5 +1,7 @@
 # How to change figure size
 
+### In order to set figure size, you set size in inches and also change inch size in pixels (we draw `160x160` chart in this example):
+
 ```python
 import matplotlib.pyplot as plt
 plt.figure(figsize=(2, 2), dpi=80)
