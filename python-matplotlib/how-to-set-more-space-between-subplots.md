@@ -1,5 +1,7 @@
 # How to set more space between subplots
 
+### Use `subplots_adjust()` method to set subplots spacing:
+
 ```python
 import matplotlib.pyplot as plt
 
