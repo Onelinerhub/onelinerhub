@@ -20,7 +20,23 @@ func main() {
 
 group: int_format
 
+## Example: 
+```go
+package main
+
+import "golang.org/x/text/language"
+import "golang.org/x/text/message"
+import "fmt"
+
+func main() {
+  p := message.NewPrinter(language.English)
+  s := p.Sprintf("%d", 1000)
+  fmt.Println(s)
+}
 ```
-/tmp/test.go:3:8: no required module provides package golang.org/x/text/language: go.mod file not found in current directory or any parent directory; see 'go help modules'
+```
+go: warning: ignoring go.mod in system temp root /tmp
+test.go:3:8: no required module provides package golang.org/x/text/language: go.mod file not found in current directory or any parent directory; see 'go help modules'
+test.go:4:8: no required module provides package golang.org/x/text/message: go.mod file not found in current directory or any parent directory; see 'go help modules'
 ```
 
