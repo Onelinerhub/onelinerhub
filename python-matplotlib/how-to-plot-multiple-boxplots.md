@@ -3,7 +3,6 @@
 ```python
 import matplotlib.pyplot as plt
 
-fig = plt.figure()
 plt.boxplot([[2,3,6,2,4,5,1,2], [4,5,7,17,3]])
 
 plt.show()
@@ -20,7 +19,6 @@ group: boxplot
 ```python
 import matplotlib.pyplot as plt
 
-fig = plt.figure()
 plt.boxplot([[2,3,6,2,4,5,1,2], [4,5,7,17,3]])
 
 plt.show()
