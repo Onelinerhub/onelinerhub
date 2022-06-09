@@ -9,8 +9,7 @@ import (
 )
 
 func main() {
-	ct := time.Now()
-	fmt.Println(ct.Format("15:04:05.000"))
+	fmt.Println(time.Now().Format(time.RFC3339))
 }
 
 ```
@@ -31,13 +30,12 @@ import (
 )
 
 func main() {
-	ct := time.Now()
-	fmt.Println(ct.Format("15:04:05.000"))
+	fmt.Println(time.Now().Format(time.RFC3339))
 }
 
 ```
 ```
-14:06:18.532
+2022-06-09T14:09:04Z
 
 ```
 
