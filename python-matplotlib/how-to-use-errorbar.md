@@ -1,57 +1,37 @@
-# How to use errorbar
+# Errorbar usage example
 
 ```python
-# Import Library
-
 import matplotlib.pyplot as plt
-  
-# Define Data
 
-x= [6, 15, 2.3, 9]
-y= [9, 15, 20, 25]
+x = [6, 15, 2]
+y = [9, 15, 20]
 
-# Define Error
-
-x_error = [2.3, 5.1, 1, 3.1]
-
-# Plot Bar chart
+x_error = [2, 5.1, 1]
 
 plt.bar(x,y)
-
-# Plot error bar
-
-plt.errorbar(x, y, xerr = x_error,fmt='o',ecolor = 'red',color='yellow')
-
-# Display graph
+plt.errorbar(x, y, xerr = x_error, fmt='o',ecolor = 'maroon',color='red')
 
 plt.show()
 ```
 
+- `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
+- `.bar` - will plot bar chart
+- `.errorbar(` - plots errorbars
+- `x, y` - coordinates to plot errorbars at
+- `x_error` - error bars sizes list
+- `.show()` - render chart in a separate window
 
 ## Example: 
 ```python
-# Import Library
-
 import matplotlib.pyplot as plt
-  
-# Define Data
 
-x= [6, 15, 2.3, 9]
-y= [9, 15, 20, 25]
+x = [6, 15, 2]
+y = [9, 15, 20]
 
-# Define Error
-
-x_error = [2.3, 5.1, 1, 3.1]
-
-# Plot Bar chart
+x_error = [2, 5.1, 1]
 
 plt.bar(x,y)
-
-# Plot error bar
-
-plt.errorbar(x, y, xerr = x_error,fmt='o',ecolor = 'red',color='yellow')
-
-# Display graph
+plt.errorbar(x, y, xerr = x_error, fmt='o',ecolor = 'maroon',color='red')
 
 plt.show()
 ```
