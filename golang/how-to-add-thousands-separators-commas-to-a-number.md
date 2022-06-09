@@ -1,4 +1,4 @@
-# How to add thousands separators commas to a number 
+# How to add thousands separator to a number 
 
 ```go
 package main
