@@ -4,13 +4,14 @@
 import matplotlib.pyplot as plt
 
 x = [1,2,5,1,2,3,5,6,7,4,2,2,4,5,6]
-plt.hist(x,bins=[1,3,5,7])
+plt.hist(x,bins=[0,5,6,7],edgecolor='white')
 plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.hist(` - plots histogram for specified data
-- `bins` - number of histogram bins (bars) to group data into
+- `bins` - we can specify list of values to build bins based on
+- `edgecolor` - sets histogram bar border color
 - `.show()` - render chart in a separate window
 
 group: histogram
@@ -20,7 +21,7 @@ group: histogram
 import matplotlib.pyplot as plt
 
 x = [1,2,5,1,2,3,5,6,7,4,2,2,4,5,6]
-plt.hist(x,bins=[1,3,5,7])
+plt.hist(x,bins=[0,5,6,7],edgecolor='white')
 plt.show()
 ```
 
