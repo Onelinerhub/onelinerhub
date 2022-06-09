@@ -1,11 +1,11 @@
-# How to show specific country from world map
+# How to plot specific country from world map
 
 ```python
 import matplotlib.pyplot as plt
 import geopandas
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-ax = world[world.country=='Ukraine'].plot()
+ax = world[world.name=='Ukraine'].plot()
 
 plt.show()
 ```
