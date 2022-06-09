@@ -6,6 +6,7 @@ import "fmt"
 
 func main() {
   res := fmt.Sprintf("%t is bool", true)
+  fmt.PrintLn(res)
 }
 ```
 
@@ -23,10 +24,11 @@ import "fmt"
 
 func main() {
   res := fmt.Sprintf("%t is bool", true)
+  fmt.PrintLn(res)
 }
 ```
 ```
-A is 12
-
+# command-line-arguments
+/tmp/test.go:6:7: undefined: fmt.printLn
 ```
 
