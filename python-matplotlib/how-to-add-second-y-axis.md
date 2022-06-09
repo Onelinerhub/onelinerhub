@@ -1,4 +1,4 @@
-# How to add second y axis
+# How to add second Y axis
 
 ```python
 import matplotlib.pyplot as plt
