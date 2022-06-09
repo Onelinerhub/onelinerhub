@@ -2,8 +2,10 @@
 
 ```python
 import matplotlib.pyplot as plt
+import datetime
 
-plt.plot([1,2,3,4,'5d'], [5,12,6,12,43])
+x = [datetime.datetime(2022,10,11), datetime.datetime(2022,10,12), datetime.datetime(2022,10,13)]
+plt.plot(x, [5,12,43])
 
 plt.show()
 ```
@@ -12,8 +14,13 @@ plt.show()
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
+import datetime
+import matplotlib.dates as mdates
 
-plt.plot([1,2,3,4,'5d'], [5,12,6,12,43])
+x = [datetime.datetime(2022,10,11), datetime.datetime(2022,10,12), datetime.datetime(2022,10,13)]
+plt.plot(x, [5,12,43])
+
+# plt.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
 
 plt.show()
 ```
