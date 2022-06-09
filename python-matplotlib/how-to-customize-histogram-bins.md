@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 
 x = [1,2,5,1,2,3,5,6,7,4,2,2,4,5,6]
-plt.hist(x,bins=3)
+plt.hist(x,bins=[1,3,5,7])
 plt.show()
 ```
 
@@ -20,7 +20,7 @@ group: histogram
 import matplotlib.pyplot as plt
 
 x = [1,2,5,1,2,3,5,6,7,4,2,2,4,5,6]
-plt.hist(x,bins=3)
+plt.hist(x,bins=[1,3,5,7])
 plt.show()
 ```
 
