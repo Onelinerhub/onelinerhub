@@ -28,13 +28,7 @@ group: multiple
 ```python
 import matplotlib.pyplot as plt
 
-fig = plt.figure()
-fig, axes = plt.subplots(nrows=2, ncols=2)
-
-axes[0][0].plot([1,3,2])
-axes[0][1].plot([8,2,5])
-axes[1][0].plot([3,4,6,2,4,4,5,4,6])
-axes[1][1].bar(['a','b','c'],[4,2,6])
+plt.plot([1,4,2])
 
 plt.show()
 ```
