@@ -1,5 +1,7 @@
 # How to set chart opacity
 
+### Pass `alpha` argument to set level of chart transparency:
+
 ```python
 import matplotlib.pyplot as plt
 
