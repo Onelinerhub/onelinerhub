@@ -5,8 +5,8 @@
 ```python
 import matplotlib.pyplot as plt
 
-plt.bar(['a', 'b', 'c'], [1,4,2])
-plt.bar(['a', 'b', 'c'], [2,5,1])
+plt.bar(['a', 'b', 'c'], [3,4,2])
+plt.bar(['a', 'b', 'c'], [1,2,1])
 
 plt.show()
 ```
@@ -21,8 +21,8 @@ group: multiple
 ```python
 import matplotlib.pyplot as plt
 
-plt.plot([1,4,2])
-plt.plot([2,5,1])
+plt.bar(['a', 'b', 'c'], [3,4,2])
+plt.bar(['a', 'b', 'c'], [1,2,1])
 
 plt.show()
 ```
