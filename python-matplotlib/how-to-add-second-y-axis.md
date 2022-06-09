@@ -19,7 +19,7 @@ twin.tick_params(axis='y', colors=p2.get_color())
 plt.show()
 ```
 
-- `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
+- `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](/python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.subplots(` - creates set of charts on a single chart area
 - `twinx()` - creates twin axes sharing `x` axis
 - `ax.plot(` - plot first line (green one)
