@@ -22,9 +22,20 @@ plt.show()
 import pandas as pd
 import matplotlib.pyplot as plt
 
+with open('/var/www/examples/data.csv', 'r') as f:
+  print(f.read())
+
 df = pd.read_csv("/var/www/examples/data.csv")
 
 plt.plot(df.a, df.b)
 plt.show()
+```
+```
+a,b
+1,4
+2,3
+3,6
+
+
 ```
 
