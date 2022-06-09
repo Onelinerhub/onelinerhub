@@ -3,20 +3,23 @@
 ```go
 package main
 
+import "golang.org/x/text/language"
+import "golang.org/x/text/message"
 import "fmt"
 
 func main() {
-  setlocale(LC_ALL, "");
-  printf("%'d\n", 1000);
+  p := message.NewPrinter(language.English)
+  s := p.Sprintf("%d", 12398712983)
+  fmt.Println(s)
 }
 ```
 
 - `package main` - default package declaration
 - `import "fmt"` - loads `fmt` package to operate on strings (and print them)
-- `fmt.Sprintf(` - formats given string based on a given template and return result
-- `%08d` - pads given number to 8 zeros on the left
-- `123` - sample integer value to format
-- `res` - variable will contain formatted value
+- `golang.org/x/text` - enables localization capabilities
+- `message.NewPrinter(language.English)` - create localized English printer
+- `12398712983` - sample number to add thousands separator to
+- `fmt.Println` - prints specified string
 
 group: int_format
 
@@ -30,8 +33,12 @@ import "fmt"
 
 func main() {
   p := message.NewPrinter(language.English)
-  s := p.Sprintf("%d", 1000)
+  s := p.Sprintf("%d", 12398712983)
   fmt.Println(s)
 }
+```
+```
+12,398,712,983
+
 ```
 
