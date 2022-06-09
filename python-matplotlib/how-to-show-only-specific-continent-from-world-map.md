@@ -1,4 +1,4 @@
-# How to show specific continent from world map
+# How to plot specific continent from world map
 
 ```python
 import matplotlib.pyplot as plt
