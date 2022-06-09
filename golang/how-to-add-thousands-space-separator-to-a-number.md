@@ -9,7 +9,7 @@ import "fmt"
 
 func main() {
   p := message.NewPrinter(language.English)
-  s := p.Sprintf("%d", 12398712983)
+  s := p.Sprintf("%d", 12398712983).Replace(","," ")
   fmt.Println(s)
 }
 ```
@@ -33,7 +33,7 @@ import "fmt"
 
 func main() {
   p := message.NewPrinter(language.English)
-  s := p.Sprintf("%d", 12398712983)
+  s := p.Sprintf("%d", 12398712983).Replace(","," ")
   fmt.Println(s)
 }
 ```
