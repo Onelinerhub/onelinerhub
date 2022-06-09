@@ -10,14 +10,14 @@ import (
 
 func main() {
 	ct := time.Now()
-	fmt.Println(ct.Format("15:04:05.000000"))
+	fmt.Println(ct.Format("15:04:05.000"))
 }
 
 ```
 
 - `time.Now()` - returns current date time
 - `Format` - formats datatime
-- `.000000` - Adds milliseconds to time format
+- `.000` - Adds milliseconds to time format
 
 group: date
 
@@ -32,12 +32,12 @@ import (
 
 func main() {
 	ct := time.Now()
-	fmt.Println(ct.Format("15:04:05.000000"))
+	fmt.Println(ct.Format("15:04:05.000"))
 }
 
 ```
 ```
-14:05:11.584165
+14:06:18.532
 
 ```
 
