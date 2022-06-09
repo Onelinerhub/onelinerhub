@@ -16,7 +16,7 @@ func main() {
 - `%t` - placeholder will return `true` or `false` based on a given boolean value
 - `true` - sample boolean value to format
 
-group: string_format
+group: int_format
 
 ## Example: 
 ```go
