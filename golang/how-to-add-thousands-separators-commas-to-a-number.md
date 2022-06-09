@@ -3,17 +3,11 @@
 ```go
 package main
 
-import (
-    "golang.org/x/text/language"
-    "golang.org/x/text/message"
-)
+import "fmt"
 
 func main() {
-    p := message.NewPrinter(language.English)
-    p.Printf("%d\n", 1000)
-
-    // Output:
-    // 1,000
+  setlocale(LC_ALL, "");
+  printf("%'d\n", 1000);
 }
 ```
 
@@ -26,25 +20,7 @@ func main() {
 
 group: int_format
 
-## Example: 
-```go
-package main
-
-import (
-    "golang.org/x/text/language"
-    "golang.org/x/text/message"
-)
-
-func main() {
-    p := message.NewPrinter(language.English)
-    p.Printf("%d\n", 1000)
-
-    // Output:
-    // 1,000
-}
 ```
-```
-Number: 00000123
-
+/tmp/test.go:3:8: no required module provides package golang.org/x/text/language: go.mod file not found in current directory or any parent directory; see 'go help modules'
 ```
 
