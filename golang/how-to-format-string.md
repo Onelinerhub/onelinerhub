@@ -14,6 +14,8 @@ func main() {
 - `fmt.Sprintf(` - formats given string based on a given template and return result
 - `res` - variable will contain formatted string
 
+group: string_format
+
 ## Example: 
 ```go
 package main
