@@ -15,6 +15,7 @@ func main() {
 - `fmt.Sprintf(` - formats given string based on a given template and return result
 - `%10d` - sample number formatting placeholder, will pad number to 10 spaces on the left 
 - `123` - sample integer value to format
+- `res` - variable will contain formatted value
 
 group: int_format
 
