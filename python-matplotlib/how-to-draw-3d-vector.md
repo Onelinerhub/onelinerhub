@@ -2,14 +2,22 @@
 
 ```python
 import matplotlib.pyplot as plt
-plt.quiver(0.1,0.2,scale=1)
+from mpl_toolkits.mplot3d import Axes3D
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.quiver(0, 0, 0, 1, 2, 1)
+ax.set_xlim([-1, 4])
+ax.set_ylim([-1, 4])
+ax.set_zlim([-1, 4])
 plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
-- `.quiver(` - plots arrow(s)
-- `0.1,0.2` - arrow direction
-- `scale=1` - set arrow length
+- `mpl_toolkits.mplot3d` - toolkit to plot `3d` charts
+- `.add_subplot` - create sub chart
+- `projection='3d'` - this will be `3d` chart
+- `.quiver(` - plots arrow with given start point and arrow direction
 - `.show()` - render chart in a separate window
 
 group: vector
@@ -18,18 +26,13 @@ group: vector
 ```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import numpy as np
 
-soa = np.array([[0, 0, 1, 1, -2, 0], [0, 0, 2, 1, 1, 0],
-                [0, 0, 3, 2, 1, 0], [0, 0, 4, 0.5, 0.7, 0]])
-
-X, Y, Z, U, V, W = zip(*soa)
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.quiver(X, Y, Z, U, V, W)
-ax.set_xlim([-1, 0.5])
-ax.set_ylim([-1, 1.5])
-ax.set_zlim([-1, 8])
+ax.quiver(0, 0, 0, 1, 2, 1)
+ax.set_xlim([-1, 4])
+ax.set_ylim([-1, 4])
+ax.set_zlim([-1, 4])
 plt.show()
 ```
 
