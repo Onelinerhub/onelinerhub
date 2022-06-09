@@ -26,7 +26,7 @@ import geopandas
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
 world.plot()
 
-plt.scatter([-87,-88,-89],[41,41,41])
+plt.scatter([-87,-88,-89],[41,41,41],s=200)
 
 plt.show()
 ```
