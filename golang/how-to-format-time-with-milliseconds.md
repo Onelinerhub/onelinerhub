@@ -17,7 +17,7 @@ func main() {
 
 - `time.Now()` - returns current date time
 - `Format` - formats datatime
-- `".000000"` - Adds milliseconds to time format
+- `.000000` - Adds milliseconds to time format
 
 group: date
 
