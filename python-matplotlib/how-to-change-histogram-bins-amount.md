@@ -1,4 +1,4 @@
-# How to change histogram bins amount
+# How to change histogram bins number
 
 ```python
 import matplotlib.pyplot as plt
