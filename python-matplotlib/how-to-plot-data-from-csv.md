@@ -17,6 +17,8 @@ plt.show()
 - `df.a, df.b` - use column `a` data for `X` axis and `b` column data for `Y` axis
 - `.show()` - render chart in a separate window
 
+group: from
+
 ## Example: 
 ```python
 import pandas as pd
