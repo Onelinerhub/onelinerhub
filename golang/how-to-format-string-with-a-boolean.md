@@ -13,7 +13,7 @@ func main() {
 - `package main` - default package declaration
 - `import "fmt"` - loads `fmt` package to operate on strings (and print them)
 - `fmt.Sprintf(` - formats given string based on a given template and return result
-- `res` - variable will contain formatted string
+- `%t` - placeholder will return `true` or `false` based on a given boolean value
 
 group: string_format
 
@@ -24,11 +24,11 @@ import "fmt"
 
 func main() {
   res := fmt.Sprintf("%t is bool", true)
-  fmt.PrintLn(res)
+  fmt.Println(res)
 }
 ```
 ```
-# command-line-arguments
-/tmp/test.go:6:7: undefined: fmt.printLn
+true is bool
+
 ```
 
