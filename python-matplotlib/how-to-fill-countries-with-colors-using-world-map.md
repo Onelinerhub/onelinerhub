@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import geopandas
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-world.plot()
+ax = world.plot()
 
-plt.scatter([-87,-88,-29],[21,41,-4],s=200,c='red')
+world[world.name == 'Ukraine'].plot(color='yellow',ax=ax)
 
 plt.show()
 ```
@@ -30,9 +30,9 @@ import matplotlib.pyplot as plt
 import geopandas
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-world.plot()
+ax = world.plot()
 
-plt.scatter([-87,-88,-29],[21,41,-4],s=200,c='red')
+world[world.name == 'Ukraine'].plot(color='yellow',ax=ax)
 
 plt.show()
 ```
