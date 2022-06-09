@@ -25,12 +25,12 @@ package main
 import "fmt"
 
 func main() {
-  res := fmt.Sprintf("Float: %.1f", 123.3)
+  res := fmt.Sprintf("Float: %.2f", 123.2343)
   fmt.Println(res)
 }
 ```
 ```
-Float: 123.3
+Float: 123.23
 
 ```
 
