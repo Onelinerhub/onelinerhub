@@ -10,7 +10,7 @@ import (
 
 func main() {
 	ct := time.Now()
-	fmt.Println(ct.Format("15:04:05.000"))
+	fmt.Println(ct.Format("15:04:05.000000"))
 }
 
 ```
