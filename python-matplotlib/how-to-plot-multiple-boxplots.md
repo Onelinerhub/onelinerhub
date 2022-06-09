@@ -18,8 +18,7 @@ group: boxplot
 ```python
 import matplotlib.pyplot as plt
 
-plt.boxplot([2,3,6,2,4,5,1,10])
-plt.boxplot([4,5,7,23,3])
+plt.boxplot([[2,3,6,2,4,5,1,10], [4,5,7,23,3]])
  
 plt.show()
 ```
