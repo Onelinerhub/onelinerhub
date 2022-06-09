@@ -5,7 +5,7 @@
 ```python
 import matplotlib.pyplot as plt
 
-plt.plot([2,5,1,4,6,7], alpha=0.4)
+plt.plot([2,5,1,4,6,7], alpha=0.3)
 plt.show()
 ```
 
@@ -14,7 +14,7 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 
-plt.plot([2,5,1,4,6,7], alpha=0.4)
+plt.plot([2,5,1,4,6,7], alpha=0.3)
 plt.show()
 ```
 
