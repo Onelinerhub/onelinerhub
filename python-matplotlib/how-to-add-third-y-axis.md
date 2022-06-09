@@ -30,8 +30,10 @@ plt.show()
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.subplots(` - creates set of charts on a single chart area
 - `twinx()` - creates twin axes sharing `x` axis
+- `twin2.spines.right.set_position` - reposition second `Y` axis so they will not overlap
 - `ax.plot(` - plot first line (green one)
-- `twin.plot(` - plot second line (red one)
+- `twin1.plot(` - plot second line
+- `twin2.plot(` - plot third line
 - `.set_xlim(` - set `x` axis range
 - `.set_ylim(` - set `y` axis range
 - `.show()` - render chart in a separate window
