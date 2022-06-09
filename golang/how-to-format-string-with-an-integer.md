@@ -1,12 +1,12 @@
-# How to format string with an integer
+# How to format integer
 
 ```go
 package main
 import "fmt"
 
 func main() {
-  res := fmt.Sprintf("%t is bool", true)
-  fmt.PrintLn(res)
+  res := fmt.Sprintf("Number: %10d", 123)
+  fmt.Println(res)
 }
 ```
 
@@ -24,12 +24,12 @@ package main
 import "fmt"
 
 func main() {
-  res := fmt.Sprintf("%t is bool", true)
+  res := fmt.Sprintf("Number: %10d", 123)
   fmt.Println(res)
 }
 ```
 ```
-true is bool
+Number:        123
 
 ```
 
