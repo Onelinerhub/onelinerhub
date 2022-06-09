@@ -14,6 +14,8 @@ plt.show()
 - `world.plot()` - plots world map
 - `.show()` - render chart in a separate window
 
+group: map
+
 ## Example: 
 ```python
 import matplotlib.pyplot as plt
