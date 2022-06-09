@@ -1,4 +1,4 @@
-# How to plot points on a world map
+# How to plot dots on a world map
 
 ```python
 import matplotlib.pyplot as plt
