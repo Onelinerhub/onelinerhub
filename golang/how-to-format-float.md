@@ -15,6 +15,7 @@ func main() {
 - `fmt.Sprintf(` - formats given string based on a given template and return result
 - `%.2f` - sample float formatting template (leaves 2 decimals)
 - `123.32` - sample float number to format
+- `fmt.Println` - prints specified string
 
 group: float_format
 
