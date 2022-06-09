@@ -14,7 +14,7 @@ plt.show()
 - `import geopandas` - loads [lib:GeoPandas module](/python-matplotlib/how-to-install-geopandas-module) to work with maps and geo charts
 - `.read_file(` - reads map file
 - `naturalearth_lowres` - sample world map file to use
-- `world.continent` - filters world map based on a specified continent
+- `world.name` - filters world map based on a specified country name
 - `.show()` - render chart in a separate window
 
 group: map
@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 import geopandas
 
 world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-ax = world[world.country=='Ukraine'].plot()
+ax = world[world.name=='Ukraine'].plot()
 
 plt.show()
 ```
