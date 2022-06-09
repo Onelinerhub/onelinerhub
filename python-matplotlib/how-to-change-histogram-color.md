@@ -11,6 +11,7 @@ plt.show()
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.hist(` - plots histogram for specified data
 - `bins` - number of histogram bins (bars) to group data into
+- `color` - sets histogram color
 - `.show()` - render chart in a separate window
 
 group: histogram
