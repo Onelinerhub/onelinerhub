@@ -17,10 +17,10 @@ plt.show()
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.boxplot(` - plots `boxplot` (features of a given set of values: minimum, first quartile, median, third quartile and maximum)
-- `.show()` - render chart in a separate window
 - `set_facecolor` - sets box background
 - `set_color` - set boxplot line color
 - `.legend(` - show and configure legend
+- `.show()` - render chart in a separate window
 
 group: boxplot
 
