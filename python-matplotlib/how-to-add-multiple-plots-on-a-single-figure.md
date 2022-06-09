@@ -1,19 +1,19 @@
 # How to add multiple plots on a single figure
 
-### In order to plot multiple lines, you simply call `bar()` method multiple times ([another multiple bar charts example](/python-matplotlib/how-to-make-bar-chart-with-multiple-columns)):
+### You can add multiple plots by calling plotting methods (e.g. `plot()`, `bar()`,...) multiple times:
 
 ```python
 import matplotlib.pyplot as plt
 
 plt.bar(['a', 'b', 'c'], [3,4,2])
-plt.bar(['a', 'b', 'c'], [1,2,1], width=0.4)
+plt.plot([4,9,6])
 
 plt.show()
 ```
 
 - `import matplotlib.pyplot as plt` - loads [lib:Matplotlib module](python-matplotlib/how-to-install-matplotlib-python-lib-in-ubuntu-ubuntuversion) to use plotting capabilities
 - `.bar` - will plot bar chart
-- `width=0.4` - change width for second bar chart, so we can see both charts
+- `.plot(` - will plot line chart
 - `.show()` - render chart in a separate window
 
 group: multiple
@@ -23,7 +23,7 @@ group: multiple
 import matplotlib.pyplot as plt
 
 plt.bar(['a', 'b', 'c'], [3,4,2])
-plt.plot(4,2,6)
+plt.plot([4,9,6])
 
 plt.show()
 ```
