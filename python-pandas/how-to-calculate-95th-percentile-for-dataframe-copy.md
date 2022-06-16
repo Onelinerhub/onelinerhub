@@ -1,4 +1,4 @@
-# How to calculate 95th percentile for dataframe COPY
+# How to calculate 95th percentile for dataframe
 
 ```python
 import pandas as pd
