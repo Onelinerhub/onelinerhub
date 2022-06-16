@@ -1,4 +1,4 @@
-# How to find mean of two dataframe columns
+# How to find dataframe mean for two columns
 
 ```python
 import pandas as pd
@@ -13,6 +13,10 @@ data = pd.DataFrame({
 res = data[['Price', 'Used']].mean()
 ```
 
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `['Price', 'Used']` - list of columns to get mean for
+- `.mean()` - calculate mean for given dataframe
 
 group: mean
 
