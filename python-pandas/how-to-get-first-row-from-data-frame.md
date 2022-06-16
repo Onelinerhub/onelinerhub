@@ -1,4 +1,4 @@
-# How to get first row from data frame
+# How to get first row from dataframe
 
 ```python
 import pandas as pd
