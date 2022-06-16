@@ -1,4 +1,4 @@
-# How to find dataframe sum for two columns COPY
+# How to find dataframe sum for two columns
 
 ```python
 import pandas as pd
