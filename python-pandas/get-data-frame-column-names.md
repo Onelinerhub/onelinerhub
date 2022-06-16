@@ -14,6 +14,8 @@ columns = data.columns
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `.columns` - returns list of columns for dataframe
 
+group: columns
+
 ## Example: 
 ```python
 import pandas as pd
