@@ -1,4 +1,4 @@
-# How to convert data frame to list
+# How to convert dataframe to list
 
 ### As opposed to converting single [column values to list](/python-pandas/convert-dataframe-column-values-to-list) we can also convert full dataframe to list:
 
