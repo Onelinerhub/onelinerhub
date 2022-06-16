@@ -1,4 +1,4 @@
-# Get last N rows (head) from data frame
+# Get last N rows (tail) from data frame
 
 ```python
 import pandas as pd
