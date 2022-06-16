@@ -1,4 +1,4 @@
-# How to empty data frame
+# How to empty dataframe
 
 ```python
 import pandas as pd
