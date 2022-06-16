@@ -1,4 +1,4 @@
-# How to groupby data frame
+# How to group by dataframe
 
 ```python
 import pandas as pd
