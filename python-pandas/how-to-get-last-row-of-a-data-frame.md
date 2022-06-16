@@ -1,4 +1,4 @@
-# How to get last row of a data frame
+# How to get last row of a dataframe
 
 ```python
 import pandas as pd
