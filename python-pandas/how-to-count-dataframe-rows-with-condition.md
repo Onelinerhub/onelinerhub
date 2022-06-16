@@ -9,13 +9,14 @@ data = pd.DataFrame({
   'Phone Price': [204, 304, 404, 405, 305]
 })
 
-res = len(data['Vendor] == 'US')
+res = len(data[data['Vendor'] == 'US'])
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `len(` - returns length (rows count) of a given dataframe
-- `res` - will contain rows count
+- `data['Vendor'] == 'US'` - sample filter to use before counting rows
+- `res` - will contain filtered rows count
 
 group: count
 
@@ -29,7 +30,11 @@ data = pd.DataFrame({
   'Phone Price': [204, 304, 404, 405, 305]
 })
 
-res = len(data[data['Vendor] == 'US'])
+res = len(data[data['Vendor'] == 'US'])
 print(res)
+```
+```
+3
+
 ```
 
