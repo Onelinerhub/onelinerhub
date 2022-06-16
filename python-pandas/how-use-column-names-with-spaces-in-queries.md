@@ -1,4 +1,4 @@
-# How use column names with spaces in queries
+# How to use column names with spaces in queries
 
 ```python
 import pandas as pd
