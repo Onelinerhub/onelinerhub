@@ -18,7 +18,7 @@ res = data[['Price', 'Used']].mean()
 - `['Price', 'Used']` - list of columns to get mean for
 - `.mean()` - calculate mean for given dataframe
 
-group: mean
+group: 2cols
 
 ## Example: 
 ```python
