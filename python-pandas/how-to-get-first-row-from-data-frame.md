@@ -10,12 +10,12 @@ data = pd.DataFrame({
   'Used': [150, 250, 80, 320, 280]
 })
 
-first = data.loc[0]
+first = data.iloc[0]
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `.loc[` - locates rows based on filter and replaces with given values
+- `.iloc[` - returns row by given integer position (starts from `0`)
 - `[0]` - selects first row
 
 group: fetch
@@ -31,7 +31,7 @@ data = pd.DataFrame({
   'Used': [150, 250, 80, 320, 280]
 })
 
-first = data.loc[0]
+first = data.iloc[0]
 print(first)
 ```
 ```
