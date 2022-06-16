@@ -15,7 +15,7 @@ q = data['Phone Price'].quantile(0.75)
 - `data` - will contain loaded DataFrame
 - `.quantile(` - calculates specified quantile
 - `'Phone Price'` - column to calculate quantile for
-- `0.75` - will calculate 75% quantile
+- `0.75` - will calculate 75% percentile
 
 group: percentiles
 
