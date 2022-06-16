@@ -1,4 +1,4 @@
-# Get data frame column names
+# Get dataframe column names
 
 ```python
 import pandas as pd
