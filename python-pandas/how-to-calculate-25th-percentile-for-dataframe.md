@@ -13,8 +13,8 @@ q = data['Phone Price'].quantile(0.25)
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `data` - will contain loaded DataFrame
-- `.quantile(` - calculates specified quantile
-- `'Phone Price'` - column to calculate quantile for
+- `.quantile(` - calculates specified quantile (percentile)
+- `'Phone Price'` - column to calculate quantile (percentile) for
 - `0.25` - will calculate 25% percentile
 
 group: percentiles
