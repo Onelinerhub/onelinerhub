@@ -1,4 +1,4 @@
-# How to get quantiles for dataframe
+# How to calculate quantiles for dataframe
 
 ```python
 import pandas as pd
