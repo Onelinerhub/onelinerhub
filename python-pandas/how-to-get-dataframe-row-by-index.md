@@ -16,7 +16,7 @@ row = data.loc[3]
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `.loc[` - returns row by given index
-- `3` - will select 4th row (indexes start with `0`)
+- `[3]` - will select 4th row (indexes start with `0`)
 - `row` - will contain selected row
 
 group: fetch
