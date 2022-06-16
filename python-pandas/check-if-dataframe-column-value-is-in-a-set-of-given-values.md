@@ -15,6 +15,7 @@ filtered = data[data['Phone Price'].isin([204,205,304,305])]
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `.isin(` - checks if value is in a given set (list) of values
 - `filtered` - will contain filtered dataframe
+- `[204,205,304,305]` - list to check if a given column value is in
 
 ## Example: 
 ```python
