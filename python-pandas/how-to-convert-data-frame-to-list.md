@@ -20,6 +20,8 @@ list = values.flatten()
 - `.values` - returns dataframe values as an multidimensional array
 - `.flatten()` - flatten given multidimensional array to single dimension
 
+group: to_list
+
 ## Example: 
 ```python
 import pandas as pd
