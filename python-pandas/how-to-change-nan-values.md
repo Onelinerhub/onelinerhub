@@ -1,4 +1,4 @@
-# How to change nan values
+# How to replace NaN values
 
 ```python
 import pandas as pd
