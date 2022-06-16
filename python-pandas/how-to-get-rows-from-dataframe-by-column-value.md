@@ -10,13 +10,14 @@ data = pd.DataFrame({
   'Used': [150, 250, 80, 320, 280]
 })
 
-row = data[data['Phone'] == 'ip8'].iloc(0)
+rows = data[data['Phone'] == 'ip8']
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `.iloc[` - returns row by given integer position (starts from `0`)
-- `[2]` - selects 3rd row (index starts from `0`)
+- `'Phone'` - column name to filter by
+- `ip8` - column value to find rows by
+- `rows` - will contain found rows
 
 group: fetch_by_col
 
@@ -31,8 +32,8 @@ data = pd.DataFrame({
   'Used': [150, 250, 80, 320, 280]
 })
 
-row = data[data['Phone'] == 'ip8']
-print(row)
+rows = data[data['Phone'] == 'ip8']
+print(rows)
 ```
 ```
   Vendor Phone  Price  Used
