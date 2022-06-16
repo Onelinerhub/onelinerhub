@@ -15,6 +15,10 @@ values = data.values
 list = values.flatten()
 ```
 
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `.values` - returns dataframe values as an multidimensional array
+- `.flatten()` - flatten given multidimensional array to single dimension
 
 ## Example: 
 ```python
