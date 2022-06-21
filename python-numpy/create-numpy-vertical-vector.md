@@ -24,3 +24,4 @@ print(vector)
 
 ```
 
+link_youtube: https://youtu.be/f4GmpkaLsHY
