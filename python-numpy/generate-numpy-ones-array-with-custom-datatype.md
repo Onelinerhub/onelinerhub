@@ -24,3 +24,4 @@ print(a)
 
 ```
 
+link_youtube: https://youtu.be/6a8M7k6BAWg
