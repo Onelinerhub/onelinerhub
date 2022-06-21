@@ -26,3 +26,4 @@ b'a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00'
 
 ```
 
+link_youtube: https://youtu.be/Mzd2bOlE83s
