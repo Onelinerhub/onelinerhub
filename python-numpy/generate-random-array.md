@@ -25,3 +25,4 @@ print(arr)
 
 ```
 
+link_youtube: https://youtu.be/Y_8sdUCbqc4
