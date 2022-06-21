@@ -29,3 +29,4 @@ print(mean)
 
 ```
 
+link_youtube: https://youtu.be/tFcZEEfos2I
