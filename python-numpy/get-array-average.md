@@ -24,3 +24,4 @@ print( np.average(arr) )
 
 ```
 
+link_youtube: https://youtu.be/3paQ8oQ9iEA
