@@ -24,3 +24,4 @@ print(indexes[0])
 
 ```
 
+link_youtube: https://youtu.be/v8SKwKJnJig
