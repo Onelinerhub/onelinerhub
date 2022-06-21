@@ -24,3 +24,4 @@ print( np.max(arr) )
 
 ```
 
+link_youtube: https://youtu.be/FQLkqx4Tlu0
