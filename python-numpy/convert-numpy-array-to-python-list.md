@@ -29,3 +29,4 @@ print(type(l))
 
 ```
 
+link_youtube: https://youtu.be/v_mdShU024E
