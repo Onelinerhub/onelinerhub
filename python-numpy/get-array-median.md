@@ -24,3 +24,4 @@ print( np.median(arr) )
 
 ```
 
+link_youtube: https://youtu.be/uCHCSsNiCOE
