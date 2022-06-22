@@ -39,3 +39,4 @@ print('95%', q95)
 
 ```
 
+link_youtube: https://youtu.be/KvOA2QCX2H4
