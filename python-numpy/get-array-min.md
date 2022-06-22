@@ -24,3 +24,4 @@ print( np.min(arr) )
 
 ```
 
+link_youtube: https://youtu.be/eT_9Qwt3idM
