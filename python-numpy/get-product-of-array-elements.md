@@ -28,3 +28,4 @@ print(np.prod(a))
 
 ```
 
+link_youtube: https://youtu.be/aH4FTSJOdng
