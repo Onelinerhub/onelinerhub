@@ -31,3 +31,4 @@ print(np.dot(a,b))
 
 ```
 
+link_youtube: https://youtu.be/QQlJ4Q5kKWE
