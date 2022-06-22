@@ -26,3 +26,4 @@ print(roots)
 
 ```
 
+link_youtube: https://youtu.be/_-i9k3NSRcc
