@@ -27,3 +27,4 @@ print(array)
 
 ```
 
+link_youtube: https://youtu.be/VeFMrUQikt4
