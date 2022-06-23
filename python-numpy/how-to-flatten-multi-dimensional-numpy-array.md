@@ -24,3 +24,4 @@ print(a.flatten())
 
 ```
 
+link_youtube: https://youtu.be/06INt-6Xzw0
