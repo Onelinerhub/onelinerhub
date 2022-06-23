@@ -22,3 +22,4 @@ print(z.imag)
 
 ```
 
+link_youtube: https://youtu.be/AEjP9BAaLgs
