@@ -4,8 +4,8 @@
 import pandas as pd
 
 df = pd.DataFrame({
-  'date_str': ['3/10/2000', '3/11/2000', '3/12/2000'],
-  'value': [2, 3, 4]
+  'date_str': ['3/10/2022', '3/11/2022', '3/12/2021'],
+  'value': [1,2,3]
 })
 
 df['date'] = pd.to_datetime(df['date_str'])
