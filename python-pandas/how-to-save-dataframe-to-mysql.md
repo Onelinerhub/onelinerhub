@@ -14,6 +14,12 @@ df = pd.DataFrame({
 df.to_sql('phones', engine)
 ```
 
+- `sqlalchemy` - lib to work with databases
+- `create_engine` - creates database connection with specified credentials
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `.to_sql(` - saves current dataframe to the specified table using given db connection
+- `'phones'` - name of the table to save dataframe to (table will be automatically created)
 
 group: sql
 
