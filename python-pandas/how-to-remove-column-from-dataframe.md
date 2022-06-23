@@ -9,9 +9,17 @@ df = pd.DataFrame({
   'Color': ['red', 'red', 'gray', 'black', 'red']
 })
 
-df.drop('Price', inPlace=True)
+df.drop('Price', inplace=True, axis=1)
+
+print(df)
 ```
 
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `.drop(` - drops selected column from dataframe
+- `Price` - name of the column to remove
+- `inplace=True` - will remove column and overwrite current dataframe variable
+- `axis=1` - used to ask Pandas to drop column (not row)
 
 group: drop_column
 
@@ -25,7 +33,16 @@ df = pd.DataFrame({
   'Color': ['red', 'red', 'gray', 'black', 'red']
 })
 
-df.drop('Price', inplace=True)
+df.drop('Price', inplace=True, axis=1)
 print(df)
+```
+```
+  Phone  Color
+0   ip5    red
+1   ip6    red
+2   ip8   gray
+3   sms  black
+4    xi    red
+
 ```
 
