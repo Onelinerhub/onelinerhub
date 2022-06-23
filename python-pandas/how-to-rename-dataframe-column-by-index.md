@@ -10,7 +10,7 @@ df = pd.DataFrame({
 })
 
 names = list(df.columns)
-names[1] = d 
+names[1] = 'Phone Price'
 df.columns = names
 ```
 
