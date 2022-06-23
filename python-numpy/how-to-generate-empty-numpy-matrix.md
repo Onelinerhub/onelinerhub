@@ -23,3 +23,4 @@ print(a.shape)
 
 ```
 
+link_youtube: https://youtu.be/EaUJYLd2bsY
