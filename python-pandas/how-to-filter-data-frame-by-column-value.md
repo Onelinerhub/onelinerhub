@@ -1,4 +1,4 @@
-# How to filter data frame by column value
+# How to filter dataframe by column value
 
 ```python
 import pandas as pd
