@@ -9,7 +9,7 @@ df = pd.DataFrame({
   'bonus': [10,15,20,50,20]
 })
 
-df.sort_values(by=['price', 'bonus'])
+df = df.sort_values(by=['price', 'bonus'])
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
