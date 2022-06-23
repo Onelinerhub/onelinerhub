@@ -22,3 +22,4 @@ print(z.real)
 
 ```
 
+link_youtube: https://youtu.be/qQlDKkHZ7GM
