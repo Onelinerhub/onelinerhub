@@ -1,4 +1,4 @@
-# How to sort data frame by column values
+# How to sort dataframe by column values
 
 ```python
 import pandas as pd
