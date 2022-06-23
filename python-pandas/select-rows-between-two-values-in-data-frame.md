@@ -12,7 +12,7 @@ found = df[(df['price'] > 300) & (df['price'] < 400)]
 ```
 
 
-group: filter
+group: query
 
 ## Example: 
 ```python
