@@ -2,7 +2,6 @@
 
 ```python
 import pandas as pd
-import numpy as np
 
 df = pd.DataFrame({
   'phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
