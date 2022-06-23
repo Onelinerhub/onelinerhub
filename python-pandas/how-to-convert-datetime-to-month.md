@@ -33,10 +33,10 @@ df['month'] = pd.to_datetime(df['date_time_str']).dt.month
 print(df)
 ```
 ```
-        date_time_str  value  date
-0  3/10/2000 14:43:24      2     3
-1  3/11/2000 14:43:24      3     3
-2  3/12/2000 14:43:24      4     3
+        date_time_str  value  month
+0  3/10/2022 14:43:24      1      3
+1  3/11/2022 14:43:24      2      3
+2  3/12/2022 14:43:24      3      3
 
 ```
 
