@@ -12,7 +12,6 @@ df = pd.read_sql('SELECT * FROM phones', engine, 'index')
 - `sqlalchemy` - lib to work with databases
 - `create_engine` - creates database connection with specified credentials
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
-- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `.read_sql(` - allows loading data from database
 - `'SELECT * FROM phones'` - SQL query to get the data ([`phones` table was previously created from dataframe](/python-pandas/how-to-save-dataframe-to-mysql))
 - `engine` - database connection
