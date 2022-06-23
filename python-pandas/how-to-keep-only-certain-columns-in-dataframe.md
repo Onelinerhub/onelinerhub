@@ -17,6 +17,8 @@ filtered = df[['Phone', 'Color']]
 - `['Phone', 'Color']` - list of columns to select from dataframe
 - `filtered` - resulting dataframe, that will contain only specified columns 
 
+group: columns\
+
 ## Example: 
 ```python
 import pandas as pd
