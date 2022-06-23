@@ -1,4 +1,4 @@
-# How to find duplicates in data frame
+# How to find duplicates in dataframe
 
 ```python
 import pandas as pd
