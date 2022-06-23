@@ -11,6 +11,10 @@ df = pd.DataFrame({
 found = df[(df['price'] > 300) & (df['price'] < 400)]
 ```
 
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `(df['price'] > 300) & (df['price'] < 400)` - finds rows with `price` value between `300` and `400`
+- `found` - will contain filtered dataframe
 
 group: query
 
@@ -25,5 +29,11 @@ df = pd.DataFrame({
 
 found = df[(df['price'] > 300) & (df['price'] < 400)]
 print(found)
+```
+```
+  phone  price
+1   ip6    304
+4    xi    305
+
 ```
 
