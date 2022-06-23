@@ -20,3 +20,4 @@ print(np.__version__)
 
 ```
 
+link_youtube: https://youtu.be/eOmhADvowxo
