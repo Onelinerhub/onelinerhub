@@ -14,6 +14,9 @@ df.sort_values(by=['price', 'bonus'])
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `sort_values` - sorts dataframe by column values
+- `by=` - column names to sort by
+- `'price', 'bonus'` - columns to sort by
 
 group: sort
 
