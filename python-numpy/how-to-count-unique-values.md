@@ -27,3 +27,4 @@ print(uniq)
 
 ```
 
+link_youtube: https://youtu.be/_4sPlEz7NmY
