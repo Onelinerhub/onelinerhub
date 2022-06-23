@@ -11,6 +11,11 @@ df = pd.DataFrame({
 df.sort_values(by=['price'])
 ```
 
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `sort_values` - sorts dataframe by column values
+- `by=` - column names to sort by
+- `'price'` - we're sorting by `price` column
 
 group: sort
 
