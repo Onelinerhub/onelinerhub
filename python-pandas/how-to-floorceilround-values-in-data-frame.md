@@ -1,4 +1,4 @@
-# How to floor/ceil/round values in data frame
+# How to round values in dataframe
 
 ```python
 import pandas as pd
