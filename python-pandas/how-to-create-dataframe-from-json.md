@@ -1,4 +1,4 @@
-# How to create dataframe from json
+# How to create dataframe from JSON
 
 ```python
 import pandas as pd
