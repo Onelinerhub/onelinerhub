@@ -1,5 +1,7 @@
 # How to keep only certain columns in dataframe
 
+### In order to keep only specific columns, we can select needed columns and overwrite our dataframe:
+
 ```python
 import pandas as pd
 
@@ -28,7 +30,9 @@ df = pd.DataFrame({
   'Color': ['red', 'red', 'gray', 'black', 'red']
 })
 
-print(df[['Phone', 'Color']])
+df = df[['Phone', 'Color']]
+
+print(df)
 ```
 ```
   Phone  Color
