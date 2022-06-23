@@ -20,3 +20,4 @@ Collecting numpy
 Installing collected packages: numpy
 ```
 
+link_youtube: https://youtu.be/ibOhDH5B5Gs
