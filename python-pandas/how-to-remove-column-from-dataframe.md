@@ -16,7 +16,7 @@ df.drop('Price', inplace=True, axis=1)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `.drop(` - drops selected column from dataframe
 - `Price` - name of the column to remove
-- `inplace=True` - will remove column and overwrite current dataframe variable
+- `inplace=True` - will remove column and save result to current dataframe variable
 - `axis=1` - used to ask Pandas to drop column (not row)
 
 group: drop_column
