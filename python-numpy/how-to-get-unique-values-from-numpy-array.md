@@ -28,3 +28,4 @@ print(type(uniq))
 
 ```
 
+link_youtube: https://youtu.be/fIWckky7DIU
