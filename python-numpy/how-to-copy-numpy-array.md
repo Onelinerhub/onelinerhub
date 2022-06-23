@@ -30,3 +30,4 @@ print(arr_copy[1])
 
 ```
 
+link_youtube: https://youtu.be/rzVeW6BRopk
