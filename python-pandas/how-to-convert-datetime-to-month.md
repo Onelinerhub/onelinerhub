@@ -4,8 +4,8 @@
 import pandas as pd
 
 df = pd.DataFrame({
-  'date_time_str': ['3/10/2000 14:43:24', '3/11/2000 14:43:24', '3/12/2000 14:43:24'],
-  'value': [2, 3, 4]
+  'date_time_str': ['3/10/2022 14:43:24', '3/11/2022 14:43:24', '3/12/2022 14:43:24'],
+  'value': [1,2,3]
 })
 
 df['month'] = pd.to_datetime(df['date_time_str']).dt.month
@@ -25,8 +25,8 @@ group: datetime
 import pandas as pd
 
 df = pd.DataFrame({
-  'date_time_str': ['3/10/2000 14:43:24', '3/11/2000 14:43:24', '3/12/2000 14:43:24'],
-  'value': [2, 3, 4]
+  'date_time_str': ['3/10/2022 14:43:24', '3/11/2022 14:43:24', '3/12/2022 14:43:24'],
+  'value': [1,2,3]
 })
 
 df['month'] = pd.to_datetime(df['date_time_str']).dt.month
