@@ -20,3 +20,4 @@ print(z)
 
 ```
 
+link_youtube: https://youtu.be/vSzNVUFYx4c
