@@ -1,0 +1,40 @@
+# How to convert yyyymmdd string to datetime
+
+```python
+import pandas as pd
+
+df = pd.DataFrame({
+  'date_str': ['20221003', '20221105', '20210312'],
+  'value': [1,2,3]
+})
+
+df['date'] = pd.to_datetime(df['date_str'])
+```
+
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- `.to_datetime(` - convert given column values to datetime type (will automatically parse given strings)
+- `'date'` - column with datetime type
+
+group: datetime
+
+## Example: 
+```python
+import pandas as pd
+
+df = pd.DataFrame({
+  'date_str': ['20221003', '20221105', '20210312'],
+  'value': [1,2,3]
+})
+
+df['date'] = pd.to_datetime(df['date_str'])
+print(df)
+```
+```
+   date_str  value       date
+0  20221003      1 2022-10-03
+1  20221105      2 2022-11-05
+2  20210312      3 2021-03-12
+
+```
+
