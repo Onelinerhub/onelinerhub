@@ -35,3 +35,4 @@ with open('/tmp/db.csv', 'r') as f:
 
 ```
 
+link_youtube: https://youtu.be/v7k_qZ6q4Sw
