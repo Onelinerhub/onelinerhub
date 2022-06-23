@@ -1,4 +1,4 @@
-# How to write data frame to CSV
+# How to write dataframe to CSV
 
 ```python
 import pandas as pd
