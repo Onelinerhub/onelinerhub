@@ -25,3 +25,4 @@ print(np.abs(z))
 
 ```
 
+link_youtube: https://youtu.be/xcsOuyrTqWc
