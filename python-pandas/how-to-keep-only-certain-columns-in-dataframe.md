@@ -14,7 +14,7 @@ df = df[['Phone', 'Color']]
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `['Phone', 'Color']` - list of columns to select from dataframe
+- `['Phone', 'Color']` - list of columns to keep in `df` dataframe
 
 group: fetch_columns
 
