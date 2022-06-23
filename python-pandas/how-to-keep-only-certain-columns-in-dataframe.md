@@ -9,13 +9,12 @@ df = pd.DataFrame({
   'Color': ['red', 'red', 'gray', 'black', 'red']
 })
 
-filtered = df[['Phone', 'Color']]
+df = df[['Phone', 'Color']]
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `['Phone', 'Color']` - list of columns to select from dataframe
-- `filtered` - resulting dataframe, that will contain only specified columns 
 
 group: fetch_columns
 
