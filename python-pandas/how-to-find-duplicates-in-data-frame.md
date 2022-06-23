@@ -4,7 +4,7 @@
 import pandas as pd
 
 df = pd.DataFrame({
-  'Phone':       ['ip5', 'ip6', 'ip8', 'sms', 'ip5'],
+  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'ip5'],
   'Price': [204,   304,   404,   405,   204  ]
 })
 
