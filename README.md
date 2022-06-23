@@ -1,5 +1,5 @@
 # Onelinerhub
-Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https://onelinerhub.com/).
+Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https://onelinerhub.com/)
 
 ## Quick links
 - [How to contribute](/how-to-contribute.md)
