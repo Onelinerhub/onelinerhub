@@ -17,7 +17,7 @@ df.rename(columns = {'Price':'Phone Price'}, inplace=True)
 - `.rename(` - renames columns
 - `'Price'` - column name to rename
 - `'Phone Price'` - new column name to rename to
-- `inplace=True` - will rename column(s) and overwrite current dataframe variable
+- `inplace=True` - will rename column(s) and save result to current dataframe variable
 
 ## Example: 
 ```python
