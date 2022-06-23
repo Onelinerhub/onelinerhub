@@ -2,6 +2,7 @@
 
 ```python
 import pandas as pd
+import numpy as np
 
 df = pd.DataFrame({
   'phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
@@ -13,7 +14,6 @@ df['price'] = df['price'].apply(np.floor)
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
 - `.apply(` - applies given callback to all values of given column (or multiple columns)
 - `np.floor` - [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) floor function
 
