@@ -24,3 +24,4 @@ print(np.flip(a))
 
 ```
 
+link_youtube: https://youtu.be/zNlWerwmhns
