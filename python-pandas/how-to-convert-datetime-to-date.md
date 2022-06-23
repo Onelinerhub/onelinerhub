@@ -16,6 +16,7 @@ df['date'] = pd.to_datetime(df['date_time_str']).dt.date
 - `.to_datetime(` - convert given column values to datetime type (will automatically parse given strings)
 - `date_time_str` - string column with date & time
 - `'date'` - column will contain date
+- `.dt.date` - extracts date from datetime column
 
 group: datetime
 
