@@ -1,4 +1,4 @@
-# How to drop duplicates from data frame
+# How to drop duplicates from dataframe
 
 ```python
 import pandas as pd
