@@ -1,4 +1,4 @@
-# Select rows between two values in data frame
+# Select dataframe rows between two values
 
 ```python
 import pandas as pd
