@@ -31,3 +31,4 @@ print(os.path.getsize("/tmp/numpies.npz"))
 
 ```
 
+link_youtube: https://youtu.be/9z3hMU_DMPU
