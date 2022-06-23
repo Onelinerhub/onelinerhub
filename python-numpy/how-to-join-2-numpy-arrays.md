@@ -29,3 +29,4 @@ print(np.concatenate((a, b)))
 
 ```
 
+link_youtube: https://youtu.be/_GD5P5-ukBg
