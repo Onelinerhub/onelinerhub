@@ -19,6 +19,8 @@ df.rename(columns = {'Price':'Phone Price'}, inplace=True)
 - `'Phone Price'` - new column name to rename to
 - `inplace=True` - will rename column(s) and save result to current dataframe variable
 
+group: rename
+
 ## Example: 
 ```python
 import pandas as pd
