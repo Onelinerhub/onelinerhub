@@ -10,8 +10,6 @@ df = pd.DataFrame({
 })
 
 df.drop('Price', inplace=True, axis=1)
-
-print(df)
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
