@@ -30,3 +30,4 @@ for number in someArray.flat: print(number)
 
 ```
 
+link_youtube: https://youtu.be/Yl_dIWtZPzE
