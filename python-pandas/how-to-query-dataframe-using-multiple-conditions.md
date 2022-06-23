@@ -13,7 +13,7 @@ found = df[(df['price'] > 300) & (df['price'] < 400)]
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `df['price'] > 304` - first expression for filter
+- `df['price'] > 300` - first expression for filter
 - `df['price'] < 400` - second expression for filter
 - ` & ` - logical `and` to use both expressions for filtering
 - `found` - will contain filtered dataframe
