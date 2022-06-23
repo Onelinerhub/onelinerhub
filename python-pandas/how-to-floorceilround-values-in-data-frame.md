@@ -1,4 +1,4 @@
-# How to round values in dataframe
+# How to round all values in dataframe
 
 ```python
 import pandas as pd
