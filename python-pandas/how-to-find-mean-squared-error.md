@@ -13,7 +13,7 @@ mse = mean_squared_error(df['y1'], df['y2'])
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
-- `sklearn` - load [lib:Scikit-learn module] to work with science stuff
+- `sklearn` - load [lib:Scikit-learn module](/python-pandas/how-to-find-mean-squared-error) to work with science stuff
 
 ## Example: 
 ```python
