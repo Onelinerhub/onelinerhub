@@ -31,11 +31,11 @@ df = df.drop_duplicates()
 print(df)
 ```
 ```
-  Phone  Phone Price
-0   ip5          204
-1   ip6          304
-2   ip8          404
-3   sms          405
+  Phone  Price
+0   ip5    204
+1   ip6    304
+2   ip8    404
+3   sms    405
 
 ```
 
