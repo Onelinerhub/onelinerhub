@@ -1,4 +1,4 @@
-# How to sort data frame by multiple columns
+# How to sort dataframe by multiple columns
 
 ```python
 import pandas as pd
