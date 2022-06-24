@@ -29,3 +29,4 @@ print(array[np.where(array > 80)])
 
 ```
 
+link_youtube: https://youtu.be/5fKOQW5da_E
