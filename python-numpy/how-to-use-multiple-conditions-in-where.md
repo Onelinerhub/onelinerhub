@@ -35,3 +35,4 @@ print(array[np.where(condition1 & condition2)])
 
 ```
 
+link_youtube: https://youtu.be/AObh7CEnm_g
