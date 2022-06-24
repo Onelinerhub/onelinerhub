@@ -27,3 +27,4 @@ print(np.add(a, b))
 
 ```
 
+link_youtube: https://youtu.be/UZH5dPaxw1g
