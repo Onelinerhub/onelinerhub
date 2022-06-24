@@ -25,3 +25,4 @@ print( np.bincount(array) )
 
 ```
 
+link_youtube: https://youtu.be/1wM7bJFmM4U
