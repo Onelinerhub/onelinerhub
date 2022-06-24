@@ -27,3 +27,4 @@ print(idx)
 
 ```
 
+link_youtube: https://youtu.be/dJR8l3OsMPU
