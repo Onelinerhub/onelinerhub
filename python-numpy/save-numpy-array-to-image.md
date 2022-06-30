@@ -34,3 +34,4 @@ print(type(image2))
 
 ```
 
+link_youtube: https://youtu.be/RxFFnoz48cw
