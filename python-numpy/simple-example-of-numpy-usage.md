@@ -31,3 +31,4 @@ print(mean_a)
 
 ```
 
+link_youtube: https://youtu.be/xZfk0AnElbo
