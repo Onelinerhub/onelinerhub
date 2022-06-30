@@ -31,3 +31,4 @@ with open('/tmp/numpy.csv', 'r') as f:
 
 ```
 
+link_youtube: https://youtu.be/n7SRRbPLOCo
