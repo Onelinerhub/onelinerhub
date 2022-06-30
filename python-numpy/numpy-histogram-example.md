@@ -26,3 +26,4 @@ print(hist)
 
 ```
 
+link_youtube: https://youtu.be/6GG_k5C76Xo
