@@ -27,3 +27,4 @@ print(a * b)
 
 ```
 
+link_youtube: https://youtu.be/5twnpgA4mAY
