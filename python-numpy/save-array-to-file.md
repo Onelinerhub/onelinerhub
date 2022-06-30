@@ -30,3 +30,4 @@ print(os.path.getsize("/tmp/numpy.npy"))
 
 ```
 
+link_youtube: https://youtu.be/ZSz44oaFkU0
