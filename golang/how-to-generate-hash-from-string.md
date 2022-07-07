@@ -20,7 +20,7 @@ func main() {
 ```
 
 - `package main` - default package declaration
-- `"hash/fnv"` - package to work with hashes
+- `"hash/sha256"` - package to calculate SHA256 hashes
 - `"Hi all!"` - sample string to hash
 - `sha256.New()` - new shad56 hasher
 - `h.Write([]byte(str))` - pass our string to hasher
