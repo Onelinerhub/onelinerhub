@@ -16,7 +16,7 @@ func main() {
 ```
 
 - `package main` - default package declaration
-- `st` - sample structure
+- `st :=` - sample structure
 - `reflect.ValueOf(st)` - returns reflection for given structure
 - `for i := 0; i < v.NumField(); i++` - iterate over all values of structure
 
