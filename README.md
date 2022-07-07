@@ -18,7 +18,7 @@ We're building non-profit opensource code hub, we address following issues:
 
 ## Principles
 - 3 main principles for code pieces here are: simple, modern, minimal
-- Micro solutions are ment to solve specific issue in **modern** versions of technologies (browsers, compilers, databases, etc.)
+- Micro solutions are meant to solve specific issue in **modern** versions of technologies (browsers, compilers, databases, etc.)
 - Solution should be as short and simple as possible
 - Solution should be explained by components (variables, functions, operations, etc.)
 - Image illustrations are welcome
