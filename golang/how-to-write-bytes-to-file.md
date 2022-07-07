@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	s := []byte("hello go!")
+	s := []byte("2342345345435")
   os.WriteFile("/tmp/go.txt", s, 0755)
 }
 ```
@@ -33,7 +33,7 @@ import (
 )
 
 func main() {
-	s := []byte("hello go!")
+	s := []byte("2342345345435")
   os.WriteFile("/tmp/go.txt", s, 0755)
   
   t, e := os.ReadFile("/tmp/go.txt")
@@ -43,7 +43,7 @@ func main() {
 }
 ```
 ```
-[104 101 108 108 111 32 103 111 33]
+[50 51 52 50 51 52 53 51 52 53 52 51 53]
 
 ```
 
