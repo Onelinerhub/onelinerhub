@@ -1,4 +1,4 @@
-# How to use melt() - example
+# How to use melt() with dataframe - example
 
 ```python
 import pandas as pd
