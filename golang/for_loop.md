@@ -1,4 +1,4 @@
-# Basic Go For Loop
+# Using FOR loop in Go
 
 ### **Please note:**
 - The totals shown here are for demonstrative purposes only and are not necessary for the loop to function.
