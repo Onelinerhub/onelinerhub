@@ -1,9 +1,18 @@
-# golang goroutine usage
+# Goroutine example usage
 
 ```go
-
+func main() {
+  go func() {
+    // do something in background
+  }()
+}
 ```
 
+- `func main() {` - declare `main` function that will be launched automatically
+- `go ` - execute given function in parallel
+- `func() {` - anonymous function to execute in background
+
+group: goroutine
 
 ## Example: 
 ```go
@@ -13,20 +22,19 @@ import "fmt"
 import "time"
 
 func hi(name string, sleep int) {
-  fmt.Println(time.Millisecond)
-  //time.Sleep(time.Duration(sleep) * time.Millisecond)
+  time.Sleep(time.Duration(sleep) * 1000 * time.Millisecond)
   fmt.Println("Hi, " + name + "!")
 }
 
 func main() {
-	hi("Joe", 2)
-	go hi("Donald", 1)
+  go hi("Donald", 2)
+	hi("Joe", 1)
+	time.Sleep(time.Second)
 }
 ```
 ```
-# command-line-arguments
+Hi, Joe!
+Hi, Donald!
 
-
-./test.go:7:28: invalid operation: sleep * time.Millisecond (mismatched types int and time.Duration)
 ```
 
