@@ -1,4 +1,4 @@
-# Goroutine example usage COPY
+# Goroutine channel usage
 
 ```go
 func main() {
