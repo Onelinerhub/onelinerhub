@@ -11,4 +11,6 @@ http 1.2.3.5 1235
 - `http` - use HTTP proxy type
 - `1.2.3.5 1235` - proxy host and password
 
+group: type
+
 
