@@ -1,4 +1,4 @@
-# Http proxy type example
+# HTTP proxy type example
 
 ```txt
 #...
