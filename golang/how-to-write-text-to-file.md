@@ -1,4 +1,4 @@
-# How to write to file
+# How to write text to file
 
 ```go
 package main
