@@ -11,7 +11,7 @@ func main() {
   X := true
   Y := false
   
-  xor := (X || Y) && !(X && Y)
+  xor := X || Y
 }
 ```
 
@@ -32,6 +32,7 @@ func main() {
 }
 ```
 ```
-1
+true
+
 ```
 
