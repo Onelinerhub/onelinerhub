@@ -3,7 +3,12 @@
 ```python
 import pandas as pd
 
-df = pd.to_excel('/path/to/file.xlsx')
+df = pd.DataFrame({
+  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
+  'Phone Price': [204, 304, 404, 405, 305]
+})
+
+df.to_excel('/path/to/file.xlsx')
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
