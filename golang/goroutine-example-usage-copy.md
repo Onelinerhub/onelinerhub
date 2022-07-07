@@ -7,7 +7,7 @@ func main() {
     c <- a * 2
   }(2)
 	
-	select {
+  select {
     case msg := <-c:
       res := msg
       fmt.Println("received", res)
