@@ -16,7 +16,7 @@ melted = pd.melt(df, id_vars =['Id'], value_vars =['Phone', 'Phone Price'])
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 - `.melt(` - transofrms given dataframe from pivot form (index/column/value) to "wide" form (index/var-name/var-value)
-- `id_vars =['Index']` - columns to use as index
+- `id_vars =['Id']` - columns to use as index
 - `['Phone', 'Phone Price']` - columns to use for variable/value rows (you can list many columns here)
 
 group: melt
