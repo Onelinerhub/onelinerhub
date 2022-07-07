@@ -14,6 +14,4 @@ socks4   1.2.3.4   1234
 - `1.2.3.4` - proxy ip/host
 - `1234` - proxy pwd
 
-group: config
-
 
