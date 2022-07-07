@@ -15,6 +15,7 @@ func main() {
 }
 ```
 
+- `||` - logical `OR` operator
 
 group: logical
 
