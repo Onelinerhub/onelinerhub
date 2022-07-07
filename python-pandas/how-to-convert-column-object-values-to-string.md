@@ -1,4 +1,4 @@
-# How to convert column object values to string
+# How to convert column object values to String
 
 ```python
 import pandas as pd
