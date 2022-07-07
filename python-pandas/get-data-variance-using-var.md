@@ -1,4 +1,4 @@
-# Get data variance using var()
+# Get dataframe variance using var()
 
 ```python
 import pandas as pd
