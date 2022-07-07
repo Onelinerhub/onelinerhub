@@ -19,6 +19,8 @@ df.mask(df['Phone Price'] > 400, None)
 - `df['Phone Price'] > 400` - filter to mask rows by
 - `None` - value to replace found values to
 
+group: mask
+
 ## Example: 
 ```python
 import pandas as pd
