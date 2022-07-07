@@ -1,4 +1,4 @@
-# How to XOR for booleans
+# How to use XOR for booleans
 
 ```go
 package main
