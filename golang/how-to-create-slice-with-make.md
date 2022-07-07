@@ -9,7 +9,6 @@ func main() {
 ```
 
 - `package main` - default package declaration
-- `import "fmt"` - loads `fmt` package to operate on strings (and print them)
 - `make(` - creates zero-filled array and returns slice referencing this array
 - `[]int, 5` - we're creating array of 5 integers
 
