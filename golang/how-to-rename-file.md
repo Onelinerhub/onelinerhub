@@ -1,4 +1,4 @@
-# How to remove file
+# How to remove a file
 
 ```go
 package main
