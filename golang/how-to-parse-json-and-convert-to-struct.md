@@ -1,4 +1,4 @@
-# How to parse JSON
+# How to parse JSON and convert to struct
 
 ```go
 package main
@@ -7,9 +7,14 @@ import (
   "fmt"
 )
 
+type data struct {
+  A int
+  B int
+}
+
 func main() {
-  json_str := `{"a":25,"b": 13,"c":45}`
-  var res map[string]interface{}
+  json_str := `{"A":25,"B":13}`
+  var res data
   json.Unmarshal([]byte(json_str), &res)
 }
 ```
@@ -17,7 +22,7 @@ func main() {
 - `package main` - default package declaration
 - `func main() {` - declare `main` function that will be launched automatically
 - `json_str` - sample JSON string to parse
-- `res` - map variable that will contain parsed JSON
+- `res` - variable of `data` struct type
 - `json.Unmarshal` - parses given JSON string (bytes) and saves result to `res`
 
 group: json
@@ -30,15 +35,21 @@ import (
   "fmt"
 )
 
+type data struct {
+  A int
+  B int
+}
+
 func main() {
-  json_str := `{"a":25,"b": 13,"c":45}`
-  var res map[string]interface{}
+  json_str := `{"A":25,"B":13}`
+  var res data
   json.Unmarshal([]byte(json_str), &res)
+  
   fmt.Println(res)
 }
 ```
 ```
-map[a:25 b:13 c:45]
+{25 13}
 
 ```
 
