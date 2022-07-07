@@ -4,23 +4,24 @@
 import pandas as pd
 
 df = pd.DataFrame({
-  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
-  'Price': [204, 304, 404, 405, 305]
+  'a': ['ip1', 'ip2', 'ip1', 'ip1', 'ip2'],
+  'b': [1, 1, 2, 3, 2],
+  'c': [10, 11, 12, 13, 14]
 })
 
 df_more = pd.DataFrame({
-  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
-  'Color': ['red', 'black', 'red', 'red', 'black']
+  'a': ['ip1', 'ip2', 'ip2'],
+  'b': [1, 1, 2],
+  'd': ['s', 'e', 'y']
 })
 
-df = df.join(df_more.set_index('Phone'), on='Phone')
-
+df = df.join(df_more.set_index(['a', 'b']), on=['a', 'b'])
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `df` - first data frame
 - `df_more` - second data frame - the one to join to first
-- `'Phone'` - column name to join dataframes by
+- `['a', 'b']` - columns list to join dataframes on
 
 group: join
 
@@ -29,26 +30,27 @@ group: join
 import pandas as pd
 
 df = pd.DataFrame({
-  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
-  'Price': [204, 304, 404, 405, 305]
+  'a': ['ip1', 'ip2', 'ip1', 'ip1', 'ip2'],
+  'b': [1, 1, 2, 3, 2],
+  'c': [10, 11, 12, 13, 14]
 })
 
 df_more = pd.DataFrame({
-  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
-  'Color': ['red', 'black', 'red', 'red', 'black']
+  'a': ['ip1', 'ip2', 'ip2'],
+  'b': [1, 1, 2],
+  'd': ['s', 'e', 'y']
 })
 
-df = df.join(df_more.set_index('Phone'), on='Phone')
-
+df = df.join(df_more.set_index(['a', 'b']), on=['a', 'b'])
 print(df)
 ```
 ```
-  Phone  Price  Color
-0   ip5    204    red
-1   ip6    304  black
-2   ip8    404    red
-3   sms    405    red
-4    xi    305  black
+     a  b   c    d
+0  ip1  1  10    s
+1  ip2  1  11    e
+2  ip1  2  12  NaN
+3  ip1  3  13  NaN
+4  ip2  2  14    y
 
 ```
 
