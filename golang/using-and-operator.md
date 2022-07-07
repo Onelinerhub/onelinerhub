@@ -15,6 +15,7 @@ func main() {
 }
 ```
 
+- `&&` - logical `AND` operator
 
 group: logical
 
