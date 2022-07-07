@@ -5,24 +5,26 @@ package main
 
 import (
   "fmt"
-  "hash/fnv"
+  "crypto/sha256"
 )
 
 func main() {
   str := "Hi all!"
 
-  h := fnv.New32a()
+  h := sha256.New()
   h.Write([]byte(str))
-  hash := h.Sum32()
+  hash := h.Sum(nil)
+  
+  fmt.Printf("%x", hash)
 }
 ```
 
 - `package main` - default package declaration
 - `"hash/fnv"` - package to work with hashes
 - `"Hi all!"` - sample string to hash
-- `fnv.New32a()` - creates new 32-bit FNV-1a hashing object
-- `.Write([]byte(str))` - write our string to hashing object
-- `.Sum32()` - calculate hash value
+- `sha256.New()` - new shad56 hasher
+- `h.Write([]byte(str))` - pass our string to hasher
+- `h.Sum(nil)` - calculate and return hash
 
 group: hash
 
@@ -42,11 +44,10 @@ func main() {
   h.Write([]byte(str))
   hash := h.Sum(nil)
   
-  fmt.Println(string(hash))
+  fmt.Printf("%x", hash)
 }
 ```
 ```
-[194 25 86 137 7 121 228 194 132 54 42 200 47 94 132 111 103 87 29 87 54 254 107 4 11 235 179 130 131 210 55 102]
-
+c21956890779e4c284362ac82f5e846f67571d5736fe6b040bebb38283d23766
 ```
 
