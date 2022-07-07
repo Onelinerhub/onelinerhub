@@ -1,4 +1,4 @@
-# How to left join data frames
+# How to left join dataframes
 
 ```python
 import pandas as pd
