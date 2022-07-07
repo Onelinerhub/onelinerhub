@@ -1,4 +1,6 @@
-# proxychains config example
+# Proxychains config file example
+
+### Proxychains config file is usually located at `/etc/proxychains.conf`:
 
 ```txt
 proxy_dns
