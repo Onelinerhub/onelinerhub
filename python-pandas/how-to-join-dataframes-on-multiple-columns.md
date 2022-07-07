@@ -22,6 +22,7 @@ df = df.join(df_more.set_index(['a', 'b']), on=['a', 'b'])
 - `df` - first data frame
 - `df_more` - second data frame - the one to join to first
 - `['a', 'b']` - columns list to join dataframes on
+- `.join(` - joins dataframe with specified dataframe
 
 group: join
 
