@@ -17,6 +17,8 @@ df = df.set_index('Id')
 - `.set_index(` - uses specified column as index for dataframe rows
 - `'Id'` - column to use as index
 
+group: index
+
 ## Example: 
 ```python
 import pandas as pd
