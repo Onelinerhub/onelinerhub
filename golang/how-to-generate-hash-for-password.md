@@ -19,6 +19,8 @@ func main() {
 
 - `package main` - default package declaration
 - `"golang.org/x/crypto/bcrypt"` - 
+- `qwerty123` - sample password string to hash
+- `bcrypt.GenerateFromPassword` - returns hash from given password
 
 group: hash
 
