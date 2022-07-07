@@ -1,40 +1,49 @@
-# Goroutine channel usage
+# How to return value from goroutine using channels
 
 ```go
 func main() {
-  go func() {
-    // do something in background
-  }()
+  c := make(chan int)
+  go func(a int) {
+    c <- a * 2
+  }(2)
+	
+	select {
+    case msg := <-c:
+      res := msg
+      fmt.Println("received", res)
+  } 
 }
 ```
 
 - `func main() {` - declare `main` function that will be launched automatically
-- `go ` - execute given function in parallel
-- `func() {` - anonymous function to execute in background
+- `c := make(chan int)` - declare channel to use for return value from goroutine
+- `go func` - call anonymous function in parallel
+- `c <- a * 2` - return result from function to channel `c`
+- `select {` - handle channel messages
+- `case msg := <-c` - check if message is from channel `c`
+- `res := msg` - save returned value to `res` variable
 
 group: goroutine
 
 ## Example: 
 ```go
 package main
-
 import "fmt"
-import "time"
-
-func hi(name string, sleep int) {
-  time.Sleep(time.Duration(sleep) * 1000 * time.Millisecond)
-  fmt.Println("Hi, " + name + "!")
-}
 
 func main() {
-  go hi("Donald", 2)
-	hi("Joe", 1)
-	time.Sleep(time.Second)
+  c := make(chan int)
+  go func(a int) {
+    c <- a * 2
+  }(2)
+	
+	select {
+    case msg := <-c:
+      fmt.Println("received", msg)
+  } 
 }
 ```
 ```
-Hi, Joe!
-Hi, Donald!
+received 4
 
 ```
 
