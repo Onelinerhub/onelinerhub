@@ -1,4 +1,4 @@
-# How to create slice with make
+# How to create slice with make()
 
 ```go
 package main
