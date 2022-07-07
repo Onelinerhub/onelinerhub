@@ -1,4 +1,4 @@
-# How to rename file
+# How to remove file
 
 ```go
 package main
