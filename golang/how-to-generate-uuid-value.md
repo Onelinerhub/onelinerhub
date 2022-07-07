@@ -1,4 +1,4 @@
-# How to generate UUID value 
+# How to generate UUID value
 
 ### This uses [uuid](https://pkg.go.dev/github.com/google/uuid#section-readme) module that should be installed by `go get github.com/google/uuid` command:
 
@@ -10,7 +10,6 @@ import "github.com/google/uuid"
 
 func main() {
   uid = uuid.New()
-  string_uuid = uid.String()
 }
 ```
 
@@ -28,11 +27,11 @@ import "fmt"
 import "github.com/google/uuid"
 
 func main() {
-  fmt.Println( (uuid.New()).String() )
+  fmt.Println( uuid.New() )
 }
 ```
 ```
-1755c133-b8c6-4783-9fc6-9fcb0b6dcc27
+ddcd3f9c-7549-4aff-82f6-6555a7cf8fee
 
 ```
 
