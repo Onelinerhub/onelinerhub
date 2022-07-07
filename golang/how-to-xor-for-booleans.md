@@ -19,6 +19,8 @@ func main() {
 - `func main() {` - declare `main` function that will be launched automatically
 - `(X || Y) && !(X && Y)` - logical `XOR` representation instead of mission operator
 
+group: logical
+
 ## Example: 
 ```go
 package main
