@@ -1,5 +1,7 @@
 # Proxychains usage example
 
+### Make sure `proxychains` is [configured](/proxychains/how-to-configure-proxychains) before usage.
+
 ```bash
 proxychains curl onelinerhub.com
 ```
