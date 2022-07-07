@@ -8,16 +8,15 @@ import (
 )
 
 func main() {
-  os.Rename(old_name, new_name)
+  os.Remove("/path/to/file")
 }
 ```
 
 - `package main` - default package declaration
 - `"os"` - include operating-system level library
 - `func main() {` - declare `main` function that will be launched automatically
-- `os.Rename(` - renames given file to a new name
-- `old_name` - current file name
-- `new_name` - new file name
+- `os.Remove(` - removes specified file
+- `/path/to/file` - path to file to remove
 
 group: file
 
@@ -31,12 +30,11 @@ import (
 )
 
 func main() {
-  e := os.Rename("/tmp/go.txt", "/tmp/go2.txt")
+  e := os.Remove("/tmp/go2.txt")
   fmt.Println(e)
 }
 ```
 ```
 <nil>
-
 ```
 
