@@ -1,4 +1,4 @@
-# golang or
+# Using OR operator
 
 ```go
 package main
@@ -15,6 +15,8 @@ func main() {
 }
 ```
 
+
+group: logical
 
 ## Example: 
 ```go
