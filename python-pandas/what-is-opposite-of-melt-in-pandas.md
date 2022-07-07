@@ -8,7 +8,6 @@ import pandas as pd
 # ...
 
 df = melted_dataframe.pivot(index='Id',columns='variable',values='value')
-print(df)
 
 ```
 
