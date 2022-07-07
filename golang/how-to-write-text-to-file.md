@@ -13,6 +13,13 @@ func main() {
 }
 ```
 
+- `package main` - default package declaration
+- `func main() {` - declare `main` function that will be launched automatically
+- `"os"` - include operating-system level library
+- `[]byte("hello go!")` - sample bytes to write to file
+- `os.WriteFile` - write specified content to given file
+- `/tmp/go.txt` - path to file to write content to
+- `0755` - set file permissions after writing
 
 group: file
 
