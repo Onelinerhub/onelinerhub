@@ -1,4 +1,4 @@
-# How to replace values in data frame
+# How to replace values in dataframe
 
 ```python
 import pandas as pd
