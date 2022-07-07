@@ -1,4 +1,4 @@
-# How to check validate hashed password
+# How to validate hashed password
 
 ### Use **`bcrypt`** package (to install run `go get golang.org/x/crypto/bcrypt`) for hashin passwords:
 
