@@ -29,4 +29,6 @@ fmt.Println(itotal)
 - ``fmt.Println(total)`` - print the loop total, which is 10 (optional)
 - ``fmt.Println(itotal)`` - print the cumulative total, which is 45 (optional)
 
+group: for
+
 
