@@ -1,4 +1,4 @@
-# How to append lines to file
+# How to append text to file
 
 ```go
 package main
