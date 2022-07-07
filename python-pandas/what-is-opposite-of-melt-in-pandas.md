@@ -5,21 +5,18 @@
 ```python
 import pandas as pd
 
-df = pd.DataFrame({
-  'Id':    [1, 10, 12, 15, 34],
-  'Phone': ['ip5', 'ip6', 'ip8', 'sms', 'xi'],
-  'Phone Price': [204, 304, 404, 405, 305]
-})
+# ...
 
-melted = pd.melt(df, id_vars =['Id'], value_vars =['Phone', 'Phone Price'])
+df = melted_dataframe.pivot(index='Id',columns='variable',values='value')
+print(df)
 
 ```
 
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
-- `pd.DataFrame` - creates Pandas [DataFrame object](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-- `.melt(` - transofrms given dataframe from pivot form (index/column/value) to "wide" form (index/var-name/var-value)
-- `id_vars =['Id']` - columns to use as index
-- `['Phone', 'Phone Price']` - columns to use for variable/value rows (you can list many columns here)
+- `melted_dataframe` - dataframe that was [previously melted](/python-pandas/how-to-use-melt-example) or is of similar "unvipot" structure
+- `index='Id'` - index column to use
+- `columns='variable'` - name of column to use as `variable` (property)
+- `values='value'` - name of column to use as `value`
 
 group: melt
 
@@ -36,7 +33,8 @@ df = pd.DataFrame({
 melted = pd.melt(df, id_vars =['Id'], value_vars =['Phone', 'Phone Price'])
 print(melted)
 
-df = pd.pivot(melted)
+print()
+df = melted.pivot(index='Id',columns='variable',values='value')
 print(df)
 ```
 ```
@@ -51,6 +49,14 @@ print(df)
 7  12  Phone Price   404
 8  15  Phone Price   405
 9  34  Phone Price   305
+
+variable Phone Phone Price
+Id                        
+1          ip5         204
+10         ip6         304
+12         ip8         404
+15         sms         405
+34          xi         305
 
 ```
 
