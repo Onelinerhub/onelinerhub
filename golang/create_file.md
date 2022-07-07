@@ -22,6 +22,8 @@ func main() {
 - `os.Create("/tmp/go.txt")` - function is used to create file named `file.txt`
 - `file.Close()` - Closes the file after file operations are complete.
 
+group: file
+
 ## Example: 
 ```go
 package main
