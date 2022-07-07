@@ -1,4 +1,4 @@
-# How to load data frame from Excel (XSL)
+# How to load dataframe from Excel (XSL)
 
 ```python
 import pandas as pd
