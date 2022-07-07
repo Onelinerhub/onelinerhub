@@ -1,7 +1,7 @@
 # How to use firefox with proxychains
 
 ```txt
-proxychains chromium
+proxychains firefox
 ```
 
 - `proxychains` - [lib:proxychains](/proxychains/how-to-install-proxychains-on-ubuntu-ubuntuversion) module to proxy anything
