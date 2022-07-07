@@ -6,24 +6,19 @@ import (
   "encoding/json"
   "fmt"
 )
-	
-type person struct {
-  Name string
-  Age  int
-}
 
 func main() {
-  json_str := "{"a":25,"b": 13,"c":45}"
-  res := json.Unmarshal([]byte(json_str), &dat)
+  json_str := `{"a":25,"b": 13,"c":45}`
+  var res map[string]interface{}
+  json.Unmarshal([]byte(json_str), &res)
 }
 ```
 
 - `package main` - default package declaration
-- `type person struct` - declare sample struct
 - `func main() {` - declare `main` function that will be launched automatically
-- `sample` - sample variable of `person` struct
-- `json.Marshal` - converts given argument to JSON
-- `res` - variable will contain JSON string 
+- `json_str` - sample JSON string to parse
+- `res` - map variable that will contain parsed JSON
+- `json.Unmarshal` - parses given JSON string (bytes) and saves result to `res`
 
 group: json
 
@@ -34,11 +29,6 @@ import (
   "encoding/json"
   "fmt"
 )
-	
-type person struct {
-  Name string
-  Age  int
-}
 
 func main() {
   json_str := `{"a":25,"b": 13,"c":45}`
