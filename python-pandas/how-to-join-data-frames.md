@@ -1,4 +1,4 @@
-# How to join data frames
+# How to join dataframes
 
 ```python
 import pandas as pd
