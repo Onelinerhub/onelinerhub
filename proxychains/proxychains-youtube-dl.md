@@ -1,4 +1,4 @@
-# proxychains youtube-dl
+# Using youtube-dl with proxychains
 
 ```txt
 proxychains youtube-dl "https://www.youtube.com/watch?v=xZfk0AnElbo"
