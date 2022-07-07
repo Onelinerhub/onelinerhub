@@ -1,5 +1,7 @@
 # How to write dataframe to Excel file (XSL)
 
+### You might need to install [`openpyxl`](/python-pandas/how-to-install-openpyxl-module) module to work with Excel format:
+
 ```python
 import pandas as pd
 
