@@ -1,5 +1,7 @@
 # How to generate hash for password
 
+### Use **`bcrypt`** package (to install run `go get golang.org/x/crypto/bcrypt`) for hashin passwords:
+
 ```go
 package main
 
@@ -10,17 +12,13 @@ import (
 
 func main() {
   pwd := "qwerty123"
-  hash, _ := bcrypt.GenerateFromPassword([]byte(password))
-  print(string(hash))
+  hash, _ := bcrypt.GenerateFromPassword([]byte(pwd), 10)
+  fmt.Println(string(hash))
 }
 ```
 
 - `package main` - default package declaration
-- `"hash/fnv"` - package to work with hashes
-- `"Hi all!"` - sample string to hash
-- `fnv.New32a()` - creates new 32-bit FNV-1a hashing object
-- `.Write([]byte(str))` - write our string to hashing object
-- `.Sum32()` - calculate hash value
+- `"golang.org/x/crypto/bcrypt"` - 
 
 group: hash
 
@@ -35,8 +33,12 @@ import (
 
 func main() {
   pwd := "qwerty123"
-  hash, _ := bcrypt.GenerateFromPassword([]byte(password))
-  print(string(hash))
+  hash, _ := bcrypt.GenerateFromPassword([]byte(pwd), 10)
+  fmt.Println(string(hash))
 }
+```
+```
+$2a$10$bTduN3NrqqLlJaPdG1HULe4mdZc3Fh1RvDQ1qC4NCi3xuAMiVs.sC
+
 ```
 
