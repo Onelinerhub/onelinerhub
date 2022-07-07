@@ -31,6 +31,7 @@ group: file
 package main
 
 import (
+  "fmt"
 	"os"
 )
 
@@ -38,6 +39,16 @@ func main() {
 	f, _ := os.OpenFile("/tmp/go.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
   defer f.Close()
   f.WriteString("new line\n")
+  
+  t, _ := os.ReadFile("/tmp/go.txt")
+  fmt.Println(string(t))
 }
+```
+```
+new content
+new line
+new line
+
+
 ```
 
