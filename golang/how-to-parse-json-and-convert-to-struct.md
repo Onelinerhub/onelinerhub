@@ -1,4 +1,4 @@
-# How to parse JSON and convert to struct
+# How to parse JSON
 
 ```go
 package main
@@ -42,13 +42,13 @@ type person struct {
 
 func main() {
   json_str := `{"a":25,"b": 13,"c":45}`
+  var res map[string]interface{}
   json.Unmarshal([]byte(json_str), &res)
   fmt.Println(res)
 }
 ```
 ```
+map[a:25 b:13 c:45]
 
-# command-line-arguments
-./test.go:13:18: syntax error: unexpected a at end of statement
 ```
 
