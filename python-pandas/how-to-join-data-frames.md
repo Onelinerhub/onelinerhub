@@ -20,7 +20,7 @@ df = df.join(df_more.set_index('Phone'), on='Phone')
 - `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
 - `df` - first data frame
 - `df_more` - second data frame - the one to join to first
-- `'Phone'` - column name to join dataframe by
+- `'Phone'` - column name to join dataframes by
 
 group: join
 
