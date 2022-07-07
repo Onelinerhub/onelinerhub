@@ -1,4 +1,4 @@
-# How to generate UUID as string
+# How to generate UUID and convert it to string
 
 ### This uses [uuid](https://pkg.go.dev/github.com/google/uuid#section-readme) module that should be installed by `go get github.com/google/uuid` command:
 
