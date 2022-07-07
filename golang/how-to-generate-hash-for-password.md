@@ -39,7 +39,4 @@ func main() {
   print(string(hash))
 }
 ```
-```
-/tmp/test.go:5:3: cannot find module providing package golang.org/x/crypto/bcrypt: import lookup disabled by -mod=readonly
-```
 
