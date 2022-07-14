@@ -1,14 +1,18 @@
 # How to get substring from string
 
 ```go
-packagemain
+package main
 import "fmt"
-funcmain() {
-  str := "Welcome to Linuxhint"
-  fmt.Println(str[10:])
+func main() {
+  str := "some val!"
+  fmt.Println(str[5:])
 }
 ```
 
+- `package main` - default package declaration
+- `func main() {` - declare `main` function that will be launched automatically
+- `"some val!"` - sample string
+- `str[5:]` - extracts substring from position `5` and to the end of it
 
 group: substring
 
@@ -17,12 +21,12 @@ group: substring
 package main
 import "fmt"
 func main() {
-  str := "some val"
+  str := "some val!"
   fmt.Println(str[5:])
 }
 ```
 ```
-# command-line-arguments
-./test.go:3:1: syntax error: non-declaration statement outside function body
+val!
+
 ```
 
