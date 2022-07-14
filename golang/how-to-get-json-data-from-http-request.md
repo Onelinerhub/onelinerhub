@@ -3,22 +3,28 @@
 ```go
 package main
 
-import ("net/http"; "os"; "encoding/json")
+import ("net/http"; "io"; "encoding/json")
 
 func main() {
   r, _ := http.Get("https://echoof.me/json")
   defer r.Body.Close()
+  b, _ := io.ReadAll(r.Body)
   
-  res := F{}
-  json.NewDecoder(r.Body).Decode(res)
-  print(res)
+  var res map[string]interface{}
+  json.Unmarshal(b, &res)
+  
+  print(res["ip"].(string))
 }
 ```
 
 - `package main` - default package declaration
 - `net/http` - [lib:http](https://pkg.go.dev/net/http) package to work with http protocol
 - `http.Get(` - executes GET request to the specified URL
-- `io.Copy(os.Stdout, r.Body)` - output response body to stdout
+- `https://echoof.me/json` - returns request data in JSON format
+- `io.ReadAll(r.Body)` - reads entire buffer (response body) into `b` bytes var
+- `var res map[string]interface{}` - declare map to parse JSON with unknown structure into this variable
+- `json.Unmarshal` - parses given JSON string (bytes) and saves result to `res`
+- `res["ip"].(string)` - as example converts `ip` key of parsed json into string
 
 group: http_client
 
@@ -26,20 +32,19 @@ group: http_client
 ```go
 package main
 
-import ("net/http"; "os"; "encoding/json")
+import ("net/http"; "io"; "encoding/json")
 
 func main() {
   r, _ := http.Get("https://echoof.me/json")
   defer r.Body.Close()
+  b, _ := io.ReadAll(r.Body)
   
-  res := F{}
-  json.NewDecoder(r.Body).Decode(res)
-  print(res)
+  var res map[string]interface{}
+  json.Unmarshal(b, &res)
+  print(res["ip"].(string))
 }
 ```
 ```
-# command-line-arguments
-./test.go:9:10: syntax error: unexpected {, expecting expression
-./test.go:10:3: syntax error: non-declaration statement outside function body
+135.181.98.214
 ```
 
