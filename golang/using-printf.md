@@ -1,4 +1,4 @@
-# Using printf()
+# Printing with printf() example
 
 ```go
 package main
