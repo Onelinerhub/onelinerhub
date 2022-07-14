@@ -14,27 +14,20 @@ func main() {
   mp["name"] = "Joe"
   mp["position"] = "president"
   
-  p := person{}
-  
-  vals := make([]string, 0, len(mp))
-  for  _, v := range mp {
-     vals = append(vals, v)
-  }
+  p := person{name: mp["name"], position: mp["position"]}
 }
 ```
 
 - `package main` - default package declaration
 - `make(map[string]string)` - initialize map with string keys and string values
-- `len(` - returns length of a given map
-- `vals = append(vals, v)` - add each `mp` value to `vals` slice
+- `type person struct {` - define sample struct to copy map values to
+- `p := person{` - create object of person struct type
 
 group: map
 
 ## Example: 
 ```go
 package main
-
-import "reflect";
 
 type person struct {
   name string
@@ -47,25 +40,11 @@ func main() {
   mp["name"] = "Joe"
   mp["position"] = "president"
   
-  p := person{}
-  
-  for  k, v := range mp {
-    structValue := reflect.ValueOf(p).Elem()
-    structFieldValue := structValue.FieldByName(k)
-    structFieldValue.Set(reflect.ValueOf(&v))
-  }
-  
+  p := person{name: mp["name"], position: mp["position"]}
   print(p.name)
 }
 ```
 ```
-panic: reflect: call of reflect.Value.Elem on struct Value
-
-goroutine 1 [running]:
-reflect.Value.Elem({0x476480?, 0xc000048020?, 0x47fcce?})
-	/usr/lib/go-1.18/src/reflect/value.go:1213 +0x1a5
-main.main()
-	/tmp/test.go:19 +0x28a
-exit status 2
+Joe
 ```
 
