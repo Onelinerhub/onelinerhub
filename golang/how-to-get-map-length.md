@@ -1,4 +1,4 @@
-# How to get map length
+# How to get map keys
 
 ```go
 package main
