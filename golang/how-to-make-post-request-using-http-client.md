@@ -1,13 +1,13 @@
-# How to make POST request using HTTP client
+# How to make POST (form data) request using HTTP client
 
 ```go
 package main
 
-import ("net/http"; "os"; "io"; "time")
+import ("net/http"; "os"; "io"; "net/url")
 
 func main() {
-  h := http.Client{Timeout: 3 * time.Second}
-  r, _ := h.Get("https://echoof.me/")
+  data := url.Values{ "name": {"John Doe"} }
+  r, _ := http.PostForm("https://echoof.me", data)
   defer r.Body.Close()
   io.Copy(os.Stdout, r.Body)
 }
@@ -15,10 +15,8 @@ func main() {
 
 - `package main` - default package declaration
 - `net/http` - [lib:http](https://pkg.go.dev/net/http) package to work with http protocol
-- `http.Client{` - creates HTTP client object
-- `Timeout:` - sets request timeout
-- `3 * time.Second` - timeout is set to `3` seconds
-- `.Body` - object to access response body
+- `url.Values` - prepares data to post
+- `http.PostForm` - post given form data to the specified URL
 - `io.Copy(os.Stdout, r.Body)` - output response body to stdout
 
 group: http_client
@@ -30,20 +28,22 @@ package main
 import ("net/http"; "os"; "io"; "net/url")
 
 func main() {
-  h := http.Client{}
-  data := url.Values{
-    "name": {"John Doe"},
-  }
-  r, _ := h.Post("https://echoof.me/", "multipart/form-data", data)
+  data := url.Values{ "name": {"John Doe"} }
+  r, _ := http.PostForm("https://echoof.me", data)
   defer r.Body.Close()
   io.Copy(os.Stdout, r.Body)
 }
 ```
 ```
-# command-line-arguments
+IP:                           135.181.98.214
 
-./test.go:10:40: not enough arguments in call to h.Post
-	have (string, url.Values)
-	want (string, string, io.Reader)
+ACCEPT_ENCODING:              gzip
+CONTENT_TYPE:                 application/x-www-form-urlencoded
+CONTENT_LENGTH:               13
+USER_AGENT:                   Go-http-client/1.1
+
+DATA name:                    John Doe
+
+https://echoof.me
 ```
 
