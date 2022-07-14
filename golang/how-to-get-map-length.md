@@ -9,7 +9,10 @@ func main() {
   mp["name"] = "Joe"
   mp["position"] = "president"
   
-  length := len(mp)
+  keys := make([]string, 0, len(mp))
+  for k := range mp {
+    keys = append(keys, k)
+  }
 }
 ```
 
@@ -17,7 +20,8 @@ func main() {
 - `make(map[string]string)` - initialize map with string keys and string values
 - `mp["name"]` - set value of `name` key
 - `len(` - returns length of a given map
-- `length` - variable will contain length value
+- `keys` - slice will contain list of all map keys
+- `append(keys, k)` - append each key from `mp` to `keys`
 
 group: map
 
@@ -31,11 +35,16 @@ func main() {
   mp["name"] = "Joe"
   mp["position"] = "president"
   
-  length := len(mp)
-  print(length)
+  keys := make([]string, 0, len(mp))
+  for k := range mp {
+    keys = append(keys, k)
+  }
+
+  print(keys[0])
+  print(keys[1])
 }
 ```
 ```
-2
+nameposition
 ```
 
