@@ -12,7 +12,10 @@ document.addEventListener('click', (e) => {
 });
 ```
 
-- document.addEventListener('click' - adds click event listener to document
-- document.querySelector('#element') - this is the element we have to catch the click outside of
-- if (target == click_outside_element) return; - this cycle will stop handler execution if click is inside our element
-- console.log('clicked outside'); - replace this with your code that should be executed if user clicked ourside of ```#element```
+- `document.addEventListener('click'` - adds click event listener to document
+- `document.querySelector('#element')` - this is the element we have to catch the click outside of
+- `if (target == click_outside_element) return;` - this cycle will stop handler execution if click is inside our element
+- `console.log('clicked outside');` - replace this with your code that should be executed if user clicked ourside of ```#element```
+
+
+link_youtube: https://youtu.be/ZiOwWEU_4Rw
