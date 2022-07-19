@@ -4,6 +4,9 @@
 [1, 2, 3].includes(2)
 ```
 
-- [1, 2, 3] - test array to check value in
-- includes - this function checks if array has specified value
-- (2) - we're checking if our array has ```2``` in it
+- `[1, 2, 3]` - test array to check value in
+- `includes` - this function checks if array has specified value
+- `(2)` - we're checking if our array has ```2``` in it
+
+
+link_youtube: https://youtu.be/AOTgdZ7b_hA
