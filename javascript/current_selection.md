@@ -4,5 +4,8 @@
 window.getSelection().toString();
 ```
 
-- window.getSelection() - returns current [Selection](https://developer.mozilla.org/ru/docs/Web/API/Selection) object
-- .toString() - will return string with currently selected text (or empty string)
+- `window.getSelection()` - returns current [Selection](https://developer.mozilla.org/ru/docs/Web/API/Selection) object
+- `.toString()` - will return string with currently selected text (or empty string)
+
+
+link_youtube: https://youtu.be/FzMsugBqM-A
