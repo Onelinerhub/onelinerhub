@@ -4,5 +4,8 @@
 var is_empty = str === '';
 ```
 
-- is_empty - will contain ```true``` if ```str``` is empty
-- str === '' - will strictly compare str with empty string (be sure to have ```str``` defined by this time)
+- `is_empty` - will contain ```true``` if ```str``` is empty
+- `str === ''` - will strictly compare str with empty string (be sure to have ```str``` defined by this time)
+
+
+link_youtube: https://youtu.be/TKu8s7qOTFg
