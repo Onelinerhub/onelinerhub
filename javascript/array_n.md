@@ -4,7 +4,10 @@
 var arr = new Array(10);
 ```
 
-- var arr - declares new array
-- Array(10) - will create array with 10 elements
+- `var arr` - declares new array
+- `Array(10)` - will create array with 10 elements
 
 group: ranges
+
+
+link_youtube: https://youtu.be/hg31hLAwEBo
