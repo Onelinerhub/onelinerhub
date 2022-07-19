@@ -5,9 +5,12 @@ var obj = {};
 var has_property = obj.hasOwnProperty('prop');
 ```
 
-- var obj - declare test object
-- has_property - will contain ```true``` if ```obj``` has ```prop``` property
-- hasOwnProperty - checks if an object has specified property
-- 'prop' - name of the property to check
+- `var obj` - declare test object
+- `has_property` - will contain ```true``` if ```obj``` has ```prop``` property
+- `hasOwnProperty` - checks if an object has specified property
+- `'prop'` - name of the property to check
 
 group: object_property
+
+
+link_youtube: https://youtu.be/c7yJPPbYLfY
