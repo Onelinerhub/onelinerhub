@@ -4,5 +4,8 @@
 window.history.pushState({}, '', '/new/url?something');
 ```
 
-- window.history.pushState - this will change current URL without page reload
-- '/new/url?something' - new URL to change current to
+- `window.history.pushState` - this will change current URL without page reload
+- `'/new/url?something'` - new URL to change current to
+
+
+link_youtube: https://youtu.be/D51digqJl3o
