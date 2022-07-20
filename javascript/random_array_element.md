@@ -4,15 +4,18 @@
 arr[ Math.floor(Math.random() * arr.length) ]
 ```
 
-- arr - array to get random element from
-- Math.floor - will return lower closest integer for the specified float number
-- Math.random - returns random float from ```0``` to ```1```
+- `arr` - array to get random element from
+- `Math.floor` - will return lower closest integer for the specified float number
+- `Math.random` - returns random float from ```0``` to ```1```
 
-## Example
+## Example: 
 ```javascript
 var arr = [1, 2, 3];
 var random = arr[ Math.floor(Math.random() * arr.length) ];
 ```
-```javascript
+
 2
+
 ```
+
+link_youtube: https://youtu.be/W2aZ3E7UB58
