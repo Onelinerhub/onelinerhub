@@ -8,6 +8,9 @@ for (var prop in obj) {
 }
 ```
 
-- for (var prop in obj) - cycle to iterate every ```obj``` object property
-- Object.prototype.hasOwnProperty.call - this will exclude possible native properties of an object
-- console.log(prop + ': ' + obj[prop]) - replace with your code to operate over ```obj``` properties
+- `for (var prop in obj)` - cycle to iterate every ```obj``` object property
+- `Object.prototype.hasOwnProperty.call` - this will exclude possible native properties of an object
+- `console.log(prop + ': ' + obj[prop])` - replace with your code to operate over ```obj``` properties
+
+
+link_youtube: https://youtu.be/k79s26G2Pu0
