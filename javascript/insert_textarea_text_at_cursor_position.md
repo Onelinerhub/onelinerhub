@@ -7,5 +7,8 @@ ta.value = ta.value.substring(0, ta.selectionStart)
          + ta.value.substring(ta.selectionEnd, ta.value.length);
 ```
 
-- document.querySelector('textarea') - query selector for required textarea element
-- 'Some text' - this text will be inserted at current cursor position into textarea
+- `document.querySelector('textarea')` - query selector for required textarea element
+- `'Some text'` - this text will be inserted at current cursor position into textarea
+
+
+link_youtube: https://youtu.be/gp-of996Fo8
