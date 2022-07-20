@@ -16,7 +16,10 @@ const getAllChildren = (htmlElement) => {
 };
 ```
 
-- htmlElement.children.length === 0 - check if we are at the deepest element. If there is no child, we are.
-- allChildElements = [] - all child elements for current htmlElement.
-- allChildElements.push(...children) - push incoming children from deeper level of recursive call.
-- allChildElements.push(htmlElement) - push the element itself at the end of iteration.
+- `htmlElement.children.length === 0` - check if we are at the deepest element. If there is no child, we are.
+- `allChildElements = []` - all child elements for current htmlElement.
+- `allChildElements.push(...children)` - push incoming children from deeper level of recursive call.
+- `allChildElements.push(htmlElement)` - push the element itself at the end of iteration.
+
+
+link_youtube: https://youtu.be/aQUeiX_lEzE
