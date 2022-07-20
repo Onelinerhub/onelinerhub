@@ -3,9 +3,11 @@
 ```javascript
 var str = '25.99';
 var is_numeric = (typeof str == 'string') && !isNaN(parseFloat(str));
-         
 ```
 
-- var str - declare test string with number
-- typeof str == 'string' - ensure ```str``` is of ```string``` type
-- isNaN(parseFloat(str)) - ensure ```str``` contains valid number
+- `var str` - declare test string with number
+- `typeof str == 'string'` - ensure ```str``` is of ```string``` type
+- `isNaN(parseFloat(str))` - ensure ```str``` contains valid number
+
+
+link_youtube: https://youtu.be/CZyDRX3y8YA
