@@ -1,4 +1,4 @@
-# Ajax post x-www-form-urlencoded data 
+# Ajax post x-www-form-urlencoded data
 
 ```javascript
 fetch('/backend.php', {
@@ -12,13 +12,16 @@ fetch('/backend.php', {
 });
 ```
 
-- /backend.php - backend script to receive posted data
-- method: 'post' - set ajax request method to post
-- headers: { 'Content-Type' - sets ```x-www-form-urlencoded``` data encoding
-- body: - pass encoded variables and values separated by ```&```
-- var1 - name of first variable to post
-- 'Donald Trump :(' - value of ```var1``` variable to post which needs to be encoded
-- return r.json() - server response will be processed as JSON
-- console.log(data) - replace with your code processing ```data``` (response from server as JSON object)
+- `/backend.php` - backend script to receive posted data
+- `method: 'post'` - set ajax request method to post
+- `headers: { 'Content-Type'` - sets ```x-www-form-urlencoded``` data encoding
+- `body:` - pass encoded variables and values separated by ```&```
+- `var1` - name of first variable to post
+- `'Donald Trump :('` - value of ```var1``` variable to post which needs to be encoded
+- `return r.json()` - server response will be processed as JSON
+- `console.log(data)` - replace with your code processing ```data``` (response from server as JSON object)
 
 group: ajax_post
+
+
+link_youtube: https://youtu.be/nlP9kXKWTQI
