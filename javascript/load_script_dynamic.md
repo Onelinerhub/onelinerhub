@@ -6,6 +6,9 @@ script.src = '/script.js';
 document.head.appendChild(script);
 ```
 
-- document.createElement - will create script node
-- /script.js - url of the js script to load
-- document.head.appendChild - will insert script node into DOM
+- `document.createElement` - will create script node
+- `/script.js` - url of the js script to load
+- `document.head.appendChild` - will insert script node into DOM
+
+
+link_youtube: https://youtu.be/1DcbPk9OzXU
