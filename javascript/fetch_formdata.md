@@ -11,10 +11,13 @@ fetch('/backend.php', {
 });
 ```
 
-- /backend.php - backend script to receive posted data
-- method: 'post' - set ajax request method to post
-- querySelector('form') - select form object that needs to be posted
-- return r.json() - server response will be processed as JSON
-- console.log(data) - replace with your code processing ```data``` (response from server as JSON object)
+- `/backend.php` - backend script to receive posted data
+- `method: 'post'` - set ajax request method to post
+- `querySelector('form')` - select form object that needs to be posted
+- `return r.json()` - server response will be processed as JSON
+- `console.log(data)` - replace with your code processing ```data``` (response from server as JSON object)
 
 group: ajax_post
+
+
+link_youtube: https://youtu.be/URMfv7ZBuCw
