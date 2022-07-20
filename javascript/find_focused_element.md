@@ -4,4 +4,7 @@
 var focused = document.activeElement;
 ```
 
-- document.activeElement - returns currently focused element ([docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement))
+- `document.activeElement` - returns currently focused element ([docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement))
+
+
+link_youtube: https://youtu.be/vBU3VM-bupU
