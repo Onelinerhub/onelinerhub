@@ -5,7 +5,10 @@ var arr = [{a: 1}, {a: 2}, {a: 3}];
 var obj = arr.find(obj => obj.a === 2);
 ```
 
-- var arr - declare test array of objects to search
-- var obj - will contain found object
-- arr.find - finds array element by a specified rule
-- obj => obj.a === 2 - we ask to select object with ```a``` property equals to ```2```
+- `var arr` - declare test array of objects to search
+- `var obj` - will contain found object
+- `arr.find` - finds array element by a specified rule
+- `obj => obj.a === 2` - we ask to select object with ```a``` property equals to ```2```
+
+
+link_youtube: https://youtu.be/02Roesi4_74
