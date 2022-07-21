@@ -13,6 +13,8 @@ func main() {
 - `func main() {` - declare `main` function that will be launched automatically
 - `[2]string{` - create slice of `2` elements of `string` type
 
+group: slice_create
+
 ## Example: 
 ```go
 package main
