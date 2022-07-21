@@ -5,17 +5,19 @@ package main
 import "net/url"
 
 func main() {
-  q := req.URL.Query()
-  q.Add("a", 12)
+  q := url.Values{}
+  q.Add("a", "12")
   q.Add("b", "hello")
-  print(q)
+  
+  encoded := q.Encode()
 }
 ```
 
 - `package main` - default package declaration
 - `func main() {` - declare `main` function that will be launched automatically
-- `url.Parse(` - parses given URL into `url` object
-- `url.Query()` - get query string as map
+- `url.Values{}` - create new `Values` object to generate query string
+- `.Add(` - adds new param to query string object
+- `.Encode()` - generate query string from given values
 
 group: query_params
 
@@ -26,13 +28,14 @@ import "net/url"
 
 func main() {
   q := url.Values{}
-  q.Add("a", 12)
+  q.Add("a", "12")
   q.Add("b", "hello")
-  print(q.Encode())
+  
+  encoded := q.Encode()
+  print(encoded)
 }
 ```
 ```
-# command-line-arguments
-./test.go:6:14: cannot use 12 (untyped int constant) as string value in argument to q.Add
+a=12&b=hello
 ```
 
