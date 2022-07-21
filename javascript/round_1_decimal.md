@@ -4,7 +4,10 @@
 Math.round(number * 10) / 10
 ```
 
-- number - the value you need to round
-- 10) / 10 - this will round specified value to 1 decimal max
+- `number` - the value you need to round
+- `10) / 10` - this will round specified value to 1 decimal max
 
 group: round_decimals
+
+
+link_youtube: https://youtu.be/SJ19TW0tyOc
