@@ -4,8 +4,11 @@
 document.querySelector('input[name*="ai"]')
 ```
 
-- document.querySelector - return an element by a given selector
-- name*="ai" - name attribute value of a given element should contain ```ai``` string
-- input - will search for inputs
+- `document.querySelector` - return an element by a given selector
+- `name*="ai"` - name attribute value of a given element should contain ```ai``` string
+- `input` - will search for inputs
 
 group: name_selector
+
+
+link_youtube: https://youtu.be/KNC_808ddyo
