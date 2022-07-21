@@ -1,4 +1,4 @@
-# How to define array
+# How to declare array
 
 ```go
 package main
