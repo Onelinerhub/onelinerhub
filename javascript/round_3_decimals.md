@@ -4,7 +4,10 @@
 Math.round(number * 1000) / 1000
 ```
 
-- number - the value you need to round
-- 1000) / 1000 - this will round specified value to 3 decimals max
+- `number` - the value you need to round
+- `1000) / 1000` - this will round specified value to 3 decimals max
 
 group: round_decimals
+
+
+link_youtube: https://youtu.be/ehh-k1khjro
