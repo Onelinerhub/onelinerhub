@@ -4,5 +4,8 @@
 document.querySelector('div[data-number="10"]');
 ```
 
-- number - name of ```data-*``` attribute
-- "10" - value of data attribute to search for
+- `number` - name of ```data-*``` attribute
+- `"10"` - value of data attribute to search for
+
+
+link_youtube: https://youtu.be/mlTeNbL3WOI
