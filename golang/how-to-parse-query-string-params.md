@@ -2,7 +2,7 @@
 
 ```go
 package main
-import ( "fmt"; "net/url" )
+import "net/url"
 
 func main() {
   url, _ := url.Parse("https://test.com/?a=1&b=hi")
