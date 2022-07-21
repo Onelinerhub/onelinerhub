@@ -4,7 +4,7 @@
 package main
 
 func main() {
-	for {
+  for {
     // repeat something infinitely
   }
 }
