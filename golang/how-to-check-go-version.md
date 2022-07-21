@@ -4,6 +4,7 @@
 go version
 ```
 
+- `go version` - will return current Go version
 
 ## Example: 
 ```bash
