@@ -14,7 +14,7 @@ func main() {
 - `func main() {` - declare `main` function that will be launched automatically
 - `const` - defines constant value
 - `president` - name of the constant
-- `string` - constant type
+- `string =` - constant type
 - `Joe` - constant value
 
 group: constant
