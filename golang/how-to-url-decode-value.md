@@ -11,7 +11,7 @@ func main() {
 
 - `package main` - default package declaration
 - `func main() {` - declare `main` function that will be launched automatically
-- `url.QueryUnescape(` - decodes given URL-encoded value
+- `url.QueryUnescape(` - decodes given [URL-encoded value](/golang/golang-url-encode)
 
 group: url_encoding
 
