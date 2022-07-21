@@ -6,6 +6,9 @@ const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9
 var is_email_valid = re.test(String(email).toLowerCase());
 ```
 
-- var email - declare test email
-- const re - regular expression to check email validity ([source](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript))
-- is_email_valid - this variable will contain ```true``` if email is valid
+- `var email` - declare test email
+- `const re` - regular expression to check email validity ([source](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript))
+- `is_email_valid` - this variable will contain ```true``` if email is valid
+
+
+link_youtube: https://youtu.be/Mkrrt70JpQg
