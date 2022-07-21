@@ -1,4 +1,4 @@
-# golang iota usage
+# How to use iota for constants
 
 ```go
 package main
