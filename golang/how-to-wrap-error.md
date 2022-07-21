@@ -3,10 +3,12 @@
 ```go
 package main
 import "errors"
+import "fmt"
 
 func get_error(really bool) (error) {
+  e := errors.New(":(")
   if really {
-    return errors.New(":(")
+    return fmt.Errorf("Hmm: %w", e)
   }
   
   return nil
@@ -14,13 +16,15 @@ func get_error(really bool) (error) {
 
 func main() {
   err := get_error(true)
+  fmt.Println(err)
 }
 ```
 
 - `package main` - default package declaration
 - `import "errors"` - load lib to work with errors
-- `errors.New(` - creates new error object
-- `(string, error)` - our function will return string result and error
+- `get_error` - sample function that returns error
+- `errors.New(":(")` - create new error object
+- `fmt.Errorf(` - wraps given error object with additional message using `%w` symbol
 
 group: errors
 
