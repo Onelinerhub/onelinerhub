@@ -1,4 +1,4 @@
-# How to sleep for 1 minute
+# How to sleep for 500 milliseconds
 
 ```go
 package main
@@ -6,7 +6,7 @@ import "time"
 
 func main() {
   print("Sleeping...")
-  time.Sleep(1 * time.Minute)
+  time.Sleep(500 * time.Millisecond)
   print("ok")
 }
 ```
@@ -14,7 +14,7 @@ func main() {
 - `package main` - default package declaration
 - `func main() {` - declare `main` function that will be launched automatically
 - `time.Sleep(` - sleep for a specified time
-- `1 * time.Minute` - we want Go to sleep for `1` minute
+- `500 * time.Millisecond` - we want Go to sleep for `500` milliseconds
 
 group: sleep
 
@@ -25,7 +25,7 @@ import "time"
 
 func main() {
   print("Sleeping...")
-  time.Sleep(1 * time.Minute)
+  time.Sleep(500 * time.Millisecond)
   print("ok")
 }
 ```
