@@ -4,8 +4,11 @@
 document.querySelector('input[name^="ema"]')
 ```
 
-- document.querySelector - return an element by a given selector
-- name^="ema" - beginning (starts with ```ema```) of name attribute value of a given element
-- input - will search for inputs
+- `document.querySelector` - return an element by a given selector
+- `name^="ema"` - beginning (starts with ```ema```) of name attribute value of a given element
+- `input` - will search for inputs
 
 group: name_selector
+
+
+link_youtube: https://youtu.be/sIlbfwJ9-KI
