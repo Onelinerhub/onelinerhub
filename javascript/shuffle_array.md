@@ -8,6 +8,9 @@ for ( var i = arr.length - 1; i > 0; i-- ) {
 }
 ```
 
-- var arr - declare test array to randomize
-- Math.round(Math.random() * i) - pick random index
-- \[arr\[i\], arr\[rand\]\] = \[arr\[rand\], arr\[i\]\] - swap values between current (```i```) and random (```rand```) position
+- `var arr` - declare test array to randomize
+- `Math.round(Math.random() * i)` - pick random index
+- `\[arr\[i\], arr\[rand\]\] = \[arr\[rand\], arr\[i\]\]` - swap values between current (```i```) and random (```rand```) position
+
+
+link_youtube: https://youtu.be/Rb9Thp2aJh8
