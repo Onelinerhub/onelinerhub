@@ -14,6 +14,8 @@ func main() {
 - `url.QueryEscape(` - encodes given value based on URL encoding standard
 - `name is Joe & Donald` - sample value to encode
 
+group: url_encoding
+
 ## Example: 
 ```go
 package main
