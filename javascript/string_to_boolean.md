@@ -4,5 +4,8 @@
 var is_true = (str == 'true');
 ```
 
-- is_true - will contain ```true``` if string value is ```"true"```
-- str - string variable to check value
+- `is_true` - will contain ```true``` if string value is ```"true"```
+- `str` - string variable to check value
+
+
+link_youtube: https://youtu.be/z4la534MioQ
