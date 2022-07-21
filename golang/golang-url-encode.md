@@ -1,4 +1,4 @@
-# golang url encode
+# How to URL encode value
 
 ```go
 package main
