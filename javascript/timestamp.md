@@ -4,7 +4,10 @@
 var timestamp = Math.floor(Date.now() / 1000);
 ```
 
-- timestamp - this variable will contain current timestamp
-- Date.now() - returns timestamp in milliseconds
-- / 1000 - convert milliseconds to seconds
-- Math.floor - rounds value to nearest lower integer
+- `timestamp` - this variable will contain current timestamp
+- `Date.now()` - returns timestamp in milliseconds
+- `/ 1000` - convert milliseconds to seconds
+- `Math.floor` - rounds value to nearest lower integer
+
+
+link_youtube: https://youtu.be/2Q2a6mOUWBk
