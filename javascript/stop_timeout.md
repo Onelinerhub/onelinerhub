@@ -5,8 +5,11 @@ var timeout = setTimeout(function() {}, 1000);
 clearTimeout(timeout);
 ```
 
-- var timeout - stores timeout ID
-- setTimeout(function() {}, 1000) - declare test timeout call of some function
-- clearTimeout(timeout) - stop previously launched timeout by ID
+- `var timeout` - stores timeout ID
+- `setTimeout(function() {}, 1000)` - declare test timeout call of some function
+- `clearTimeout(timeout)` - stop previously launched timeout by ID
 
 group: timeouts
+
+
+link_youtube: https://youtu.be/Wq2S5Mx7_PM
