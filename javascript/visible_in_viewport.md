@@ -8,6 +8,9 @@ var is_visible = rect.top >= 0 && rect.left >= 0 &&
                  rect.right <= (window.innerWidth || document.documentElement.clientWidth);
 ```
 
-- document.querySelector('div') - select needed DOM element
-- el.getBoundingClientRect() - [gets element coordinates](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) relative to viewport
-- is_visible - will contain ```true``` if element is visible in the current viewport
+- `document.querySelector('div')` - select needed DOM element
+- `el.getBoundingClientRect()` - [gets element coordinates](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) relative to viewport
+- `is_visible` - will contain ```true``` if element is visible in the current viewport
+
+
+link_youtube: https://youtu.be/SqPip4pAF6U
