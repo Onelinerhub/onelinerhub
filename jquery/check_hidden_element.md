@@ -4,8 +4,11 @@
 $(el).is(':hidden');
 ```
 
-- el - element to check (DOM or selector)
-- .is( - checks selected element with specified selector
-- :hidden - selector for hidden elements
+- `el` - element to check (DOM or selector)
+- `.is(` - checks selected element with specified selector
+- `:hidden` - selector for hidden elements
 
 group: element_visibility
+
+
+link_youtube: https://youtu.be/oPSm8TraN88
