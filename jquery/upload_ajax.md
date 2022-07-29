@@ -11,9 +11,12 @@ $('button').on('click', function() {
 });
 ```
 
-- 'button' - form submit button selector
-- new FormData() - create [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) object
-- form.append('file' - appends ```file``` field to form data
-- 'input\[type=file\]' - selector for file input with a file selected already
-- /upload - path to the server-side upload script
-- console.log(r) - replace with your code handling response from the server
+- `'button'` - form submit button selector
+- `new FormData()` - create [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) object
+- `form.append('file'` - appends ```file``` field to form data
+- `'input\[type=file\]'` - selector for file input with a file selected already
+- `/upload` - path to the server-side upload script
+- `console.log(r)` - replace with your code handling response from the server
+
+
+link_youtube: https://youtu.be/dQChv2stFWc
