@@ -4,8 +4,11 @@
 $(el).is(':visible');
 ```
 
-- el - element to check (DOM or selector)
-- .is( - checks selected element with specified selector
-- :visible - selector for visible elements
+- `el` - element to check (DOM or selector)
+- `.is(` - checks selected element with specified selector
+- `:visible` - selector for visible elements
 
 group: element_visibility
+
+
+link_youtube: https://youtu.be/aQBMoC2gd_M
