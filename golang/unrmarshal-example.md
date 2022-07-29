@@ -22,6 +22,7 @@ func main() {
 - `President` - struct name
 - `{"Name":"Joe","Age":99}` - sample json string to unmarshal into `struct`
 - `p := President{}` - this variable will store unmarshalled data
+- `json.Unmarshal` - unmarshal given JSON string bytes and save result to what's given in second argument
 
 group: marshal
 
