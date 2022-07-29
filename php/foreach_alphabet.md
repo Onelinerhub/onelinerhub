@@ -6,5 +6,9 @@ foreach ( range('a', 'z') as $letter ) {
 }
 ```
 
-- range('a', 'z') - will generate array with all alphabet letters
-- echo $letter; - code to manipulate each letter
+- `range('a', 'z')` - will generate array with all alphabet letters
+- `echo $letter;` - code to manipulate each letter
+
+group: alphabet
+
+
