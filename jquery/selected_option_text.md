@@ -4,7 +4,10 @@
 $('select option:selected').text();
 ```
 
-- select option:selected - selector for selected option element
-- text - will return text inside given element
+- `select option:selected` - selector for selected option element
+- `text` - will return text inside given element
 
 group: selected_option
+
+
+link_youtube: https://youtu.be/kr1FEXtKc2k
