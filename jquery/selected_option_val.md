@@ -4,7 +4,10 @@
 $('select').val();
 ```
 
-- select - selector for needed select input
-- val - will return selected option value of a given select input
+- `select` - selector for needed select input
+- `val` - will return selected option value of a given select input
 
 group: selected_option
+
+
+link_youtube: https://youtu.be/CU5LeziXOwQ
