@@ -4,7 +4,10 @@
 $('div').removeClass();
 ```
 
-- 'div' - needed element selector (first ```div``` in this case)
-- removeClass() - this function with no parameters will remove all classes from chosen element
+- `'div'` - needed element selector (first ```div``` in this case)
+- `removeClass()` - this function with no parameters will remove all classes from chosen element
 
 group: add_remove_classes
+
+
+link_youtube: https://youtu.be/2JkQo5lyAjA
