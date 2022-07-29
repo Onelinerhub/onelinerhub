@@ -11,7 +11,10 @@
 })(document.createElement('script'), '//code.jquery.com/jquery-latest.min.js')
 ```
 
-- document.createElement('script') - creates script element
-- //code.jquery.com/jquery-latest.min.js - path to the latest jQuery CDN
-- jQuery.noConflict() - uses safe mode without ```$``` function (use ```jQuery``` function instead, which is an alias of ```$```)
-- document.head.appendChild - inserts jQuery into current web page
+- `document.createElement('script')` - creates script element
+- `//code.jquery.com/jquery-latest.min.js` - path to the latest jQuery CDN
+- `jQuery.noConflict()` - uses safe mode without ```$``` function (use ```jQuery``` function instead, which is an alias of ```$```)
+- `document.head.appendChild` - inserts jQuery into current web page
+
+
+link_youtube: https://youtu.be/RsQhxDVrm0s
