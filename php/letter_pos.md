@@ -13,4 +13,15 @@ echo strpos($alphabet, $to_find) + 1;
 
 group: alphabet
 
+## Example: 
+```php
+<?php
+
+$alphabet = 'abcdefghijklmnopqrstuvwxyz';
+$to_find = 'e';
+echo strpos($alphabet, $to_find) + 1;
+```
+```
+5
+```
 
