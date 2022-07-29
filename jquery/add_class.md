@@ -4,8 +4,11 @@
 $('div').addClass('class');
 ```
 
-- 'div' - needed element selector (first ```div``` in this case)
-- addClass( - will add specified class
-- 'class' - name of class to add to chosen element
+- `'div'` - needed element selector (first ```div``` in this case)
+- `addClass(` - will add specified class
+- `'class'` - name of class to add to chosen element
 
 group: add_remove_classes
+
+
+link_youtube: https://youtu.be/rB8RbcqxDn4
