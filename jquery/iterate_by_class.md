@@ -4,6 +4,9 @@
 $('.class').each(function() { console.log( $(this) ); });
 ```
 
-- '.class' - selector for all elements with ```class``` class
-- each( - will call specified function for each found element
-- $(this) - referring to current element in the loop
+- `'.class'` - selector for all elements with ```class``` class
+- `each(` - will call specified function for each found element
+- `$(this)` - referring to current element in the loop
+
+
+link_youtube: https://youtu.be/9eHwDft_kWQ
