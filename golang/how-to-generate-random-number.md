@@ -1,4 +1,4 @@
-# How to generate random number
+# How to generate random int
 
 ```go
 package main
