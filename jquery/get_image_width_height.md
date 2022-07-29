@@ -6,6 +6,9 @@ $('<img/>').attr('src', 'https://via.placeholder.com/300.png').load(function() {
 });
 ```
 
-- $('<img/\>') - creates virtual ```img``` element
-- 300.png - sample image URL
-- this.width + 'x' + this.height - will print ```300x300``` for selected image
+- `$('<img/\>')` - creates virtual ```img``` element
+- `300.png` - sample image URL
+- `this.width + 'x' + this.height` - will print ```300x300``` for selected image
+
+
+link_youtube: https://youtu.be/FOAH2BO5n9I
