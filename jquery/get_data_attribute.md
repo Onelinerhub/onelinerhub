@@ -4,6 +4,9 @@
 $('div').data('type');
 ```
 
-- 'div' - selector to get needed element
-- .data( - will return value of specified ```data-*``` attribute
-- 'type' - name of ```data-*``` attribute (assuming following html: ```<div data-type="something">```)
+- `'div'` - selector to get needed element
+- `.data(` - will return value of specified ```data-*``` attribute
+- `'type'` - name of ```data-*``` attribute (assuming following html: ```<div data-type="something">```)
+
+
+link_youtube: https://youtu.be/9ByYzCzdZMM
