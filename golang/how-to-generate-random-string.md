@@ -24,7 +24,6 @@ func main() {
 
 - `package main` - default package declaration
 - `"math/rand"` - lib for random numbers generation
-- `rand.New` - init new random generator with given seed
 - `rand.Seed(` - init random generator with new seed
 - `rand_str(` - custom function that returns random string of a given length
 - `make([]rune, n)` - makes a map of a `n` elements
