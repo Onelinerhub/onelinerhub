@@ -1,5 +1,7 @@
 # How to generate random string
 
+### This solution is based on [Paul Hankins' code](https://stackoverflow.com/questions/22892120/how-to-generate-a-random-string-of-a-fixed-length-in-go/22892986#22892986).
+
 ```go
 package main
 import ( "time"; "math/rand" )
