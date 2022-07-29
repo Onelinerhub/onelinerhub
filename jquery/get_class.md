@@ -4,5 +4,8 @@
 $('div').attr('class');
 ```
 
-- 'div' - needed element selector (first ```div``` in this case)
-- 'class' - returns value of ```class``` attribute
+- `'div'` - needed element selector (first ```div``` in this case)
+- `'class'` - returns value of ```class``` attribute
+
+
+link_youtube: https://youtu.be/dtVKJZjFSjs
