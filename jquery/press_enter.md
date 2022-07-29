@@ -6,8 +6,11 @@ $(document).on('keypress', function(e) {
 });
 ```
 
-- $(document).on('keypress' - attach keypress event to document
-- e.which == 13 - check if ```Enter``` key was pressed
-- console.log('Enter pressed') - replace with your code to fire on Enter pressed
+- `$(document).on('keypress'` - attach keypress event to document
+- `e.which == 13` - check if ```Enter``` key was pressed
+- `console.log('Enter pressed')` - replace with your code to fire on Enter pressed
 
 group: press_specific_key
+
+
+link_youtube: https://youtu.be/C0XvR_J4H48
