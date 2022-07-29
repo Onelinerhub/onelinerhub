@@ -4,9 +4,12 @@
 $('input').prop('disabled', false);
 ```
 
-- 'input' - selector for needed input
-- prop( - sets given property
-- disabled - property that disables/enables inputs
-- false - value enables (previously disabled) element
+- `'input'` - selector for needed input
+- `prop(` - sets given property
+- `disabled` - property that disables/enables inputs
+- `false` - value enables (previously disabled) element
 
 group: input_enable_disable
+
+
+link_youtube: https://youtu.be/Fa0g1xDKC5k
