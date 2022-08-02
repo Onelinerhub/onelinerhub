@@ -1,7 +1,7 @@
 # How to install Nginx Lua module in Ubuntu UBUNTU_VERSION
 
 ```bash
-apt install nginx-extra
+apt install nginx-extras
 ```
 
 - `apt install` - installs specified package on Ubuntu
