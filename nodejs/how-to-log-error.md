@@ -1,4 +1,4 @@
-# How to log error
+# How to log errors
 
 ```js
 console.error('oh bad happened')
