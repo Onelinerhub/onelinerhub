@@ -6,7 +6,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET');
-  res.setHeader('Access-Control-Max-Age', 2592000);
+  res.setHeader('Access-Control-Max-Age', 60*60*24*30);
   
   res.end('Hi');
 });
@@ -21,6 +21,7 @@ server.listen(82);
 - `setHeader(` - sets response header
 - `Access-Control-` - CORS headers to set
 - `'*'` - allow access from all origins
+- `60*60*24*30` - ACL lifetime is set to 30 days
 
 group: http_server
 
