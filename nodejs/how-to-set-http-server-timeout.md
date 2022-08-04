@@ -1,4 +1,4 @@
-# How to set HTTP server timeout
+# How to set HTTP server requests timeout
 
 ```js
 const http = require('http');
