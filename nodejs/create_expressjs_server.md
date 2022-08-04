@@ -1,6 +1,4 @@
-# Static file server example with Node.js and Express.
-
-Requires [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) installed.
+# Static file server with Node.js and Express
 
 ```javascript
 const express = require('express');
@@ -9,17 +7,18 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-app.use(express.static(path.join(__dirname + '/files')));
+app.use(express.static('/var/www/files'));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/files/index.html'));
+  res.sendFile('/var/www/files/index.html');
 });
 
-app.listen(port, () => {
-  console.log(`Express started on port ${port}`);
-});
+app.listen(port);
 ```
 
-- /files - location on server that holds the static files
-- __dirname - absolute path of the directory containing executing file
-- app.get('/' - defines what static file to serve at home url routing
+- `app = express()` - create [Express](http://expressjs.com/) app
+- `express.static` - server static files from given directory
+- `/var/www/files` - path to static files root directory
+- `app.listen` - launch app on specified port
+
+
