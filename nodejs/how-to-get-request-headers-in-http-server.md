@@ -16,8 +16,16 @@ server.listen(82, '127.0.0.1');
 - `(req,` - object with request data
 - `res` - object to manage response
 - `.end(` - finished `http` response with given content
-- `req.headers` - object
+- `req.headers` - object with all requested headers
+- `x-test` - header to get value of
 
 group: http_server
 
+## Example: 
+```js
+curl -H "x-test: 123" http://127.0.0.1:82/
+```
+```
+123
+```
 
