@@ -4,8 +4,15 @@
 node -v
 ```
 
-- `node -v` - returns installed Node.js version or error if node is not installed
+- `node -v` - returns installed Node.js version or error (`No such file or directory`) if node is not installed
 
 group: install
 
+## Example: 
+```bash
+node -v
+```
+```
+-bash: /usr/bin/node: No such file or directory
+```
 
