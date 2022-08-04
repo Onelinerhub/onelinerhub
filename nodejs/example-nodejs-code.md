@@ -13,4 +13,8 @@ group: install
 ```js
 console.log("hi!")
 ```
+```
+hi!
+
+```
 
