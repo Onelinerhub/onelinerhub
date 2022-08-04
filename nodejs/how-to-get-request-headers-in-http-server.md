@@ -16,9 +16,9 @@ server.listen(82, '127.0.0.1');
 - `http.createServer` - creates HTTP server
 - `(req,` - object with request data
 - `res` - object to manage response
-- `.end(` - finished `http` response with given content
 - `application/json` - set response content type to let client know we're sending `JSON`
 - `JSON.stringify` - convert given object to JSON string
+- `.end(` - finished `http` response with given content
 
 group: http_server
 
