@@ -1,4 +1,4 @@
-# How to log message
+# How to log to stdout
 
 ```js
 console.log('hi')
