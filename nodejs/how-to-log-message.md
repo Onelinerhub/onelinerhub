@@ -4,7 +4,7 @@
 console.log('hi')
 ```
 
-- `console.log` - logs given message to console
+- `console.log` - logs given message to `stdout`
 
 group: log
 
