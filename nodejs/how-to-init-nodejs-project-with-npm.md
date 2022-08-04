@@ -5,7 +5,7 @@ mkdir mynode && cd mynode
 npm init --yes
 ```
 
-- `npm` - Node.js [lib:package manager]()
+- `npm` - Node.js package manager
 - `init` - inits new package configuration
 - `mynode` - new project directory name 
 
