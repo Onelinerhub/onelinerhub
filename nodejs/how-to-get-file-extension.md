@@ -9,7 +9,7 @@ let ext = path.extname('image.png');
 - `.extname(` - returns extension of a given path string
 - `image.png` - sample file path to get extension from
 
-group: files
+group: path
 
 ## Example: 
 ```js
