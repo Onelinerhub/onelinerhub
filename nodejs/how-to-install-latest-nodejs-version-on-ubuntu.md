@@ -10,4 +10,11 @@ sudo apt install -y nodejs
 
 group: install
 
+## Example: 
+```bash
+node -v
+```
+```
+v18.7.0
+```
 
