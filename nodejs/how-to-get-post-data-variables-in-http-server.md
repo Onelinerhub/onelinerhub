@@ -26,8 +26,9 @@ server.listen(82, '127.0.0.1');
 - `on('data'` - handle data receiving with specified callback
 - `data += chunk` - collect all post data chunks into single `data` variable
 - `on('end'` - handle event when request has finished
-- `res.end(data);` - send data in response to client and finish
 - `server.listen` - launch server on a given port and hostname
+- `qs.parse` - parse given string as url encoded variables
+- `let post` - will contain parsed variables
 
 group: http_server
 
