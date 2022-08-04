@@ -1,6 +1,6 @@
 # HTTP server example
 
-```nodejs
+```js
 const http = require('http');
 
 const server = http.createServer((req, res) => {
@@ -24,7 +24,7 @@ server.listen(82, '127.0.0.1');
 group: http_server
 
 ## Example: 
-```nodejs
+```js
 curl http://127.0.0.1:82/
 ```
 ```
