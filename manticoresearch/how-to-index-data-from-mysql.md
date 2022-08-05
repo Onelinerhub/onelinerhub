@@ -32,3 +32,4 @@ index text_idx {
 group: index_db
 
 
+link_youtube: https://youtu.be/cEHwTQ29dbo
