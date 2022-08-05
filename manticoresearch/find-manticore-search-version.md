@@ -18,3 +18,4 @@ Copyright (c) 2008-2016, Sphinx Technologies Inc (http://sphinxsearch.com)
 Copyright (c) 2017-2021, Manticore Software LTD (https://manticoresearch.com)
 ```
 
+link_youtube: https://youtu.be/HdbgLAUfwyY
