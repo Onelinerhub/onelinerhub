@@ -14,3 +14,4 @@ SELECT * FROM index1 WHERE REGEX(name, 'D.+');
 - `'D.+'` - regular expression pattern to check
 
 
+link_youtube: https://youtu.be/H8Cy9K-b7Hk
