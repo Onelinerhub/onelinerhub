@@ -14,3 +14,4 @@ CREATE TABLE index1(name text, description text)
 group: rt
 
 
+link_youtube: https://youtu.be/ywGXCo4VDdU
