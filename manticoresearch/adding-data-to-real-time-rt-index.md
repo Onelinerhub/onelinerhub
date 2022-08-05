@@ -15,3 +15,4 @@ INSERT INTO index1 VALUES(1, 'Donald', 'President of UFO')
 group: rt
 
 
+link_youtube: https://youtu.be/1Bt5_NTC_Fc
