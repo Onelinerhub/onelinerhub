@@ -21,3 +21,4 @@ SHOW TABLES
 1 row in set (0,00 sec)
 ```
 
+link_youtube: https://youtu.be/_7m30WIhAyo
