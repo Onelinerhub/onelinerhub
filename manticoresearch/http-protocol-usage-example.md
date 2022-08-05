@@ -17,3 +17,4 @@ curl -X POST localhost:9308/sql --data-urlencode "query=SELECT * FROM index1 WHE
 group: http
 
 
+link_youtube: https://youtu.be/gSFAqIqDSzo
