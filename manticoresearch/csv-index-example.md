@@ -29,3 +29,4 @@ index text_idx {
 group: index_pipe
 
 
+link_youtube: https://youtu.be/nEKSxYn6Dsc
