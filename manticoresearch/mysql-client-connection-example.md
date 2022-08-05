@@ -12,3 +12,4 @@ mysql -H 127.0.0.1 -P 9306 --protocol tcp
 group: mysql
 
 
+link_youtube: https://youtu.be/MF-InRcYE6c
