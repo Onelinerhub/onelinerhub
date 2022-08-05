@@ -15,3 +15,4 @@ apt install manticore manticore-columnar-lib
 - `manticore-columnar-lib` - Additional storage for some types of indexes 
 
 
+link_youtube: https://youtu.be/tbyv-papdig
