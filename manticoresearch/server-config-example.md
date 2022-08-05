@@ -24,3 +24,4 @@ indexer {
 - `mem_limit` - limit indexing memory to the specified amount
 
 
+link_youtube: https://youtu.be/gvVET28Db24
