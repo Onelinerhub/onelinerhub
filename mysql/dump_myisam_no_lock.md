@@ -4,7 +4,10 @@
 mysqldump --lock-tables=false > backup.sql
 ```
 
-- lock-tables=false - will disable lock for myisam tables (but this can lead to inconsistent table data in a dump file)
-- backup.sql - name of dump file
+- `lock-tables=false` - will disable lock for myisam tables (but this can lead to inconsistent table data in a dump file)
+- `backup.sql` - name of dump file
 
 group: nolock_dump
+
+
+link_youtube: https://youtu.be/1koTd9gjI-Q
