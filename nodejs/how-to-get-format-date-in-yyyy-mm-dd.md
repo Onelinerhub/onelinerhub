@@ -3,7 +3,6 @@
 ```js
 const d = new Date("10/07/2022").toLocaleDateString("en-gb").split('/');
 const date = d[2] + '-' + d[0] + '-' + d[1];
-console.log(date);
 ```
 
 - `new Date("10/07/2022")` - create date object with given date
