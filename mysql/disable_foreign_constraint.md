@@ -4,4 +4,7 @@
 SET FOREIGN_KEY_CHECKS = 0;
 ```
 
-- FOREIGN_KEY_CHECKS - this option disables/enables foreign keys integrity checks
+- `FOREIGN_KEY_CHECKS` - this option disables/enables foreign keys integrity checks
+
+
+link_youtube: https://youtu.be/tHc1xcfgPrI
