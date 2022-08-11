@@ -9,7 +9,7 @@ dt.setTime(dt.getTime() + 10 * 60*1000);
 - `new Date` - create date/time management object
 - `.setTime(` - sets unix timestamp in milliseconds
 - `.getTime()` - returns unix timestamp in milliseconds
-- `10` - number of minutes to add to our time
+- `+ 10` - number of minutes to add to our time
 - `60*1000` - convert minute to milliseconds
 
 group: date
