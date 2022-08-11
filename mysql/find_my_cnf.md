@@ -4,5 +4,8 @@
 mysqladmin --help | grep /my.cnf
 ```
 
-- mysqladmin - mysql administration tool
-- grep /my.cnf - filter output to show only my.cnf pathes
+- `mysqladmin` - mysql administration tool
+- `grep /my.cnf` - filter output to show only my.cnf pathes
+
+
+link_youtube: https://youtu.be/EAe-Ab6Ofos
