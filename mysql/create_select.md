@@ -4,5 +4,8 @@
 CREATE TABLE tmp SELECT * FROM table
 ```
 
-- tmp - name of the table to create from select query
-- SELECT * FROM table - example select query
+- `tmp` - name of the table to create from select query
+- `SELECT * FROM table` - example select query
+
+
+link_youtube: https://youtu.be/dLZCfVtaTB0
