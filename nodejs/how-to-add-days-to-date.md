@@ -10,6 +10,7 @@ dt.setDate(dt.getDate() + 25);
 - `.setDate(` - set days for the given date object
 - `getDate()` - returns days (number of a day in week)
 - `dt.getDate() + 25` - adds 25 days to the given date
+- `25` - number of days to add
 
 group: date
 
