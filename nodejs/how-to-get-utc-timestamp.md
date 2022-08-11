@@ -7,7 +7,7 @@ const ts = new Date().getTime();
 - `new Date()` - creates date/time management object based on current time
 - `.getTime()` - returns UTC timestamp in milliseconds
 
-group: date
+group: timestamp
 
 ## Example: 
 ```js
