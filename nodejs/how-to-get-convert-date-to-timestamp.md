@@ -2,7 +2,6 @@
 
 ```js
 const ts = new Date("10/07/2022").getTime();
-console.log(ts);
 ```
 
 - `new Date("10/07/2022")` - create date object with given date
