@@ -1,5 +1,7 @@
 # How to pipe streams
 
+### You might want to use [`pipeline()`](https://onelinerhub.com/nodejs/how-to-pipeline-streams) as a better alternative that will properly clean memory after stream processing.
+
 ```js
 const fs = require('fs');
 let input = fs.createReadStream('/var/www/examples/test.txt');
