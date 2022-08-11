@@ -9,7 +9,7 @@ dt.setMonth(dt.getMonth() + 4);
 - `new Date` - create date/time management object
 - `.setMonth(` - sets months for the given date object
 - `getMonth()` - returns months of the date
-- `dt.getDate() + 4` - adds 4 months to the given date
+- `dt.getMonth() + 4` - adds 4 months to the given date
 - `4` - number of months to add
 
 group: date
