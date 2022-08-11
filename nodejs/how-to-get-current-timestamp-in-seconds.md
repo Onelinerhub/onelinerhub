@@ -7,7 +7,7 @@ const ts = Math.round(Date.now() / 1000);
 - `Date.now()` - return current timestamp in milliseconds
 - `Math.round(Date.now() / 1000)` - convert milliseconds to seconds
 
-group: date
+group: timestamp
 
 ## Example: 
 ```js
