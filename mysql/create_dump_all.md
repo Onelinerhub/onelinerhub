@@ -4,7 +4,10 @@
 mysqldump --all-databases > backup.sql
 ```
 
-- --all-databases - this option will make sure all databases on the server are dumped
-- backup.sql - name of dump file
+- `--all-databases` - this option will make sure all databases on the server are dumped
+- `backup.sql` - name of dump file
 
 group: dump
+
+
+link_youtube: https://youtu.be/x25AVhse5qU
