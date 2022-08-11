@@ -1,4 +1,4 @@
-# How to transform streams
+# How to use transform streams
 
 ```js
 const fs = require('fs');
