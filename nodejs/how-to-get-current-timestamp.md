@@ -6,7 +6,7 @@ const ts = Date.now();
 
 - `Date.now()` - return current timestamp in milliseconds
 
-group: date
+group: timestamp
 
 ## Example: 
 ```js
