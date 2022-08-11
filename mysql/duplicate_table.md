@@ -5,6 +5,9 @@ CREATE TABLE new LIKE old;
 INSERT INTO new SELECT * FROM old;
 ```
 
-- CREATE TABLE new - create new table named ```new``` 
-- LIKE old - our ```new``` table will have the same structure as ```old``` (our current table)
-- INSERT INTO new SELECT * FROM old - will copy all the data from ```old``` to ```new```
+- `CREATE TABLE new` - create new table named ```new``` 
+- `LIKE old` - our ```new``` table will have the same structure as ```old``` (our current table)
+- `INSERT INTO new SELECT * FROM old` - will copy all the data from ```old``` to ```new```
+
+
+link_youtube: https://youtu.be/INjnhH-UArc
