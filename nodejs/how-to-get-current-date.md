@@ -1,4 +1,4 @@
-# How to get current date
+# How to get current date and time
 
 ```js
 const now = new Date();
