@@ -1,4 +1,4 @@
-# How to make POST url-encoded data
+# How to post url-encoded data
 
 ```js
 const https = require('https');
