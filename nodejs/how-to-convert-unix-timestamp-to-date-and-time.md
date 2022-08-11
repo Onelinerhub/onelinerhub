@@ -14,6 +14,9 @@ const dt = date.getFullYear() + '-' + (date.getMonth()+1) + '-' +
 - `getFullYear()` - returns year from given date
 - `getMonth()` - returns month
 - `getDate()` - returns date
+- `getHours()` - returns hours
+- `getMinutes()` - returns minutes
+- `getSeconds()` - returns seconds
 
 group: timestamp
 
