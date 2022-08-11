@@ -6,7 +6,7 @@ console.log(ts);
 ```
 
 - `new Date("10/07/2022")` - create date object with given date
-- `getTime()` - returns timestamp in *milliseconds*
+- `getTime()` - returns timestamp in **milliseconds**
 
 group: date
 
