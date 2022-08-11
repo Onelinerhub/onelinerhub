@@ -32,6 +32,7 @@ req.write(data);
 - `(chunk) => { data += chunk; }` - collect all response chunks into single string
 - `resp.on('end'` - fired when response ended
 - `console.log(data);` - outputs full response from given URL
+- `req.write(data)` - write `data` to given request (post `data` contents)
 
 group: http_request
 
