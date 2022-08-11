@@ -4,6 +4,9 @@
 ALTER TABLE table MODIFY column TEXT;
 ```
 
-- table - table name to change column type of
-- column - column name to change type of
-- TEXT - new column type (can be any of [types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html))
+- `table` - table name to change column type of
+- `column` - column name to change type of
+- `TEXT` - new column type (can be any of [types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html))
+
+
+link_youtube: https://youtu.be/R8JsE--sVyE
