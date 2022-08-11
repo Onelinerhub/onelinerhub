@@ -4,8 +4,9 @@
 const date = (new Date( 1660209124 * 1000 )).getDate();
 ```
 
-- `Date.now()` - return current timestamp in milliseconds
-- `Math.round(Date.now() / 1000)` - convert milliseconds to seconds
+- `new Date` - create date/time management object
+- `1660209124` - sample timestamp to convert to date
+- `* 1000` - convert given timestamp from seconds to milliseconds
 
 group: timestamp
 
@@ -15,7 +16,7 @@ const date = (new Date( 1660209124 * 1000 )).getDate();
 console.log(date);
 ```
 ```
-1660209124
+11
 
 ```
 
