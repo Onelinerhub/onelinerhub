@@ -4,9 +4,12 @@
 ALTER TABLE table ADD UNIQUE index1(column1);
 ```
 
-- table - table to add unique index to
-- ADD UNIQUE - adds unique key (index)
-- index1 - name of unique key
-- column1 - column name to create key on
+- `table` - table to add unique index to
+- `ADD UNIQUE` - adds unique key (index)
+- `index1` - name of unique key
+- `column1` - column name to create key on
 
 group: keys
+
+
+link_youtube: https://youtu.be/4SocWhF7bgE
