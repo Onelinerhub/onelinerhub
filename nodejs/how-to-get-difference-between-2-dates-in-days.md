@@ -8,7 +8,7 @@ const diff = date2.getTime() - date1.getTime();
 const days = Math.ceil(diff / (1000 * 60*60*24));
 ```
 
-- `new Date()` - creates new object to work with dates based on given date/time string
+- `new Date(` - creates new object to work with dates based on given date/time string
 - `date2.getTime() - date1.getTime()` - calculate difference in timestamp between 2 dates
 - `diff / (1000 * 60*60*24)` - convert milliseconds to days
 - `days` - will contain number of days between `date` and `date2`
