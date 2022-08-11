@@ -4,6 +4,9 @@
 mysqldump --no-data db > structure.sql
 ```
 
-- --no-data - will dump only tables structures
-- db - name of database to export structure for
-- structure.sql - file to save tables structure to
+- `--no-data` - will dump only tables structures
+- `db` - name of database to export structure for
+- `structure.sql` - file to save tables structure to
+
+
+link_youtube: https://youtu.be/kXhAYCku1jw
