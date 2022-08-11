@@ -4,7 +4,10 @@
 mysqldump db > db-$(date +%Y%m%d).sql
 ```
 
-- db - database name generate dump for
-- db-$(date +%Y%m%d).sql - will generate file names with date (e.g. ```db-20210515.sql```)
+- `db` - database name generate dump for
+- `db-$(date +%Y%m%d).sql` - will generate file names with date (e.g. ```db-20210515.sql```)
 
 group: dump
+
+
+link_youtube: https://youtu.be/En0FS-d7t9g
