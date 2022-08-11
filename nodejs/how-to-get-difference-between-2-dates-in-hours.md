@@ -10,7 +10,7 @@ const hours = Math.ceil(diff / (1000 * 60*60));
 
 - `new Date(` - creates new object to work with dates based on given date/time string
 - `const diff` - difference in timestamp between 2 timestamps
-- `diff / (1000 * 60*60*24)` - convert milliseconds to days
+- `diff / (1000 * 60*60)` - convert milliseconds to hours
 - `hours` - will contain number of hours between `date` and `date2`
 
 group: date
