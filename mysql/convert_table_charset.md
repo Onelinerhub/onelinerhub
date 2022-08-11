@@ -4,8 +4,11 @@
 ALTER TABLE table CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-- table - table name to change charset of
-- utf8mb4 - utf8 encoding (charset)
-- utf8mb4_unicode_ci - utf8 collation (strings comparison rules)
+- `table` - table name to change charset of
+- `utf8mb4` - utf8 encoding (charset)
+- `utf8mb4_unicode_ci` - utf8 collation (strings comparison rules)
 
 group: convert_charset
+
+
+link_youtube: https://youtu.be/f6gy6v6skSI
