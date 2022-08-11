@@ -1,4 +1,4 @@
-# How to post request
+# How to make GET request
 
 ```js
 const https = require('https');
