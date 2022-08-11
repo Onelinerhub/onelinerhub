@@ -7,11 +7,14 @@ UPDATE tbl SET processed = 1 WHERE id = 2;
 COMMIT;
 ```
 
-- START TRANSACTION - starts transaction
-- tbl - table to select rows from
-- processed = 0 - condition to select rows from table
-- LIMIT 1 - select only one row
-- FOR UPDATE - lock selected rows till they are updated by us
-- SET processed = 1 - updated selected row (after possible processing)
-- id = 2 - condition to update selected row (use fetched ID of a row)
-- COMMIT - finish transaction (lock will be released after that)
+- `START TRANSACTION` - starts transaction
+- `tbl` - table to select rows from
+- `processed = 0` - condition to select rows from table
+- `LIMIT 1` - select only one row
+- `FOR UPDATE` - lock selected rows till they are updated by us
+- `SET processed = 1` - updated selected row (after possible processing)
+- `id = 2` - condition to update selected row (use fetched ID of a row)
+- `COMMIT` - finish transaction (lock will be released after that)
+
+
+link_youtube: https://youtu.be/3k4MLB8QRjs
