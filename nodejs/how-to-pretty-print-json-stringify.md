@@ -13,14 +13,20 @@ group: json
 
 ## Example: 
 ```js
-const json = {name: 'Joe', age: 98};
+const json = {
+  name: 'Joe', age: 98,
+  location: {name: 'USA'}
+};
 const pretty = JSON.stringify(json, null, 2)
 console.log(pretty)
 ```
 ```
 {
   "name": "Joe",
-  "age": 98
+  "age": 98,
+  "location": {
+    "name": "USA"
+  }
 }
 
 ```
