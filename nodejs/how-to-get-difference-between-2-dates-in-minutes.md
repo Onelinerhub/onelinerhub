@@ -11,7 +11,7 @@ const minutes = Math.ceil(diff / (1000 * 60));
 - `new Date(` - creates new object to work with dates based on given date/time string
 - `const diff` - difference in timestamp between 2 timestamps
 - `diff / (1000 * 60)` - convert milliseconds to minutes
-- `hours` - will contain number of hours between `date1` and `date2`
+- `minutes` - will contain number of minutes between `date1` and `date2`
 
 group: date
 
