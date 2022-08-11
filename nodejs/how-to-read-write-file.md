@@ -11,6 +11,7 @@ fs.writeFile('/tmp/test.txt', 'hi!', (err, data) => {
 - `/tmp/test.txt` - path of file to write
 - `'hi!'` - Data to write to file
 - `console.log(err)` - if `err` is not `null`, something wrong happened
+- `fs.writeFile(` - writes given data to specified file
 
 group: files
 
