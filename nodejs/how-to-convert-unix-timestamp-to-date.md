@@ -2,7 +2,7 @@
 
 ```js
 const date = new Date( 1660209124 * 1000 );
-const dt = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
+const dt = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
 ```
 
 - `new Date` - create date/time management object
@@ -17,10 +17,11 @@ group: timestamp
 ## Example: 
 ```js
 const date = new Date( 1660209124 * 1000 );
-console.log(date.getFullYear())
+const dt = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+console.log(dt);
 ```
 ```
-2022
+2022-8-11
 
 ```
 
