@@ -8,7 +8,7 @@ fs.readFile("/tmp/test.txt", "utf8", (err, data) => {
 });
 ```
 
-- `fs.readFile()` - reads file and returns data in callback function
+- `fs.readFile(` - reads file and returns data in callback function
 - `/tmp/test.txt` - path to [text file](https://onelinerhub.com/nodejs/how-to-read-write-file) to read
 - `utf8` - encoding to read text in
 - `console.log(data)` - log `date` from file to console
