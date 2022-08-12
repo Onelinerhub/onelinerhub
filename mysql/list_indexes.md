@@ -4,5 +4,8 @@
 SHOW INDEXES FROM table;
 ```
 
-- SHOW INDEXES - will print all indexes from specified table
-- table - table name to print indexes for
+- `SHOW INDEXES` - will print all indexes from specified table
+- `table` - table name to print indexes for
+
+
+link_youtube: https://youtu.be/vzMUnnkyClY
