@@ -4,6 +4,9 @@
 mysql db -Nse 'show tables' | while read table; do mysql db -e "truncate table $table"; done
 ```
 
-- mysql db -Nse 'show tables' - prints all tables from ```db``` database line by line
-- while read table - execute loop for each table (each line) printed
-- mysql db -e "truncate table $table" - execute truncate query for each ```$table``` variable value (each line from previous command)
+- `mysql db -Nse 'show tables'` - prints all tables from ```db``` database line by line
+- `while read table` - execute loop for each table (each line) printed
+- `mysql db -e "truncate table $table"` - execute truncate query for each ```$table``` variable value (each line from previous command)
+
+
+link_youtube: https://youtu.be/bmaHd_1tDvo
