@@ -5,4 +5,8 @@ SIGNED MAX  : 32,767 (2 bytes)
 UNSIGNED MAX: 65,535 (2 bytes)
 ```
 
+
 group: int_sizes
+
+
+link_youtube: https://youtu.be/jBDSS8vI3lw
