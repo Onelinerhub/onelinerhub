@@ -4,5 +4,8 @@
 ALTER TABLE name AUTO_INCREMENT = 1
 ```
 
-- name - name of a table to reset autoincrement for
-- AUTO_INCREMENT = 1 - sets autoincrement to a new starting value
+- `name` - name of a table to reset autoincrement for
+- `AUTO_INCREMENT = 1` - sets autoincrement to a new starting value
+
+
+link_youtube: https://youtu.be/IE76EyzzDrU
