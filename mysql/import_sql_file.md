@@ -4,5 +4,8 @@
 mysql db < dump.sql
 ```
 
-- db - name of database to load sql data to
-- dump.sql - name of sql file
+- `db` - name of database to load sql data to
+- `dump.sql` - name of sql file
+
+
+link_youtube: https://youtu.be/czZ3orPJcLg
