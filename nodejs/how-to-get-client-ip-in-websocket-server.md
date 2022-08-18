@@ -11,7 +11,7 @@ wss.on("connection", (ws,r) => {
 });
 ```
 
-- `require('ws')` - import [lib:websocket](https://www.npmjs.com/package/ws) lib to create websocket server
+- `require('ws')` - import [lib:ws](https://www.npmjs.com/package/ws) lib to create websocket server
 - `new WebSocketServer.Server` - create and launch websocket server with params
 - `port:` - port to listen on (in our case all network interfaces are going to be listened)
 - `wss.on("connection"` - what to do when someone connects to our server
