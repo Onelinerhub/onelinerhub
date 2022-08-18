@@ -1,7 +1,7 @@
 # How to create SSL websocket server
 
 ```js
-const WebSocket = require("ws").Server;
+const WebSocket = require('ws').Server;
 const { createServer } = require("https");
 const fs = require("fs");
 
