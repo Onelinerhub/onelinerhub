@@ -4,4 +4,7 @@
 nano +4 file.txt
 ```
 
-- +4 - will jump to 4th line
+- `+4` - will jump to 4th line
+
+
+link_youtube: https://youtu.be/xc8ieRdfCMs
