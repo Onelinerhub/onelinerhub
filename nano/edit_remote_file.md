@@ -4,5 +4,8 @@
 ssh -t login@server.com 'nano /path/to/file.txt'
 ```
 
-- login@server.com - remote server address and user to login under
-- /path/to/file.txt - path to a file on a remote server
+- `login@server.com` - remote server address and user to login under
+- `/path/to/file.txt` - path to a file on a remote server
+
+
+link_youtube: https://youtu.be/V0PilIOxfNw
