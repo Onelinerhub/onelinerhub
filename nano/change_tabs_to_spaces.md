@@ -4,7 +4,10 @@
 echo "set tabstospaces" >> ~/.nanorc
 ```
 
-- set tabstospaces - will use spaces instead of tabs when you press tab
-- ~/.nanorc - this is a nano settings file
+- `set tabstospaces` - will use spaces instead of tabs when you press tab
+- `~/.nanorc` - this is a nano settings file
 
 group: nano_tabs
+
+
+link_youtube: https://youtu.be/WTbBBE44Oj4
