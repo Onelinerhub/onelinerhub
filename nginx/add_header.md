@@ -6,6 +6,9 @@ location /some {
 }
 ```
 
-- add_header - will send custom header defined by name and value
-- X-custom-header - name of custom header
-- some-value - value of custom header
+- `add_header` - will send custom header defined by name and value
+- `X-custom-header` - name of custom header
+- `some-value` - value of custom header
+
+
+link_youtube: https://youtu.be/jT2lcRpu7wg
