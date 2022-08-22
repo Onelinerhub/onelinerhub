@@ -17,3 +17,4 @@ server {
 group: log_format
 
 
+link_youtube: https://youtu.be/I27Gu5kRp0g
