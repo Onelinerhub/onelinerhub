@@ -6,4 +6,7 @@ server {
 }
 ```
 
-- default_server - lets nginx know that this ```server``` block should catch all requests for unknown domains
+- `default_server` - lets nginx know that this ```server``` block should catch all requests for unknown domains
+
+
+link_youtube: https://youtu.be/oy5adaReWJA
