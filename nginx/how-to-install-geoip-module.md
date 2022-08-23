@@ -12,3 +12,4 @@ apt install nginx-full
 group: geoip_1
 
 
+link_youtube: https://youtu.be/2e1iVq7Ky1w
