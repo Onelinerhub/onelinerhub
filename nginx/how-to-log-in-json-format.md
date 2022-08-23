@@ -30,3 +30,4 @@ tail /var/log/nginx/json.log
 
 ```
 
+link_youtube: https://youtu.be/b11-e_oBD_c
