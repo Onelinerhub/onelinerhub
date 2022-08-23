@@ -8,3 +8,4 @@ sudo apt install nginx
 - `nginx` - name of the package to install
 
 
+link_youtube: https://youtu.be/kJT5XI_IZOc
