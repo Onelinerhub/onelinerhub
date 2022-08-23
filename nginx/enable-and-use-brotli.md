@@ -17,3 +17,4 @@ server {
 - `brotli_types` - mime types to enable Brotli compression for
 
 
+link_youtube: https://youtu.be/mU7pufCxac8
