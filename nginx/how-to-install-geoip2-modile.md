@@ -10,3 +10,4 @@ apt install nginx-full
 group: geoip2
 
 
+link_youtube: https://youtu.be/m8uK75GJdKc
