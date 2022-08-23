@@ -12,3 +12,4 @@ server {
 - `default_server` - will make sure this config is used for all requests that doesn't match any configured hosts
 
 
+link_youtube: https://youtu.be/EnSuYikQIJ0
