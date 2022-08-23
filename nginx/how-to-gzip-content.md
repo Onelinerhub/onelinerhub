@@ -18,3 +18,4 @@ server {
 - `gzip_types` - list mime types to enable gzip for
 
 
+link_youtube: https://youtu.be/wrfe-WhWcQY
