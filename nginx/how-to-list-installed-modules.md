@@ -16,3 +16,4 @@ configure arguments: --with-cc-opt='-g -O2 -fdebug-prefix-map=/build/nginx-KTLRn
 
 ```
 
+link_youtube: https://youtu.be/fxvk2jFg9oY
