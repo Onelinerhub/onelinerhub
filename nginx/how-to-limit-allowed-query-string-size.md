@@ -13,3 +13,4 @@ server {
 - `4 8k` - use `4` buffers `8k` each to read headers
 
 
+link_youtube: https://youtu.be/ThaVE75r_DM
