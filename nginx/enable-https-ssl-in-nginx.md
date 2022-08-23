@@ -17,3 +17,4 @@ server {
 - `/etc/nginx/certificate/example.key` - path to SSL key file
 
 
+link_youtube: https://youtu.be/vzrwFSLqoVs
