@@ -1,7 +1,6 @@
 # Log requests (post and get)
 
 ```nginx
-
 log_format data $request_body;
 
 server {
@@ -16,3 +15,4 @@ server {
 group: log_format
 
 
+link_youtube: https://youtu.be/3jAlgrmLjTY
