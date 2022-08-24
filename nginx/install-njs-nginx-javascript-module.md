@@ -14,3 +14,4 @@ apt install nginx-module-njs
 group: njs
 
 
+link_youtube: https://youtu.be/gOG5SHXqoTg
