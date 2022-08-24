@@ -21,3 +21,4 @@ server {
 group: balancing
 
 
+link_youtube: https://youtu.be/uJCBHsV33XI
