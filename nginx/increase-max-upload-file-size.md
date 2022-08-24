@@ -11,3 +11,4 @@ server {
 - `2G` - allow uploading up to 2G files
 
 
+link_youtube: https://youtu.be/WmuZGzDfi9Y
