@@ -7,6 +7,9 @@ location / {
 }
 ```
 
-- auth_basic - message to display when auth dialog pops up
-- auth_basic_user_file - specifies user/password file path
-- /dir/.htpasswd - read how to create [htpasswd format file](/htpasswd/create)
+- `auth_basic` - message to display when auth dialog pops up
+- `auth_basic_user_file` - specifies user/password file path
+- `/dir/.htpasswd` - read how to create [htpasswd format file](/htpasswd/create)
+
+
+link_youtube: https://youtu.be/DSxh2Z_Xvcw
