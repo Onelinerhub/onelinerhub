@@ -19,3 +19,4 @@ server {
 - `/var/run/php/php7.4-fpm.sock` - path to your fpm socket (check your version)
 
 
+link_youtube: https://youtu.be/-HqlJzy98Ew
