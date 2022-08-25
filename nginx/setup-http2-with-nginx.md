@@ -16,3 +16,4 @@ server {
 - `/path/to/pdomain.key` - path to SSL key file
 
 
+link_youtube: https://youtu.be/vgYtCBwfw8c
