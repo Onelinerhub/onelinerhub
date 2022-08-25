@@ -10,4 +10,6 @@
 - ``set`` - change specified option value
 - ``smartindent`` - will indent new lines automatically
 
+group: indent
+
 
