@@ -7,5 +7,8 @@ server {
 }
 ```
 
-- domain.com - your host domain name
-- 301 - this will trigger 301-type redirect (moved permanently).
+- `domain.com` - your host domain name
+- `301` - this will trigger 301-type redirect (moved permanently).
+
+
+link_youtube: https://youtu.be/BfPCzhQI3X0
