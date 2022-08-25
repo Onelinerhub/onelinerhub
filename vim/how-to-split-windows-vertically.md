@@ -1,7 +1,8 @@
 # How to split windows vertically
 
 ```vim
-**ctrl+w** v
+1. ctrl+w
+2. v
 ```
 
 
