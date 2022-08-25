@@ -8,6 +8,7 @@ dG
 ```
 
 - `gg` - move cursor to the beginning of  file
+- `dG` - remove all content from file
 
 group: delete
 
