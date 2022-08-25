@@ -6,7 +6,7 @@
 ```
 
 - `ctrl+w` - press to manage windows
-- `s` - split current window horizontally
+- `. s` - split current window horizontally
 
 group: split
 
