@@ -1,7 +1,7 @@
 # How to indent line backward (left)
 
 ```text
-ctrl+t
+ctrl+d
 ```
 
 - `ctrl+d` - moves current line one indent length backward (left)
