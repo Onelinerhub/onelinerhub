@@ -6,4 +6,7 @@ location / {
 }
 ```
 
-- /index.php?$args - all requests for missing files will be sent to index.php including arguments
+- `/index.php?$args` - all requests for missing files will be sent to index.php including arguments
+
+
+link_youtube: https://youtu.be/TaRlwYh3VVY
