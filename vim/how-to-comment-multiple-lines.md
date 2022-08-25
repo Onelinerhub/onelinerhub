@@ -8,5 +8,8 @@
 5. Esc
 ```
 
+- `Ctrl + v` - switch to visual mode
+- `Shift + i` - switch to insert mode
+- `Esc` - switch back to command mode to apply changes
 
 
