@@ -27,3 +27,4 @@ server {
 group: proxy
 
 
+link_youtube: https://youtu.be/6O9jNjzu8yI
