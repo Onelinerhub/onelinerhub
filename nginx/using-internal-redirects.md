@@ -24,3 +24,4 @@ server {
 - `root /path/to/hidden` - change root to other directory to access needed files (just an example)
 
 
+link_youtube: https://youtu.be/dL267eyPk9o
