@@ -13,3 +13,4 @@ server {
 - `autoindex on` - enabled automatic directories and files listing from web
 
 
+link_youtube: https://youtu.be/zkX0aeQxPTY
