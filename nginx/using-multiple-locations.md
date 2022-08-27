@@ -19,3 +19,4 @@ server {
 group: location
 
 
+link_youtube: https://youtu.be/giAZ4vhb50k
