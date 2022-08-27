@@ -21,3 +21,4 @@ server {
 - `privkey.pem` - [generated certificate](/certbot/create_standalone_certificate) key
 
 
+link_youtube: https://youtu.be/tUM3TWepCrk
