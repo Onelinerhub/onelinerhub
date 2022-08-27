@@ -16,3 +16,4 @@ server {
 group: location
 
 
+link_youtube: https://youtu.be/jIX7IGxIqfI
