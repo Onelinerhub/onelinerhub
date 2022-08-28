@@ -14,3 +14,4 @@ server {
 - `localhost:9992` - host and port that our Python app is listening to
 
 
+link_youtube: https://youtu.be/sYmVtfu9IM0
