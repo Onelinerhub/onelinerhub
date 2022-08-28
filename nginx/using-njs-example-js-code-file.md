@@ -17,3 +17,4 @@ export default {test}
 group: njs
 
 
+link_youtube: https://youtu.be/qz_1QUpD0lk
