@@ -17,3 +17,4 @@ server {
 - `open_file_cache_errors` - also cache errors like absent file or access denied
 
 
+link_youtube: https://youtu.be/ElrtG40aerg
