@@ -7,5 +7,8 @@ server {
 }
 ```
 
-- www.domain.com - www-included domain name
-- 301 - redirect code type (permanent redirect)
+- `www.domain.com` - www-included domain name
+- `301` - redirect code type (permanent redirect)
+
+
+link_youtube: https://youtu.be/rdRTeQAilE8
