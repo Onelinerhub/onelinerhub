@@ -12,3 +12,4 @@ server {
 - `SAMEORIGIN` - ensure our website can be loaded inside iframe from our domain only (from same origin)
 
 
+link_youtube: https://youtu.be/E6eB92gbqO0
