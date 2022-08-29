@@ -13,3 +13,4 @@ server {
 - `last` - stop checking next rewrite rules (if there are any) after this one
 
 
+link_youtube: https://youtu.be/M6849xiEKuM
