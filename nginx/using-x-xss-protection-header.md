@@ -12,3 +12,4 @@ server {
 - `1; mode=block` - enables browser XSS check and ensures insecure pages will not be loaded
 
 
+link_youtube: https://youtu.be/SdoxPl30s2Y
