@@ -16,3 +16,4 @@ server {
 - `/index.php` - if previous checks fails server `index.php` file from root folder
 
 
+link_youtube: https://youtu.be/lMfPw3rxLR8
