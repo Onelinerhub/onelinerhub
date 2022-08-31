@@ -20,8 +20,6 @@ imagePng($im, '/tmp/image.png');=
 - `imagefilledellipse` - creates ellipse with specified coordinates, radius and color
 - `imagePng` - saves image in PNG format to the given path
 
-group: antialias
-
 ## Example: 
 ```php
 <?php
