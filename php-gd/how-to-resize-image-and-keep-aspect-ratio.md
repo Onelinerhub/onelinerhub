@@ -1,4 +1,4 @@
-# How to resize image and keep aspect ratio
+# How to resize an image and keep aspect ratio
 
 ```php
 <?php
