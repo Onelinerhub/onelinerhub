@@ -1,6 +1,6 @@
 # Using antialias in GD
 
-### **Note**, that PHP GD lib has limited antialiasing capabilities. Alternative approach is to create [larger image and resize it to apply smarter antialiasing]().
+### **Note**, that PHP GD lib has limited antialiasing capabilities. Alternative approach is to create [larger image and resize it to apply smarter antialiasing](https://onelinerhub.com/php-gd/better-antialias-with-gd).
 
 ```php
 <?php
