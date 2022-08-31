@@ -1,5 +1,7 @@
 # Using antialias in GD
 
+### **Note**, that PHP GD lib has limited antialiasing capabilities. Alternative approach is to create [larger image and resize it to apply smarter antialiasing]().
+
 ```php
 <?php
 
@@ -19,6 +21,8 @@ imagePng($im, '/tmp/image.png');=
 - `imageColorAllocate` - creates color object to later use in image
 - `imagefilledellipse` - creates ellipse with specified coordinates, radius and color
 - `imagePng` - saves image in PNG format to the given path
+
+group: antialias
 
 ## Example: 
 ```php
