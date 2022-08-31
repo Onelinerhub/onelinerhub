@@ -25,7 +25,6 @@ We're building non-profit opensource code hub, we address following issues:
 - Clone [repo](https://github.com/Onelinerhub/onelinerhub) and [create pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (see [code format guidelines](/how-to-contribute.md)) of your new/updated codes. Feel free to add/update any tech code piece you find useful.
 - Create [issues](https://github.com/Onelinerhub/onelinerhub/issues) for UI/code updates.
 - Join our organization here: https://github.com/Onelinerhub.
-- Donate (contact me for details: joe@onelinerhub.com).
 
 ## FAQ
 > "What if I want to create new folder/technology in onelinerhub repo?"
