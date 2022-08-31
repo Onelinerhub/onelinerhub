@@ -9,8 +9,10 @@ $file = '/var/www/examples/small.png';
 $size = getimagesize($file);
 $im = imagecreatefrompng($file);
 
-$imf = imagecreatetruecolor($size[0]*5,$size[1]*5);
-imagecopyresampled($imf, $im, 0,0,0,0, $size[0]*5,$size[1]*5,$size[0],$size[1]);
+$imf = imagecreatetruecolor($size[0]*10,$size[1]*10);
+imagealphablending($imf, false);
+imagesavealpha($imf, true);
+imagecopyresampled($imf, $im, 0,0,0,0, $size[0]*10,$size[1]*10,$size[0],$size[1]);
 
 imagePng($imf, '/tmp/image.png');
 ```
@@ -26,8 +28,10 @@ $file = '/var/www/examples/small.png';
 $size = getimagesize($file);
 $im = imagecreatefrompng($file);
 
-$imf = imagecreatetruecolor($size[0]*5,$size[1]*5);
-imagecopyresampled($imf, $im, 0,0,0,0, $size[0]*5,$size[1]*5,$size[0],$size[1]);
+$imf = imagecreatetruecolor($size[0]*10,$size[1]*10);
+imagealphablending($imf, false);
+imagesavealpha($imf, true);
+imagecopyresampled($imf, $im, 0,0,0,0, $size[0]*10,$size[1]*10,$size[0],$size[1]);
 
 imagePng($imf, '/tmp/image.png');
 ```
