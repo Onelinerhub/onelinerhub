@@ -1,4 +1,4 @@
-# Using GD example 
+# Drawing with GD - usage example 
 
 ```php
 <?php
