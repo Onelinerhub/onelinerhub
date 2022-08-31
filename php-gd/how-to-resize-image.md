@@ -1,5 +1,7 @@
 # How to resize image
 
+### To keep proportions width/height automatically, take a look at [resizing with aspect ratio keep](https://onelinerhub.com/php-gd/how-to-resize-image-and-keep-aspect-ratio).
+
 ```php
 <?php
 
