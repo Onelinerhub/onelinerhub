@@ -13,7 +13,7 @@ imagefilledellipse($im, 200, 150, 100, 100, $c_green);
 imagePng($im, '/tmp/image.png');
 ```
 
-- `imageCreate` - creates GD image object with specified width & height
+- `imageCreate` - creates [lib:GD](https://onelinerhub.com/php-gd/how-to-install-gd-for-php-on-ubuntu-ubuntuversion) image object with specified width & height
 - `400, 300` - we create image of `400` pixels in width and `300` in height
 - `imageColorAllocate` - creates color object to later use in image
 - `0,0,0` - RGB codes for black color
