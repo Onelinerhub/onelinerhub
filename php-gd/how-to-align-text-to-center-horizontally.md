@@ -36,18 +36,4 @@ print_r($p);
 imagettftext($im, 40, 0, (400 - $p[2])/2, 100, $c_green, $font, $text);
 imagePng($im, '/tmp/image.png');
 ```
-```
-Array
-(
-    [0] => 5
-    [1] => 0
-    [2] => 55
-    [3] => 0
-    [4] => 55
-    [5] => -40
-    [6] => 5
-    [7] => -40
-)
-
-```
 
