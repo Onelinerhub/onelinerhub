@@ -1,9 +1,11 @@
 # How to draw circle
 
+### Check [antialiasing strategies](https://onelinerhub.com/php-gd/better-antialias-with-gd) to get smooth drawing.
+
 ```php
 <?php
 
-$im = imageCreate(400, 300);
+$im = imageCreateTrueColor(400, 300);
 
 $c_black = imageColorAllocate($im, 0,0,0);
 $c_green = imageColorAllocate($im, 46,204,64);
@@ -20,7 +22,7 @@ group: circle
 ```php
 <?php
 
-$im = imageCreate(400, 300);
+$im = imageCreateTrueColor(400, 300);
 
 $c_black = imageColorAllocate($im, 0,0,0);
 $c_green = imageColorAllocate($im, 46,204,64);
