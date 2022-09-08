@@ -7,7 +7,7 @@ $im = imagecreatetruecolor(400, 300);
 
 $c_black = imageColorAllocate($im, 0,0,0);
 $c_green = imageColorAllocate($im, 46,204,64);
-$text = 'Hi'
+$text = 'Hi';
 
 $font = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';
 $p = imagettfbbox(40, 0, $font, $text);
