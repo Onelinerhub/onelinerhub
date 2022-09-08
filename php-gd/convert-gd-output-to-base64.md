@@ -1,4 +1,4 @@
-# Convert GD output to base64
+# Convert GD image output to base64
 
 ```php
 <?php
