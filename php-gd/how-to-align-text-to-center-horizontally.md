@@ -21,7 +21,7 @@ imagePng($im, '/tmp/image.png');
 - `$font` - path to `ttf` font to use
 - `imagettfbbox` - return size of box that given text fits into
 - `imagettftext` - draw text with given `ttf` font
-- `(400 - $p[2])/2` - calculate x coordinates so our text is centered horizontally
+- `(400 - $p[2])/2` - calculate `x` coordinate so our text is centered horizontally
 - `imagePng` - saves image in PNG format to the given path
 
 group: text
