@@ -2,22 +2,19 @@
 
 ```php
 <?php
- 
+
 $file = '/var/www/examples/heroine.png';
 $im = imagecreatefrompng($file);
 
-for ( $i = 0; $i < 20; $i++ ) {
-  imagefilter($im, IMG_FILTER_GRAYSCALE);
-}
+imagefilter($im, IMG_FILTER_GRAYSCALE);
 
-imagePng($im, '/tmp/image.png');
+imagepng($im, '/tmp/image.png');
 ```
 
-- `/var/www/examples/heroine.png` - path to image to blur
+- `/var/www/examples/heroine.png` - path to image to grayscale
 - `imagecreatefrompng` - creates [lib:GD](https://onelinerhub.com/php-gd/how-to-install-gd-for-php-on-ubuntu-ubuntuversion) image object from given PNG image
 - `imagefilter` - applies filter to image
-- `$i < 20` - we apply Gaussian filter 20 times for better blurring effect
-- `imagePng` - saves image in PNG format to the given path
+- `IMG_FILTER_GRAYSCALE` - converts colors for our image to grayscale
 
 group: filter
 
