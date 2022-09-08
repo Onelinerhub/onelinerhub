@@ -12,7 +12,7 @@ $text = 'Hi';
 $font = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';
 $p = imagettfbbox(40, 0, $font, $text);
 
-imagettftext($im, 40, (300 + $p[5])/2, (400 - $p[2])/2, 100, $c_green, $font, $text);
+imagettftext($im, 40, 0, (400 - $p[2])/2, (300 - $p[5])/2, $c_green, $font, $text);
 imagePng($im, '/tmp/image.png');
 ```
 
@@ -39,7 +39,7 @@ $text = 'Hi';
 $font = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';
 $p = imagettfbbox(40, 0, $font, $text);
 
-imagettftext($im, 40, (300 + $p[5])/2, (400 - $p[2])/2, 100, $c_green, $font, $text);
+imagettftext($im, 40, 0, (400 - $p[2])/2, (300 - $p[5])/2, $c_green, $font, $text);
 imagePng($im, '/tmp/image.png');
 ```
 
