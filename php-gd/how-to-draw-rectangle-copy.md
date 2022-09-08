@@ -1,4 +1,4 @@
-# How to draw rectangle COPY
+# How to draw rectangle
 
 ```php
 <?php
