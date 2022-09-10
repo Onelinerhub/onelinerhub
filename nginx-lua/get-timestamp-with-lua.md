@@ -27,3 +27,4 @@ ngx.say(ts)
 
 ```
 
+link_youtube: https://youtu.be/ws3v7vaOLEk
