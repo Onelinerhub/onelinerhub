@@ -22,3 +22,4 @@ server {
 group: global
 
 
+link_youtube: https://youtu.be/tqhtiLkzj0M
