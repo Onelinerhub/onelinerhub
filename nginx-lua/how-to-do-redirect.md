@@ -17,3 +17,4 @@ server {
 group: redirect
 
 
+link_youtube: https://youtu.be/W7Aruqfvz60
