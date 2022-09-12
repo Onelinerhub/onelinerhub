@@ -26,3 +26,4 @@ server {
 - `local id = uuid()` - [UUID module](https://luarocks.org/modules/tieske/uuid) sample usage
 
 
+link_youtube: https://youtu.be/OS2Fzb1z61s
