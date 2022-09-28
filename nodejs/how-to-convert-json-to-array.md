@@ -22,3 +22,4 @@ console.log(array);
 
 ```
 
+link_youtube: https://youtu.be/pmpZnZ9O_dE
