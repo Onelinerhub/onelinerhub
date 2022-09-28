@@ -16,3 +16,4 @@ node -v
 -bash: /usr/bin/node: No such file or directory
 ```
 
+link_youtube: https://youtu.be/Lfewy2vdvjk
