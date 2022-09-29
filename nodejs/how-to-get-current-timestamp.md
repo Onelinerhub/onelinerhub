@@ -18,3 +18,4 @@ console.log(ts);
 
 ```
 
+link_youtube: https://youtu.be/ADZ11FyhYb0
