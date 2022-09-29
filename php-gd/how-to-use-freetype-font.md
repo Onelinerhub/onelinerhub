@@ -1,5 +1,7 @@
 # How to use freetype font
 
+### Before using freetype font, make sure your [GD library supports it](https://www.php.net/manual/en/image.installation.php).
+
 ```php
 <?php
 
