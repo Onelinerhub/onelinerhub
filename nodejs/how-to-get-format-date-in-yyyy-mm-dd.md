@@ -24,3 +24,4 @@ console.log(date);
 
 ```
 
+link_youtube: https://youtu.be/gOA16QGJU_s
