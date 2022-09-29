@@ -1,23 +1,23 @@
-# How to get current date
+# How to get current date and time
 
 ```js
-const date = new Date().toLocaleDateString('en-us');
-
+const now = new Date();
+console.log(now);
 ```
 
 - `new Date()` - creates new object to work with dates based on current time (if empty constructor)
-- `toLocaleDateString` - returns locally formatted date string
-- `'en-us'` - locale to use
+- `console.log(now)` - will print given date/time
 
 group: date
 
 ## Example: 
 ```js
-const now = new Date().toLocaleDateString('en-us');
+const now = new Date();
 console.log(now);
 ```
 ```
-8/11/2022
+2022-08-11T09:08:17.753Z
 
 ```
 
+link_youtube: https://youtu.be/AhHXA1lydx8
