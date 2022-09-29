@@ -3,8 +3,6 @@
 ### Before using freetype font, make sure your [GD library supports it](https://www.php.net/manual/en/image.installation.php).
 
 ```php
-<?php
-
 $im = imagecreatetruecolor(400, 300);
 $c_green = imageColorAllocate($im, 46,204,64);
 
