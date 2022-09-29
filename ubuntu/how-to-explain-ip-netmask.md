@@ -1,6 +1,6 @@
 # How to use ipcalc with netmask
 
-```bash
+```txt
 ipcalc 10.0.0.0/16
 ```
 
@@ -10,7 +10,7 @@ ipcalc 10.0.0.0/16
 group: ipcalc
 
 ## Example: 
-```bash
+```txt
 ipcalc 10.0.0.0/16
 ```
 ```
