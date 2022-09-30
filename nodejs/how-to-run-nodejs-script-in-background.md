@@ -12,3 +12,4 @@ nohup node script.js > log.log &
 group: run
 
 
+link_youtube: https://youtu.be/GIAojsepPR8
