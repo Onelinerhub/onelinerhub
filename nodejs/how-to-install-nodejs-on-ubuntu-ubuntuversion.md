@@ -12,3 +12,4 @@ apt install nodejs
 group: install
 
 
+link_youtube: https://youtu.be/8Avy4Xy7-UA
