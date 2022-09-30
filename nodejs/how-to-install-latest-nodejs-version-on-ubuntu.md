@@ -18,3 +18,4 @@ node -v
 v18.7.0
 ```
 
+link_youtube: https://youtu.be/u6qcqN6dDy0
