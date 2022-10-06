@@ -7,10 +7,10 @@ $file = '/var/www/examples/heroine.png';
 $size = getimagesize($file);
 $im = imagecreatefrompng($file);
 
-$imf = imagecreatetruecolor(400, 300);
-imagecopyresampled($imf, $im, 0,0,0,0, 400,300,$size[0],$size[1]);
+$c_green = imageColorAllocate($im, 46,204,64);
+imagerectangle($im, 50, 100, 150, 200, $c_green);
 
-imagePng($imf, '/tmp/image.png');
+imagePng($im, '/tmp/image.png');
 ```
 
 
