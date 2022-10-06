@@ -3,7 +3,7 @@
 ```php
 $file = '/path/to/image';
 $data = getimagesizefromstring(file_get_contents($file));
-
+$type = $data['mime'];
 ```
 
 - `$file` - path to image of unknown type
@@ -17,13 +17,9 @@ $data = getimagesizefromstring(file_get_contents($file));
 $file = '/path/to/image';
 $data = getimagesizefromstring(file_get_contents($file));
 
-print_r($data);
+echo $data['mime'];
 ```
 ```
-Array
-(
-    ...
-    [mime] => image/jpeg
-)
+image/jpeg
 ```
 
