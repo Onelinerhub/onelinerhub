@@ -1,8 +1,6 @@
 # How to open PNG image
 
 ```php
-<?php
-
 $file = '/var/www/examples/heroine.png';
 $im = imagecreatefrompng($file);
 
