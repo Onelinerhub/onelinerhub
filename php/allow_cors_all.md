@@ -7,6 +7,9 @@ if ( isset($_SERVER['HTTP_ORIGIN']) ) {
 }
 ```
 
-- $_SERVER\['HTTP_ORIGIN'\] - contains origin URL that requested our page
-- Access-Control-Allow-Origin - allow access to the origin passed (thus, all origins will be allowed)
-- Access-Control-Allow-Credentials - also enabling cookies and auth headers sharing
+- `$_SERVER\['HTTP_ORIGIN'\]` - contains origin URL that requested our page
+- `Access-Control-Allow-Origin` - allow access to the origin passed (thus, all origins will be allowed)
+- `Access-Control-Allow-Credentials` - also enabling cookies and auth headers sharing
+
+
+link_youtube: https://youtu.be/lfFdTvOPFhA
