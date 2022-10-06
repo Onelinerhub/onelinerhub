@@ -1,4 +1,4 @@
-# How to overlap objects in image (z-index)
+# How to control objects overlapping order (z-index)
 
 ### There's nothing like `z-index` in `gd`, but you can control what's being on top. Objects that are drawn later will be on top of previously drawn:
 
