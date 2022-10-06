@@ -3,8 +3,7 @@
 ```php
 <?php
 
-$im = '/var/www/examples/heroine.png';
-$im = imagecreatefrompng($im);
+$im = imagecreatefrompng('/var/www/examples/heroine.png');
 imagejpeg($im, '/tmp/image.jpg', 88);
 ```
 
