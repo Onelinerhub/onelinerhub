@@ -4,5 +4,8 @@
 php --ini | grep Loaded
 ```
 
-- --ini - display data on loaded php.ini files
-- grep Loaded - filter only main configuration file path
+- `--ini` - display data on loaded php.ini files
+- `grep Loaded` - filter only main configuration file path
+
+
+link_youtube: https://youtu.be/O3FKgAAnAho
