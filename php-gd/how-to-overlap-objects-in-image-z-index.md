@@ -9,11 +9,28 @@ $im = imagecreatetruecolor(400, 300);
 
 $c_black = imageColorAllocate($im, 0,0,0);
 $c_green = imageColorAllocate($im, 46,204,64);
+$c_red = imageColorAllocate($im, 255, 64, 64);
 
 imagefilledellipse($im, 200, 150, 100, 100, $c_green);
+imagefilledellipse($im, 250, 200, 100, 100, $c_red);
 
 imagePng($im, '/tmp/image.png');
 ```
 
 
+## Example: 
+```php
+<?php
+
+$im = imagecreatetruecolor(400, 300);
+
+$c_black = imageColorAllocate($im, 0,0,0);
+$c_green = imageColorAllocate($im, 46,204,64);
+$c_red = imageColorAllocate($im, 255, 64, 64);
+
+imagefilledellipse($im, 200, 150, 100, 100, $c_green);
+imagefilledellipse($im, 250, 200, 100, 100, $c_red);
+
+imagePng($im, '/tmp/image.png');
+```
 
