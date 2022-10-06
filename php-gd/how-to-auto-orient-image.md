@@ -5,20 +5,23 @@
 ```php
 <?php
 
-$file = 'source.png';
-$im = imagecreatefrompng($file);
+$file = 'source.jpg';
+$im = imagecreatefromjpeg($file);
 
-$rotation = [0, 0, 0, 180, 0, 0, -90, 0, 90][@exif_read_data($file)['Orientation'] ?: 0];
+$rotation = [0, 0, 0, 180, 0, 0, -90, 0, 90][@exif_read_data($file)['COMPUTED']['Orientation'] ?: 0];
 if ( $rotation ) {
   $im = imagerotate($im, $rotation, 0);
 }
 
-imagepng($im, 'result.png');
+imagejpeg($im, 'result.jpg');
 ```
 
+- `$file` - source image file to auto orient
+- `imagecreatefromjpeg` - creates [lib:GD](https://onelinerhub.com/php-gd/how-to-install-gd-for-php-on-ubuntu-ubuntuversion) image object from given PNG image
 - `exif_read_data` - returns `EXIF` data of a specified image
-- `['COMPUTED']['Orientation']` - get orientation value from `EXIF` data
-- `$orientation` - will contain [orientation value](http://sylvana.net/jpegcrop/exif_orientation.html)
+- `$rotation` - define rotation angle accordingly to image orientation
+- `imagerotate` - rotates `$im` image by `$rotation`
+- `imagejpeg` - save given image to the given `JPEG` file
 
 group: orient
 
