@@ -10,4 +10,6 @@ imagejpeg($im, '/tmp/image.jpg', 90);
 - `/tmp/image.jpg` - path to save `jpeg` to
 - `90` - level of image quality (use `100` for best quality, lower values reduce quality)
 
+group: quality
+
 
