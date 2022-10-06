@@ -1,0 +1,19 @@
+# How to overlap objects in image (z-index)
+
+### There's nothing like `z-index` in `gd`, but you can control what's being on top. Objects that are drawn later will be on top of previously drawn:
+
+```php
+<?php
+
+$im = imagecreatetruecolor(400, 300);
+
+$c_black = imageColorAllocate($im, 0,0,0);
+$c_green = imageColorAllocate($im, 46,204,64);
+
+imagefilledellipse($im, 200, 150, 100, 100, $c_green);
+
+imagePng($im, '/tmp/image.png');
+```
+
+
+
