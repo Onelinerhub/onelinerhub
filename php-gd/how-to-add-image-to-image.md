@@ -24,6 +24,8 @@ imagePng($bg, '/tmp/image.png');
 - `50, 50` - places smaller image at 50 pixels `Y` and 50 pixels `X` coordinates
 - `imagePng` - saves image in PNG format to the given path
 
+group: water
+
 ## Example: 
 ```php
 <?php
