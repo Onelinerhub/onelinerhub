@@ -4,7 +4,10 @@
 die(header('Location: https://google.com/', true, 302));
 ```
 
-- google.com - url to redirect to
-- 302 - redirect code
+- `google.com` - url to redirect to
+- `302` - redirect code
 
 group: redirects
+
+
+link_youtube: https://youtu.be/bdwPfhRD1Qk
