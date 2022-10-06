@@ -10,8 +10,6 @@ $data = getimagesizefromstring(file_get_contents($file));
 - `getimagesizefromstring` - returns image meta data from given string
 - `file_get_contents` - reads given file
 
-group: type
-
 ## Example: 
 ```php
 <?php
