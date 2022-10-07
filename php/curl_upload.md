@@ -10,13 +10,16 @@ curl_setopt_array($c, [
 echo curl_exec($c);
 ```
 
-- curl_init( - create curl handler for specified URL
-- curl_setopt_array( - configures curl
-- CURLOPT_RETURNTRANSFER - will return response to variable rather than print
-- CURLOPT_POST - set method type to POST
-- CURLOPT_POSTFIELDS - post request body
-- 'file' - name of the upload field
-- '/tmp/photo.png' - path to local file to upload
-- curl_exec( - executes GET request to a specified URL
+- `curl_init(` - create curl handler for specified URL
+- `curl_setopt_array(` - configures curl
+- `CURLOPT_RETURNTRANSFER` - will return response to variable rather than print
+- `CURLOPT_POST` - set method type to POST
+- `CURLOPT_POSTFIELDS` - post request body
+- `'file'` - name of the upload field
+- `'/tmp/photo.png'` - path to local file to upload
+- `curl_exec(` - executes GET request to a specified URL
 
 group: curl
+
+
+link_youtube: https://youtu.be/VR3-OR5Dh08
