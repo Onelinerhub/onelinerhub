@@ -22,3 +22,4 @@ $mysqli->close();
 - `SET foreign_key_checks = 1` - enable key checks after all tables were deleted
 
 
+link_youtube: https://youtu.be/5h-Qc8T5Sfc
