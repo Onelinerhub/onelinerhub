@@ -4,16 +4,19 @@
 $days = (new DateTime($first))->diff( new DateTime($second) )->format('%a');
 ```
 
-- $days - number of days between two dates will be returned here
-- DateTime - system object to [manipulate dates/times](https://www.php.net/manual/class.datetime.php)
-- $first - later date
-- $second - earlier date
-- '%a' - return number of days
+- `$days` - number of days between two dates will be returned here
+- `DateTime` - system object to [manipulate dates/times](https://www.php.net/manual/class.datetime.php)
+- `$first` - later date
+- `$second` - earlier date
+- `'%a'` - return number of days
 
-## Example
+## Example: 
 ```php
 echo (new DateTime('2022-01-02'))->diff( new DateTime('2021-12-11') )->format('%a');
 ```
-```bash
+
 22
+
 ```
+
+link_youtube: https://youtu.be/NzJXtcq0xIM
