@@ -4,16 +4,18 @@
 unset($arr[1]);
 ```
 
-- $arr - array to delete element from
-- \[1\] - element index to delete (2nd element in our case)
+- `$arr` - array to delete element from
+- `\[1\]` - element index to delete (2nd element in our case)
 
-## Example
+group: delete_from_array
+
+## Example: 
 ```php
 $arr = [1, 2, 3];
 unset($arr[1]);
 print_r($arr);
 ```
-```bash
+
 Array
 (
     [0] => 1
@@ -22,3 +24,6 @@ Array
 ```
 
 group: delete_from_array
+```
+
+link_youtube: https://youtu.be/sdJgjqYbPD4
