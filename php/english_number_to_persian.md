@@ -36,3 +36,4 @@ echo fa_number(12345);
 ۱۲۳۴۵
 ```
 
+link_youtube: https://youtu.be/DcyTUago-yw
