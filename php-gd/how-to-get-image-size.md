@@ -1,4 +1,4 @@
-# How to get image size
+# How to get image size (width & height)
 
 ```php
 <?php
