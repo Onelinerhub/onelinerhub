@@ -8,9 +8,10 @@ $c_green = imageColorAllocate($im, 46,204,64);
 
 imageellipse($im, 200, 150, 100, 100, $c_green);
 
-imagewebp($im, '/tmp/image.webp');
+imagepng($im, '/tmp/image.png');
 ```
 
+- `imagepng` - saves given image resource in `PNG` format
 
 group: save_formats
 
@@ -25,6 +26,6 @@ $c_green = imageColorAllocate($im, 46,204,64);
 
 imageellipse($im, 200, 150, 100, 100, $c_green);
 
-imagewebp($im, '/tmp/image.webp');
+imagepng($im, '/tmp/image.png');
 ```
 
