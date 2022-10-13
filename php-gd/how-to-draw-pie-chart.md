@@ -9,7 +9,9 @@ $im = imagecreatetruecolor(400, 300);
 $c_black = imageColorAllocate($im, 0,0,0);
 
 foreach ( $data as $i => $v ) {
-  $c = imageColorAllocate($im, 46 + $i * 30,204 - $i * 30, 64 + $i * 30);
+  $c = imageColorAllocate(
+    $im, 46 + $i * 30,204 - $i * 30, 64 + $i * 30
+  );
   imagefilledarc(
     $im, 200, 150,
     100 + $i * 10, 100 + $i * 10, $i ? $data[$i-1] : 0,
