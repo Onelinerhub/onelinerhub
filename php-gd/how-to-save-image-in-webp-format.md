@@ -17,4 +17,6 @@ imagewebp($im, '/tmp/image.webp');
 - `imagewebp` - saves given `gd` image in `webp` format to the specified path
 - `/tmp/image.webp` - path to save image to
 
+group: save_formats
+
 
