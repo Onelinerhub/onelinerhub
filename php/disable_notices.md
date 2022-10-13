@@ -4,6 +4,9 @@
 error_reporting(E_ALL ^ E_NOTICE);
 ```
 
-- error_reporting - sets new error reporting level
-- E_ALL - report all errors
-- ^ E_NOTICE - ignore all notices
+- `error_reporting` - sets new error reporting level
+- `E_ALL` - report all errors
+- `^ E_NOTICE` - ignore all notices
+
+
+link_youtube: https://youtu.be/bREENftZCso
