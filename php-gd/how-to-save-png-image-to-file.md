@@ -10,6 +10,7 @@ imagepng($im, '/tmp/image.png');
 
 - `imagepng` - saves given image resource in `PNG` format
 - `imagecreatetruecolor` - creates true color [lib:GD](https://onelinerhub.com/php-gd/how-to-install-gd-for-php-on-ubuntu-ubuntuversion) image object with specified width & height
+- `/tmp/image.png` - path to file save image to
 
 group: save_formats
 
