@@ -21,6 +21,8 @@ imagePng($im, '/tmp/image.png');
 - `350, 250` - end of line coordinates
 - `imagePng` - saves image in PNG format to the given path
 
+group: line
+
 ## Example: 
 ```php
 <?php
