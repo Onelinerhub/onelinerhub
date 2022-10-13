@@ -1,12 +1,13 @@
 # Redis pub/sub example
 
 ```php
-# run from first script
+# --- publisher.php ---
+ini_set('default_socket_timeout', -1);
 $redis->subscribe(['chl'], function($r, $c, $m) {
   # do something with message
 });
 
-# run from second script
+# --- subscriber.php ---
 $redis->publish('chl', 'hi');
 ```
 
