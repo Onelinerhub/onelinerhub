@@ -14,7 +14,7 @@ ob_start();
 imagejpeg($im, null, 95);
 $data = ob_get_clean();
 
-echo "<img src='data:image/jpeg;base64," . base64_encode( $data ) . "' />";
+echo '<img src="data:image/jpeg;base64,' . base64_encode( $data ) . '" />';
 ```
 
 - `imagecreatetruecolor` - creates true color [lib:GD](https://onelinerhub.com/php-gd/how-to-install-gd-for-php-on-ubuntu-ubuntuversion) image object with specified width & height
