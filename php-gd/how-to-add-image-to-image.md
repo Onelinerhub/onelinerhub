@@ -1,4 +1,4 @@
-# How to add image to image
+# How to overlay (merge) 2 images
 
 ```php
 <?php
