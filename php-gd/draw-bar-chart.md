@@ -10,7 +10,8 @@ $c_black = imageColorAllocate($im, 0,0,0);
 
 $c_green = imageColorAllocate($im, 46,204,64);
 foreach ( $data as $i => $v ) {
-  imagefilledrectangle($im, ($i + 1) * 50, 250 - $v, ($i + 1) * 50 + 40, 250, $c_green);
+  imagefilledrectangle($im, ($i + 1) * 50, 250 - $v,
+                            ($i + 1) * 50 + 40, 250, $c_green);
 }
 
 imagePng($im, '/tmp/image.png');
