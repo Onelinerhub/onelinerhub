@@ -1,19 +1,13 @@
 # How to change timezone in CLI
 
 ```bash
-date +%Z
+timedatectl set-timezone America/New_York
 ```
 
-- `date` - prints current date/time
-- `+%Z` - display only timezone
+- `timedatectl` - timezone management tool
+- `set-timezone` - sets given timezone for machine
+- `America/New_York` - example timezone to set
 
 group: date
 
-## Example: 
-```bash
-date +%Z
-```
-```
-UTC
-```
 
