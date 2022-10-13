@@ -15,11 +15,8 @@ group: url_components
 ```javascript
 console.log( (new URL('https://example.org/test?id=1')).searchParams.get('id') )
 ```
-
-"1"
 ```
-
-group: url_components
+1
 ```
 
 link_youtube: https://youtu.be/pxboCcS7HBg
