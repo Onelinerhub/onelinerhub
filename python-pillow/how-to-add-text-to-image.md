@@ -21,6 +21,7 @@ im.show()
 - `I am hero` - text to print
 - `font=ft` - we use font that we've declared earlier
 - `(200, 200, 0)` - RGB representation of a color to use for text
+- `.show()` - displays resulting image
 
 group: text
 
