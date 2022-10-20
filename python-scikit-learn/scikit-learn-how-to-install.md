@@ -1,4 +1,4 @@
-# scikit learn how to install
+# How to install Scikit learn package
 
 ```bash
 pip install scikit-learn
