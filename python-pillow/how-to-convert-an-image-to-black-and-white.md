@@ -9,6 +9,10 @@ im = im.convert('1')
 im.show()
 ```
 
+- `PIL` - import [lib:Pillow](https://onelinerhub.com/python-pillow/how-to-install-python-pillow-module) package modules
+- `Image.open` - open given image with Pillow
+- `.convert('1')` - convert image to black and white colors
+- `.show()` - displays resulting image
 
 group: black_white
 
