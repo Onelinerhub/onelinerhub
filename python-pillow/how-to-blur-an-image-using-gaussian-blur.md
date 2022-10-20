@@ -13,8 +13,8 @@ im.show()
 - `Image.open` - open given image with Pillow
 - `/var/www/examples/heroine.png` - path to sample image to open
 - `.filter(` - add specified filter to an image
-- `ImageFilter.BoxBlur` - blur type we use
-- `10` - blur radius (strength of blur, the larger the more blurry image we get)
+- `ImageFilter.GaussianBlur` - blur type we use
+- `15` - blur radius (strength of blur, the larger the more blurry image we get)
 - `.show()` - displays resulting image
 
 group: blur
