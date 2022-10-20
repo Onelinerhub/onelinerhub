@@ -12,4 +12,13 @@ im.show()
 
 group: install
 
+## Example: 
+```python
+from PIL import Image, ImageOps
+
+im = Image.open('/var/www/examples/heroine.png')
+
+im = im.resize(100, 100)
+im.show()
+```
 
