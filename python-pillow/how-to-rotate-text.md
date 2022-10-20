@@ -27,12 +27,12 @@ from PIL import Image, ImageDraw, ImageFont
 im = Image.open('/var/www/examples/heroine.png')
 text = "I am hero"
 
-tim = Image.new('L', (800,400))
+tim = Image.new('RGBA', (800,400), (255,255,255,100))
 dr = ImageDraw.Draw(tim)
 ft = ImageFont.truetype('/var/www/examples/roboto.ttf', 100)
-dr.text(((W-w)/2, 50), text, font=ft, fill=(200, 200, 0))
+dr.text((0, 0), text, font=ft, fill=(200, 200, 0))
 
-tim = txt.rotate(45,  expand=1)
+tim = tim.rotate(45,  expand=1)
 
 im.paste(tim, (0,0))
 im.show()
