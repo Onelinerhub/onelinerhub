@@ -12,7 +12,7 @@ im.show()
 - `PIL` - import [lib:Pillow](https://onelinerhub.com/python-pillow/how-to-install-python-pillow-module) package modules
 - `Image.open` - open given image with Pillow
 - `.rotate(` - rotate given image
-- `180` - degrees to rotate given image by
+- `expand=True` - increase image size instead of cropping while rotating
 - `.show()` - displays resulting image
 
 group: rotate
