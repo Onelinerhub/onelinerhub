@@ -25,7 +25,7 @@ im.show()
 - `(H-h)/2` - calculate top position so that the text will be in the vertical center of an image
 - `.show()` - displays resulting image
 
-group: text-align
+group: textalign
 
 ## Example: 
 ```python
