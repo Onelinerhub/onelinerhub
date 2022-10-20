@@ -7,6 +7,8 @@ pip install Pillow
 - `pip install` - installs python package
 - `Pillow` - name of the package to install
 
+group: install
+
 ## Example: 
 ```bash
 pip install Pillow
