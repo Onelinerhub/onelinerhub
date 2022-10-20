@@ -25,7 +25,7 @@ im.show()
 - `(W-w)/2` - calculate left position so that the text will be in the center of an image
 - `.show()` - displays resulting image
 
-group: text-align
+group: textalign
 
 ## Example: 
 ```python
