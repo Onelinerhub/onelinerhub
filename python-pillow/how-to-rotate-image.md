@@ -1,4 +1,4 @@
-# How to rotate image
+# How to rotate image 90 degrees
 
 ```python
 from PIL import Image, ImageEnhance
@@ -9,5 +9,7 @@ im = im.rotate(90)
 im.show()
 ```
 
+
+group: rotate
 
 
