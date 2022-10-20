@@ -4,6 +4,7 @@
 from PIL import Image, ImageOps
 
 im = Image.open('/var/www/examples/heroine.png')
+
 im = ImageOps.autocontrast(im, cutoff = 5)
 im.show()
 ```
