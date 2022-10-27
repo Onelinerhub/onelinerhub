@@ -19,6 +19,7 @@ im.show()
 - `(im.size[0] - crop[0])/2` - left coordinate of a crop area to position in the horizontal center
 - `(im.size[1] - crop[1])/2` - top coordinate of a crop area to position in the vertical center
 - `.show()` - displays resulting image
+- `(400, 400)` - cropping area width and height
 
 group: crop
 
