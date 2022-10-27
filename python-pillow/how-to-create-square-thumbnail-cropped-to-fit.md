@@ -11,7 +11,7 @@ im.show()
 
 - `PIL` - import [lib:Pillow](https://onelinerhub.com/python-pillow/how-to-install-python-pillow-module) package modules
 - `Image.open` - open given image with Pillow
-- `100, 100` - thumbnail square area width and height
+- `100,100` - thumbnail square area width and height
 - `ImageOps.fit(` - fits an image into given area
 - `.show()` - displays resulting image
 
