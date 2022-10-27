@@ -1,4 +1,4 @@
-# How to resize and image and maintain aspect ratio
+# How to resize an image and maintain aspect ratio
 
 ```python
 from PIL import Image, ImageDraw, ImageFont
