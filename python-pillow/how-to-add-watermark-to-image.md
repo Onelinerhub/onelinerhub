@@ -1,6 +1,6 @@
 # How to add watermark to image
 
-### To add watermark, we first make it transparent with `putalpha()` and then merge our initial image with it:
+### To add watermark, we first make it transparent with [`putalpha()`](https://onelinerhub.com/python-pillow/how-to-to-image-opacity) and then merge our initial image with it:
 
 ```python
 from PIL import Image
