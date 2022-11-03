@@ -18,6 +18,7 @@ im.show()
 - `Image.open` - open given image with Pillow
 - `.putalpha(` - change transparency of an image
 - `.paste(` - paste given image to the current image
+- `(0, 0)` - coordinates to place watermark at
 - `.show()` - displays resulting image
 
 group: merge
