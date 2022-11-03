@@ -1,4 +1,4 @@
-# How to to image opacity
+# How to change image opacity (transparency)
 
 ```python
 from PIL import Image
