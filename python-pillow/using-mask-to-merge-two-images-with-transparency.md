@@ -17,7 +17,7 @@ im.show()
 - `Image.open` - open given image with Pillow
 - `.paste(` - paste given image to the current image
 - `im_merge` - image to paste to `im`
-- `(0, 0)` - `x` and `y` coordinates to paste image to
+- `(40, 500)` - `x` and `y` coordinates to paste image to
 - `.show()` - displays resulting image
 
 group: merge
