@@ -8,7 +8,7 @@ from PIL import Image
 im = Image.open('/var/www/examples/heroine.png')
 im_merge = Image.open('/var/www/examples/hammer.png')
 
-im.paste(im_merge, (0, 0), im_merge)
+im.paste(im_merge, (40, 500), im_merge)
 
 im.show()
 ```
