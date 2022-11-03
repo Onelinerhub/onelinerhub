@@ -15,6 +15,8 @@ im.show()
 - `(100,50,150)` - color to use for background in `RGB` tuple form
 - `.show()` - displays resulting image
 
+group: create
+
 ## Example: 
 ```python
 from PIL import Image, ImageFilter
