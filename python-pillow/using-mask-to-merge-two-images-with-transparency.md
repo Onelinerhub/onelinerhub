@@ -1,5 +1,7 @@
 # Using mask to merge two images with transparency
 
+### In order to paste image and maintain its transparency, we have to pass the 3rd argument of `paste()` method and make it the same as 1st:
+
 ```python
 from PIL import Image
 
