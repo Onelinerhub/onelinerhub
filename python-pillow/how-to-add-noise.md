@@ -17,7 +17,7 @@ group: noise
 from PIL import Image, ImageFilter, random
 
 im = Image.open('/var/www/examples/heroine.png')
-for i in range(0, 100):
+for i in range(100):
   im.putpixel((random.randint(0, 100), random.randint(0, 100)), (255,255,255))
 
 im.show()
