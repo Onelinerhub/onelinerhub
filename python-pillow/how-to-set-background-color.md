@@ -14,7 +14,7 @@ im.show()
 - `Image.new` - create new `PIL` image object
 - `mode='RGB'` - create new image in `RGB` color mode
 - `(300,300)` - new image width and height
-- `(150,200,50)` - background color in `RGB` tuple
+- `(150,200,50)` - background color as an `RGB` tuple
 - `.show()` - displays resulting image
 
 group: create
