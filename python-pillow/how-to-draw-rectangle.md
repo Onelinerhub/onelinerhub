@@ -9,6 +9,13 @@ dr.rectangle([(50,50), (350,250)], outline="white")
 im.show()
 ```
 
+- `PIL` - import [lib:Pillow](https://onelinerhub.com/python-pillow/how-to-install-python-pillow-module) package modules
+- `Image.new` - create new `PIL` image object
+- `ImageDraw.Draw` - create drawing object
+- `.rectangle(` - draws rectangle
+- `(50,50), (350,250)` - rectangle top left and bottom right points coordinates
+- `outline` - rectangle border color
+- `.show()` - displays resulting image
 
 group: draw
 
