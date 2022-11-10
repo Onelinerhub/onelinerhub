@@ -2,26 +2,32 @@
 
 ```python
 from PIL import Image
+import numpy as np
 
 im = Image.open('/var/www/examples/heroine.png')
-data = im.asarray()
+data = np.asarray(im)
 ```
 
 - `PIL` - import [lib:Pillow](https://onelinerhub.com/python-pillow/how-to-install-python-pillow-module) package modules
-- `np.random.randint(` - generate matrix of the given shape with random integers in the given range
-- `Image.fromarray(` - creates image from given array
-- `mode="L"` - creates image in black and white mode
-- `.show()` - displays resulting image
+- `import numpy as np` - load [lib:Numpy module](/python-numpy/how-to-install-python-numpy-lib) for Python
+- `Image.open` - open given image with Pillow
+- `/var/www/examples/heroine.png` - path to sample image to open
+- `np.asarray` - converts given `im` image to array
 
 group: array
 
 ## Example: 
 ```python
 from PIL import Image
+import numpy as np
 
 im = Image.open('/var/www/examples/heroine.png')
-data = im.asarray()
+data = np.asarray(im)
 
-print(len(data))
+print(data[1][2])
+```
+```
+[154 168 153]
+
 ```
 
