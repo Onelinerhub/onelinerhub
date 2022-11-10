@@ -15,6 +15,8 @@ im.show()
 - `mode="L"` - creates image in black and white mode
 - `.show()` - displays resulting image
 
+group: array
+
 ## Example: 
 ```python
 from PIL import Image
