@@ -1,4 +1,4 @@
-# How to get image from an array
+# How to create image from an array
 
 ```python
 from PIL import Image
