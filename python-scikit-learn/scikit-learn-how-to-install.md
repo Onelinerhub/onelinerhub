@@ -1,11 +1,11 @@
-# How to install Scikit learn package
+# How to install scikit learn on Ubuntu UBUNTU_VERSION
 
 ```bash
-pip install scikit-learn
+sudo apt install python3-sklearn python3-sklearn-lib python3-sklearn-doc
 ```
 
-- `pip install` - installs python package
-- `scikit-learn` - python package [for data analysis](https://scikit-learn.org/)
+- `apt install` - installs Ubuntu package
+- `python3-sklearn` - python lib [for data analysis](https://scikit-learn.org/)
 
 group: install
 
