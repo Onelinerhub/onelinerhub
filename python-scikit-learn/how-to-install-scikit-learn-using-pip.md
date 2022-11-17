@@ -1,7 +1,7 @@
 # How to install scikit-learn using PIP
 
 ```bash
-pip install scikit-learn
+pip install -U scikit-learn
 ```
 
 - `pip install` - installs python package
