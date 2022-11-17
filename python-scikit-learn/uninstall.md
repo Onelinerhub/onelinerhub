@@ -1,4 +1,4 @@
-# Uninstall
+# Uninstall scikit-learn library
 
 ```bash
 pip uninstall scikit-learn
