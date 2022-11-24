@@ -1,4 +1,4 @@
-# Simple linear regression example
+# Linear regression example
 
 ```python
 import numpy as np
