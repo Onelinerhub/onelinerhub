@@ -23,6 +23,8 @@ r2 = metrics.r2_score(y_test, y_pred)
 - `.fit(` - train model with a given features and target variable dataset
 - `.predict(` - predict target variable based on given features dataset
 - `metrics.r2_score(` - calculate [R2 score](https://scikit-learn.org/stable/modules/model_evaluation.html#r2-score) to evaluate model quality (`1` is best, `0` is worst)
+- `y_test` - target variable values from test dataset (correct values)
+- `y_pred` - target variable predicted values by our model (values to evaluate)
 
 ## Example: 
 ```python
