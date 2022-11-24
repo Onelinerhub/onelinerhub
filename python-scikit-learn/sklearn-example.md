@@ -1,4 +1,4 @@
-# Sklearn example
+# Sklearn model training example
 
 ```python
 import numpy as np
