@@ -20,7 +20,8 @@ mse = metrics.mean_squared_error(y_test, y_pred)
 - `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
 - `linear_model.LinearRegression` - initialize linear regression model
 - `.fit(` - train model with a given features and target variable dataset
-- `score` - trained model `R2` score for a given (test) dataset
+- `.predict(` - predict target variable based on given features dataset
+- `.mean_squared_error(` - calculates MSE for given test and predicted values
 
 group: linear
 
@@ -41,7 +42,7 @@ mse = metrics.mean_squared_error(y_test, y_pred)
 print(mse)
 ```
 ```
-0.5278235386853034
+2559.764355320905
 
 ```
 
