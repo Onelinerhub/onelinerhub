@@ -17,6 +17,7 @@ r2 = model.score(X,y)
 - `from sklearn import` - import module from [lib:scikit-learn](https://onelinerhub.com/python-scikit-learn/how-to-install-scikit-learn-using-pip)
 - `linear_model.LinearRegression` - initialize linear regression model
 - `X = ` - declare feature dataset with 2 variables and 5 objects
+- `[1,2]` - first object variables (we have 2, but it can have any number of variables)
 - `.fit(` - train model with a given features and target variable dataset
 - `score` - trained model `R2` score for a given (test) dataset
 
