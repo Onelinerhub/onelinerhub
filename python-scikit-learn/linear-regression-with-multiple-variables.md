@@ -1,5 +1,7 @@
 # Linear regression with multiple variables
 
+### In order to use multiple feature variables with linear regression we can just use 2-dimensional arrays as in below `X` variable example:
+
 ```python
 from sklearn import linear_model
 
@@ -14,9 +16,9 @@ r2 = model.score(X,y)
 
 - `from sklearn import` - import module from [lib:scikit-learn](https://onelinerhub.com/python-scikit-learn/how-to-install-scikit-learn-using-pip)
 - `linear_model.LinearRegression` - initialize linear regression model
+- `X = ` - declare feature dataset with 2 variables and 5 objects
 - `.fit(` - train model with a given features and target variable dataset
-- `.predict(` - predict target variable based on given features dataset
-- `metrics.r2_score(` - calculate [R2 score](https://scikit-learn.org/stable/modules/model_evaluation.html#r2-score) to evaluate model quality (`1` is best, `0` is worst)
+- `score` - trained model `R2` score for a given (test) dataset
 
 group: linear
 
@@ -33,5 +35,9 @@ model.fit(X, y)
 r2 = model.score(X,y)
 
 print(r2)
+```
+```
+0.981789802289282
+
 ```
 
