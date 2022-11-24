@@ -14,6 +14,14 @@ y_pred = model.predict(X_test)
 r2 = metrics.r2_score(y_test, y_pred)
 ```
 
+- `from sklearn import` - import module from [lib:scikit-learn](https://onelinerhub.com/python-scikit-learn/how-to-install-scikit-learn-using-pip)
+- `import numpy` - import [lib:Numpy](https://onelinerhub.com/python-numpy/how-to-install-python-numpy-lib) module
+- `datasets.load_diabetes` - loads sample [diabetes](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html) database
+- `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
+- `linear_model.LinearRegression` - initialize linear regression model
+- `.fit(` - train model with a given features and target variable dataset
+- `.predict(` - predict target variable based on given features dataset
+- `metrics.r2_score(` - calculate [R2 score](https://scikit-learn.org/stable/modules/model_evaluation.html#r2-score) to evaluate model quality (`1` is best, `0` is worst)
 
 group: linear
 
@@ -30,5 +38,10 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 r2 = metrics.r2_score(y_test, y_pred)
+print(r2)
+```
+```
+0.4575313287098933
+
 ```
 
