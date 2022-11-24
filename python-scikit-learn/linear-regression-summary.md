@@ -22,7 +22,7 @@ score = model.score(X, y)
 - `.fit(` - train model with a given features and target variable dataset
 - `intercept` - value of linear model intercept after training
 - `coefs` - list of trained coefficients
-- `score` - model `R2` score on the entire dataset
+- `score` - trained model `R2` score
 
 group: linear
 
