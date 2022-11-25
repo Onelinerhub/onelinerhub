@@ -1,4 +1,4 @@
-# How to download a playlist as audio using CLI from youtube
+# How to download a playlist as audio using CLI from Youtube
 
 ```bash
 youtube-dl --ignore-errors --format bestaudio --extract-audio --audio-format mp3 --audio-quality 160K --output "C%(playlist_index)s.%(ext)s" --yes-playlist PLA8M-jgOlTEfMXltdGK3fxIxKqPYJXDii
