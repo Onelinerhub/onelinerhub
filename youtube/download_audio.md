@@ -1,4 +1,4 @@
-# How to download audio using CLI from youtube
+# How to download audio using CLI from Youtube
 
 ```bash
 youtube-dl --ignore-errors --format bestaudio --extract-audio --audio-format mp3 --audio-quality 160K https://youtu.be/lxiI8G0IDY4
