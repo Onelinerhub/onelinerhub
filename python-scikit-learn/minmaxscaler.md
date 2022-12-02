@@ -1,4 +1,4 @@
-# Minmaxscaler
+# Scaling data using MinMaxScaler
 
 ```python
 from sklearn import datasets, preprocessing
