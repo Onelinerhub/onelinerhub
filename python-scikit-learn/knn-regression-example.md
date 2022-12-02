@@ -19,8 +19,6 @@ y_pred = model.predict(X_test)
 - `.fit(` - train model with a given features and target variable dataset
 - `.predict(` - predict target variable based on given features dataset
 
-group: knn
-
 ## Example: 
 ```python
 from sklearn import datasets, neighbors, model_selection, metrics
