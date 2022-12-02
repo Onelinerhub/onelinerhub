@@ -32,7 +32,7 @@ for probs in y_pred_prob:
 - `y_pred_prob` - list of predicted classes probabilities for each object
 - `threshold` - minimum probability (confidence) level for predicting a class
 - `if p >= threshold:` - pick only those classes which have higher probability than `threshold` value
-- `y_pred` - will contain predicted classes with a given threshold value (and `None` if no confident class was found for an object)
+- `y_pred = []` - will contain predicted classes with a given threshold value (and `None` if no confident class was found for an object)
 
 group: logistic
 
