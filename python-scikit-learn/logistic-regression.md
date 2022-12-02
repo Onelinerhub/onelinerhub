@@ -1,4 +1,4 @@
-# Logistic regression
+# Logistic regression example
 
 ```python
 from sklearn import datasets, linear_model, model_selection
