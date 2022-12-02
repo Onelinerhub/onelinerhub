@@ -23,13 +23,13 @@ group: generate
 import numpy as np
 from sklearn import datasets
 
-X, y = datasets.make_regression(100, 10)
+X, y = datasets.make_regression(100, 5)
 
 print(X.shape)
 print(y.shape)
 ```
 ```
-(100, 10)
+(100, 5)
 (100,)
 
 ```
