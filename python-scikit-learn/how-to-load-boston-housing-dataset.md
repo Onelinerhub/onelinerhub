@@ -1,4 +1,4 @@
-# How to load Boston housing dataset
+# How to load Breast cancer dataset
 
 ```python
 import numpy as np
