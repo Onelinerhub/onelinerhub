@@ -1,4 +1,4 @@
-# Sklearn classifier quality score example
+# Sklearn classifier score example
 
 ```python
 from sklearn import datasets, neighbors, model_selection, metrics
