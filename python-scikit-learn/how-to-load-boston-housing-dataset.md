@@ -18,16 +18,16 @@ group: datasets
 ## Example: 
 ```python
 import numpy as np
-from sklearn import datasets, linear_model
+from sklearn import datasets
 
-X, y = datasets.load_boston(return_X_y=True)
+X, y = datasets.load_breast_cancer(return_X_y=True)
 
 print(X.shape)
 print(y.shape)
 ```
 ```
-(506, 13)
-(506,)
+(569, 30)
+(569,)
 
 ```
 
