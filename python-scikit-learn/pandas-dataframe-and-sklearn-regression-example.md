@@ -1,4 +1,4 @@
-# Pandas dataframe and Sklearn regression example
+# Pandas dataframe and Sklearn linear regression example
 
 ```python
 import pandas as pd
