@@ -31,7 +31,7 @@ for probs in y_pred_prob:
 - `.predict_proba(` - predict classes probabilities for a given sample
 - `y_pred_prob` - list of predicted classes probabilities for each object
 - `threshold` - minimum probability (confidence) level for predicting a class
-- `if p > threshold:` - pick only those classes which have higher probability than `threshold` value
+- `if p >= threshold:` - pick only those classes which have higher probability than `threshold` value
 - `y_pred` - will contain predicted classes with a given threshold value (and `None` if no confident class was found for an object)
 
 group: logistic
@@ -60,7 +60,7 @@ for probs in y_pred_prob:
 print(y_pred)
 ```
 ```
-[2, 2, None, None, None, None, 0, 0, None, 1, 2, 2, 2, None, 2, None, 0, 0, 1, 2, 0, None, 1, 1, 0, 2, 0, 1, None, None, 2, 0, None, 0, 0, 0, 1, 0]
+[None, 0, 0, None, None, 0, 1, 1, None, 0, None, None, None, None, None, None, 0, None, 1, 0, 2, 0, 0, None, 1, 1, 2, 0, 0, 0, 2, None, None, None, 2, None, None, None]
 
 ```
 
