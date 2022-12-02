@@ -26,8 +26,6 @@ y_pred = model.predict(X_test)
 - `.fit(` - train model with a given features and target variable dataset
 - `.predict(` - predict target variable based on given features dataset
 
-group: pandas
-
 ## Example: 
 ```python
 import pandas as pd
