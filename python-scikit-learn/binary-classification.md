@@ -1,4 +1,4 @@
-# Binary classification
+# Binary classification example
 
 ```python
 from sklearn import datasets, linear_model, model_selection
