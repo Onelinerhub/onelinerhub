@@ -19,7 +19,6 @@ intercept = model.intercept_
 - `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
 - `.Lasso(` - create Lasso model object
 - `.fit(` - train model with a given features and target variable dataset
-- `.predict(` - predict target variable based on given features dataset
 - `.coef_` - returns list of coefficients of a trained model
 - `intercept` - value of linear model intercept after training
 - `sparse_coef_` - sparse representation of the fitted coefficients
