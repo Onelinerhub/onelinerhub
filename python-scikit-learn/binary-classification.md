@@ -19,6 +19,8 @@ y_pred = model.predict(X_test)
 - `.fit(` - train model with a given features and target variable dataset
 - `.predict(` - predict target variable based on given features dataset
 
+group: binary
+
 ## Example: 
 ```python
 from sklearn import datasets, linear_model, model_selection
