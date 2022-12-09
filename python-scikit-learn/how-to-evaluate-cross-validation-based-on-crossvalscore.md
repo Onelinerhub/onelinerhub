@@ -1,4 +1,4 @@
-# How to evaluate cross validation based on cross_val_score()
+# How to evaluate a score by cross validation based on cross_val_score()
 
 ```python
 from sklearn import datasets, linear_model
