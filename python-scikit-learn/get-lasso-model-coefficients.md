@@ -20,7 +20,7 @@ intercept = model.intercept_
 - `.Lasso(` - create Lasso model object
 - `.fit(` - train model with a given features and target variable dataset
 - `.coef_` - returns list of coefficients of a trained model
-- `intercept_` - value of linear model intercept after training
+- `.intercept_` - value of linear model intercept after training
 - `sparse_coef_` - sparse representation of the fitted coefficients
 
 group: lasso
