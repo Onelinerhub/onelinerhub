@@ -18,7 +18,6 @@ feature_importance = model.feature_importances_
 - `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
 - `.RandomForestClassifier(` - creates random forest classification model
 - `.fit(` - train model with a given features and target variable dataset
-- `.predict(` - predict target variable based on given features dataset
 - `.feature_importances_` - returns trained model feature importance list
 
 group: random-forest
