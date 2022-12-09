@@ -1,7 +1,6 @@
 # How to calculate MAE (mean absolute error)
 
 ```python
-import numpy as np
 from sklearn import datasets, linear_model, model_selection, metrics
 
 X, y = datasets.load_diabetes(return_X_y=True)
@@ -25,7 +24,6 @@ group: errors
 
 ## Example: 
 ```python
-import numpy as np
 from sklearn import datasets, linear_model, model_selection, metrics
 
 X, y = datasets.load_diabetes(return_X_y=True)
