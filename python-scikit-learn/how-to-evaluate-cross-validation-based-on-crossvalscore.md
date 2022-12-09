@@ -17,6 +17,8 @@ cvs = cross_val_score(lasso, X, y)
 - `cross_val_score(` - evaluates a score by cross-validation
 - `lasso` - model to use for cross-validation
 
+group: cross-validate
+
 ## Example: 
 ```python
 from sklearn import datasets, linear_model
