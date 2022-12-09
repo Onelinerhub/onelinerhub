@@ -1,4 +1,4 @@
-# How to find binary classification accuracy
+# How to find binary classification model accuracy
 
 ```python
 from sklearn import datasets, linear_model, model_selection
