@@ -1,4 +1,4 @@
-# Calculating MAE (mean absolute error)
+# How to calculate MAE (mean absolute error)
 
 ```python
 import numpy as np
