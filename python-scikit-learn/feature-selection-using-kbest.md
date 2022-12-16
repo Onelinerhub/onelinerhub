@@ -1,4 +1,4 @@
-# Feature selection using KBest
+# Feature selection using KBest and chi2
 
 ```python
 from sklearn import datasets, feature_selection
