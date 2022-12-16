@@ -15,8 +15,6 @@ Xe = manifold.TSNE(n_components=2, learning_rate='auto', init='random').fit_tran
 - `.fit_transform(` - train and transform given dataset
 - `Xe` - will contain embedded dataset
 
-group: tsne
-
 ## Example: 
 ```python
 import numpy as np
