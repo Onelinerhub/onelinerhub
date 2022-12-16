@@ -1,4 +1,4 @@
-# Adaboost model usage example
+# Adaboost classifier model usage example
 
 ```python
 from sklearn import datasets, ensemble, model_selection
