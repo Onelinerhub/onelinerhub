@@ -18,6 +18,8 @@ y_pred = model.predict(X_test)
 - `.fit(` - train transformation model
 - `.predict(` - predict target variable based on given features dataset
 
+group: svm
+
 ## Example: 
 ```python
 from sklearn import datasets, svm, model_selection
