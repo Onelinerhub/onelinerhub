@@ -24,17 +24,17 @@ group: pca
 from sklearn import decomposition, datasets
 
 X, y = datasets.load_iris(return_X_y=True)
-print(X.shape)
+print('Original:', X.shape)
 
 pca = decomposition.PCA(n_components=3)
 pca.fit(X)
 X = pca.transform(X)
 
-print(X.shape)
+print('Reduced: ', X.shape)
 ```
 ```
-(150, 4)
-(150, 3)
+Original: (150, 4)
+Reduced:  (150, 3)
 
 ```
 
