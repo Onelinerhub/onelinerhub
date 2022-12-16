@@ -17,7 +17,7 @@ y_pred = nn.predict(X)
 - `.fit(` - train transformation model
 - `.predict(` - predict target variable based on given features dataset
 
-group: nn
+group: neural
 
 ## Example: 
 ```python
