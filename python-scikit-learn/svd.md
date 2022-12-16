@@ -16,7 +16,7 @@ X = svd.transform(X)
 - `.fit(` - train reduction model
 - `.transform(` - transform original data and return reduced dimensions data
 
-group: svd
+group: pca
 
 ## Example: 
 ```python
