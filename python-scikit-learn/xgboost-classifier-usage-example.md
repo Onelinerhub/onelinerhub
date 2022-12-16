@@ -1,7 +1,7 @@
 # Xgboost classifier usage example
 
 ```python
-from sklearn import datasets, neighbors, model_selection
+from sklearn import datasets, model_selection
 import xgboost as xgb
 
 X, y = datasets.load_iris(return_X_y=True)
@@ -24,7 +24,7 @@ group: xgboost
 
 ## Example: 
 ```python
-from sklearn import datasets, neighbors, model_selection
+from sklearn import datasets, model_selection
 import xgboost as xgb
 
 X, y = datasets.load_iris(return_X_y=True)
