@@ -1,4 +1,4 @@
-# LDA
+# Using LDA classifier example
 
 ```python
 from sklearn import datasets, discriminant_analysis, model_selection
