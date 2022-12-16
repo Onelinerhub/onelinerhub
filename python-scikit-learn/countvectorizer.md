@@ -1,4 +1,4 @@
-# Countvectorizer
+# How to use CountVectorizer
 
 ```python
 from sklearn import feature_extraction
