@@ -1,4 +1,4 @@
-# PCA example
+# PCA dimensionality reduction example
 
 ```python
 from sklearn import decomposition, datasets
