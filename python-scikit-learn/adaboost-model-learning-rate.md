@@ -19,6 +19,8 @@ score = model.score(X_test, y_test)
 - `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
 - `.AdaBoostClassifier(` - create AdaBoost model
 - `.fit(` - train model with a given features and target variable dataset
+- `learning_rate` - set learning rate (to `10` in our case)
+- `.score(` - returns model accuracy score
 
 group: adaboost
 
