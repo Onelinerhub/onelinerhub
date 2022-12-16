@@ -17,7 +17,6 @@ model.fit(X_train, y_train)
 - `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
 - `xgb.XGBRegressor(` - creates XGBoost regression model
 - `.fit(` - train transformation model
-- `.predict(` - predict target variable based on given features dataset
 
 group: xgboost
 
