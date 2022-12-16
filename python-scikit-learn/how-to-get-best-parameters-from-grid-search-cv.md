@@ -1,0 +1,41 @@
+# How to get best parameters from grid search CV
+
+```python
+from sklearn import svm, datasets, model_selection
+
+iris = datasets.load_iris()
+parameters = {'kernel':('linear', 'rbf'), 'C':[1, 10]}
+
+clf = model_selection.GridSearchCV(svm.SVC(), parameters)
+clf.fit(iris.data, iris.target)
+
+params = clf.best_params_
+```
+
+- `from sklearn import` - import module from [lib:scikit-learn](https://onelinerhub.com/python-scikit-learn/how-to-install-scikit-learn-using-pip)
+- `load_iris` - loads [Iris](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) dataset
+- `parameters` - parameters dictionary to run grid search accross
+- `.GridSearchCV(` - creates GridSearchCV model
+- `svm.SVC()` - use [SVC](https://onelinerhub.com/python-scikit-learn/svc-classifier-example) model as an estimator
+- `.fit(` - train transformation model
+- `.best_params_` - dictionary with best parameters names and values
+
+group: grid-search
+
+## Example: 
+```python
+from sklearn import svm, datasets, model_selection
+
+iris = datasets.load_iris()
+parameters = {'kernel':('linear', 'rbf'), 'C':[1, 10]}
+
+clf = model_selection.GridSearchCV(svm.SVC(), parameters)
+clf.fit(iris.data, iris.target)
+
+print(clf.best_params_)
+```
+```
+{'C': 1, 'kernel': 'linear'}
+
+```
+
