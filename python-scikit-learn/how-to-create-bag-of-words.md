@@ -1,4 +1,4 @@
-# How to create bag of words
+# How to create bag of words from text
 
 ### Bag of words is created based on a chosen vectorizing approach, like [`CountVectorizer`](https://onelinerhub.com/python-scikit-learn/countvectorizer) in our case:
 
