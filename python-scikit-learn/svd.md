@@ -1,4 +1,4 @@
-# SVD
+# Using SVD to reduce dimensions example
 
 ```python
 from sklearn import decomposition, datasets
