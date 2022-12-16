@@ -1,4 +1,4 @@
-# How to get best estimator from grid search CV COPY
+# How to get best estimator from grid search CV
 
 ```python
 from sklearn import svm, datasets, model_selection
