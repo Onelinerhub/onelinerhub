@@ -8,10 +8,16 @@ countries = ['USA', 'Ukraine', 'Ukraine', 'UK', 'UK']
 
 df = pd.DataFrame(list(zip(ages, countries)), columns=['Age', 'Country'])
 
-df = pd.get_dummies(df['Country'], prefix='Country')
-print(df.head())
+oh = pd.get_dummies(df['Country'], prefix='Country')
+df = df.join(oh)
+df.drop('Country', axis=1, inplace=True)
 ```
 
+- `import pandas as pd` - load [lib:Pandas module](/python-pandas/how-to-install-pandas)
+- `pd.DataFrame(` - sample dataframe to apply one hot encoding to
+- `.get_dummies(` - one-hot encode given column (returns new dataframe with encoded values)
+- `df.join(oh)` - join original dataframe with encoded dataframe
+- `.drop('Country'` - remove old (unencoded) categorical feature from dataframe
 
 group: encoder
 
