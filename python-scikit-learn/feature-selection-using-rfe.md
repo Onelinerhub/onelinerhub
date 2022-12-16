@@ -14,7 +14,7 @@ ranks = selector.ranking_
 - `from sklearn import` - import module from [lib:scikit-learn](https://onelinerhub.com/python-scikit-learn/how-to-install-scikit-learn-using-pip)
 - `.make_friedman1(` - creates Friedman #1 regression dataset
 - `.RFECV(` - creates RFE feature selection model
-- `svm.SVR(` - we use SVR model as estimator for RFE
+- `svm.SVR(` - we use [SVR model](https://onelinerhub.com/python-scikit-learn/svr-regression-example) as estimator for RFE
 - `.fit(` - train model
 - `selector.ranking_` - returns features rankings
 
