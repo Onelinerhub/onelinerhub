@@ -2,7 +2,6 @@
 
 ```python
 from sklearn import metrics
-
 cs = metrics.pairwise.cosine_similarity([[1, 2], [4, 5], [7, 19]])
 ```
 
