@@ -16,6 +16,8 @@ score = model.score(X_test, y_test)
 - `load_iris` - loads [Iris](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) dataset
 - `model_selection.train_test_split` - splits given `X` and `y` datasets to test (25% of values by default) and train (75% of values by default) subsets
 - `.GradientBoostingClassifier(` - creates [gradient boosting classification](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) model
+- `.fit(` - train model with a given features and target variable dataset
+- `.score(` - returns model accuracy score
 
 group: gradient-boost
 
