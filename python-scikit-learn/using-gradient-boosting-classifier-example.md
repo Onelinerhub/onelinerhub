@@ -34,7 +34,7 @@ model.fit(X_train, y_train)
 print(model.score(X_test, y_test))
 ```
 ```
-0.9736842105263158
+0.9473684210526315
 
 ```
 
