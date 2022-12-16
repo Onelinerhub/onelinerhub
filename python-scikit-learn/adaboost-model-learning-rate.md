@@ -1,4 +1,4 @@
-# Adaboost model learning rate
+# Adaboost classifier model learning rate
 
 ### A higher learning rate increases the contribution of each classifier:
 
