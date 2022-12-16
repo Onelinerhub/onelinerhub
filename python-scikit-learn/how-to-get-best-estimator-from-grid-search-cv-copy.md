@@ -9,7 +9,7 @@ parameters = {'kernel':('linear', 'rbf'), 'C':[1, 10]}
 clf = model_selection.GridSearchCV(svm.SVC(), parameters)
 clf.fit(iris.data, iris.target)
 
-params = clf.best_estimator_
+estimator = clf.best_estimator_
 ```
 
 - `from sklearn import` - import module from [lib:scikit-learn](https://onelinerhub.com/python-scikit-learn/how-to-install-scikit-learn-using-pip)
