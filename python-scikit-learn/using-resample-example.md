@@ -3,8 +3,8 @@
 ```python
 from sklearn import utils
 
-X = [1,2,2,4,3,6,7,3,9]
-Xr = utils.resample(X, n_samples=5, random_state=1)
+X = [1,2,2,3,2,1,1,3]
+Xr = utils.resample(X, n_samples=6, random_state=1)
 
 
 ```
@@ -20,13 +20,13 @@ group: resample
 ```python
 from sklearn import utils
 
-X = [1,2,2,4,3,6,7,3,9]
-Xr = utils.resample(X, n_samples=5, random_state=1)
+X = [1,2,2,3,2,1,1,3]
+Xr = utils.resample(X, n_samples=6, random_state=1)
 
 print(Xr)
 ```
 ```
-[6, 9, 6, 1, 1]
+[1, 3, 2, 1, 3, 2]
 
 ```
 
