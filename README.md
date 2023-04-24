@@ -41,3 +41,5 @@ Yes, as long as the solution is targeted towards specific problem and is well ex
 - https://liberapay.com/Onelinerhub.com
 - https://issuehunt.io/r/nonunicorn
 - https://ko-fi.com/onelinerhub
+- https://opencollective.com/onelinerhub
+- https://patreon.com/Onelinerhub
