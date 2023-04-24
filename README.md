@@ -8,11 +8,9 @@ Lib of well explained and minimalistic code solutions @ [onelinerhub.com](https:
 - [List of all technologies](https://onelinerhub.com/techs)
 
 ## Why we do it and where we go
-We're building non-profit opensource code hub, we address following issues:
 - clear simple modern solutions for repeatable coding problems
 - moderated single-standard solutions instead of "here's a list of 25 answers with 125 comments"
 - code parts explanations to fight dumb copy-paste, but educate instead
-- no ads, no paid access, just community contributions and usefulness instead of profits 
 
 ## Principles
 - 3 main principles for code pieces here are: simple, modern, minimal
@@ -38,3 +36,8 @@ You are welcome to do it with pull request as long as it will make the code bett
 > "Can I post multi-line code (not a one-liner)?"
 
 Yes, as long as the solution is targeted towards specific problem and is well explained
+
+## Support us
+- https://liberapay.com/Onelinerhub.com
+- https://issuehunt.io/r/nonunicorn
+- https://ko-fi.com/onelinerhub
