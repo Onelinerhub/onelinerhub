@@ -1,7 +1,9 @@
-# Continue a cancelled download
+# How to continue a cancelled download
 
 ```bash
-wget -c https://example.org/file.txt 
+wget -c https://example.org/file.txt
 ```
 
-- `-c` - This option tells wget that you’d like to continue an existing download.
+- ``-c`` - This option tells wget that you’d like to continue an existing download.
+
+
