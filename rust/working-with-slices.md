@@ -15,6 +15,6 @@ fn main() {
 
 ```
 length of string: 11
-liner
+inerh
 ```
 
