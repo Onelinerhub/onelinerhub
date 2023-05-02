@@ -13,3 +13,5 @@ The `filter()` method iterates over the vector and applies the closure to each e
 - [Rust Documentation - Iterator::filter](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.filter)
 - [Rust by Example - Iterators](https://doc.rust-lang.org/rust-by-example/iter.html)
 - [Rust Cookbook - Filter a Vector](https://rust-lang-nursery.github.io/rust-cookbook/algorithms/filtering.html)
+
+group: rust-vector-filter

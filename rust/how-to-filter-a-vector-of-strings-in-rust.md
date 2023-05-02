@@ -9,3 +9,5 @@ let filtered_strings = strings.filter(|s| s.len() > 5);
 The output of this code will be a vector containing only the strings `"baz"` and `"quux"`.
 
 For more information on the `filter()` method, see the [Rust documentation](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.filter). Additionally, the [Rust by Example](https://doc.rust-lang.org/rust-by-example/iter/filter.html) page provides a more detailed example of how to use the `filter()` method.
+
+group: rust-vector-filter
