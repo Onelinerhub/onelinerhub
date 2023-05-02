@@ -22,3 +22,5 @@ The code above defines a variable `outer_var` with the value of 5 and a closure 
 [Nested Closures in Rust](https://doc.rust-lang.org/book/ch13-02-closures-as-input-parameters.html#nested-closures)
 
 [Rust Closure Syntax](https://doc.rust-lang.org/book/ch13-01-closures.html#syntax-for-closures)
+
+group: rust-closure

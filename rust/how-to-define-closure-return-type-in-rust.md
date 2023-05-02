@@ -17,3 +17,5 @@ let closure = |x| -> () { println!("The value of x is {}", x) };
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Closure Return Types](https://doc.rust-lang.org/book/ch13-02-closures-as-input-parameters.html#return-types-for-closures)
 - [Rust Closure Syntax](https://doc.rust-lang.org/book/ch13-02-closures-as-input-parameters.html#syntax-for-closures)
+
+group: rust-closure

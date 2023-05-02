@@ -33,3 +33,5 @@ The `Fn` trait is a powerful tool for defining closures as return types in Rust.
 - [The Rust Programming Language - Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [The Rust Programming Language - Traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
 - [The Rust Programming Language - Return Values](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html#return-values)
+
+group: rust-closure

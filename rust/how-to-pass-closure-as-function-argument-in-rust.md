@@ -22,3 +22,5 @@ In this example, the closure is declared as a parameter of the `call_closure` fu
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Fn Trait](https://doc.rust-lang.org/std/ops/trait.Fn.html)
 - [Passing Closures as Arguments](https://doc.rust-lang.org/rust-by-example/fn/closures/input_parameters.html)
+
+group: rust-closure

@@ -18,3 +18,5 @@ Using closure variables can be a powerful tool for creating functions that can b
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Closure Variables](https://doc.rust-lang.org/book/ch13-02-closures-and-capturing.html)
 - [Rust by Example - Closures](https://doc.rust-lang.org/rust-by-example/fn/closures.html)
+
+group: rust-closure

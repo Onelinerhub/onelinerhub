@@ -16,3 +16,5 @@ In this example, the async closure is used to perform an asynchronous operation,
 - [Async Closures in Rust](https://rust-lang.github.io/async-book/01_getting_started/04_async_closures.html)
 - [Async/Await in Rust](https://doc.rust-lang.org/book/ch16-03-async-await.html)
 - [Futures in Rust](https://rust-lang.github.io/async-book/01_getting_started/02_futures.html)
+
+group: rust-closure

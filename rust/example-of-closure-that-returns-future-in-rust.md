@@ -16,3 +16,5 @@ This closure returns a future that resolves to the value `42`. The `async` block
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Futures](https://rust-lang.github.io/async-book/01_getting_started/02_why_futures.html)
 - [Rust Async/Await](https://doc.rust-lang.org/book/ch13-02-async-await.html)
+
+group: rust-closure

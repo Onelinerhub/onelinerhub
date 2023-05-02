@@ -12,3 +12,5 @@ The `drop` function takes a mutable reference to the closure, so it can be used 
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Drop Function](https://doc.rust-lang.org/std/ops/fn.drop.html)
 - [Rust Ownership](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+
+group: rust-closure

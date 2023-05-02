@@ -13,3 +13,5 @@ let result = my_fn.call(2);
 This will call the closure with the argument `2` and return the result `3`.
 
 Detailed information about the `Fn` trait can be found in the [Rust documentation](https://doc.rust-lang.org/std/ops/trait.Fn.html). Additionally, the [Rust book](https://doc.rust-lang.org/book/ch13-01-closures.html) provides a more in-depth explanation of closures in Rust.
+
+group: rust-closure

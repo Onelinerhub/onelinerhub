@@ -21,3 +21,5 @@ This code defines a closure, `closure1`, which takes an argument `y` and returns
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Closures Tutorial](https://rust-lang-nursery.github.io/rust-cookbook/fn/closures.html)
 - [Rust Closures Explained](https://www.joshmcguigan.com/blog/rust-closures/)
+
+group: rust-closure

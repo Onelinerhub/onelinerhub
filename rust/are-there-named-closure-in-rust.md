@@ -13,3 +13,5 @@ Closures are useful for creating functions that can be passed around and used in
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Closure Examples](https://doc.rust-lang.org/book/ch13-02-closures.html)
 - [Closure Traits](https://doc.rust-lang.org/std/ops/trait.Fn.html)
+
+group: rust-closure

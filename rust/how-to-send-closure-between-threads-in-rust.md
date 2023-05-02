@@ -27,3 +27,5 @@ In the example above, a closure is sent to a new thread using the `std::thread::
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Threads](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
 - [Rust Mutex](https://doc.rust-lang.org/std/sync/struct.Mutex.html)
+
+group: rust-closure

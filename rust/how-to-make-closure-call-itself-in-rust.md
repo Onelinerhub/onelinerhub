@@ -25,3 +25,5 @@ The `||` syntax is used to create a closure, and the `mut` keyword is used to ma
 - [Closures in Rust](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Recursive Closures in Rust](https://doc.rust-lang.org/book/ch13-02-recursion.html)
 - [Mutable Variables in Rust](https://doc.rust-lang.org/book/ch03-02-data-types.html#mutable-variables)
+
+group: rust-closure

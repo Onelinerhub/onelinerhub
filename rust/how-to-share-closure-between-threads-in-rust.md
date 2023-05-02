@@ -21,3 +21,5 @@ The `Arc` type is a type of reference-counted pointer, which allows multiple thr
 - [std::sync::Arc](https://doc.rust-lang.org/std/sync/struct.Arc.html)
 - [std::thread](https://doc.rust-lang.org/std/thread/index.html)
 - [Closures in Rust](https://doc.rust-lang.org/book/ch13-01-closures.html)
+
+group: rust-closure

@@ -20,3 +20,5 @@ The `|x|` syntax is used to define the parameters of the closure, and the code a
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Closure Syntax](https://doc.rust-lang.org/rust-by-example/fn/closures.html)
 - [Rust Closure Capturing](https://doc.rust-lang.org/book/ch13-02-closure-capturing.html)
+
+group: rust-closure

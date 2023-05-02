@@ -32,3 +32,5 @@ Output example:
 - [Closure Recursion in Rust](https://doc.rust-lang.org/book/ch19-05-advanced-functions-and-closures.html#closure-recursion)
 - [Closures in Rust](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Recursion in Rust](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html#recursion)
+
+group: rust-closure

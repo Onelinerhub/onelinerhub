@@ -24,3 +24,5 @@ let result = cloned_closure(5, 10); // result is (15, "5 + 10")
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Clone Trait](https://doc.rust-lang.org/std/clone/trait.Clone.html)
 - [Cloning Closures](https://rustbyexample.com/fn/closures/cloning.html)
+
+group: rust-closure

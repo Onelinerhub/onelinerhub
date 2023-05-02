@@ -20,3 +20,5 @@ In this example, the closure `add_x` will always add `x` to its parameter, regar
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Closure Examples](https://doc.rust-lang.org/rust-by-example/fn/closures.html)
 - [Closure Capturing](https://doc.rust-lang.org/book/ch13-02-closures.html#capturing-the-environment-with-closures)
+
+group: rust-closure

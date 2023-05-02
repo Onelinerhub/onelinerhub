@@ -16,3 +16,5 @@ The call operator `()` is used to call the closure, which will execute the code 
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Closure Syntax](https://doc.rust-lang.org/rust-by-example/fn/closures.html)
 - [Rust Closure Examples](https://www.tutorialspoint.com/rust/rust_closures.htm)
+
+group: rust-closure

@@ -29,3 +29,5 @@ The `Fn` trait is a powerful tool for storing closures as fields in Rust. It all
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Fn Trait](https://doc.rust-lang.org/std/ops/trait.Fn.html)
 - [Rust Box](https://doc.rust-lang.org/std/boxed/struct.Box.html)
+
+group: rust-closure

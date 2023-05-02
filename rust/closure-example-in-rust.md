@@ -31,3 +31,5 @@ When the closure is called, the argument is passed in and the body of the closur
 - [Rust Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Rust Closure Syntax](https://doc.rust-lang.org/book/ch13-02-closure-syntax.html)
 - [Rust Closure Capturing](https://doc.rust-lang.org/book/ch13-03-closure-capturing.html)
+
+group: rust-closure
