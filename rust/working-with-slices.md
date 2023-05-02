@@ -1,4 +1,4 @@
-# Working with Slices in rust
+# Working with Slices in Rust
 
 ```rust
 fn main() {
