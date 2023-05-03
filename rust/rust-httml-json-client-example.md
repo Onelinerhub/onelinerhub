@@ -1,4 +1,4 @@
-# Rust HTTML JSON client example
+# Rust HTTP JSON client example
 // plain
 
 A Rust HTTP JSON client example is a program that uses the Rust programming language to send an HTTP request and receive a JSON response.
