@@ -1,7 +1,7 @@
 # Example of struct private field in Rust
 // plain
 
-Struct private fields in Rust are fields that are not accessible outside of the struct. This is done by using the `pub` keyword to make the field private.
+Struct private fields in Rust are fields that are not accessible outside of the struct. This can be controlled by using the `pub` keyword - use it to make public fields, while skip it for private ones.
 
 ## Example code
 
