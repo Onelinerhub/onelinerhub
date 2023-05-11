@@ -36,10 +36,3 @@ You are welcome to do it with pull request as long as it will make the code bett
 > "Can I post multi-line code (not a one-liner)?"
 
 Yes, as long as the solution is targeted towards specific problem and is well explained
-
-## Support us
-- https://liberapay.com/Onelinerhub.com
-- https://issuehunt.io/r/nonunicorn
-- https://ko-fi.com/onelinerhub
-- https://opencollective.com/onelinerhub
-- https://patreon.com/Onelinerhub
