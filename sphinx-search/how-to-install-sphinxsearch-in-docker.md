@@ -4,11 +4,11 @@
 1. Install Docker on your system.
 2. Pull the Sphinxsearch image from Docker Hub.
 ```
-docker pull sphinxsearch/sphinxsearch
+docker pull macbre/sphinxsearch
 ```
 3. Run the image with the following command:
 ```
-docker run -d --name sphinxsearch -p 9306:9306 sphinxsearch/sphinxsearch
+docker run -d --name sphinxsearch -p 9306:9306 macbre/sphinxsearch
 ```
 4. Check the status of the container with the following command:
 ```
@@ -18,7 +18,7 @@ docker ps
 
 ## Helpful links
 
-- [Docker Hub - Sphinxsearch](https://hub.docker.com/r/sphinxsearch/sphinxsearch)
+- [Docker Hub - Sphinxsearch](https://hub.docker.com/r/macbre/sphinxsearch)
 - [Docker Documentation - Get Started](https://docs.docker.com/get-started/)
 
 group: docker
