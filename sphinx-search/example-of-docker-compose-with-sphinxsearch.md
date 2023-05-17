@@ -8,7 +8,7 @@ version: '3.7'
 
 services:
   sphinxsearch:
-    image: sphinxsearch/sphinxsearch
+    image: macbre/sphinxsearch
     ports:
       - "9306:9306"
     environment:
