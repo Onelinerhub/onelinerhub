@@ -1,4 +1,4 @@
-# How to wotk with time series data in MongoDB?
+# How to work with time series data in MongoDB?
 // plain
 
 MongoDB is a great choice for working with time series data. It provides a powerful aggregation framework that allows you to quickly analyze and visualize your data. To work with time series data in MongoDB, you can use the `$dateToString` operator to convert dates to strings, and the `$group` operator to group documents by time intervals.
@@ -41,4 +41,5 @@ db.collection.aggregate([
 - [MongoDB Aggregation Framework](https://docs.mongodb.com/manual/aggregation/)
 - [MongoDB Date Operators](https://docs.mongodb.com/manual/reference/operator/aggregation/dateToString/)
 
-onelinerhub: [How to wotk with time series data in MongoDB?](https://onelinerhub.com/mongodb/how-to-wotk-with-time-series-data-in-mongodb)
+onelinerhub: [How to wotk with time series data in MongoDB?
+](https://onelinerhub.com/mongodb/how-to-wotk-with-time-series-data-in-mongodb)
