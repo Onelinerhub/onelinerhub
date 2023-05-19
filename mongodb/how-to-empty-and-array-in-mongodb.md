@@ -1,4 +1,4 @@
-# How to empty and array in MongoDB?
+# How to empty an array in MongoDB?
 // plain
 
 To empty an array in MongoDB, you can use the `$unset` operator. This operator will remove the specified field from the document.
@@ -21,4 +21,5 @@ The command consists of the following parts:
 ## Helpful links
 - [MongoDB Documentation - $unset](https://docs.mongodb.com/manual/reference/operator/update/unset/)
 
-onelinerhub: [How to empty and array in MongoDB?](https://onelinerhub.com/mongodb/how-to-empty-and-array-in-mongodb)
+onelinerhub: [How to empty and array in MongoDB?
+](https://onelinerhub.com/mongodb/how-to-empty-and-array-in-mongodb)
