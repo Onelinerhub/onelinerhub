@@ -61,5 +61,6 @@ The output of the example code is:
 6. `print(response.json())`: This prints the response from the API.
 
 For more information, please refer to the [OpenAI API documentation](https://openai.com/docs/api-reference/).
+Also check [Quick start guide for OpenAI API and Python](https://datachild.net/machinelearning/openai-api-python-quickstart).
 
 onelinerhub: [How to make a request to OpenAI's API in Python?](https://onelinerhub.com/python-openai/how-to-make-a-request-to-openai-s-api-in-python)
