@@ -37,7 +37,9 @@ I'm doing great, thank you!
 
 ## Helpful links
 
+- [Quick start with OpenAI API and Python](https://datachild.net/machinelearning/openai-api-python-quickstart)
 - [OpenAI SDK Documentation](https://openai.com/docs/sdk/)
 - [ChatGPT Documentation](https://openai.com/blog/chatgpt/)
 
-onelinerhub: [How to use OpenAI's ChatGPT API in Python?](https://onelinerhub.com/python-openai/how-to-use-openai-s-chatgpt-api-in-python)
+onelinerhub: [How to use OpenAI's ChatGPT API in Python?
+](https://onelinerhub.com/python-openai/how-to-use-openai-s-chatgpt-api-in-python)
