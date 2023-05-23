@@ -4,6 +4,7 @@
 Generating a model in PHP Symfony is a simple process.
 
 1. Create a new model class in the `src/Entity` directory:
+
 ```php
 <?php
 
@@ -28,16 +29,19 @@ class MyModel
 ```
 
 2. Generate the getters and setters for the model:
+
 ```
 php bin/console make:entity --regenerate App
 ```
 
 3. Create the database table for the model:
+
 ```
 php bin/console doctrine:schema:update --force
 ```
 
 4. Create a repository class for the model:
+
 ```php
 <?php
 
@@ -71,4 +75,5 @@ class MyModelRepository extends ServiceEntityRepository
 - [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html)
 - [Symfony Documentation - Generating an Entity Class](https://symfony.com/doc/current/doctrine.html#generating-an-entity-class)
 
-onelinerhub: [How to generate a model in PHP Symfony?](https://onelinerhub.com/php-symfony/how-to-generate-a-model-in-php-symfony)
+onelinerhub: [How to generate a model in PHP Symfony?
+](https://onelinerhub.com/php-symfony/how-to-generate-a-model-in-php-symfony)
