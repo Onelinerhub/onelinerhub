@@ -10,8 +10,6 @@ $ composer create-project symfony/website-skeleton my-project
 
 2. Create a controller:
 ```
-<?php
-
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -51,4 +49,5 @@ You should now see the "Hello World!" message.
 - [Symfony Documentation](https://symfony.com/doc/current/index.html)
 - [Getting Started with Symfony](https://symfony.com/doc/current/setup.html)
 
-onelinerhub: [How to create a backend with PHP Symfony?](https://onelinerhub.com/php-symfony/how-to-create-a-backend-with-php-symfony)
+onelinerhub: [How to create a backend with PHP Symfony?
+](https://onelinerhub.com/php-symfony/how-to-create-a-backend-with-php-symfony)
