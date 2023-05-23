@@ -3,15 +3,16 @@
 
 Creating a backend with PHP Symfony is easy and straightforward.
 
-1. Install the Symfony framework:
+Install the Symfony framework:
 ```
 $ composer create-project symfony/website-skeleton my-project
 ```
 
-2. Create a controller:
+Create a controller:
 ```
-namespace App\Controller;
+<?php
 
+namespace App\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController
@@ -23,7 +24,7 @@ class DefaultController
 }
 ```
 
-3. Create a route:
+Create a route:
 ```
 # config/routes.yaml
 
@@ -32,13 +33,13 @@ index:
     controller: App\Controller\DefaultController::index
 ```
 
-4. Start the server:
+Start the server:
 ```
 $ cd my-project
 $ symfony server:start
 ```
 
-5. Visit the page:
+Visit the page:
 ```
 http://localhost:8000
 ```
