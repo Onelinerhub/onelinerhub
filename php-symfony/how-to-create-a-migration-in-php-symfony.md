@@ -3,7 +3,7 @@
 
 Creating a migration in PHP Symfony is a simple process.
 
-1. Create a migration class in the `src/Migrations` directory:
+Create a migration class in the `src/Migrations` directory:
 ```php
 <?php
 
@@ -26,22 +26,22 @@ final class Version20200101000000 extends AbstractMigration
 }
 ```
 
-2. Generate the SQL code for the migration:
+Generate the SQL code for the migration:
 ```
 $ php bin/console doctrine:migrations:diff
 ```
 
-3. Execute the migration:
+Execute the migration:
 ```
 $ php bin/console doctrine:migrations:migrate
 ```
 
-4. Check the status of the migration:
+Check the status of the migration:
 ```
 $ php bin/console doctrine:migrations:status
 ```
 
-5. Revert the migration if needed:
+Revert the migration if needed:
 ```
 $ php bin/console doctrine:migrations:migrate prev
 ```
@@ -50,4 +50,5 @@ $ php bin/console doctrine:migrations:migrate prev
 - [Doctrine Migrations Documentation](https://www.doctrine-project.org/projects/doctrine-migrations/en/latest/reference/introduction.html)
 - [Symfony Documentation - Doctrine Migrations](https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html)
 
-onelinerhub: [How to create a migration in PHP Symfony?](https://onelinerhub.com/php-symfony/how-to-create-a-migration-in-php-symfony)
+onelinerhub: [How to create a migration in PHP Symfony?
+](https://onelinerhub.com/php-symfony/how-to-create-a-migration-in-php-symfony)
