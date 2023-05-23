@@ -24,12 +24,6 @@ class MyService
 }
 ```
 
-## Output example
-
-```
-No output
-```
-
 ## Code explanation
 
 - `use Symfony\Component\Messenger\MessageBusInterface;`: This imports the MessageBusInterface class from the Symfony Messenger component.
@@ -41,4 +35,5 @@ No output
 ## Helpful links
 - [Symfony Messenger Documentation](https://symfony.com/doc/current/components/messenger.html)
 
-onelinerhub: [How to use the messenger component in PHP Symfony?](https://onelinerhub.com/php-symfony/how-to-use-the-messenger-component-in-php-symfony)
+onelinerhub: [How to use the messenger component in PHP Symfony?
+](https://onelinerhub.com/php-symfony/how-to-use-the-messenger-component-in-php-symfony)
