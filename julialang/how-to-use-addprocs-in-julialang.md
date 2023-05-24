@@ -24,15 +24,13 @@ Once the workers are started, you can use the `@spawn` macro to run code on the 
 @spawn println("Hello from worker $(myid())!")
 ```
 
-This will print out a message from each worker, like this:
+This will print out a message from worker, like this:
 
 ```
-Hello from worker 2!
 Hello from worker 3!
-Hello from worker 4!
-Hello from worker 5!
 ```
 
 For more information, see the [Julia documentation](https://docs.julialang.org/en/v1/manual/parallel-computing/#Parallel-Computing-1) on parallel computing.
 
-onelinerhub: [How to use addprocs in JuliaLang?](https://onelinerhub.com/julialang/how-to-use-addprocs-in-julialang)
+onelinerhub: [How to use addprocs in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-use-addprocs-in-julialang)
