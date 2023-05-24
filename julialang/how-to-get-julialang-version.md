@@ -4,15 +4,15 @@
 To get the version of JuliaLang, you can use the `versioninfo()` function.
 
 ```julia
-julia> versioninfo()
-Julia Version 1.4.2
-Commit 44fa15b150* (2020-05-23 18:35 UTC)
+Julia Version 1.8.1
+Commit afb6c60d69a (2022-09-06 15:09 UTC)
 Platform Info:
-  OS: Linux (x86_64-pc-linux-gnu)
-  CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  OS: Linux (x86_64-linux-gnu)
+  CPU: 3 × AMD EPYC Processor
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-8.0.1 (ORCJIT, skylake)
+  LLVM: libLLVM-13.0.1 (ORCJIT, znver2)
+  Threads: 1 on 3 virtual cores
 ```
 
 The `versioninfo()` function prints out the version of JuliaLang, the commit, and the platform information.
