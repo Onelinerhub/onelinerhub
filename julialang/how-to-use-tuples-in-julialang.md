@@ -17,10 +17,10 @@ julia> my_tuple[1]
 
 The code above accesses the first value in `my_tuple`, which is 1.
 
-To add values to a tuple, use the `push!` function.
+To add values to a tuple:
 
 ```
-julia> push!(my_tuple, 4)
+julia> my_tuple = (my_tuple..., 4)
 (1, 2, 3, 4)
 ```
 
@@ -28,4 +28,5 @@ The code above adds the value 4 to the end of `my_tuple`.
 
 For more information on tuples in JuliaLang, see the [JuliaLang documentation](https://docs.julialang.org/en/v1/base/collections/#Tuples-1).
 
-onelinerhub: [How to use tuples in JuliaLang?](https://onelinerhub.com/julialang/how-to-use-tuples-in-julialang)
+onelinerhub: [How to use tuples in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-use-tuples-in-julialang)
