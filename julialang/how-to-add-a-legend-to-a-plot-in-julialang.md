@@ -15,10 +15,6 @@ plot(x, y, label="Line")
 legend()
 ```
 
-The output of the code will be a plot with a legend:
-
-![alt text](https://i.imgur.com/XVX3VX3.png "Plot with legend")
-
 The code consists of the following parts:
 
 - `using Plots`: This imports the Plots package.
@@ -31,4 +27,5 @@ The code consists of the following parts:
 - [Plots.jl Documentation](https://docs.juliaplots.org/latest/)
 - [JuliaLang Documentation](https://docs.julialang.org/en/v1/)
 
-onelinerhub: [How to add a legend to a plot in JuliaLang?](https://onelinerhub.com/julialang/how-to-add-a-legend-to-a-plot-in-julialang)
+onelinerhub: [How to add a legend to a plot in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-add-a-legend-to-a-plot-in-julialang)
