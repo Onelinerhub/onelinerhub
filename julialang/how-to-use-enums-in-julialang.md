@@ -6,25 +6,23 @@ Enums are a type of data structure in JuliaLang that allow you to store a set of
 ## Example code
 
 ```
-julia> enum DaysOfWeek
-       Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
-       end
-
-julia> DaysOfWeek.Monday
-Monday
+julia> @enum FRUIT apple=1 orange=2 kiwi=3
+julia> FRUIT[apple]
+apple::FRUIT = 1
 ```
 
-The code above creates an enum called `DaysOfWeek` with seven values. The last line of code prints out the value `Monday` from the enum.
+The code above creates an enum called `FRUIT` with three values.
 
 ## Code explanation
 
 
-1. `enum DaysOfWeek` - creates an enum called `DaysOfWeek`
-2. `Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday` - defines the values of the enum
-3. `DaysOfWeek.Monday` - prints out the value `Monday` from the enum
+1. `@enum FRUIT` - creates an enum called `FRUIT`
+2. `apple=1 orange=2 kiwi=3` - defines the values of the enum
+3. `FRUIT[apple]` - prints out the value `apple` from the enum
 
 ## Helpful links
 
 - [JuliaLang Documentation - Enums](https://docs.julialang.org/en/v1/manual/enums/)
 
-onelinerhub: [How to use enums in JuliaLang?](https://onelinerhub.com/julialang/how-to-use-enums-in-julialang)
+onelinerhub: [How to use enums in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-use-enums-in-julialang)
