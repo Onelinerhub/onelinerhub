@@ -9,15 +9,15 @@ Dict{String,Int64} with 2 entries:
   "b" => 2
 ```
 
-To access a value, use the `get` function with the key as an argument:
+To access a value, use `[` and `]`:
 ```julia
-julia> get(my_dict, "a")
+julia> my_dict["a"]
 1
 ```
 
-To add a new key-value pair, use the `setindex!` function:
+To add set new value:
 ```julia
-julia> setindex!(my_dict, "c", 3)
+julia> my_dict["c"] = 3
 Dict{String,Int64} with 3 entries:
   "a" => 1
   "b" => 2
@@ -39,4 +39,5 @@ Dict{String,Int64} with 2 entries:
 - [Julia Documentation - Dictionaries](https://docs.julialang.org/en/v1/base/collections/#Dictionaries-1)
 - [Julia By Example - Dictionaries](https://juliabyexample.helpmanual.io/concepts/dictionaries/)
 
-onelinerhub: [How to use dictionaries in JuliaLang?](https://onelinerhub.com/julialang/how-to-use-dictionaries-in-julialang)
+onelinerhub: [How to use dictionaries in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-use-dictionaries-in-julialang)
