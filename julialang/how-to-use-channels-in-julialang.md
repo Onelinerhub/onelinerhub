@@ -7,10 +7,10 @@ Channels are a type of communication primitive in JuliaLang that allow for the e
 
 ```
 # Create a channel
-c = Channel(Int)
+c = Channel()
 
 # Send a message to the channel
-put!(c, 42)
+@async put!(c, 42)
 
 # Receive a message from the channel
 x = take!(c)
@@ -26,7 +26,7 @@ println(x)
 ## Code explanation
 
 
-1. `c = Channel(Int)`: This creates a channel of type `Int` which can be used to send and receive messages of type `Int`.
+1. `c = Channel()`: This creates a channel which can be used to send and receive messages.
 
 2. `put!(c, 42)`: This sends the message `42` to the channel `c`.
 
@@ -38,4 +38,5 @@ println(x)
 
 - [JuliaLang Documentation - Channels](https://docs.julialang.org/en/v1/manual/parallel-computing/#Channels-1)
 
-onelinerhub: [How to use channels in JuliaLang?](https://onelinerhub.com/julialang/how-to-use-channels-in-julialang)
+onelinerhub: [How to use channels in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-use-channels-in-julialang)
