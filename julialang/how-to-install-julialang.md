@@ -6,6 +6,7 @@ JuliaLang can be installed on Windows, MacOS, and Linux.
 1. Download the JuliaLang installer from [JuliaLang's website](https://julialang.org/downloads/).
 2. Run the installer and follow the instructions.
 3. Once the installation is complete, open the JuliaLang REPL (Read-Evaluate-Print-Loop) by typing `julia` in the command line.
+
 ```
 $ julia
                _
@@ -19,7 +20,9 @@ $ julia
 
 julia>
 ```
+
 4. To check the version of JuliaLang, type `versioninfo()` in the REPL.
+
 ```
 julia> versioninfo()
 Julia Version 1.4.2
@@ -31,6 +34,8 @@ Platform Info:
   LIBM: libopenlibm
   LLVM: libLLVM-8.0.1 (ORCJIT, skylake)
 ```
+
 5. To learn more about JuliaLang, visit [JuliaLang's website](https://julialang.org/).
 
-onelinerhub: [How to install JuliaLang?](https://onelinerhub.com/julialang/how-to-install-julialang)
+onelinerhub: [How to install JuliaLang?
+](https://onelinerhub.com/julialang/how-to-install-julialang)
