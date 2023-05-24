@@ -13,12 +13,6 @@ catch err
 end
 ```
 
-## Output example
-
-```
-No output
-```
-
 ## Code explanation
 
 1. `try`: This is the start of the try-catch block. All code that may throw an error should be placed between the `try` and `catch` keywords.
@@ -28,4 +22,5 @@ No output
 ## Helpful links
 1. [JuliaLang Documentation - Error Handling](https://docs.julialang.org/en/v1/manual/control-flow/#Error-Handling-1)
 
-onelinerhub: [How to use try catch in JuliaLang?](https://onelinerhub.com/julialang/how-to-use-try-catch-in-julialang)
+onelinerhub: [How to use try catch in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-use-try-catch-in-julialang)
