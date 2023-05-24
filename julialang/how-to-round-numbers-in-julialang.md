@@ -3,18 +3,9 @@
 
 JuliaLang provides a number of functions to round numbers.
 
-The most commonly used function is `round(x, digits)`, which rounds the number `x` to the specified number of `digits` after the decimal point.
-
-For example:
+The most commonly used function is `round(x)`, which rounds the number `x`. For example:
 ```
-julia> round(3.14159, 3)
-3.142
-```
-
-The `round` function can also be used to round to the nearest integer by specifying `digits=0`.
-
-```
-julia> round(3.14159, 0)
+julia> round(3.14159)
 3.0
 ```
 
@@ -43,4 +34,5 @@ julia> round(Int, 3.14159)
 ## Helpful links
 - [Julia Documentation - Rounding](https://docs.julialang.org/en/v1/base/math/#Base.round)
 
-onelinerhub: [How to round numbers in JuliaLang?](https://onelinerhub.com/julialang/how-to-round-numbers-in-julialang)
+onelinerhub: [How to round numbers in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-round-numbers-in-julialang)
