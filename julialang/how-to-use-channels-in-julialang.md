@@ -36,7 +36,7 @@ println(x)
 
 ## Helpful links
 
-- [JuliaLang Documentation - Channels](https://docs.julialang.org/en/v1/manual/parallel-computing/#Channels-1)
+- [JuliaLang Documentation - Channels](https://docs.julialang.org/en/v1/base/parallel/#Channels)
 
 onelinerhub: [How to use channels in JuliaLang?
 ](https://onelinerhub.com/julialang/how-to-use-channels-in-julialang)
