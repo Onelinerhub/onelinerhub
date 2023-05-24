@@ -17,8 +17,9 @@ end
 ## Output example
 
 ```
-Row(a = 1, b = 2, c = 3)
-Row(a = 4, b = 5, c = 6)
+CSV.Row:
+ :name  Some Name
+ :email  some@email.com
 ```
 
 ## Code explanation
@@ -32,4 +33,5 @@ Row(a = 4, b = 5, c = 6)
 - [JuliaLang CSV package](https://juliadata.github.io/CSV.jl/stable/)
 - [JuliaLang CSV tutorial](https://www.tutorialspoint.com/julia_programming/julia_csv.htm)
 
-onelinerhub: [How to work with CSV in JuliaLang?](https://onelinerhub.com/julialang/how-to-work-with-csv-in-julialang)
+onelinerhub: [How to work with CSV in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-work-with-csv-in-julialang)
