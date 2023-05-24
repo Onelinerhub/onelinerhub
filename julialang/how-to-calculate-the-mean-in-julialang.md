@@ -18,7 +18,5 @@ The `mean()` function takes a vector of numbers as an argument and returns the m
 - `mean()`: the function used to calculate the mean
 - `x`: the vector of numbers used as an argument for the `mean()` function
 
-No relevant links.
-
 onelinerhub: [How to calculate the mean in JuliaLang?
 ](https://onelinerhub.com/julialang/how-to-calculate-the-mean-in-julialang)
