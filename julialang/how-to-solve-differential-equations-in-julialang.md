@@ -19,31 +19,19 @@ The output of the code is:
 
 ```
 retcode: Success
-Interpolation: 1st order linear
-t: 11-element Array{Float64,1}:
+Interpolation: specialized 4th order "free" interpolation, specialized 2nd order "free" stiffness-aware interpolation
+t: 5-element Vector{Float64}:
  0.0
- 0.1
- 0.2
- 0.3
- 0.4
- 0.5
- 0.6
- 0.7
- 0.8
- 0.9
+ 0.09964258706516003
+ 0.3457024247583422
+ 0.6776921908052249
  1.0
-u: 11-element Array{Float64,1}:
+u: 5-element Vector{Float64}:
  0.5
- 0.55005
- 0.602025
- 0.655156
- 0.709359
- 0.764651
- 0.821041
- 0.878543
- 0.937175
- 0.996945
- 1.05787
+ 0.552938681151017
+ 0.7089376245893467
+ 0.9913594502399238
+ 1.3728004409033037
 ```
 
 The code consists of the following parts:
@@ -57,4 +45,5 @@ The code consists of the following parts:
 
 For more information, see the [DifferentialEquations.jl documentation](https://diffeq.sciml.ai/stable/).
 
-onelinerhub: [How to solve differential equations in JuliaLang?](https://onelinerhub.com/julialang/how-to-solve-differential-equations-in-julialang)
+onelinerhub: [How to solve differential equations in JuliaLang?
+](https://onelinerhub.com/julialang/how-to-solve-differential-equations-in-julialang)
