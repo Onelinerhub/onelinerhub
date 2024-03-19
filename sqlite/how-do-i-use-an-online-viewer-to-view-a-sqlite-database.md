@@ -31,5 +31,6 @@ sqlite> .quit
 - [Datapane](https://datapane.com/)
 - [SQLite Viewer](https://www.sqliteviewer.io/)
 - [SQL Fiddle](https://www.sqlfiddle.com/)
+- [ExtendsClass's SQLite browser](https://extendsclass.com/sqlite-browser.html)
 
 onelinerhub: [How do I use an online viewer to view a SQLite database?](https://onelinerhub.com/sqlite/how-do-i-use-an-online-viewer-to-view-a-sqlite-database)
